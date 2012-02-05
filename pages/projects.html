@@ -2,80 +2,18 @@
 layout: page
 title: Projects
 ---
-
-<h1 class="page-title">Open Source Projects</h1>
-
 <html>
-  ...
-  <div id="github-projects"></div>
-  ...
+  <body>
+    <h1 class="page-title">Open Source Projects</h1>
+
+ 	<div id="github-projects"></div>
+		
+		<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+		<script src="/scripts/github.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		  $(function() {
+		    $("#github-projects").loadRepositories("ropensci");
+		  });
+		</script>
+  </body>
 </html>
-
-<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
-<script src="/scripts/github.js" type="text/javascript"></script>
-<script type="text/javascript">
-  $(function() {
-    $("#github-projects").loadRepositories("ropensci");
-  });
-</script>
-
-
-
-
-
-
-
-
-
-<!--<h1 class="page-title">By me (SChamberlain)</h1>-->
-
-<script type="text/javascript" charset="utf-8">
-  $('#github-projects').html('');
-  $.githubUser(['SChamberlain'], function(data) {
-    var repos = data.user.repositories;
-    repos.sort(function(a,b) {
-      return b.watchers - a.watchers;
-    });
-
-    $(repos).each(function() {
-      $('#github-projects').append("\
-<div class='full'>\
-  <p class='repostats-link'>\
-    <a class='watchers' href='"+ this.url +"'>"+this.watchers+" watchers</a>\
-    <a class='forks' href='"+ this.url +"'>"+this.forks+" forks</a>\
-  </p>\
-  <h1 class='repo-title'><a href='" + this.url + "'>" + this.name + "</a></h1>\
-  <div class='repo-content full-content'>"+this.description+"</div>\
-  <div class='clear'></div>\
-</div>\
-<div class='rule'><hr/></div>");
-    });
-  });
-</script>
-
-
-<!--<h1 class="page-title">By rOpenSci (in collaboration with others)</h1>-->
-
-<script type="text/javascript" charset="utf-8">
-  $('#github-projects').html('');
-  $.githubUser(['rOpenSci'], function(data) {
-    var repos = data.user.repositories;
-    repos.sort(function(a,b) {
-      return b.watchers - a.watchers;
-    });
-
-    $(repos).each(function() {
-      $('#github-projects').append("\
-<div class='full'>\
-  <p class='repostats-link'>\
-    <a class='watchers' href='"+ this.url +"'>"+this.watchers+" watchers</a>\
-    <a class='forks' href='"+ this.url +"'>"+this.forks+" forks</a>\
-  </p>\
-  <h1 class='repo-title'><a href='" + this.url + "'>" + this.name + "</a></h1>\
-  <div class='repo-content full-content'>"+this.description+"</div>\
-  <div class='clear'></div>\
-</div>\
-<div class='rule'><hr/></div>");
-    });
-  });
-</script>
