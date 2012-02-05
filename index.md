@@ -7,6 +7,6 @@ My name is Scott Chamberlain.  I am a graduate student in the Ecology and Evolut
 
 Read more about me [here][]. 
 
-![that's me](/images/avatar.png)
+<a href="http://en.gravatar.com/schamber"><img src="/images/avatar.png" /></a>
 
 [here]: http://schamberlain.github.com/scott/about
