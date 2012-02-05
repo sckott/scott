@@ -45,7 +45,7 @@
 
 <script type="text/javascript" charset="utf-8">
   $('#github-projects').html('');
-  $.githubUser(['SChamberlain', 'govdat'], function(data) {
+  $.githubUser(['SChamberlain'], function(data) {
     var repos = data.user.repositories;
     repos.sort(function(a,b) {
       return b.watchers - a.watchers;
@@ -72,7 +72,7 @@
 
 <script type="text/javascript" charset="utf-8">
   $('#github-projects').html('');
-  $.githubUser(['rOpenSci', 'rplos'], function(data) {
+  $.githubUser(['rOpenSci'], function(data) {
     var repos = data.user.repositories;
     repos.sort(function(a,b) {
       return b.watchers - a.watchers;
@@ -97,7 +97,7 @@
 </div>
 
 <div id='footer'>
-	Page last generated on Sun Feb 05 08:47:58 -0600 2012. Website powered by <a href='https://github.com/mojombo/jekyll'>Jekyll</a>.
+	Page last generated on Sun Feb 05 08:49:24 -0600 2012. Website powered by <a href='https://github.com/mojombo/jekyll'>Jekyll</a>.
 </div>
 
 	<script type="text/javascript">

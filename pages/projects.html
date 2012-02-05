@@ -9,7 +9,7 @@ title: Projects
 
 <script type="text/javascript" charset="utf-8">
   $('#github-projects').html('');
-  $.githubUser(['SChamberlain', 'govdat'], function(data) {
+  $.githubUser(['SChamberlain'], function(data) {
     var repos = data.user.repositories;
     repos.sort(function(a,b) {
       return b.watchers - a.watchers;
@@ -36,7 +36,7 @@ title: Projects
 
 <script type="text/javascript" charset="utf-8">
   $('#github-projects').html('');
-  $.githubUser(['rOpenSci', 'rplos'], function(data) {
+  $.githubUser(['rOpenSci'], function(data) {
     var repos = data.user.repositories;
     repos.sort(function(a,b) {
       return b.watchers - a.watchers;
