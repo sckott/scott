@@ -1,6 +1,7 @@
 url: http://schamberlain.github.com/scott
 paginate: 5
-auto: true
+auto: false
 permalink: pretty
+markdown: rdiscount
 disqus:
    id: scln
