@@ -7,7 +7,6 @@ My name is Scott Chamberlain.  I am a graduate student in the Ecology and Evolut
 
 Read more about me [here][]. 
 
-![that's me](gravatar)
+![that's me](/images/avatar.png)
 
 [here]: http://schamberlain.github.com/scott/about
-[gravatar]: /images/avatar.png
