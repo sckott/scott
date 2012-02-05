@@ -1,0 +1,113 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<title>Friday; simulations on phylogeny outgroup influence on phylogenetic meta-analysis model fit</title>
+	<link href="http://schamberlain.github.com/labnotebook/atom.xml" rel="alternate" title="" type="application/atom+xml" />
+	<link rel="stylesheet" media="screen" href="http://schamberlain.github.com/labnotebook/css/style.css" type="text/css" />
+	<link rel="stylesheet" media="screen" href="http://schamberlain.github.com/labnotebook/css/pygments.css" type="text/css" />
+</head>
+
+<body>
+<a href="https://github.com/SChamberlain/labnotebook"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
+<div class='premain'>	
+	<div class='head'>
+		<span class='site-title'><a href='http://schamberlain.github.com/labnotebook'>SCLN</a></span> <b>::</b> <span class='site-subtitle'>Scott Chamberlain's Lab Notebook</span>
+	</div>
+</div>
+
+<div class='main'>
+	<div class='sidebar'>
+
+	<div class='nav'>
+	<h2>Pages</h2>
+<li><a href='http://schamberlain.github.com/labnotebook/'>About</a></li>
+<li><a href='http://schamberlain.github.com/labnotebook/blog/'>Blog</a></li>
+	</div>
+	
+	<div id="carrington-subscribe" class="widget">
+      <h2 class="widget-title">Subscribe</h2>
+      <a class="feed alignleft" title="RSS 2.0 feed for posts" rel="alternate" href="http://feeds.feedburner.com/github/koCP">
+      <img src="/images/rss-button.gif" alt="latest posts" title="latest posts">
+      </a>
+    </div>
+
+	<h2>About this post</h2>
+	<div class="metadata"><b>Written by</b> <br /><b>Posted on</b> 07 Oct 2011<br /><b>Summary:</b> <br /><b>Tags:</b> </div>
+	
+	<div id="related">
+	  <h2>Related Posts</h2>
+	  <ul class="posts">
+	    
+	      <li><code>10 Jan 2012</code> » <a href="http://schamberlain.github.com/labnotebook/2012/01/10/Tuesday-Jan102012/">Tuesday Jan 10, 2012 Notes</a></li>
+	    
+	      <li><code>08 Jan 2012</code> » <a href="http://schamberlain.github.com/labnotebook/2012/01/08/testing-twitterfeed/">Testing twitterfeed</a></li>
+	    
+	      <li><code>08 Jan 2012</code> » <a href="http://schamberlain.github.com/labnotebook/2012/01/08/self-publishing/">Self publishing</a></li>
+	    
+	      <li><code>30 Nov 2011</code> » <a href="http://schamberlain.github.com/labnotebook/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle/">We (rOpenSci) wond 3rd place in the PLoS-Mendeley Binary Battle!</a></li>
+	    
+	      <li><code>26 Nov 2011</code> » <a href="http://schamberlain.github.com/labnotebook/2011/11/26/should-the-old-thesis-model-die/index.html">Should the old thesis model die?</a></li>
+	    
+	  </ul>
+	</div>
+	
+</div>
+
+
+<div class='content'>
+<div class='blog_entry'>
+<h1>Friday; simulations on phylogeny outgroup influence on phylogenetic meta-analysis model fit</h1>
+	<p><strong>Note to self: not sure if I did the simulation right&#8230;.</strong></p>
+<p><span style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;">Modeling: wanted to find out how an outgroup on a long branch (e.g., two species of plants are in a phylogeny where the remaining species are all animals) would influence model fit in phylogenetic meta-analysis. So I did like so:</span></p>
+<p><strong>Simulation details:</strong></p>
+<p>**<span style="color:#000000;font-family:tahoma, sans-serif;">Simulated 100 trees under each of the two following conditions:</span><br />
+<div><span style="color:#000000;"><span style="font-size:x-small;"><span style="font-family:tahoma, sans-serif;">-regular trees, randomly generated coalescent tree (in fig legend as &#8220;reg&#8221;)</span></span></span></div><br />
+<div><span style="color:#000000;"><span style="font-size:x-small;"><span style="font-family:tahoma, sans-serif;">-</span></span>outgroup added trees, randomly generated coalescent tree with two fewer species than a reg tree, then an outgroup of two species added on a long branch (in fig legend as &#8220;out&#8221;)</span></div><br />
+<div><span style="color:#000000;">Each of the above two cases were generated at 10, 20, 40, 60, 80, and 100 species. </span></div><br />
+<div><span style="font-family:tahoma, sans-serif;color:#000000;"><br />
+</span></div><br />
+<div><span style="font-family:tahoma, sans-serif;color:#000000;">I also evolved a trait on each tree (here, we assume this trait is the effect size), and created a dataset for each tree (with the effect size, variance set to 1 for each species, and no grouping variable).  This is perhaps not ideal&#8230;</span></div><br />
+<div><span style="color:#000000;"><br />
+</span></div><br />
+<div><span style="font-family:tahoma, sans-serif;color:#000000;">I then ran all these trees and datasets through Phylometa (from R of course), and plotted the <span class="caps">AIC</span> max lik model fit (left two panels) and the ratio of phy:trad max lik model fit (right two panels), for both fixed (top two panels) and random (bottom two panels) effects models. </span></div><br />
+<div><span style="font-family:tahoma, sans-serif;color:#000000;"><br />
+</span></div><br />
+<div><span style="font-family:tahoma, sans-serif;color:#000000;">The line fits are Loess, so no particular model was fitted there, just to help see the patterns. </span></div><br />
+Here is the output from the simulation:</p>
+<p><img class="alignleft size-full wp-image-587" title="myplot" src="http://schamber.files.wordpress.com/2011/10/myplot.jpeg" alt="" width="584" height="584" /></p>
+<p><em><strong>Bottom line: It seems that indeed, an outroup on a long branch does make model fit worse. </strong></em></p>
+</div>
+
+<div id="comments">
+  <h2>Comments</h2>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_identifier = "/2011/10/07/friday-simulations-on-phylogeny-outgroup-influence-on-phylogenetic-meta-analysis-model-fit/index.html";
+    (function() {
+     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+     dsq.src = 'http://scln.disqus.com/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=scln">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+</div>
+</div>
+
+<div id='footer'>
+	Page last generated on Sun Jan 29 13:05:41 -0600 2012. Website powered by <a href='https://github.com/mojombo/jekyll'>Jekyll</a>.
+</div>
+
+	<script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-28148190-1");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+
+</body>

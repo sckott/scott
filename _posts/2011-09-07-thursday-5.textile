@@ -1,0 +1,21 @@
+---
+layout: post
+title: Wednesday
+permalink: /2011/09/07/thursday-5/index.html
+post_id: 549
+categories: 
+- Uncategorized
+---
+
+<ol>
+	<li>Trying to learn how to interface with SQL from R</li>
+<ul>
+	<li>Trying package RMySQL within R</li>
+<ul>
+	<li>Site here: <a href="http://biostat.mc.vanderbilt.edu/wiki/Main/RMySQL" target="_blank">http://biostat.mc.vanderbilt.edu/wiki/Main/RMySQL</a></li>
+</ul>
+	<li><a href="http://www.hofroe.net/stat480/22-RMySQL.pdf" target="_blank">Nice powerpoint talk on SQL from R</a></li>
+</ul>
+	<li>Watched <a href="http://r-ecology.blogspot.com/2011/09/jonathan-eisen-on-fourth-domain-and.html" target="_blank">Jonathan Eisen's interview</a> about open science and his paper on the fourth dimension. Awesome how he is such a strong advocate for open science. Good form sir.</li>
+	<li>Data collection in lab...</li>
+</ol>

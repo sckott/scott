@@ -1,0 +1,30 @@
+---
+layout: post
+title: Wednesday
+permalink: /2011/08/31/wednesday-2/index.html
+post_id: 537
+categories: 
+- Uncategorized
+---
+
+<div>Randomness</div>
+<ol>
+	<li>Lots of data entry</li>
+	<li>Met with interested parties to discuss R course in our department</li>
+<ol>
+	<li>Draft website at Github for this course here: https://github.com/organizations/RatRiceEEB</li>
+</ol>
+	<li><a href="http://schamber.wordpress.com/2011/08/11/notes-on-jason-fridleys-talk-at-esa-2011/#comments" target="_blank">Interesting comment</a> on my notes to Jason Fridley's talk from Jeremy Fox</li>
+</ol>
+<div>Getting lots of chatter about recent blog post at INNGE about open data and ecology. Waiting for some constructive criticism still!</div>
+<div>Need to learn how to use powerful backends with R</div>
+<div>
+<ul>
+	<li>SQL with R</li>
+<ul>
+	<li>http://www.mysql.com/downloads/mysql/</li>
+	<li>RmySQL: http://cran.r-project.org/web/packages/RMySQL/index.html</li>
+</ul>
+	<li>RHIPE: with Hadoop</li>
+</ul>
+</div>

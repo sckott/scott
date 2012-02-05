@@ -1,0 +1,23 @@
+---
+layout: post
+title: Friday
+permalink: /2011/09/02/friday-2/index.html
+post_id: 544
+categories: 
+- Uncategorized
+---
+
+<ol>
+	<li>Chatted with Karthik and Carl of ropensci team about plans for future of ropensci. Exciting stuff!!!</li>
+	<li>First meeting of R group in our EEB department at Rice. Went well, and lined up a few topics to have tutorials on:</li>
+<ul>
+	<li>intro and data manipulation</li>
+	<li>visualizations</li>
+	<li>molecular methods (?)</li>
+	<li>bioinformatics</li>
+	<li>statistics and linear models, etc.</li>
+</ul>
+	<li>Lots of dat entry</li>
+	<li>How do I get historical ISI journal impact factors (anybody know please let me know)</li>
+	<li><a href="http://opencpu.org/" target="_blank">OpenCPU</a> looks like an awesome project - need to check it out more</li>
+</ol>

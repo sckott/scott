@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title></title>
+		<description></description>
+		<link>http://schamberlain.github.com/labnotebook</link>
+		
+			<item>
+				<title>Tuesday Jan 10, 2012 Notes</title>
+				<description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Recology blog:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;add Pascal as an author&lt;/li&gt;
+
+&lt;li&gt;add rOpenSci image button with link to About sidebar&lt;/li&gt;
+
+&lt;li&gt;Fix category links!!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Videos for Journal of Ecology blog: need to figure out why guest voice is super quiet. Perhaps something wrong with the .mov file extension when importing to YouTube.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Edit &lt;code&gt;loghistplot&lt;/code&gt; function &lt;a href='http://schamberlain.github.com/2012/01/logistic-regression-barplot-fig/'&gt;here&lt;/a&gt; to include more options&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;allow users to manipulate colors&lt;/li&gt;
+
+&lt;li&gt;include points along with histogram&lt;/li&gt;
+
+&lt;li&gt;more?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+				<published>Tue Jan 10 00:00:00 -0600 2012</published>
+				<link>http://schamberlain.github.com/labnotebook/2012/01/10/Tuesday-Jan102012/</link>
+			</item>
+		
+			<item>
+				<title>Testing twitterfeed</title>
+				<description>&lt;p&gt;Does this work on twitterfeed?&lt;/p&gt;</description>
+				<published>Sun Jan 08 00:00:00 -0600 2012</published>
+				<link>http://schamberlain.github.com/labnotebook/2012/01/08/testing-twitterfeed/</link>
+			</item>
+		
+			<item>
+				<title>Self publishing</title>
+				<description>&lt;p&gt;What if scientists just published their papers after peer review on their own websites? Authors (&lt;a href='http://craphound.com/?p=3672'&gt;Cory Doctorow&lt;/a&gt;), musicians (&lt;a href='http://www.rollingstone.com/music/news/wilco-to-self-release-the-whole-love-in-september-20110629'&gt;Wilco&lt;/a&gt;), and comedians (&lt;a href='https://buy.louisck.net/'&gt;Louis C.K.&lt;/a&gt;) are starting to do this in small numbers, and having some sucess. They don&amp;#8217;t need peer review, but perhaps a site could be started where authors could solicit reviewers. Self publishing would allow scientists to make everything free - papers, data, figures - everything.&lt;/p&gt;
+
+&lt;p&gt;Perhaps what we need is a &lt;a href='https://github.com/'&gt;GitHub&lt;/a&gt; for science publishing. It would be all open access, would provide version control so that papers could be continually updated, and you can drill down into the data directly from figures. And of course, the code could all be hosted at this site.&lt;/p&gt;</description>
+				<published>Sun Jan 08 00:00:00 -0600 2012</published>
+				<link>http://schamberlain.github.com/labnotebook/2012/01/08/self-publishing/</link>
+			</item>
+		
+			<item>
+				<title>We (rOpenSci) wond 3rd place in the PLoS-Mendeley Binary Battle!</title>
+				<description>&lt;p&gt;We entered two of our packages for integrating with PLoS Journals (rplos) and Mendeley (RMendeley) in the &lt;a href='http://dev.mendeley.com/api-binary-battle'&gt;Mendeley-PLoS Binary Battle&lt;/a&gt;.  Get them at GitHub (&lt;a href='https://github.com/ropensci/rplos'&gt;rplos&lt;/a&gt;, &lt;a href='https://github.com/ropensci/RMendeley'&gt;RMendeley&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.mendeley.com/blog/design-research-tools/winners-of-the-first-binary-battle-apps-for-science-contest/'&gt;We won third place&lt;/a&gt;!!  This gives us a $1,000 prize, plus a &lt;a href='http://ardrone.parrot.com/parrot-ar-drone/uk/'&gt;Parrot AR Drone helicopter&lt;/a&gt;.&lt;/p&gt;</description>
+				<published>Wed Nov 30 00:00:00 -0600 2011</published>
+				<link>http://schamberlain.github.com/labnotebook/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle/</link>
+			</item>
+		
+			<item>
+				<title>Should the old thesis model die?</title>
+				<description>&lt;p&gt;So, the traditional Ph.D. thesis model involves 3 to 5 chapters on one topic &amp;#8211; an in-depth investigation of one question, or a series of tightly related questions.&lt;/p&gt;
+&lt;p&gt;However, collaborative work across labs, political borders, and conceptual borders, is increasingly occurring, either due to decreasing funding or other reasons.&lt;/p&gt;
+&lt;p&gt;Yet we hang on to the traditional thesis model concentrating on one single question, with all the chapters related.  Why can&amp;#8217;t a thesis mirror what is likely to happen post thesis work?&lt;/p&gt;
+&lt;p&gt;For example, my thesis involves three different projects (two projects with one paper each, and one project with two papers), and are only united in the sense that they investigate species interactions  - albeit across ecology and evolution.  Beyond my actual thesis chapters, I have been involved in a number of collaborative projects, some leading to papers, some not.&lt;/p&gt;
+&lt;p&gt;This sort of model of a thesis I think matches more closely what one is likely to due in a research job &amp;#8211; that is, work on a various different projects, with various collaborators, on sometimes unrelated questions.&lt;/p&gt;
+&lt;p&gt;I wonder how common this sort of thesis model is, one with more collaborative work and more distantly related questions than the traditional model?&lt;/p&gt;</description>
+				<published>Sat Nov 26 00:00:00 -0600 2011</published>
+				<link>http://schamberlain.github.com/labnotebook/2011/11/26/should-the-old-thesis-model-die/index.html</link>
+			</item>
+		
+			<item>
+				<title>Evolution in Agriculture - my #SciFund video</title>
+				<description>&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/W1mQgK6xFn0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+				<published>Thu Nov 10 00:00:00 -0600 2011</published>
+				<link>http://schamberlain.github.com/labnotebook/2011/11/10/evolution-in-agriculture-my-scifund-video/index.html</link>
+			</item>
+		
+			<item>
+				<title>SciFund - experiment in crowdfunding</title>
+				<description>&lt;p&gt;I&amp;#8217;m trying to get some crowdfunding for my research on the evolution of native plants in agricultural landscapes. It&amp;#8217;s important to get a few bucks at the beginning so that the people that don&amp;#8217;t know me will chip in.  My campaign is part of a larger project by about 50 other scientists and me to see how well it works to go straight to the public to get funding for science research.  All these projects, including mine, are hosted at this site called RocketHub.  It is a site that hosts crowdfunding projects of all sorts &amp;#8211; and now they have science.&lt;/p&gt;
+&lt;p&gt;The funding will go towards paying some students to collect data in the lab for me.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family:arial, sans-serif;&quot;&gt;Here&amp;#8217;s the link if you want to donate, or just to check out the video I made about my research!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family:arial, sans-serif;&quot;&gt;&lt;a href=&quot;http://www.rockethub.com/projects/3790-evolution-in-agriculture&quot;&gt;http://www.rockethub.com/projects/3790-evolution-in-agriculture&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</description>
+				<published>Tue Nov 01 00:00:00 -0500 2011</published>
+				<link>http://schamberlain.github.com/labnotebook/2011/11/01/scifund-experiment-in-crowdfunding/index.html</link>
+			</item>
+		
+			<item>
+				<title>Notes on 2011 ESA Bayesian workshop</title>
+				<description>&lt;div&gt;Bayesian Workshop &lt;span class=&quot;caps&quot;&gt;ESA&lt;/span&gt; 2011&lt;br /&gt;
+&lt;ul&gt;&lt;br /&gt;
+	&lt;li&gt;Influence of the prior: when small data set prior can influence analysis greatly, whereas when large data set prior influences analysis less&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;The mode of a posterior estimate is (or is sometimes?) equal to the Max. Likelihood estimate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;A special case of the beta distribution (1,1?) gives a uniform distribution &amp;#8211; so perhaps don&amp;#8217;t need to specify a uniform distribution specifically&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hierarchical Bayesian Models&lt;br /&gt;
+&lt;ul&gt;&lt;br /&gt;
+	&lt;li&gt;No analytical solution for posterior or marginal dist, so &lt;span class=&quot;caps&quot;&gt;MCMC&lt;/span&gt; numerical simulation (or max lik.)&lt;/li&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;MCMC&lt;/span&gt;: Gibbs or Metropolis-Hastings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;BUGS&lt;/span&gt;&lt;br /&gt;
+&lt;ul&gt;&lt;br /&gt;
+	&lt;li&gt;Similar: # sign for comments;&lt;/li&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dissimilar: &lt;span class=&quot;caps&quot;&gt;BUGS&lt;/span&gt; uses &amp;#8216;precision&amp;#8217; instead of variance/sd in e.g., lognorm(mu, sd); &lt;span class=&quot;caps&quot;&gt;BUGS&lt;/span&gt; never uses equals signs (unless assigning data object); Don&amp;#8217;t put calculation within a function;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Random variables (use &amp;#8216;~&amp;#8217;). Fixed variables (use &amp;#8216;&amp;lt;-&amp;#8217;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;load inits OR gen inits (can use either or both)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;If autocorrelation in &lt;span class=&quot;caps&quot;&gt;MCMC&lt;/span&gt; chains, use Sample Monitor Tool &amp;#8594; Thin &amp;#8594; value of e.g., 20 to redudce autocorrelation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do the same code writing rules apply when in R packages for &lt;span class=&quot;caps&quot;&gt;BUGS&lt;/span&gt;?:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Capital &amp;#8220;I(0,)&amp;#8221; truncates the previous number to zero&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Data import: save from excel as &amp;#8216;ms-dos&amp;#8217;? and &amp;#8216;&lt;span class=&quot;caps&quot;&gt;END&lt;/span&gt;&amp;#8217; at end of file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+				<published>Tue Oct 25 00:00:00 -0500 2011</published>
+				<link>http://schamberlain.github.com/labnotebook/2011/10/25/notes-on-2011-esa-bayesian-workshop/index.html</link>
+			</item>
+		
+			<item>
+				<title>R meetings topics</title>
+				<description>&lt;p&gt;Potential topics for our R class at Rice:&lt;br /&gt;
+&lt;ol&gt;&lt;br /&gt;
+	&lt;li&gt;Ordinations (incl. rarefactions, etc.)&lt;/li&gt;&lt;br /&gt;
+	&lt;li&gt;Phylogenetics (incl. complete workflow from searching GenBank to phylogenetic tree output)&lt;/li&gt;&lt;br /&gt;
+	&lt;li&gt;Simulations (for loops, functions, etc.)&lt;/li&gt;&lt;br /&gt;
+	&lt;li&gt;Advanced visualizations (ggplot2, lattice, googleVis, etc.)&lt;/li&gt;&lt;br /&gt;
+	&lt;li&gt;Blitz day: a series of small talks given by class members&lt;/li&gt;&lt;br /&gt;
+	&lt;li&gt;Web data acquisition (introduce &lt;a href=&quot;http://ropensci.org/&quot; target=&quot;_blank&quot;&gt;rOpenSci&lt;/a&gt;, and include calling external programs from R, e.g., &lt;a href=&quot;http://lajeunesse.myweb.usf.edu/publications&quot; target=&quot;_blank&quot;&gt;phylometa&lt;/a&gt; or &lt;a href=&quot;http://mrbayes.sourceforge.net/&quot; target=&quot;_blank&quot;&gt;MrBayes&lt;/a&gt;)&lt;/li&gt;&lt;/p&gt;
+&lt;/ol&gt;</description>
+				<published>Fri Oct 14 00:00:00 -0500 2011</published>
+				<link>http://schamberlain.github.com/labnotebook/2011/10/14/r-meetings-topics/index.html</link>
+			</item>
+		
+			<item>
+				<title>Friday; simulations on phylogeny outgroup influence on phylogenetic meta-analysis model fit</title>
+				<description>&lt;p&gt;&lt;strong&gt;Note to self: not sure if I did the simulation right&amp;#8230;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;&quot;&gt;Modeling: wanted to find out how an outgroup on a long branch (e.g., two species of plants are in a phylogeny where the remaining species are all animals) would influence model fit in phylogenetic meta-analysis. So I did like so:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Simulation details:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;**&lt;span style=&quot;color:#000000;font-family:tahoma, sans-serif;&quot;&gt;Simulated 100 trees under each of the two following conditions:&lt;/span&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:x-small;&quot;&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;&quot;&gt;-regular trees, randomly generated coalescent tree (in fig legend as &amp;#8220;reg&amp;#8221;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:x-small;&quot;&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;&quot;&gt;-&lt;/span&gt;&lt;/span&gt;outgroup added trees, randomly generated coalescent tree with two fewer species than a reg tree, then an outgroup of two species added on a long branch (in fig legend as &amp;#8220;out&amp;#8221;)&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Each of the above two cases were generated at 10, 20, 40, 60, 80, and 100 species. &lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;I also evolved a trait on each tree (here, we assume this trait is the effect size), and created a dataset for each tree (with the effect size, variance set to 1 for each species, and no grouping variable).  This is perhaps not ideal&amp;#8230;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;I then ran all these trees and datasets through Phylometa (from R of course), and plotted the &lt;span class=&quot;caps&quot;&gt;AIC&lt;/span&gt; max lik model fit (left two panels) and the ratio of phy:trad max lik model fit (right two panels), for both fixed (top two panels) and random (bottom two panels) effects models. &lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;The line fits are Loess, so no particular model was fitted there, just to help see the patterns. &lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+Here is the output from the simulation:&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-587&quot; title=&quot;myplot&quot; src=&quot;http://schamber.files.wordpress.com/2011/10/myplot.jpeg&quot; alt=&quot;&quot; width=&quot;584&quot; height=&quot;584&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Bottom line: It seems that indeed, an outroup on a long branch does make model fit worse. &lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
+				<published>Fri Oct 07 00:00:00 -0500 2011</published>
+				<link>http://schamberlain.github.com/labnotebook/2011/10/07/friday-simulations-on-phylogeny-outgroup-influence-on-phylogenetic-meta-analysis-model-fit/index.html</link>
+			</item>
+		
+	</channel>
+</rss>

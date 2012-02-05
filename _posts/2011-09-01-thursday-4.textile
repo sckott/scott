@@ -1,0 +1,14 @@
+---
+layout: post
+title: Thursday
+permalink: /2011/09/01/thursday-4/index.html
+post_id: 540
+categories: 
+- Uncategorized
+---
+
+<ol>
+	<li>Massive amounts of flower trait data entry</li>
+	<li>Added five new functions to our R wrapper for the National Phenology Network database <a href="https://github.com/SChamberlain/rnpn" target="_blank">at Github</a></li>
+	<li>Discussed R course in our department</li>
+</ol>

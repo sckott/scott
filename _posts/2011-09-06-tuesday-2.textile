@@ -1,0 +1,24 @@
+---
+layout: post
+title: Tuesday
+permalink: /2011/09/06/tuesday-2/index.html
+post_id: 546
+categories: 
+- Uncategorized
+---
+
+<ol>
+	<li>Finished (almost) introduction R talk for Friday for our R meetings</li>
+	<li>Website for the above R meetings here: <a href="https://sites.google.com/site/ricergroup/" target="_blank">https://sites.google.com/site/ricergroup/</a></li>
+<ul>
+	<li>Also, some content for the meetings at Github here:  <a href="https://github.com/organizations/RatRiceEEB" target="_blank">https://github.com/organizations/RatRiceEEB</a></li>
+</ul>
+	<li>Finished manuscript review for manuscript on honeybees</li>
+	<li>Checked over functions in the taxize package on github, <a href="https://github.com/SChamberlain/taxize_" target="_blank">here</a></li>
+<ul>
+	<li>Some of the taxize functions should probably be removed</li>
+	<li>need to figure out uBio API services</li>
+	<li>not sure what to do with the EOL API. Can anyone think of use cases they would like to see implemented from R!?</li>
+</ul>
+	<li>Don't understand VertNet API help page, submitted github issue.</li>
+</ol>

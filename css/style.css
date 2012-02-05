@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Lato:700italic,400,400italic,700);
+
+html {
+   font-size: 62.5%;
+}
+
+html, body{
+	font-family: 'Lato', Helvetica, Calibri;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+pre, code{
+	font-family: 'Inconsolata';
+	font-size: 105%;
+}
+
+.site-title{
+	color: #002A8D;
+	font-weight: bold;
+}
+
+.site-subtitle{
+	color: #fff;
+}
+
+a{
+	color: #002A8D;
+	text-decoration: none;
+}
+
+.premain{
+	background-color: #aaa;
+	margin: 0px;
+}
+
+.head{
+	font-size: 2.2em;
+}
+
+.content{
+	font-size: 1.5em;
+}
+
+.sidebar{
+	font-size: 1.4em;
+}
+
+.head{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 900px;
+	margin: 0px auto;
+}
+
+.main, #footer{
+	width: 900px;
+	margin: 0px auto;
+	padding: 0 0 0 0;
+}
+
+.main{
+	margin-bottom: 3em;
+	padding-bottom: 3em;
+}
+
+#footer{
+	clear: both;
+	margin-top: 3em;
+	border-top: 1px solid black;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 1.1em;
+}
+
+.sidebar{
+	margin: 0 0 0 0;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	width: 170px;
+	float: left;
+}
+
+.content{
+	margin: 0 0 0 0;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	margin-left: 30px;
+	width: 700px;
+	float: right;
+	line-height: 1.3em;
+}
+
+.sidebar li, .sidebar ul, .nav li, .nav ul{
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.nav{
+	margin-bottom: 3em;
+}
+
+.meta{
+	color: #666;
+	font-size: 90%;
+}
+
+.ref{
+	border: 1px solid #ffea14;
+	background-color: #fff8dd;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding: 0.5em;
+}
+
+.blog_entry{
+	padding-bottom: 2em;
+}

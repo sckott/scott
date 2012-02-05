@@ -1,0 +1,24 @@
+---
+layout: post
+title: Thursday
+permalink: /2011/10/06/thursday-6/index.html
+post_id: 571
+categories: 
+- ToDo
+- Uncategorized
+---
+
+<ul>
+	<li>Edited rOpenSci dryad tutorial for out website: <a href="http://ropensci.org/" target="_blank">http://ropensci.org/</a></li>
+	<li>Abstract for a paper on meta-analysis: what are the strengths and weaknesses of the different methods for phylogenetic meta-analysis</li>
+	<li>Posted Ed Goodwin's talk on regular expressions in R to <a href="http://r-ecology.blogspot.com/2011/10/r-tutorial-on-regular-expressions-regex.html" target="_blank">my blog</a></li>
+	<li>ASN student research award notice out <a href="http://www.asnamnat.org/node/127" target="_blank">here</a>, due end of January, 2012: what to write about?</li>
+<ul>
+	<li>additional work on conditionality meta-analysis, incorporating covariates, or incorporating phylogeny for all taxa</li>
+</ul>
+	<li>Need to figure out how to do image analysis on both (any ideas from the world on counting pollen grains and trichomes?):</li>
+<ul>
+	<li>pollen grains on sunflower stigmas, and</li>
+	<li>glandular trichomes on leaf discs</li>
+</ul>
+</ul>

@@ -1,0 +1,6 @@
+url: http://schamberlain.github.com/scott
+paginate: 5
+auto: true
+permalink: pretty
+disqus:
+   id: scln

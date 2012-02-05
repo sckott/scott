@@ -1,0 +1,15 @@
+---
+layout: post
+title: Tuesday
+permalink: /2011/06/07/tuesday/index.html
+post_id: 231
+categories: 
+- Uncategorized
+---
+
+<ol>
+	<li>Try to incorporate the <a href="http://cran.r-project.org/web/packages/RNCBI/index.html" target="_blank">RNCBI package </a>to <a href="https://SChamberlain@github.com/SChamberlain/taxize_.git" target="_blank">taxize</a> instead of writing my own functions?</li>
+	<li>Start developing code for a wrapper to the new PLoS API to query their databases and papers, etc.</li>
+	<li>Also incorporate Encyclopedia of Life API, not easily used URL format though</li>
+	<li>And uBio API</li>
+</ol>

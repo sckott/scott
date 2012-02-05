@@ -1,0 +1,21 @@
+---
+layout: post
+title: Friday
+permalink: /2011/06/05/friday/index.html
+post_id: 389
+categories: 
+- Uncategorized
+---
+
+<div><span style="text-decoration:underline;">PLoS Journals API work</span></div>
+<ul>
+	<li>Work on code for plosjournals api package, push to github for Carl to look at</li>
+	<li>Carl on board with working on plosjournals api code for R</li>
+	<li>Can we search figure captions specifically within the plos api?</li>
+	<li>Pushed first code to github on this package</li>
+	<li>Look at http://biotext.berkeley.edu/ for inspiration for development of our functions</li>
+</ul>
+<ol>
+	<li>Finished up figures for UH work</li>
+	<li>Finished figures for phylogMA work</li>
+</ol>

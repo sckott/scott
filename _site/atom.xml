@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title></title>
+ <link href="http://schamberlain.github.com/labnotebook/atom.xml" rel="self"/>
+ <link href="http://schamberlain.github.com/labnotebook"/>
+ <updated>2012-01-29T13:05:41-06:00</updated>
+ <id>http://schamberlain.github.com/labnotebook</id>
+
+ 
+ 
+ 
+ <entry>
+   <title>Tuesday Jan 10, 2012 Notes</title>
+   <link href="http://schamberlain.github.com/labnotebook/2012/01/10/Tuesday-Jan102012/"/>
+   <updated>2012-01-10T00:00:00-06:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2012/01/10/Tuesday-Jan102012</id>
+   <content type="html">&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Recology blog:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;add Pascal as an author&lt;/li&gt;
+
+&lt;li&gt;add rOpenSci image button with link to About sidebar&lt;/li&gt;
+
+&lt;li&gt;Fix category links!!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Videos for Journal of Ecology blog: need to figure out why guest voice is super quiet. Perhaps something wrong with the .mov file extension when importing to YouTube.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Edit &lt;code&gt;loghistplot&lt;/code&gt; function &lt;a href='http://schamberlain.github.com/2012/01/logistic-regression-barplot-fig/'&gt;here&lt;/a&gt; to include more options&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;allow users to manipulate colors&lt;/li&gt;
+
+&lt;li&gt;include points along with histogram&lt;/li&gt;
+
+&lt;li&gt;more?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Testing twitterfeed</title>
+   <link href="http://schamberlain.github.com/labnotebook/2012/01/08/testing-twitterfeed/"/>
+   <updated>2012-01-08T00:00:00-06:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2012/01/08/testing-twitterfeed</id>
+   <content type="html">&lt;p&gt;Does this work on twitterfeed?&lt;/p&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Self publishing</title>
+   <link href="http://schamberlain.github.com/labnotebook/2012/01/08/self-publishing/"/>
+   <updated>2012-01-08T00:00:00-06:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2012/01/08/self-publishing</id>
+   <content type="html">&lt;p&gt;What if scientists just published their papers after peer review on their own websites? Authors (&lt;a href='http://craphound.com/?p=3672'&gt;Cory Doctorow&lt;/a&gt;), musicians (&lt;a href='http://www.rollingstone.com/music/news/wilco-to-self-release-the-whole-love-in-september-20110629'&gt;Wilco&lt;/a&gt;), and comedians (&lt;a href='https://buy.louisck.net/'&gt;Louis C.K.&lt;/a&gt;) are starting to do this in small numbers, and having some sucess. They don&amp;#8217;t need peer review, but perhaps a site could be started where authors could solicit reviewers. Self publishing would allow scientists to make everything free - papers, data, figures - everything.&lt;/p&gt;
+
+&lt;p&gt;Perhaps what we need is a &lt;a href='https://github.com/'&gt;GitHub&lt;/a&gt; for science publishing. It would be all open access, would provide version control so that papers could be continually updated, and you can drill down into the data directly from figures. And of course, the code could all be hosted at this site.&lt;/p&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>We (rOpenSci) wond 3rd place in the PLoS-Mendeley Binary Battle!</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle/"/>
+   <updated>2011-11-30T00:00:00-06:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle</id>
+   <content type="html">&lt;p&gt;We entered two of our packages for integrating with PLoS Journals (rplos) and Mendeley (RMendeley) in the &lt;a href='http://dev.mendeley.com/api-binary-battle'&gt;Mendeley-PLoS Binary Battle&lt;/a&gt;.  Get them at GitHub (&lt;a href='https://github.com/ropensci/rplos'&gt;rplos&lt;/a&gt;, &lt;a href='https://github.com/ropensci/RMendeley'&gt;RMendeley&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.mendeley.com/blog/design-research-tools/winners-of-the-first-binary-battle-apps-for-science-contest/'&gt;We won third place&lt;/a&gt;!!  This gives us a $1,000 prize, plus a &lt;a href='http://ardrone.parrot.com/parrot-ar-drone/uk/'&gt;Parrot AR Drone helicopter&lt;/a&gt;.&lt;/p&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Should the old thesis model die?</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/11/26/should-the-old-thesis-model-die/index.html"/>
+   <updated>2011-11-26T00:00:00-06:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/11/26/should-the-old-thesis-model-die/should-the-old-thesis-model-die</id>
+   <content type="html">&lt;p&gt;So, the traditional Ph.D. thesis model involves 3 to 5 chapters on one topic &amp;#8211; an in-depth investigation of one question, or a series of tightly related questions.&lt;/p&gt;
+&lt;p&gt;However, collaborative work across labs, political borders, and conceptual borders, is increasingly occurring, either due to decreasing funding or other reasons.&lt;/p&gt;
+&lt;p&gt;Yet we hang on to the traditional thesis model concentrating on one single question, with all the chapters related.  Why can&amp;#8217;t a thesis mirror what is likely to happen post thesis work?&lt;/p&gt;
+&lt;p&gt;For example, my thesis involves three different projects (two projects with one paper each, and one project with two papers), and are only united in the sense that they investigate species interactions  - albeit across ecology and evolution.  Beyond my actual thesis chapters, I have been involved in a number of collaborative projects, some leading to papers, some not.&lt;/p&gt;
+&lt;p&gt;This sort of model of a thesis I think matches more closely what one is likely to due in a research job &amp;#8211; that is, work on a various different projects, with various collaborators, on sometimes unrelated questions.&lt;/p&gt;
+&lt;p&gt;I wonder how common this sort of thesis model is, one with more collaborative work and more distantly related questions than the traditional model?&lt;/p&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Evolution in Agriculture - my #SciFund video</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/11/10/evolution-in-agriculture-my-scifund-video/index.html"/>
+   <updated>2011-11-10T00:00:00-06:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/11/10/evolution-in-agriculture-my-scifund-video/evolution-in-agriculture-my-scifund-video</id>
+   <content type="html">&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/W1mQgK6xFn0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>SciFund - experiment in crowdfunding</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/11/01/scifund-experiment-in-crowdfunding/index.html"/>
+   <updated>2011-11-01T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/11/01/scifund-experiment-in-crowdfunding/scifund-experiment-in-crowdfunding</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;m trying to get some crowdfunding for my research on the evolution of native plants in agricultural landscapes. It&amp;#8217;s important to get a few bucks at the beginning so that the people that don&amp;#8217;t know me will chip in.  My campaign is part of a larger project by about 50 other scientists and me to see how well it works to go straight to the public to get funding for science research.  All these projects, including mine, are hosted at this site called RocketHub.  It is a site that hosts crowdfunding projects of all sorts &amp;#8211; and now they have science.&lt;/p&gt;
+&lt;p&gt;The funding will go towards paying some students to collect data in the lab for me.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family:arial, sans-serif;&quot;&gt;Here&amp;#8217;s the link if you want to donate, or just to check out the video I made about my research!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family:arial, sans-serif;&quot;&gt;&lt;a href=&quot;http://www.rockethub.com/projects/3790-evolution-in-agriculture&quot;&gt;http://www.rockethub.com/projects/3790-evolution-in-agriculture&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Notes on 2011 ESA Bayesian workshop</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/10/25/notes-on-2011-esa-bayesian-workshop/index.html"/>
+   <updated>2011-10-25T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/10/25/notes-on-2011-esa-bayesian-workshop/notes-on-2011-esa-bayesian-workshop</id>
+   <content type="html">&lt;div&gt;Bayesian Workshop &lt;span class=&quot;caps&quot;&gt;ESA&lt;/span&gt; 2011&lt;br /&gt;
+&lt;ul&gt;&lt;br /&gt;
+	&lt;li&gt;Influence of the prior: when small data set prior can influence analysis greatly, whereas when large data set prior influences analysis less&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;The mode of a posterior estimate is (or is sometimes?) equal to the Max. Likelihood estimate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;A special case of the beta distribution (1,1?) gives a uniform distribution &amp;#8211; so perhaps don&amp;#8217;t need to specify a uniform distribution specifically&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hierarchical Bayesian Models&lt;br /&gt;
+&lt;ul&gt;&lt;br /&gt;
+	&lt;li&gt;No analytical solution for posterior or marginal dist, so &lt;span class=&quot;caps&quot;&gt;MCMC&lt;/span&gt; numerical simulation (or max lik.)&lt;/li&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;MCMC&lt;/span&gt;: Gibbs or Metropolis-Hastings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;BUGS&lt;/span&gt;&lt;br /&gt;
+&lt;ul&gt;&lt;br /&gt;
+	&lt;li&gt;Similar: # sign for comments;&lt;/li&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Dissimilar: &lt;span class=&quot;caps&quot;&gt;BUGS&lt;/span&gt; uses &amp;#8216;precision&amp;#8217; instead of variance/sd in e.g., lognorm(mu, sd); &lt;span class=&quot;caps&quot;&gt;BUGS&lt;/span&gt; never uses equals signs (unless assigning data object); Don&amp;#8217;t put calculation within a function;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Random variables (use &amp;#8216;~&amp;#8217;). Fixed variables (use &amp;#8216;&amp;lt;-&amp;#8217;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;load inits OR gen inits (can use either or both)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;If autocorrelation in &lt;span class=&quot;caps&quot;&gt;MCMC&lt;/span&gt; chains, use Sample Monitor Tool &amp;#8594; Thin &amp;#8594; value of e.g., 20 to redudce autocorrelation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Do the same code writing rules apply when in R packages for &lt;span class=&quot;caps&quot;&gt;BUGS&lt;/span&gt;?:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Capital &amp;#8220;I(0,)&amp;#8221; truncates the previous number to zero&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Data import: save from excel as &amp;#8216;ms-dos&amp;#8217;? and &amp;#8216;&lt;span class=&quot;caps&quot;&gt;END&lt;/span&gt;&amp;#8217; at end of file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>R meetings topics</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/10/14/r-meetings-topics/index.html"/>
+   <updated>2011-10-14T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/10/14/r-meetings-topics/r-meetings-topics</id>
+   <content type="html">&lt;p&gt;Potential topics for our R class at Rice:&lt;br /&gt;
+&lt;ol&gt;&lt;br /&gt;
+	&lt;li&gt;Ordinations (incl. rarefactions, etc.)&lt;/li&gt;&lt;br /&gt;
+	&lt;li&gt;Phylogenetics (incl. complete workflow from searching GenBank to phylogenetic tree output)&lt;/li&gt;&lt;br /&gt;
+	&lt;li&gt;Simulations (for loops, functions, etc.)&lt;/li&gt;&lt;br /&gt;
+	&lt;li&gt;Advanced visualizations (ggplot2, lattice, googleVis, etc.)&lt;/li&gt;&lt;br /&gt;
+	&lt;li&gt;Blitz day: a series of small talks given by class members&lt;/li&gt;&lt;br /&gt;
+	&lt;li&gt;Web data acquisition (introduce &lt;a href=&quot;http://ropensci.org/&quot; target=&quot;_blank&quot;&gt;rOpenSci&lt;/a&gt;, and include calling external programs from R, e.g., &lt;a href=&quot;http://lajeunesse.myweb.usf.edu/publications&quot; target=&quot;_blank&quot;&gt;phylometa&lt;/a&gt; or &lt;a href=&quot;http://mrbayes.sourceforge.net/&quot; target=&quot;_blank&quot;&gt;MrBayes&lt;/a&gt;)&lt;/li&gt;&lt;/p&gt;
+&lt;/ol&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Friday; simulations on phylogeny outgroup influence on phylogenetic meta-analysis model fit</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/10/07/friday-simulations-on-phylogeny-outgroup-influence-on-phylogenetic-meta-analysis-model-fit/index.html"/>
+   <updated>2011-10-07T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/10/07/friday-simulations-on-phylogeny-outgroup-influence-on-phylogenetic-meta-analysis-model-fit/friday-simulations-on-phylogeny-outgroup-influence-on-phylogenetic-meta-analysis-model-fit</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Note to self: not sure if I did the simulation right&amp;#8230;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;&quot;&gt;Modeling: wanted to find out how an outgroup on a long branch (e.g., two species of plants are in a phylogeny where the remaining species are all animals) would influence model fit in phylogenetic meta-analysis. So I did like so:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Simulation details:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;**&lt;span style=&quot;color:#000000;font-family:tahoma, sans-serif;&quot;&gt;Simulated 100 trees under each of the two following conditions:&lt;/span&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:x-small;&quot;&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;&quot;&gt;-regular trees, randomly generated coalescent tree (in fig legend as &amp;#8220;reg&amp;#8221;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:x-small;&quot;&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;&quot;&gt;-&lt;/span&gt;&lt;/span&gt;outgroup added trees, randomly generated coalescent tree with two fewer species than a reg tree, then an outgroup of two species added on a long branch (in fig legend as &amp;#8220;out&amp;#8221;)&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Each of the above two cases were generated at 10, 20, 40, 60, 80, and 100 species. &lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;I also evolved a trait on each tree (here, we assume this trait is the effect size), and created a dataset for each tree (with the effect size, variance set to 1 for each species, and no grouping variable).  This is perhaps not ideal&amp;#8230;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;I then ran all these trees and datasets through Phylometa (from R of course), and plotted the &lt;span class=&quot;caps&quot;&gt;AIC&lt;/span&gt; max lik model fit (left two panels) and the ratio of phy:trad max lik model fit (right two panels), for both fixed (top two panels) and random (bottom two panels) effects models. &lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;The line fits are Loess, so no particular model was fitted there, just to help see the patterns. &lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+Here is the output from the simulation:&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-587&quot; title=&quot;myplot&quot; src=&quot;http://schamber.files.wordpress.com/2011/10/myplot.jpeg&quot; alt=&quot;&quot; width=&quot;584&quot; height=&quot;584&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Bottom line: It seems that indeed, an outroup on a long branch does make model fit worse. &lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Thursday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/10/06/thursday-6/index.html"/>
+   <updated>2011-10-06T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/10/06/thursday-6/thursday-6</id>
+   <content type="html">&lt;ul&gt;
+	&lt;li&gt;Edited rOpenSci dryad tutorial for out website: &lt;a href=&quot;http://ropensci.org/&quot; target=&quot;_blank&quot;&gt;http://ropensci.org/&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Abstract for a paper on meta-analysis: what are the strengths and weaknesses of the different methods for phylogenetic meta-analysis&lt;/li&gt;
+	&lt;li&gt;Posted Ed Goodwin&amp;#8217;s talk on regular expressions in R to &lt;a href=&quot;http://r-ecology.blogspot.com/2011/10/r-tutorial-on-regular-expressions-regex.html&quot; target=&quot;_blank&quot;&gt;my blog&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;ASN&lt;/span&gt; student research award notice out &lt;a href=&quot;http://www.asnamnat.org/node/127&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;, due end of January, 2012: what to write about?&lt;/li&gt;
+&lt;ul&gt;
+	&lt;li&gt;additional work on conditionality meta-analysis, incorporating covariates, or incorporating phylogeny for all taxa&lt;/li&gt;
+&lt;/ul&gt;
+	&lt;li&gt;Need to figure out how to do image analysis on both (any ideas from the world on counting pollen grains and trichomes?):&lt;/li&gt;
+&lt;ul&gt;
+	&lt;li&gt;pollen grains on sunflower stigmas, and&lt;/li&gt;
+	&lt;li&gt;glandular trichomes on leaf discs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Tuesday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/10/04/tuesday-3/index.html"/>
+   <updated>2011-10-04T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/10/04/tuesday-3/tuesday-3</id>
+   <content type="html">&lt;ul&gt;
+	&lt;li&gt;Updated notes about manuscript on latitudinal gradients in biodiversity, based on &lt;a href=&quot;http://schamber.wordpress.com/2011/10/04/rice-eeb-seminar-by-john-wiens-sep-26-2011/&quot; target=&quot;_blank&quot;&gt;seminar here by John Weins&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Drafted &lt;a href=&quot;http://innge.net/&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;caps&quot;&gt;INNGE&lt;/span&gt;&lt;/a&gt; blog post&lt;/li&gt;
+	&lt;li&gt;Working on conditionality MA manuscript&lt;/li&gt;
+	&lt;li&gt;Added &lt;a href=&quot;http://figshare.com/figures/index.php/Ocotillo_ants&quot; target=&quot;_blank&quot;&gt;first figure&lt;/a&gt; to FigShare on a failed project involving ocotillo and ants in Tucson, AZ&lt;/li&gt;
+	&lt;li&gt;Recorded data on bowl trap samples of bees from helianthus research (nice podcast on quitting from the Freakonomics folks, inspired me to quit something!)&lt;/li&gt;
+	&lt;li&gt;Almost finished tutorial for dryad, an R package to interface with the Dryad data repository. Collaborate on the code dev &lt;a href=&quot;https://github.com/cboettig/dryad&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. Tutorial is &lt;a href=&quot;http://ropensci.org/tutorials/dryad-tutorial/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. Dryad is &lt;a href=&quot;http://datadryad.org/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Rice EEB seminar by John Wiens, Sep 26, 2011</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/10/04/rice-eeb-seminar-by-john-wiens-sep-26-2011/index.html"/>
+   <updated>2011-10-04T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/10/04/rice-eeb-seminar-by-john-wiens-sep-26-2011/rice-eeb-seminar-by-john-wiens-sep-26-2011</id>
+   <content type="html">&lt;ul&gt;
+	&lt;li&gt;Weins suggests that species interactions are important for evolution of climatic tolerances (i.e., climatic niche conservatism)&lt;/li&gt;
+	&lt;li&gt;pseudo-quote from Weins: &amp;#8220;species interactions are important in constraining evolutionary change, not just driving evolutionary change&amp;#8221;&lt;/li&gt;
+	&lt;li&gt;climatic niche conservatism is one way that links species interaction outcomes and species richness&amp;#8230;.&lt;/li&gt;
+	&lt;li&gt;note to self, while talk was going: although more species richness in tropics in general, it may be that more functional diversity is found in temperate areas, &lt;span class=&quot;caps&quot;&gt;BECAUSE&lt;/span&gt; Weins shows that in many clades there is more diversity of deep nodes in temperate areas than in tropical areas (few clades are found in tropical areas in his data, but those that are have a lot of species).&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Wednesday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/09/07/thursday-5/index.html"/>
+   <updated>2011-09-07T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/09/07/thursday-5/thursday-5</id>
+   <content type="html">&lt;ol&gt;
+	&lt;li&gt;Trying to learn how to interface with &lt;span class=&quot;caps&quot;&gt;SQL&lt;/span&gt; from R&lt;/li&gt;
+&lt;ul&gt;
+	&lt;li&gt;Trying package RMySQL within R&lt;/li&gt;
+&lt;ul&gt;
+	&lt;li&gt;Site here: &lt;a href=&quot;http://biostat.mc.vanderbilt.edu/wiki/Main/RMySQL&quot; target=&quot;_blank&quot;&gt;http://biostat.mc.vanderbilt.edu/wiki/Main/RMySQL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.hofroe.net/stat480/22-RMySQL.pdf&quot; target=&quot;_blank&quot;&gt;Nice powerpoint talk on &lt;span class=&quot;caps&quot;&gt;SQL&lt;/span&gt; from R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+	&lt;li&gt;Watched &lt;a href=&quot;http://r-ecology.blogspot.com/2011/09/jonathan-eisen-on-fourth-domain-and.html&quot; target=&quot;_blank&quot;&gt;Jonathan Eisen&amp;#8217;s interview&lt;/a&gt; about open science and his paper on the fourth dimension. Awesome how he is such a strong advocate for open science. Good form sir.&lt;/li&gt;
+	&lt;li&gt;Data collection in lab&amp;#8230;&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Tuesday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/09/06/tuesday-2/index.html"/>
+   <updated>2011-09-06T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/09/06/tuesday-2/tuesday-2</id>
+   <content type="html">&lt;ol&gt;
+	&lt;li&gt;Finished (almost) introduction R talk for Friday for our R meetings&lt;/li&gt;
+	&lt;li&gt;Website for the above R meetings here: &lt;a href=&quot;https://sites.google.com/site/ricergroup/&quot; target=&quot;_blank&quot;&gt;https://sites.google.com/site/ricergroup/&lt;/a&gt;&lt;/li&gt;
+&lt;ul&gt;
+	&lt;li&gt;Also, some content for the meetings at Github here:  &lt;a href=&quot;https://github.com/organizations/RatRiceEEB&quot; target=&quot;_blank&quot;&gt;https://github.com/organizations/RatRiceEEB&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+	&lt;li&gt;Finished manuscript review for manuscript on honeybees&lt;/li&gt;
+	&lt;li&gt;Checked over functions in the taxize package on github, &lt;a href=&quot;https://github.com/SChamberlain/taxize_&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;ul&gt;
+	&lt;li&gt;Some of the taxize functions should probably be removed&lt;/li&gt;
+	&lt;li&gt;need to figure out uBio &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; services&lt;/li&gt;
+	&lt;li&gt;not sure what to do with the &lt;span class=&quot;caps&quot;&gt;EOL&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;. Can anyone think of use cases they would like to see implemented from R!?&lt;/li&gt;
+&lt;/ul&gt;
+	&lt;li&gt;Don&amp;#8217;t understand VertNet &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; help page, submitted github issue.&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Friday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/09/02/friday-2/index.html"/>
+   <updated>2011-09-02T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/09/02/friday-2/friday-2</id>
+   <content type="html">&lt;ol&gt;
+	&lt;li&gt;Chatted with Karthik and Carl of ropensci team about plans for future of ropensci. Exciting stuff!!!&lt;/li&gt;
+	&lt;li&gt;First meeting of R group in our &lt;span class=&quot;caps&quot;&gt;EEB&lt;/span&gt; department at Rice. Went well, and lined up a few topics to have tutorials on:&lt;/li&gt;
+&lt;ul&gt;
+	&lt;li&gt;intro and data manipulation&lt;/li&gt;
+	&lt;li&gt;visualizations&lt;/li&gt;
+	&lt;li&gt;molecular methods (?)&lt;/li&gt;
+	&lt;li&gt;bioinformatics&lt;/li&gt;
+	&lt;li&gt;statistics and linear models, etc.&lt;/li&gt;
+&lt;/ul&gt;
+	&lt;li&gt;Lots of dat entry&lt;/li&gt;
+	&lt;li&gt;How do I get historical &lt;span class=&quot;caps&quot;&gt;ISI&lt;/span&gt; journal impact factors (anybody know please let me know)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://opencpu.org/&quot; target=&quot;_blank&quot;&gt;OpenCPU&lt;/a&gt; looks like an awesome project &amp;#8211; need to check it out more&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Thursday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/09/01/thursday-4/index.html"/>
+   <updated>2011-09-01T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/09/01/thursday-4/thursday-4</id>
+   <content type="html">&lt;ol&gt;
+	&lt;li&gt;Massive amounts of flower trait data entry&lt;/li&gt;
+	&lt;li&gt;Added five new functions to our R wrapper for the National Phenology Network database &lt;a href=&quot;https://github.com/SChamberlain/rnpn&quot; target=&quot;_blank&quot;&gt;at Github&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Discussed R course in our department&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Wednesday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/08/31/wednesday-2/index.html"/>
+   <updated>2011-08-31T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/08/31/wednesday-2/wednesday-2</id>
+   <content type="html">&lt;div&gt;Randomness&lt;/div&gt;
+&lt;ol&gt;
+	&lt;li&gt;Lots of data entry&lt;/li&gt;
+	&lt;li&gt;Met with interested parties to discuss R course in our department&lt;/li&gt;
+&lt;ol&gt;
+	&lt;li&gt;Draft website at Github for this course here: https://github.com/organizations/RatRiceEEB&lt;/li&gt;
+&lt;/ol&gt;
+	&lt;li&gt;&lt;a href=&quot;http://schamber.wordpress.com/2011/08/11/notes-on-jason-fridleys-talk-at-esa-2011/#comments&quot; target=&quot;_blank&quot;&gt;Interesting comment&lt;/a&gt; on my notes to Jason Fridley&amp;#8217;s talk from Jeremy Fox&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div&gt;Getting lots of chatter about recent blog post at &lt;span class=&quot;caps&quot;&gt;INNGE&lt;/span&gt; about open data and ecology. Waiting for some constructive criticism still!&lt;/div&gt;
+&lt;div&gt;Need to learn how to use powerful backends with R&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;SQL&lt;/span&gt; with R&lt;/li&gt;
+&lt;ul&gt;
+	&lt;li&gt;http://www.mysql.com/downloads/mysql/&lt;/li&gt;
+	&lt;li&gt;RmySQL: http://cran.r-project.org/web/packages/RMySQL/index.html&lt;/li&gt;
+&lt;/ul&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;RHIPE&lt;/span&gt;: with Hadoop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Saturday: SQL notes</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/08/20/saturday-sql-notes/index.html"/>
+   <updated>2011-08-20T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/08/20/saturday-sql-notes/saturday-sql-notes</id>
+   <content type="html">&lt;pre&gt;-basic: SELECT * FROM tablename
+-JOIN: (add columns)
+	-inner join: 'INNER JOIN COLUMN ON TABLE.COLUMN '
+	-left join:
+-UNION: (add rows)
+	-append results of one statement to another
+	-
+-DISTINCT: ~ unique
+-top 5 rows 'top 5 ???'
+-WHERE: ?????
+-'*' means choose all columns (alternatively, specify columns by name
+-select YEAR() AS Year_Date, MONTH() [where 'AS' specifies a new column]
+-UPDATE: update a table
+-DELETE: delete values
+-dates are single quoted (can't use double quotes)
+-column names are not quoted
+-
+-
+-
+
+-Indexing: makes searching faster
+	-create new table, go to indexing options
+	-don't index all columns, just ones to e.g., join by
+	-don't necessarily need to index columns though, unless perhaps large tables
+
+-Write your own function: 'new multiline statement' and it provides a template
+
+-Loops:&lt;/pre&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Notes on Jason Fridley's Talk at ESA 2011</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/08/11/notes-on-jason-fridleys-talk-at-esa-2011/index.html"/>
+   <updated>2011-08-11T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/08/11/notes-on-jason-fridleys-talk-at-esa-2011/notes-on-jason-fridleys-talk-at-esa-2011</id>
+   <content type="html">&lt;div&gt;
+&lt;div id=&quot;magicdomid197&quot;&gt;
+&lt;ul&gt;
+	&lt;li&gt;Evolutionary imbalance hypothesis (&lt;span class=&quot;caps&quot;&gt;EIH&lt;/span&gt;):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;magicdomid80&quot;&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Evolution is contingent and imperfect&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;magicdomid165&quot;&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Ecological optimization is rarely/never achieved&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;magicdomid156&quot;&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Similar ecological niches occur around the world&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;magicdomid189&quot;&gt;
+&lt;ul&gt;
+	&lt;li&gt;Inspired by MacArthur (1972)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;magicdomid380&quot;&gt;
+&lt;ul&gt;
+	&lt;li&gt;Lots of ecological and evolutionary traits that may predict why one biota may overtake another  &amp;#8211; but Jason suggests just use phylogenetic diversity as a proxy for these traits that are hard to measure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;magicdomid469&quot;&gt;
+&lt;ul&gt;
+	&lt;li&gt;Question: In a destination region, is the invasability of the source regions related to the phylogenetic diversity of those regions?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;magicdomid480&quot;&gt;
+&lt;ul&gt;
+	&lt;li&gt;Answer:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;magicdomid599&quot;&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;In Eastern Deciduous forests: proportion invasive species is positively related to phylogenetic diversity (PD)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;magicdomid604&quot;&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;In Mediterranean California: proportion invasive species is positively related to phylogenetic diversity (PD)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;magicdomid625&quot;&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;In Czech Republic: proportion invasive species is positively related to phylogenetic diversity (PD)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&quot;magicdomid669&quot;&gt;
+&lt;ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;In New Zealand: No relationship between proportion invasive species and phylogenetic diversity (PD)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Meta-analysis interactive website?</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/08/08/meta-analysis-interactive-website/index.html"/>
+   <updated>2011-08-08T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/08/08/meta-analysis-interactive-website/meta-analysis-interactive-website</id>
+   <content type="html">&lt;p&gt;Possibly create a website where people submit their datasets to the site:&lt;/p&gt;
+&lt;p&gt;-the code takes data and,&lt;/p&gt;
+&lt;p&gt;-makes visualization plots of the data,&lt;/p&gt;
+&lt;p&gt;-pulls in figures or tables or sections where data retrieved from each primary paper&lt;/p&gt;
+&lt;p&gt;-examine figures/tables/etc from each primary paper&lt;/p&gt;
+&lt;p&gt;-put in a web based data capture interface (Graph Click is a nice example) for data acquisition down the road&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;Concerns&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;-What about coyright concerns (use only open source meta-analysis data sets at first, e.g., from PLoS journals)&lt;/p&gt;
+&lt;p&gt;-Could this site interface with sites like Dryad via API&amp;#8217;s?&lt;/p&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>PLoS Article Level Metrics</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/07/26/plos-article-level-metrics/index.html"/>
+   <updated>2011-07-26T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/07/26/plos-article-level-metrics/plos-article-level-metrics</id>
+   <content type="html">&lt;p&gt;PLoS just announced their article level metrics &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;: http://api.plos.org/alm/faq/. This is very exciting, and I need to include these new data sources our &lt;a href=&quot;https://github.com/SChamberlain/rplos&quot; target=&quot;_blank&quot;&gt;rplos package for R&lt;/a&gt;. Examples of use of this &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; here: http://api.plos.org/alm/examples/.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Our PLoS/Mendeley competition team is growing</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/07/14/our-plosmendeley-competition-team-is-growing/index.html"/>
+   <updated>2011-07-14T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/07/14/our-plosmendeley-competition-team-is-growing/our-plosmendeley-competition-team-is-growing</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://nature.berkeley.edu/~karthik/&quot; target=&quot;_blank&quot;&gt;Karthik Ram&lt;/a&gt; (his blog Inundata &lt;a href=&quot;http://inundata.org/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;) has just joined &lt;a href=&quot;http://www.carlboettiger.info/&quot; target=&quot;_blank&quot;&gt;Carl Boettiger &lt;/a&gt;and I to develop two R packages further, and to develop a third package that may be called something like rOpenSci to fully search all open reference software, open journals, open databases, etc. online.&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&quot;http://dev.mendeley.com/api-binary-battle&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; for the PLoS/Mendeley competition.&lt;/p&gt;
+&lt;p&gt;Github site for &lt;a href=&quot;https://github.com/SChamberlain/rplos&quot; target=&quot;_blank&quot;&gt;rplos&lt;/a&gt; and &lt;a href=&quot;https://github.com/cboettig/RMendeley&quot; target=&quot;_blank&quot;&gt;RMendeley&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;&lt;span class=&quot;caps&quot;&gt;THE&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;TEAM&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Carl&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://secure.gravatar.com/avatar/9dc8783d8ff42565db30cc90e29ad01c?s=140&amp;d=https://gs1.wac.edgecastcdn.net/80460E/assets%2Fimages%2Fgravatars%2Fgravatar-140.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Karthik&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://secure.gravatar.com/avatar/b62bfec13156772ed147ca31f6807fa2?s=140&amp;d=https://gs1.wac.edgecastcdn.net/80460E/assets%2Fimages%2Fgravatars%2Fgravatar-140.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Me&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://en.gravatar.com/userimage/13225661/da9b8ad02d64fd15c28cf4397e17b369.jpeg&quot; alt=&quot;Gravatar for myrmecocystus@gmail.com&quot; /&gt;&lt;/p&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Lame, Elesevier, Lame</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/07/14/lame-elesevier/index.html"/>
+   <updated>2011-07-14T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/07/14/lame-elesevier/lame-elesevier</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://developer.sciverse.com/api&quot; target=&quot;_blank&quot;&gt;Elsevier&amp;#8217;s &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; &lt;/a&gt;only allows member institutions to create apps using their &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;. Will this ever change? Someday hopefully&amp;#8230;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;From their &lt;span class=&quot;caps&quot;&gt;FAQ&lt;/span&gt;:&lt;/span&gt;&lt;br /&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;div&gt;Q&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;How do I get access to the SciVerse APIs?&lt;br /&gt;
+&lt;div&gt;A&lt;/div&gt;&lt;br /&gt;
+You will need to register an account and be affiliated with an institution that is part of the SciVerse Applications beta.  You can then Start an application where you will receive an &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; key.  Please take a look at our &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; documentation.&lt;/p&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Tuesday, ievobio notes</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/06/21/tuesday-ievobio-notes/index.html"/>
+   <updated>2011-06-21T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/06/21/tuesday-ievobio-notes/tuesday-ievobio-notes</id>
+   <content type="html">&lt;p&gt;BiSciCol:&lt;br /&gt;
+&lt;ul&gt;&lt;br /&gt;
+	&lt;li&gt;Query taxonomic collections, and their associated sequences and morphology data&lt;/li&gt;&lt;br /&gt;
+	&lt;li&gt;so many acronymns&lt;/li&gt;&lt;br /&gt;
+	&lt;li&gt;http://darwin.berkeley.edu:8080/biscicol/#&lt;/li&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;div&gt;Phenoscape Knowledgebase&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+	&lt;li&gt;Semantic integration with phenotype data&lt;/li&gt;
+	&lt;li&gt;http://kb.phenoscape.org/&lt;/li&gt;
+	&lt;li&gt;been in development for many years apparently&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;Ontogrator&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+	&lt;li&gt;www.ontogrator.org&lt;/li&gt;
+	&lt;li&gt;What about infochimps though? and all the other datamarkets?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Thursday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/06/16/thursday-3/index.html"/>
+   <updated>2011-06-16T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/06/16/thursday-3/thursday-3</id>
+   <content type="html">&lt;ul&gt;
+	&lt;li&gt;Possibly use &lt;a href=&quot;http://corp.topsy.com/developers/api/&quot; target=&quot;_blank&quot;&gt;Topsy &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;&lt;/a&gt; (and &lt;a href=&quot;http://code.google.com/p/otterapi/wiki/Resources?tm=6&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;) for looking at pages/url&amp;#8217;s that are referenced within tweets to integrate into rplos and/or rspringer, and like packages in development with Carl Boettiger. Does &lt;a href=&quot;http://cran.r-project.org/web/packages/twitteR/index.html&quot; target=&quot;_blank&quot;&gt;twitteR&lt;/a&gt; package already do this though?&lt;/li&gt;
+	&lt;li&gt;Pushed two new functions to ropstates: billlookup and legislatorsearch. Still many more functions to go!!! Need to get feedback somehow on what to do with it, where to go.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Thursday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/06/09/thursday-2/index.html"/>
+   <updated>2011-06-09T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/06/09/thursday-2/thursday-2</id>
+   <content type="html">&lt;p&gt;-Check out Elsevier &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;, what kinds of information can be retrieved? (http://developer.sciverse.com/api). Seems that it&amp;#8217;s similar to Mendley in that API&amp;#8217;s are centered around specific applications being developed, unfortunately. &lt;br /&gt;
+-Test Carl&amp;#8217;s RMendeley package with &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; (https://github.com/cboettig/RMendeley.git)&lt;br /&gt;
+-Further develop/simplify plot_throughtime function in rplos (https://github.com/SChamberlain/rplos).&lt;/p&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Tuesday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/06/07/tuesday/index.html"/>
+   <updated>2011-06-07T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/06/07/tuesday/tuesday</id>
+   <content type="html">&lt;ol&gt;
+	&lt;li&gt;Try to incorporate the &lt;a href=&quot;http://cran.r-project.org/web/packages/RNCBI/index.html&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;caps&quot;&gt;RNCBI&lt;/span&gt; package &lt;/a&gt;to &lt;a href=&quot;https://SChamberlain@github.com/SChamberlain/taxize_.git&quot; target=&quot;_blank&quot;&gt;taxize&lt;/a&gt; instead of writing my own functions?&lt;/li&gt;
+	&lt;li&gt;Start developing code for a wrapper to the new PLoS &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; to query their databases and papers, etc.&lt;/li&gt;
+	&lt;li&gt;Also incorporate Encyclopedia of Life &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;, not easily used &lt;span class=&quot;caps&quot;&gt;URL&lt;/span&gt; format though&lt;/li&gt;
+	&lt;li&gt;And uBio &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Monday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/06/07/monday/index.html"/>
+   <updated>2011-06-07T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/06/07/monday/monday</id>
+   <content type="html">&lt;p&gt;Field work at Bardwell and Cameron, TX&lt;/p&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Sunday: Research Ideas</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/06/05/sunday-research-ideas/index.html"/>
+   <updated>2011-06-05T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/06/05/sunday-research-ideas/sunday-research-ideas</id>
+   <content type="html">&lt;ol&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;IFNM&lt;/span&gt;: absciscic acid manipulate factors. Phylogenetic manips. Argentine ants colonizing in &lt;span class=&quot;caps&quot;&gt;IFNM&lt;/span&gt;?&lt;/li&gt;
+	&lt;li&gt;Manip abund distributions of cacti. Manip connections btw cactus species.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Friday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/06/05/friday/index.html"/>
+   <updated>2011-06-05T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/06/05/friday/friday</id>
+   <content type="html">&lt;div&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;PLoS Journals &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; work&lt;/span&gt;&lt;/div&gt;
+&lt;ul&gt;
+	&lt;li&gt;Work on code for plosjournals api package, push to github for Carl to look at&lt;/li&gt;
+	&lt;li&gt;Carl on board with working on plosjournals api code for R&lt;/li&gt;
+	&lt;li&gt;Can we search figure captions specifically within the plos api?&lt;/li&gt;
+	&lt;li&gt;Pushed first code to github on this package&lt;/li&gt;
+	&lt;li&gt;Look at http://biotext.berkeley.edu/ for inspiration for development of our functions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+	&lt;li&gt;Finished up figures for UH work&lt;/li&gt;
+	&lt;li&gt;Finished figures for phylogMA work&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Thursday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/06/03/thursday/index.html"/>
+   <updated>2011-06-03T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/06/03/thursday/thursday</id>
+   <content type="html">&lt;ul&gt;
+	&lt;li&gt;Field work at Beakley, watered plants, planted remaining MF near/far plants&lt;/li&gt;
+	&lt;li&gt;Lots and lots of driving&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Wednesday</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/06/01/wednesday/index.html"/>
+   <updated>2011-06-01T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/06/01/wednesday/wednesday</id>
+   <content type="html">&lt;div&gt;To Do:&lt;/div&gt;
+&lt;ol&gt;
+	&lt;li&gt;New &lt;a href=&quot;http://api.plos.org/&quot; target=&quot;_blank&quot;&gt;PLoS &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; released&lt;/a&gt;. Try to write wrapper in R to query PLoS data. Joined Google Group for the PLoS &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;.&lt;/li&gt;
+	&lt;li&gt;Google Correlate&amp;#8230;.&lt;/li&gt;
+	&lt;li&gt;FIgure out how to query &lt;a href=&quot;http://linnaeus.zoology.gla.ac.uk/~rpage/tbmap/&quot; target=&quot;_blank&quot;&gt;TBMap&lt;/a&gt; to access a lot of taxonomic information from many data sources.&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+
+
+ </entry>
+ 
+ <entry>
+   <title>Towards open science</title>
+   <link href="http://schamberlain.github.com/labnotebook/2011/05/30/adfadfafasdf/index.html"/>
+   <updated>2011-05-30T00:00:00-05:00</updated>
+   <id>http://schamberlain.github.com/labnotebook/2011/05/30/adfadfafasdf/adfadfafasdf</id>
+   <content type="html">&lt;div&gt;
+&lt;p&gt;Inspired by &lt;a href=&quot;http://www.carlboettiger.info/research/lab-notebook&quot; target=&quot;_blank&quot;&gt;Carl Boettiger&amp;#8217;s open lab notebook&lt;/a&gt;, I am starting  to document my science on this site. As Carl states on his website, this is not really a blog per se, but a records of thoughts, etc., and I may or may not share useful information for others.&lt;/p&gt;
+&lt;/div&gt;</content>
+
+
+
+ </entry>
+ 
+ 
+</feed>

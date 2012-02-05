@@ -1,0 +1,13 @@
+---
+layout: post
+title: Thursday
+permalink: /2011/06/16/thursday-3/index.html
+post_id: 460
+categories: 
+- Uncategorized
+---
+
+<ul>
+	<li>Possibly use <a href="http://corp.topsy.com/developers/api/" target="_blank">Topsy API</a> (and <a href="http://code.google.com/p/otterapi/wiki/Resources?tm=6" target="_blank">here</a>) for looking at pages/url's that are referenced within tweets to integrate into rplos and/or rspringer, and like packages in development with Carl Boettiger. Does <a href="http://cran.r-project.org/web/packages/twitteR/index.html" target="_blank">twitteR</a> package already do this though?</li>
+	<li>Pushed two new functions to ropstates: billlookup and legislatorsearch. Still many more functions to go!!! Need to get feedback somehow on what to do with it, where to go.</li>
+</ul>

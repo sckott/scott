@@ -1,0 +1,17 @@
+---
+layout: post
+title: Tuesday
+permalink: /2011/10/04/tuesday-3/index.html
+post_id: 568
+categories: 
+- Uncategorized
+---
+
+<ul>
+	<li>Updated notes about manuscript on latitudinal gradients in biodiversity, based on <a href="http://schamber.wordpress.com/2011/10/04/rice-eeb-seminar-by-john-wiens-sep-26-2011/" target="_blank">seminar here by John Weins</a></li>
+	<li>Drafted <a href="http://innge.net/" target="_blank">INNGE</a> blog post</li>
+	<li>Working on conditionality MA manuscript</li>
+	<li>Added <a href="http://figshare.com/figures/index.php/Ocotillo_ants" target="_blank">first figure</a> to FigShare on a failed project involving ocotillo and ants in Tucson, AZ</li>
+	<li>Recorded data on bowl trap samples of bees from helianthus research (nice podcast on quitting from the Freakonomics folks, inspired me to quit something!)</li>
+	<li>Almost finished tutorial for dryad, an R package to interface with the Dryad data repository. Collaborate on the code dev <a href="https://github.com/cboettig/dryad" target="_blank">here</a>. Tutorial is <a href="http://ropensci.org/tutorials/dryad-tutorial/" target="_blank">here</a>. Dryad is <a href="http://datadryad.org/" target="_blank">here</a>.</li>
+</ul>
