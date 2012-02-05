@@ -5,8 +5,20 @@ title: Projects
 
 <h1 class="page-title">Open Source Projects</h1>
 
+<html>
+  ...
+  <div id="github-projects"></div>
+  ...
+</html>
 
-https://github.com/api/v2/xml/repos/show/ropensci
+<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="/scripts/github.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(function() {
+    $("#github-projects").loadRepositories("ropensci");
+  });
+</script>
+
 
 
 
