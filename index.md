@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Scott Chamberlain's Lab Notebook
+title: Scott Chamberlain
 ---
 
-This is my open lab notebook where I talk about what I'm doing in research, thoughts, analyses, etc.
+My name is Scott Chamberlain.  I am a graduate student in the Ecology and Evolutionary Biology Department at Rice University in Houston, TX.
 
-I am a researcher in evolutionary ecology.  
+Read more about me [here][]. 
 
-Check out my other stuff [here][]. 
-
-[here]: http://schamberlain.github.com/scott
+[here]: http://schamberlain.github.com/scott/about

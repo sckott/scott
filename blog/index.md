@@ -3,6 +3,8 @@ layout: page
 title: Scott Chamberlain's Lab Notebook
 ---
 
+This is my open lab notebook where I talk about what I'm doing in research, thoughts, analyses, etc.
+
 <div id="posts">
   <h1>Blog posts</h1>
     {% for post in site.posts %}
