@@ -4,25 +4,11 @@
  <title></title>
  <link href="http://schamberlain.github.com/scott/atom.xml" rel="self"/>
  <link href="http://schamberlain.github.com/scott"/>
- <updated>2012-02-05T08:23:01-06:00</updated>
+ <updated>2012-02-05T08:34:29-06:00</updated>
  <id>http://schamberlain.github.com/scott</id>
 
  
  
- 
- <entry>
-   <title>Notes on a potential GitHub journal</title>
-   <link href="http://schamberlain.github.com/scott/2012/01/31/github-publishing-model/"/>
-   <updated>2012-01-31T00:00:00-06:00</updated>
-   <id>http://schamberlain.github.com/scott/2012/01/31/github-publishing-model</id>
-   <content type="html">&lt;p&gt;Would it work to publish a journal solely on GitHub using Jekyll as the frontend web pages?&lt;/p&gt;
-
-&lt;p&gt;There was a discussion on Twitter yesterday.&lt;/p&gt;
-</content>
-
-
-
- </entry>
  
  <entry>
    <title>Tuesday Jan 10, 2012 Notes</title>
