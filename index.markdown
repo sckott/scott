@@ -9,6 +9,6 @@ Read more about me [here][].
 
 ![that's me](/images/avatar_small.png)
 
-![A sunflower research site](/images/research_sunflowers.png)
+![A sunflower research site](/images/avatar_small.png)
 
 [here]: http://schamberlain.github.com/scott/about
