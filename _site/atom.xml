@@ -4,7 +4,7 @@
  <title></title>
  <link href="http://schamberlain.github.com/scott/atom.xml" rel="self"/>
  <link href="http://schamberlain.github.com/scott"/>
- <updated>2012-02-05T22:04:49-06:00</updated>
+ <updated>2012-02-05T22:06:58-06:00</updated>
  <id>http://schamberlain.github.com/scott</id>
 
  
@@ -16,34 +16,26 @@
    <updated>2012-01-10T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/scott/2012/01/10/Tuesday-Jan102012</id>
    <content type="html">&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Recology blog:&lt;/p&gt;
+&lt;li&gt;Recology blog:
 
 &lt;ol&gt;
 &lt;li&gt;add Pascal as an author&lt;/li&gt;
-
 &lt;li&gt;add rOpenSci image button with link to About sidebar&lt;/li&gt;
-
 &lt;li&gt;Fix category links!!&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Videos for Journal of Ecology blog: need to figure out why guest voice is super quiet. Perhaps something wrong with the .mov file extension when importing to YouTube.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Edit &lt;code&gt;loghistplot&lt;/code&gt; function &lt;a href='http://schamberlain.github.com/2012/01/logistic-regression-barplot-fig/'&gt;here&lt;/a&gt; to include more options&lt;/p&gt;
+&lt;li&gt;Videos for Journal of Ecology blog: need to figure out why guest voice is super quiet. Perhaps something wrong with the .mov file extension when importing to YouTube.&lt;/li&gt;
+&lt;li&gt;Edit &lt;code&gt;loghistplot&lt;/code&gt; function &lt;a href=&quot;http://schamberlain.github.com/2012/01/logistic-regression-barplot-fig/&quot;&gt;here&lt;/a&gt; to include more options
 
 &lt;ol&gt;
 &lt;li&gt;allow users to manipulate colors&lt;/li&gt;
-
 &lt;li&gt;include points along with histogram&lt;/li&gt;
-
 &lt;li&gt;more?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content>
+&lt;/ol&gt;
+
+</content>
 
 
 
@@ -54,7 +46,8 @@
    <link href="http://schamberlain.github.com/scott/2012/01/08/testing-twitterfeed/"/>
    <updated>2012-01-08T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/scott/2012/01/08/testing-twitterfeed</id>
-   <content type="html">&lt;p&gt;Does this work on twitterfeed?&lt;/p&gt;</content>
+   <content type="html">&lt;p&gt;Does this work on twitterfeed?&lt;/p&gt;
+</content>
 
 
 
@@ -65,9 +58,10 @@
    <link href="http://schamberlain.github.com/scott/2012/01/08/self-publishing/"/>
    <updated>2012-01-08T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/scott/2012/01/08/self-publishing</id>
-   <content type="html">&lt;p&gt;What if scientists just published their papers after peer review on their own websites? Authors (&lt;a href='http://craphound.com/?p=3672'&gt;Cory Doctorow&lt;/a&gt;), musicians (&lt;a href='http://www.rollingstone.com/music/news/wilco-to-self-release-the-whole-love-in-september-20110629'&gt;Wilco&lt;/a&gt;), and comedians (&lt;a href='https://buy.louisck.net/'&gt;Louis C.K.&lt;/a&gt;) are starting to do this in small numbers, and having some sucess. They don&amp;#8217;t need peer review, but perhaps a site could be started where authors could solicit reviewers. Self publishing would allow scientists to make everything free - papers, data, figures - everything.&lt;/p&gt;
+   <content type="html">&lt;p&gt;What if scientists just published their papers after peer review on their own websites?  Authors (&lt;a href=&quot;http://craphound.com/?p=3672&quot;&gt;Cory Doctorow&lt;/a&gt;), musicians (&lt;a href=&quot;http://www.rollingstone.com/music/news/wilco-to-self-release-the-whole-love-in-september-20110629&quot;&gt;Wilco&lt;/a&gt;), and comedians (&lt;a href=&quot;https://buy.louisck.net/&quot;&gt;Louis C.K.&lt;/a&gt;) are starting to do this in small numbers, and having some sucess.  They don't need peer review, but perhaps a site could be started where authors could solicit reviewers.  Self publishing would allow scientists to make everything free - papers, data, figures - everything.&lt;/p&gt;
 
-&lt;p&gt;Perhaps what we need is a &lt;a href='https://github.com/'&gt;GitHub&lt;/a&gt; for science publishing. It would be all open access, would provide version control so that papers could be continually updated, and you can drill down into the data directly from figures. And of course, the code could all be hosted at this site.&lt;/p&gt;</content>
+&lt;p&gt;Perhaps what we need is a &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; for science publishing.  It would be all open access, would provide version control so that papers could be continually updated, and you can drill down into the data directly from figures.  And of course, the code could all be hosted at this site.&lt;/p&gt;
+</content>
 
 
 
@@ -78,9 +72,10 @@
    <link href="http://schamberlain.github.com/scott/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle/"/>
    <updated>2011-11-30T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/scott/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle</id>
-   <content type="html">&lt;p&gt;We entered two of our packages for integrating with PLoS Journals (rplos) and Mendeley (RMendeley) in the &lt;a href='http://dev.mendeley.com/api-binary-battle'&gt;Mendeley-PLoS Binary Battle&lt;/a&gt;.  Get them at GitHub (&lt;a href='https://github.com/ropensci/rplos'&gt;rplos&lt;/a&gt;, &lt;a href='https://github.com/ropensci/RMendeley'&gt;RMendeley&lt;/a&gt;).&lt;/p&gt;
+   <content type="html">&lt;p&gt;We entered two of our packages for integrating with PLoS Journals (rplos) and Mendeley (RMendeley) in the &lt;a href=&quot;http://dev.mendeley.com/api-binary-battle&quot;&gt;Mendeley-PLoS Binary Battle&lt;/a&gt;.  Get them at GitHub (&lt;a href=&quot;https://github.com/ropensci/rplos&quot;&gt;rplos&lt;/a&gt;, &lt;a href=&quot;https://github.com/ropensci/RMendeley&quot;&gt;RMendeley&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;&lt;a href='http://www.mendeley.com/blog/design-research-tools/winners-of-the-first-binary-battle-apps-for-science-contest/'&gt;We won third place&lt;/a&gt;!!  This gives us a $1,000 prize, plus a &lt;a href='http://ardrone.parrot.com/parrot-ar-drone/uk/'&gt;Parrot AR Drone helicopter&lt;/a&gt;.&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/blog/design-research-tools/winners-of-the-first-binary-battle-apps-for-science-contest/&quot;&gt;We won third place&lt;/a&gt;!!  This gives us a $1,000 prize, plus a &lt;a href=&quot;http://ardrone.parrot.com/parrot-ar-drone/uk/&quot;&gt;Parrot AR Drone helicopter&lt;/a&gt;.&lt;/p&gt;
+</content>
 
 
 
