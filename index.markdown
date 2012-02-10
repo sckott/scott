@@ -20,4 +20,4 @@ I study the evolution of species interactions, how species interactions influenc
 
 [More about me][here]
 
-[here]: /about.html
+[here]: {{ site.url }}/about
