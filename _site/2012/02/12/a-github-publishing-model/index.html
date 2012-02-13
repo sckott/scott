@@ -67,39 +67,82 @@
 
 <p>Publishing and publishers are stagnant, and have not innovated much in a long time, save a few such as <a href="http://www.plos.org/publications/journals/">Public Library of Science or PLoS</a>. </p>
 
-<p>Beyond PLoS, some experiments in publishing are taking place, including:
-* <a href="http://annotum.org/">Annotum</a>: an &ldquo;open-source, open-process, open-access scholarly authoring and publishing platform based on WordPress&rdquo;
-* <a href="http://scholasticahq.com/">Scholastica</a>: a peer-review, manuscript handling web-based platform. 
-* <a href="http://www.peerageofscience.org/">Peerage of Science</a>: a web service for &ldquo;automatically controlled, standardized, rigorous, fully anonymous scientific peer review&rdquo;
-* <a href="http://www.gigasciencejournal.com/">GigaScience</a>: online open-access open-data journal, with big-data studies, links standard manuscript publication with database for associated data, data anlaysis tools, and cloud-computing resources. </p>
+<p>Beyond PLoS, some experiments in publishing are taking place, including:</p>
+
+<ul>
+  <li>
+    <p><a href="http://annotum.org/">Annotum</a>: an &ldquo;open-source, open-process, open-access scholarly authoring and publishing platform based on WordPress&rdquo;</p>
+  </li>
+  <li>
+    <p><a href="http://scholasticahq.com/">Scholastica</a>: a peer-review, manuscript handling web-based platform. </p>
+  </li>
+  <li>
+    <p><a href="http://www.peerageofscience.org/">Peerage of Science</a>: a web service for &ldquo;automatically controlled, standardized, rigorous, fully anonymous scientific peer review&rdquo;</p>
+  </li>
+  <li>
+    <p><a href="http://www.gigasciencejournal.com/">GigaScience</a>: online open-access open-data journal, with big-data studies, links standard manuscript publication with database for associated data, data anlaysis tools, and cloud-computing resources. </p>
+  </li>
+</ul>
 
 <p>All these publishing innovations are great.  But, I think we need more, as do others.  A few weeks ago, a number of us discussed on Twitter the possibility of a publishing model based on <a href="https://github.com/">GitHub</a>.  (Marcio von Muhlen had a blog post in April last year titled <a href="http://marciovm.com/i-want-a-github-of-science/index.html">&ldquo;We need a GithHub of science&rdquo;</a> - which I should point out here as it is relavant.) </p>
 
 <h1 id="the-proposal">The proposal</h1>
 
-<p>What would a GitHub hosted journal look like?  I think there are three technological/software components (not counting human components of reviewers editors, etc.):
-1. Web platform/database for hosting manuscripts in various stages from just submitted to revisions to published.<br />
-2. Review system, including database of reviewers, the reviews themselves, etc.
-3. A frontend to present the papers/etc, submit manuscripts, and CSS to make it all look pretty. </p>
+<p>What would a GitHub hosted journal look like?  I think there are three technological/software components (not counting human components of reviewers editors, etc.):</p>
+
+<ol>
+  <li>
+    <p>Web platform/database for hosting manuscripts in various stages from just submitted to revisions to published.  </p>
+  </li>
+  <li>
+    <p>Review system, including database of reviewers, the reviews themselves, etc.</p>
+  </li>
+  <li>
+    <p>A frontend to present the papers/etc, submit manuscripts, and CSS to make it all look pretty. </p>
+  </li>
+</ol>
 
 <p>In my opinion, GitHub can play a major role in numbers (1) and (3).  In (1), the git based versioning of code could also be used to submit and handle papers.  In addition, wrt (3), <a href="http://pages.github.com/">GitHub Pages</a> is a way to present content in a static web page from one of the branches of your GitHub repository.  See <a href="https://github.com/mojombo/jekyll/wiki/sites">here</a> for a growing list of websites hosted on GitHub pages.  Presenting published and early view papers, etc. doesn&rsquo;t need to have some insane website, so this could be a cheap way to do it. And you can use a custom domain name for the journal, e.g., go from myjournal.github.com to myjournal.com.  </p>
 
 <p>As for (2), the above-mentioned Scholastica or Peerage of Science could be an option for handling peer reviews.  </p>
 
 <h1 id="disadvantages-and-advantages">Disadvantages and advantages</h1>
-<p>## The disadvantages
-So a GitHub hosted journal has obivous drawbacks&hellip;
-* Technical knowhow: Some scientists may not know how to use git, and if papers have to be submitted in Latex, then you will eliminate many potential authors possibly.
-* There aren&rsquo;t rich web markup tools. 
-* Others?</p>
+
+<h2 id="the-disadvantages">The disadvantages</h2>
+<p>So a GitHub hosted journal has obivous drawbacks&hellip;</p>
+
+<ul>
+  <li>
+    <p>Technical knowhow: Some scientists may not know how to use git, and if papers have to be submitted in Latex, then you will eliminate many potential authors possibly.</p>
+  </li>
+  <li>
+    <p>There aren&rsquo;t rich web markup tools. </p>
+  </li>
+  <li>
+    <p>Others?</p>
+  </li>
+</ul>
 
 <h2 id="the-advantages">The advantages</h2>
-<p>&hellip;and advantages
-* Completely open: A GitHub journal would be completely open, so that the public/scientists could see everything that was going on in the journal, including all the manuscript revisions, and reviews if they were done on GitHub, or at least mirrored to GitHub. 
-* API: GitHub has a built in API, so we don&rsquo;t have to build one ourselves. 
-* Versioning: manuscripts would include automatic versioning, including tracking down to the periods that were changed between versions
-* Metrics: GitHub has built in metrics on &ldquo;watchers&rdquo;, &ldquo;followers&rdquo;, and for clones and forks, among other things. In addition, we could pull altmetrics data from the <a href="http://totalimpact.org/">TotalImpact</a> API, and present those data associated with papers on the rendered website for the journal. Of course, anyone could hit the TotalImpact, or GitHub APIs themselves for these metrics too. 
-* Pull requests: maybe pull requests could be used to submit papers.  </p>
+<p>&hellip;and advantages</p>
+
+<ul>
+  <li>
+    <p>Completely open: A GitHub journal would be completely open, so that the public/scientists could see everything that was going on in the journal, including all the manuscript revisions, and reviews if they were done on GitHub, or at least mirrored to GitHub. </p>
+  </li>
+  <li>
+    <p>API: GitHub has a built in API, so we don&rsquo;t have to build one ourselves. </p>
+  </li>
+  <li>
+    <p>Versioning: manuscripts would include automatic versioning, including tracking down to the periods that were changed between versions</p>
+  </li>
+  <li>
+    <p>Metrics: GitHub has built in metrics on &ldquo;watchers&rdquo;, &ldquo;followers&rdquo;, and for clones and forks, among other things. In addition, we could pull altmetrics data from the <a href="http://totalimpact.org/">TotalImpact</a> API, and present those data associated with papers on the rendered website for the journal. Of course, anyone could hit the TotalImpact, or GitHub APIs themselves for these metrics too. </p>
+  </li>
+  <li>
+    <p>Pull requests: maybe pull requests could be used to submit papers.  </p>
+  </li>
+</ul>
 
 <p>The question is do these advantages outweigh the potential drawbacks.  I don&rsquo;t know the answer to this question, but I think this conversation is worth having. </p>
 
@@ -134,7 +177,7 @@ So a GitHub hosted journal has obivous drawbacks&hellip;
 </div>
 
 <div id='footer'>
-	Page last generated on Mon Feb 13 09:08:45 -0600 2012. Website powered by <a href='https://github.com/mojombo/jekyll'>Jekyll</a>.
+	Page last generated on Mon Feb 13 09:13:53 -0600 2012. Website powered by <a href='https://github.com/mojombo/jekyll'>Jekyll</a>.
 </div>
 
 	<script type="text/javascript">
