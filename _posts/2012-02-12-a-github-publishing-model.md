@@ -51,11 +51,12 @@ The question is do these advantages outweigh the potential drawbacks.  I don't k
 # What would the structure look like on GitHub?
 Maybe like this:
 
-<iframe src="https://docs.google.com/presentation/embed?id=1J7DSxk0H90NVcRvPhug4UYcH_pCngMWO7-aIeqAxIeA&start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/embed?id=1J7DSxk0H90NVcRvPhug4UYcH_pCngMWO7-aIeqAxIeA&start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 # What do you think?
 
 What do you think?  Does this journal idea sound feasible? Should we just start a journal hosted on GitHub and see what happens?
+
 
 [plos]: http://www.plos.org/publications/journals/
 [Annotum]: http://annotum.org/ 
