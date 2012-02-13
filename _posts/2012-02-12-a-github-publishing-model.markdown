@@ -8,7 +8,10 @@ tag:
 - publishing
 ---
 
-# Introduction
+
+
+
+## Introduction
 
 Publishing and publishers are stagnant, and have not innovated much in a long time, save a few such as [Public Library of Science or PLoS][plos]. 
 
@@ -24,7 +27,7 @@ Beyond PLoS, some experiments in publishing are taking place, including:
 
 All these publishing innovations are great.  But, I think we need more, as do others.  A few weeks ago, a number of us discussed on Twitter the possibility of a publishing model based on [GitHub][].  (Marcio von Muhlen had a blog post in April last year titled ["We need a GithHub of science"][post] - which I should point out here as it is relavant.) 
 
-# The proposal
+## The proposal
 
 What would a GitHub hosted journal look like?  I think there are three technological/software components (not counting human components of reviewers editors, etc.):
 
@@ -38,9 +41,9 @@ In my opinion, GitHub can play a major role in numbers (1) and (3).  In (1), the
 
 As for (2), the above-mentioned Scholastica or Peerage of Science could be an option for handling peer reviews.  
 
-# Disadvantages and advantages
+## Disadvantages and advantages
 
-## The disadvantages
+### The disadvantages
 So a GitHub hosted journal has obivous drawbacks...
 
 * Technical knowhow: Some scientists may not know how to use git, and if papers have to be submitted in Latex, then you will eliminate many potential authors possibly.
@@ -49,7 +52,7 @@ So a GitHub hosted journal has obivous drawbacks...
 
 * Others?
 
-## The advantages
+### The advantages
 ...and advantages
 
 * Completely open: A GitHub journal would be completely open, so that the public/scientists could see everything that was going on in the journal, including all the manuscript revisions, and reviews if they were done on GitHub, or at least mirrored to GitHub. 
@@ -64,12 +67,12 @@ So a GitHub hosted journal has obivous drawbacks...
 
 The question is do these advantages outweigh the potential drawbacks.  I don't know the answer to this question, but I think this conversation is worth having. 
 
-# What would the structure look like on GitHub?
+## What would the structure look like on GitHub?
 Maybe like this:
 
 <iframe src="https://docs.google.com/presentation/embed?id=1J7DSxk0H90NVcRvPhug4UYcH_pCngMWO7-aIeqAxIeA&start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-# What do you think?
+## What do you think?
 
 What do you think?  Does this journal idea sound feasible? Should we just start a journal hosted on GitHub and see what happens?
 

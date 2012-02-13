@@ -7,7 +7,7 @@
 		
 			<item>
 				<title>Will a GitHub publishing model work?</title>
-				<description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+				<description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;Publishing and publishers are stagnant, and have not innovated much in a long time, save a few such as &lt;a href=&quot;http://www.plos.org/publications/journals/&quot;&gt;Public Library of Science or PLoS&lt;/a&gt;. &lt;/p&gt;
 
@@ -30,7 +30,7 @@
 
 &lt;p&gt;All these publishing innovations are great.  But, I think we need more, as do others.  A few weeks ago, a number of us discussed on Twitter the possibility of a publishing model based on &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;.  (Marcio von Muhlen had a blog post in April last year titled &lt;a href=&quot;http://marciovm.com/i-want-a-github-of-science/index.html&quot;&gt;&amp;ldquo;We need a GithHub of science&amp;rdquo;&lt;/a&gt; - which I should point out here as it is relavant.) &lt;/p&gt;
 
-&lt;h1 id=&quot;the-proposal&quot;&gt;The proposal&lt;/h1&gt;
+&lt;h2 id=&quot;the-proposal&quot;&gt;The proposal&lt;/h2&gt;
 
 &lt;p&gt;What would a GitHub hosted journal look like?  I think there are three technological/software components (not counting human components of reviewers editors, etc.):&lt;/p&gt;
 
@@ -50,9 +50,9 @@
 
 &lt;p&gt;As for (2), the above-mentioned Scholastica or Peerage of Science could be an option for handling peer reviews.  &lt;/p&gt;
 
-&lt;h1 id=&quot;disadvantages-and-advantages&quot;&gt;Disadvantages and advantages&lt;/h1&gt;
+&lt;h2 id=&quot;disadvantages-and-advantages&quot;&gt;Disadvantages and advantages&lt;/h2&gt;
 
-&lt;h2 id=&quot;the-disadvantages&quot;&gt;The disadvantages&lt;/h2&gt;
+&lt;h3 id=&quot;the-disadvantages&quot;&gt;The disadvantages&lt;/h3&gt;
 &lt;p&gt;So a GitHub hosted journal has obivous drawbacks&amp;hellip;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -67,7 +67,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;the-advantages&quot;&gt;The advantages&lt;/h2&gt;
+&lt;h3 id=&quot;the-advantages&quot;&gt;The advantages&lt;/h3&gt;
 &lt;p&gt;&amp;hellip;and advantages&lt;/p&gt;
 
 &lt;ul&gt;
@@ -90,12 +90,12 @@
 
 &lt;p&gt;The question is do these advantages outweigh the potential drawbacks.  I don&amp;rsquo;t know the answer to this question, but I think this conversation is worth having. &lt;/p&gt;
 
-&lt;h1 id=&quot;what-would-the-structure-look-like-on-github&quot;&gt;What would the structure look like on GitHub?&lt;/h1&gt;
+&lt;h2 id=&quot;what-would-the-structure-look-like-on-github&quot;&gt;What would the structure look like on GitHub?&lt;/h2&gt;
 &lt;p&gt;Maybe like this:&lt;/p&gt;
 
 &lt;iframe src=&quot;https://docs.google.com/presentation/embed?id=1J7DSxk0H90NVcRvPhug4UYcH_pCngMWO7-aIeqAxIeA&amp;amp;start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;389&quot; allowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 
-&lt;h1 id=&quot;what-do-you-think&quot;&gt;What do you think?&lt;/h1&gt;
+&lt;h2 id=&quot;what-do-you-think&quot;&gt;What do you think?&lt;/h2&gt;
 
 &lt;p&gt;What do you think?  Does this journal idea sound feasible? Should we just start a journal hosted on GitHub and see what happens?&lt;/p&gt;
 
