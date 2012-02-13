@@ -1,0 +1,158 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<title>Will a GitHub publishing model work?</title>
+	<link href="http://schamberlain.github.com/scott/atom.xml" rel="alternate" title="" type="application/atom+xml" />
+	<link rel="stylesheet" media="screen" href="http://schamberlain.github.com/scott/css/style.css" type="text/css" />
+	<link rel="stylesheet" media="screen" href="http://schamberlain.github.com/scott/css/pygments.css" type="text/css" />
+</head>
+
+<body>
+<a href="https://github.com/SChamberlain/scott"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
+<div class='premain'>	
+	<div class='head'>
+		<span class='site-title'><a href='http://schamberlain.github.com/scott'>SC</a></span> <b>::</b> <span class='site-subtitle'>Scott Chamberlain</span>
+	</div>
+</div>
+
+<div class='main'>
+	<div class='sidebar'>
+
+	<div class='nav'>
+	<h2>Pages</h2>
+<li><a href='http://schamberlain.github.com/scott/'>Home</a></li>
+<li><a href='http://schamberlain.github.com/scott/about'>About</a></li>
+<li><a href='http://schamberlain.github.com/scott/blog'>Lab Notebook</a></li>
+<li><a href='http://schamberlain.github.com/scott/projects'>Code</a></li>
+<li><a href='http://schamberlain.github.com/scott/cv'>CV</a></li>
+<li><a href='http://schamberlain.github.com/scott/publications'>Publications</a></li>
+<li><a href='http://schamberlain.github.com/scott/research'>Research</a></li>
+<li><a href='http://schamberlain.github.com/scott/blogs'>My Blogs</a></li>
+<li><a href='http://schamberlain.github.com/scott/donors'>Donors</a></li>
+	</div>
+	
+	<div id="carrington-subscribe" class="widget">
+      <h2 class="widget-title">Subscribe</h2>
+      <a class="feed alignleft" title="RSS 2.0 feed for posts" rel="alternate" href="http://feeds.feedburner.com/github/koCP">
+      <img src="/images/rss-button.gif" alt="latest posts" title="latest posts">
+      </a>
+    </div>
+
+	<h2>About this post</h2>
+	<div class="metadata"><b>Written by</b> Scott<br /><b>Posted on</b> 12 Feb 2012<br /><b>Summary:</b> <br /><b>Tags:</b> <span class='tag'>github, thoughts, and publishing</span></div>
+	
+	<div id="related">
+	  <h2>Related Posts</h2>
+	  <ul class="posts">
+	    
+	      <li><code>10 Jan 2012</code> » <a href="http://schamberlain.github.com/scott/2012/01/10/Tuesday-Jan102012/">Tuesday Jan 10, 2012 Notes</a></li>
+	    
+	      <li><code>08 Jan 2012</code> » <a href="http://schamberlain.github.com/scott/2012/01/08/testing-twitterfeed/">Testing twitterfeed</a></li>
+	    
+	      <li><code>08 Jan 2012</code> » <a href="http://schamberlain.github.com/scott/2012/01/08/self-publishing/">Self publishing</a></li>
+	    
+	      <li><code>30 Nov 2011</code> » <a href="http://schamberlain.github.com/scott/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle/">We (rOpenSci) wond 3rd place in the PLoS-Mendeley Binary Battle!</a></li>
+	    
+	      <li><code>26 Nov 2011</code> » <a href="http://schamberlain.github.com/scott/2011/11/26/should-the-old-thesis-model-die/index.html">Should the old thesis model die?</a></li>
+	    
+	  </ul>
+	</div>
+	
+</div>
+
+
+<div class='content'>
+<div class='blog_entry'>
+<h1>Will a GitHub publishing model work?</h1>
+	<h1>Introduction</h1>
+
+<p>Publishing and publishers are stagnant, and have not innovated much in a long time, save a few such as <a href="http://www.plos.org/publications/journals/">Public Library of Science or PLoS</a>.</p>
+
+<p>Beyond PLoS, some experiments in publishing are taking place, including:
+* <a href="http://annotum.org/">Annotum</a>: an "open-source, open-process, open-access scholarly authoring and publishing platform based on WordPress"
+* <a href="http://scholasticahq.com/">Scholastica</a>: a peer-review, manuscript handling web-based platform.
+* <a href="http://www.peerageofscience.org/">Peerage of Science</a>: a web service for "automatically controlled, standardized, rigorous, fully anonymous scientific peer review"
+* <a href="http://www.gigasciencejournal.com/">GigaScience</a>: online open-access open-data journal, with big-data studies, links standard manuscript publication with database for associated data, data anlaysis tools, and cloud-computing resources.</p>
+
+<p>All these publishing innovations are great.  But, I think we need more, as do others.  A few weeks ago, a number of us discussed on Twitter the possibility of a publishing model based on <a href="https://github.com/">GitHub</a>.  (Marcio von Muhlen had a blog post in April last year titled <a href="http://marciovm.com/i-want-a-github-of-science/index.html">"We need a GithHub of science"</a> - which I should point out here as it is relavant.)</p>
+
+<h1>The proposal</h1>
+
+<p>What would a GitHub hosted journal look like?  I think there are three technological/software components (not counting human components of reviewers editors, etc.):
+1. Web platform/database for hosting manuscripts in various stages from just submitted to revisions to published.<br/>
+2. Review system, including database of reviewers, the reviews themselves, etc.
+3. A frontend to present the papers/etc, submit manuscripts, and CSS to make it all look pretty.</p>
+
+<p>In my opinion, GitHub can play a major role in numbers (1) and (3).  In (1), the git based versioning of code could also be used to submit and handle papers.  In addition, wrt (3), <a href="http://pages.github.com/">GitHub Pages</a> is a way to present content in a static web page from one of the branches of your GitHub repository.  See <a href="https://github.com/mojombo/jekyll/wiki/sites">here</a> for a growing list of websites hosted on GitHub pages.  Presenting published and early view papers, etc. doesn't need to have some insane website, so this could be a cheap way to do it. And you can use a custom domain name for the journal, e.g., go from myjournal.github.com to myjournal.com.</p>
+
+<p>As for (2), the above-mentioned Scholastica or Peerage of Science could be an option for handling peer reviews.</p>
+
+<h1>Disadvantages and advantages</h1>
+
+<h2>The disadvantages</h2>
+
+<p>So a GitHub hosted journal has obivous drawbacks...
+* Technical knowhow: Some scientists may not know how to use git, and if papers have to be submitted in Latex, then you will eliminate many potential authors possibly.
+* There aren't rich web markup tools.
+* Others?</p>
+
+<h2>The advantages</h2>
+
+<p>...and advantages
+* Completely open: A GitHub journal would be completely open, so that the public/scientists could see everything that was going on in the journal, including all the manuscript revisions, and reviews if they were done on GitHub, or at least mirrored to GitHub.
+* API: GitHub has a built in API, so we don't have to build one ourselves.
+* Versioning: manuscripts would include automatic versioning, including tracking down to the periods that were changed between versions
+* Metrics: GitHub has built in metrics on "watchers", "followers", and for clones and forks, among other things. In addition, we could pull altmetrics data from the <a href="http://totalimpact.org/">TotalImpact</a> API, and present those data associated with papers on the rendered website for the journal. Of course, anyone could hit the TotalImpact, or GitHub APIs themselves for these metrics too.
+* Pull requests: maybe pull requests could be used to submit papers.</p>
+
+<p>The question is do these advantages outweigh the potential drawbacks.  I don't know the answer to this question, but I think this conversation is worth having.</p>
+
+<h1>What would the structure look like on GitHub?</h1>
+
+<p>Maybe like this:</p>
+
+<iframe src="https://docs.google.com/presentation/embed?id=1J7DSxk0H90NVcRvPhug4UYcH_pCngMWO7-aIeqAxIeA&start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+<h1>What do you think?</h1>
+
+<p>What do you think?  Does this journal idea sound feasible? Should we just start a journal hosted on GitHub and see what happens?</p>
+
+</div>
+
+<div id="comments">
+  <h2>Comments</h2>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_identifier = "/2012/02/12/a-github-publishing-model/";
+    (function() {
+     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+     dsq.src = 'http://scln.disqus.com/embed.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=scln">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+</div>
+</div>
+
+<div id='footer'>
+	Page last generated on Mon Feb 13 09:00:00 -0600 2012. Website powered by <a href='https://github.com/mojombo/jekyll'>Jekyll</a>.
+</div>
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28907741-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+	</script>
+
+</body>
