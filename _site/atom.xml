@@ -4,11 +4,47 @@
  <title></title>
  <link href="http://schamberlain.github.com/scott/atom.xml" rel="self"/>
  <link href="http://schamberlain.github.com/scott"/>
- <updated>2012-02-13T09:57:06-06:00</updated>
+ <updated>2012-02-19T19:38:38-06:00</updated>
  <id>http://schamberlain.github.com/scott</id>
 
  
  
+ 
+ <entry>
+   <title>Remember to ressurect paper on EFN scaling with plant size</title>
+   <link href="http://schamberlain.github.com/scott/2012/02/19/efn-scaling/"/>
+   <updated>2012-02-19T00:00:00-06:00</updated>
+   <id>http://schamberlain.github.com/scott/2012/02/19/efn-scaling</id>
+   <content type="html">&lt;p&gt;I have been wanting to write a paper on the the topic of whether mutualistic rewards scale with oranism size, as a way to control the costs of investment in attracting mutualistic partners. &lt;/p&gt;
+
+&lt;p&gt;My questions so far are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Do quantity and/or quality of mutualistic rewards scale (correlate) with plant size?	&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Prediction: Not sure exactly what null hypothesis should be, other than a null slope of zero. Benefits of producing rewards may saturate at large plant size, thus causing the reward-size relationship to saturate. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Does the relationship between rewards and plant size vary among species? &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Prediction: Species more closely related should display similar reward-size relationships. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There seems to be very little literature out there on this topic.   &lt;/p&gt;
+
+&lt;p&gt;Below is a cartoon that I made back in 2008 (!) - not sure it makes sense, but&amp;hellip;here it is anyway. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/path/to/scalingmutualism.jpg&quot; alt=&quot;Scaling of mutualistic rewards&quot; /&gt;&lt;/p&gt;
+</content>
+
+
+
+ </entry>
  
  <entry>
    <title>Will a GitHub publishing model work?</title>
