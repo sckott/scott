@@ -1,6 +1,6 @@
 ---
 layout: page
-title: R Packages
+title: R-Packages
 ---
 
 ## R Packages

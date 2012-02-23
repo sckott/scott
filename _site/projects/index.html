@@ -1,6 +1,6 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-	<title>Tuesday, ievobio notes</title>
+	<title>Projects</title>
 	<link href="http://schamberlain.github.com/scott/atom.xml" rel="alternate" title="" type="application/atom+xml" />
 	<link rel="stylesheet" media="screen" href="http://schamberlain.github.com/scott/css/style.css" type="text/css" />
 	<link rel="stylesheet" media="screen" href="http://schamberlain.github.com/scott/css/pygments.css" type="text/css" />
@@ -16,7 +16,6 @@
 
 <div class='main'>
 	<div class='sidebar'>
-
 	<div class='nav'>
 	<h2>Pages</h2>
 <li><a href='http://schamberlain.github.com/scott/'>Home</a></li>
@@ -31,80 +30,32 @@
 <li><a href='http://schamberlain.github.com/scott/donors'>Donors</a></li>
 	</div>
 	
-	<div id="carrington-subscribe" class="widget">
+    <div id="carrington-subscribe" class="widget">
       <h2 class="widget-title">Subscribe</h2>
-      <a class="feed alignleft" title="RSS 2.0 feed for posts" rel="alternate" href="http://feeds.feedburner.com/github/koCP">
+      <a class="feed alignleft" title="RSS 2.0 feed for posts" rel="alternate" href="http://feeds.feedburner.com/github/YWzL">
       <img src="/images/rss-button.gif" alt="latest posts" title="latest posts">
       </a>
     </div>
-
-	<h2>About this post</h2>
-	<div class="metadata"><b>Written by</b> <br /><b>Posted on</b> 21 Jun 2011<br /><b>Summary:</b> <br /><b>Tags:</b> </div>
-	
-	<div id="related">
-	  <h2>Related Posts</h2>
-	  <ul class="posts">
-	    
-	      <li><code>19 Feb 2012</code> » <a href="http://schamberlain.github.com/scott/2012/02/19/efn-scaling/">Remember to ressurect paper on EFN scaling with plant size</a></li>
-	    
-	      <li><code>13 Feb 2012</code> » <a href="http://schamberlain.github.com/scott/2012/02/13/a-github-publishing-model/">Will a GitHub publishing model work?</a></li>
-	    
-	      <li><code>10 Jan 2012</code> » <a href="http://schamberlain.github.com/scott/2012/01/10/Tuesday-Jan102012/">Tuesday Jan 10, 2012 Notes</a></li>
-	    
-	      <li><code>08 Jan 2012</code> » <a href="http://schamberlain.github.com/scott/2012/01/08/testing-twitterfeed/">Testing twitterfeed</a></li>
-	    
-	      <li><code>08 Jan 2012</code> » <a href="http://schamberlain.github.com/scott/2012/01/08/self-publishing/">Self publishing</a></li>
-	    
-	  </ul>
-	</div>
-	
 </div>
 
 
 <div class='content'>
-<div class='blog_entry'>
-<h1>Tuesday, ievobio notes</h1>
-	<p>BiSciCol:<br />
-<ul><br />
-	<li>Query taxonomic collections, and their associated sequences and morphology data</li><br />
-	<li>so many acronymns</li><br />
-	<li>http://darwin.berkeley.edu:8080/biscicol/#</li></p>
-</ul>
-<div>Phenoscape Knowledgebase</div>
-<div>
-<ul>
-	<li>Semantic integration with phenotype data</li>
-	<li>http://kb.phenoscape.org/</li>
-	<li>been in development for many years apparently</li>
-</ul>
-<div>Ontogrator</div>
-<div>
-<ul>
-	<li>www.ontogrator.org</li>
-	<li>What about infochimps though? and all the other datamarkets?</li>
-</ul>
-</div>
-</div>
-</div>
+	<html>
+  <body>
+    <h1 class="page-title">Open Source Projects</h1>
 
-
-
-
-<div id="comments">
-  <h2>Comments</h2>
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-    var disqus_identifier = "/2011/06/21/tuesday-ievobio-notes/index.html";
-    (function() {
-     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-     dsq.src = 'http://scln.disqus.com/embed.js';
-     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=scln">comments powered by Disqus.</a></noscript>
-  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-
+ 	<div id="github-projects"></div>
+		
+		<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+		<script src="/scripts/github.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		  $(function() {
+		    $("#github-projects").loadRepositories("ropensci");
+		  });
+		</script>
+		
+  </body>
+</html>
 </div>
 </div>
 
