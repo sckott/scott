@@ -21,7 +21,7 @@ title: Projects
     var segments = url.split('/');
     var repo = segments.pop();
     var username = segments.pop();
-    $.getJSON("http://github.com/api/v2/json/repos/show/rOpenSci/rplos", function(data){
+    $.getJSON("http://github.com/api/v2/json/repos/show/rOpenSci/rplos?callback?", function(data){
       var repo_data = data.repository;
       if(repo_data) {
         var watchers_link = $('<a>').addClass('watchers').attr('href', url+'/watchers').text(repo_data.watchers);
