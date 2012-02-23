@@ -1,7 +1,7 @@
 // http://aboutcode.net/2010/11/11/list-github-projects-using-javascript.html
 
 jQuery.githubUser = function(username, callback) {
-  jQuery.getJSON("http://github.com/api/v3/json/" + username + "?callback=?", callback);
+  jQuery.getJSON("http://github.com/api/v1/json/" + username + "?callback=?", callback);
 }
  
 jQuery.fn.loadRepositores = function(username) {
