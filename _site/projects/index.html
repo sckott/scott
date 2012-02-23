@@ -50,12 +50,26 @@
    <a href="http://jquery.com/">jQuery</a>
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
    <script>
-     $(document).ready(function(){
-       $("a").click(function(event){
-         alert("As you can see, the link no longer took you to jquery.com");
-         event.preventDefault();
-       });
-     });
+     jQuery(document).ready(function($){
+
+  $.each($('.post.link.github h3 a'), function() {
+    var post = $(this).parents(".post");
+    var url = $(this).attr('href');
+    var segments = url.split('/');
+    var repo = segments.pop();
+    var username = segments.pop();
+    $.getJSON("http://github.com/api/v2/json/repos/show/rOpenSci/rplos", function(data){
+      var repo_data = data.repository;
+      if(repo_data) {
+        var watchers_link = $('<a>').addClass('watchers').attr('href', url+'/watchers').text(repo_data.watchers);
+        var forks_link = $('<a>').addClass('forks').attr('href', url+'/network').text(repo_data.forks);
+        var comment_link = post.find('.meta .comment-count');
+        comment_link.after(watchers_link);
+        comment_link.after(forks_link);
+      }
+    });
+  });
+});
    </script>
  </body>
  </html>
@@ -63,7 +77,7 @@
 </div>
 
 <div id='footer'>
-	Page last generated on Thu Feb 23 08:19:35 -0600 2012. Website powered by <a href='https://github.com/mojombo/jekyll'>Jekyll</a>.
+	Page last generated on Thu Feb 23 08:23:24 -0600 2012. Website powered by <a href='https://github.com/mojombo/jekyll'>Jekyll</a>.
 </div>
 
 	<script type="text/javascript">
