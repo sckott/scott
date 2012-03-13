@@ -6,6 +6,24 @@
 		<link>http://schamberlain.github.com/scott</link>
 		
 			<item>
+				<title>Abstract for ESAA 2012 meeting</title>
+				<description>&lt;p&gt;I admit that this abstract was written very hastily, but how much better can you do so far ahead of when the actual thing will happen anyhow.   &lt;/p&gt;
+
+&lt;h1 id=&quot;title-effects-of-agriculture-on-evolution-of-native-species&quot;&gt;Title: Effects of agriculture on evolution of native species&lt;/h1&gt;
+
+&lt;h2 id=&quot;backgroundquestionmethods&quot;&gt;Background/Question/Methods&lt;/h2&gt;
+
+&lt;p&gt;Anthropogenic disturbances, such as urbanization, fragmentation, and introduction of invasive species, can homogenize biotic communities by reducing the variation in species composition across locations. For example, global agricultural intensification has ¬increased pesticide use has and led to increased similarities in both bee and hemipteran communities relative to non-agricultural areas. Agriculture has the potential to significantly impact diversity of natural communities. Proximity to agriculture may lead to altered evolutionary trajectories for native species via altered natural selection. No studies have experimentally examined the possible evolutionary consequences of landscape-level homogenization of biotic interactions. We explored how proximity of wild plants (Helianthus annuus texanus) to crops (crop sunflowers: Helianthus annuus) altered their mutualist and antagonist interaction partners, and subsequent altered natural selection on traits. &lt;/p&gt;
+
+&lt;h2 id=&quot;resultsconclusions&quot;&gt;Results/Conclusions&lt;/h2&gt;
+
+&lt;p&gt;By experimentally manipulating the proximity of a native sunflower species to crop sunflowers, we found that mutualist pollinators largely increased in abundance on wild sunflowers near sunflower crops, while antagonists decreased abundance on wild sunflowers near sunflower crops.  In turn, natural selection on floral traits was altered across the landscape due to changes in abundance and community structure of mutualists and antagonists. Crops altered natural selection on floral traits of native sunflowers, and reduced spatial variation in selection near relative to far from crops. Furthermore, all floral traits have nonzero heritabilities, suggesting that altered natural selection will have evolutionary consequences for this species.&lt;/p&gt;
+</description>
+				<published>Fri Feb 24 00:00:00 -0600 2012</published>
+				<link>http://schamberlain.github.com/scott/2012/02/24/ESA-2012-abstract/</link>
+			</item>
+		
+			<item>
 				<title>Remember to ressurect paper on EFN scaling with plant size</title>
 				<description>&lt;p&gt;I have been wanting to write a paper on the the topic of whether mutualistic rewards scale with oranism size, as a way to control the costs of investment in attracting mutualistic partners. &lt;/p&gt;
 
@@ -218,55 +236,6 @@
 &lt;p&gt;&lt;span style=&quot;font-family:arial, sans-serif;&quot;&gt;&lt;a href=&quot;http://www.rockethub.com/projects/3790-evolution-in-agriculture&quot;&gt;http://www.rockethub.com/projects/3790-evolution-in-agriculture&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;</description>
 				<published>Tue Nov 01 00:00:00 -0500 2011</published>
 				<link>http://schamberlain.github.com/scott/2011/11/01/scifund-experiment-in-crowdfunding/index.html</link>
-			</item>
-		
-			<item>
-				<title>Notes on 2011 ESA Bayesian workshop</title>
-				<description>&lt;div&gt;Bayesian Workshop &lt;span class=&quot;caps&quot;&gt;ESA&lt;/span&gt; 2011&lt;br /&gt;
-&lt;ul&gt;&lt;br /&gt;
-	&lt;li&gt;Influence of the prior: when small data set prior can influence analysis greatly, whereas when large data set prior influences analysis less&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-	&lt;li&gt;The mode of a posterior estimate is (or is sometimes?) equal to the Max. Likelihood estimate&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-	&lt;li&gt;A special case of the beta distribution (1,1?) gives a uniform distribution &amp;#8211; so perhaps don&amp;#8217;t need to specify a uniform distribution specifically&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Hierarchical Bayesian Models&lt;br /&gt;
-&lt;ul&gt;&lt;br /&gt;
-	&lt;li&gt;No analytical solution for posterior or marginal dist, so &lt;span class=&quot;caps&quot;&gt;MCMC&lt;/span&gt; numerical simulation (or max lik.)&lt;/li&gt;&lt;/p&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;MCMC&lt;/span&gt;: Gibbs or Metropolis-Hastings&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;BUGS&lt;/span&gt;&lt;br /&gt;
-&lt;ul&gt;&lt;br /&gt;
-	&lt;li&gt;Similar: # sign for comments;&lt;/li&gt;&lt;/p&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-	&lt;li&gt;Dissimilar: &lt;span class=&quot;caps&quot;&gt;BUGS&lt;/span&gt; uses &amp;#8216;precision&amp;#8217; instead of variance/sd in e.g., lognorm(mu, sd); &lt;span class=&quot;caps&quot;&gt;BUGS&lt;/span&gt; never uses equals signs (unless assigning data object); Don&amp;#8217;t put calculation within a function;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-	&lt;li&gt;Random variables (use &amp;#8216;~&amp;#8217;). Fixed variables (use &amp;#8216;&amp;lt;-&amp;#8217;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-	&lt;li&gt;load inits OR gen inits (can use either or both)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-	&lt;li&gt;If autocorrelation in &lt;span class=&quot;caps&quot;&gt;MCMC&lt;/span&gt; chains, use Sample Monitor Tool &amp;#8594; Thin &amp;#8594; value of e.g., 20 to redudce autocorrelation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-	&lt;li&gt;Do the same code writing rules apply when in R packages for &lt;span class=&quot;caps&quot;&gt;BUGS&lt;/span&gt;?:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-	&lt;li&gt;Capital &amp;#8220;I(0,)&amp;#8221; truncates the previous number to zero&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-	&lt;li&gt;Data import: save from excel as &amp;#8216;ms-dos&amp;#8217;? and &amp;#8216;&lt;span class=&quot;caps&quot;&gt;END&lt;/span&gt;&amp;#8217; at end of file&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;</description>
-				<published>Tue Oct 25 00:00:00 -0500 2011</published>
-				<link>http://schamberlain.github.com/scott/2011/10/25/notes-on-2011-esa-bayesian-workshop/index.html</link>
 			</item>
 		
 	</channel>

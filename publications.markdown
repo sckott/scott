@@ -5,7 +5,7 @@ title: Publications
 
 ### Publications
 
-1. Chamberlain, S.A., S.M. Hovick,...et al...K.D. Whitney. (In review). Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. _Ecology Letters_. 
+1. Chamberlain, S.A., S.M. Hovick,...et al...K.D. Whitney. (accepted). Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. _Ecology Letters_. 
 
 2. Chamberlain, S.A., & J.A. Rudgers. 2012. How do plants balance multiple mutualists? Correlations among traits for attracting protective bodyguards and pollinators in cotton (_Gossypium_). _Evolutionary Ecology_ 26:65-77. [pdf][pdf1]
 
