@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes  on chat with Jai Ranganathan on doing in-person science interviews
+title: Notes on doing in-person science interviews
 author: Scott
 tag:
 - interviews
@@ -8,7 +8,7 @@ tag:
 - notes
 ---
 
-# Notes  on chat with Jai Ranganathan on doing in-person science interviews
+From chat with Jai Ranganathan on doing in-person science interviews
 
 + Choosing space
 	+ very quiet
