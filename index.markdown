@@ -24,4 +24,4 @@ I study the evolution of species interactions, how species interactions influenc
 
 ![that's me](/images/avatar_small.png)
 
-<iframe src='https://recology.cartodb.com/tables/condma_1/embed_map'></iframe>
+[Check this out, map of effect sizes from a paper in preparation. Larger dots mean species interactions were more variable](https://recology.cartodb.com/tables/condma_1/embed_map)
