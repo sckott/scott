@@ -41,17 +41,17 @@
     });
 
 
-    // cartodb1_gmapsv3 = new google.maps.CartoDBLayer({
-    //   map_canvas: 'map_canvas',
-    //   map: map,
-    //   user_name:'examples',
-    //   table_name: 'country_colors',
-    //   query: "SELECT * FROM {{table_name}}",
-    //   map_style: false,
-    //   infowindow: false,
-    //   auto_bound: false,
-    //   debug: true
-    // });
+    cartodb1_gmapsv3 = new google.maps.CartoDBLayer({
+      map_canvas: 'map_canvas',
+      map: map,
+      user_name:'examples',
+      table_name: 'country_colors',
+      query: "SELECT * FROM {{table_name}}",
+      map_style: false,
+      infowindow: false,
+      auto_bound: false,
+      debug: true
+    });
 
     $('form').submit(function(ev){
       ev.stopPropagation(); ev.preventDefault();
