@@ -32,10 +32,10 @@
       map: map,
       user_name:"recology",
       table_name: 'condma_1_cleaned',
-      query: "SELECT cartodb_id,the_geom,cvstar_riiarm FROM {{table_name}}",
+      query: "SELECT cartodb_id,the_geom,cvstar_riiarm,link FROM {{table_name}}",
       tile_style: "#{{table_name}}{marker-fill:#E25B5B}",
       map_style: true,
-      infowindow: "SELECT cartodb_id,the_geom,cvstar_riiarm FROM {{table_name}} WHERE cartodb_id={{feature}}",
+      infowindow: "SELECT cartodb_id,the_geom,cvstar_riiarm,link FROM {{table_name}} WHERE link={{feature}}",
       auto_bound: false,
       debug: false
     });
