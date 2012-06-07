@@ -6,6 +6,20 @@
 		<link>http://schamberlain.github.com/scott</link>
 		
 			<item>
+				<title>Recaptcha for figures from published science papers</title>
+				<description>&lt;p&gt;Can we leverage the crowd to digitize data from all figures in published scientific papers?&lt;/p&gt;
+
+&lt;h1 id=&quot;the-model&quot;&gt;The model&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<published>2012-05-28 00:00:00 -0700</published>
+				<link>http://schamberlain.github.com/scott/2012/05/28/recaptcha-for-science-data/</link>
+			</item>
+		
+			<item>
 				<title>Notes on doing in-person science interviews</title>
 				<description>&lt;p&gt;From chat with Jai Ranganathan on doing in-person science interviews&lt;/p&gt;
 
@@ -72,7 +86,7 @@
   &lt;li&gt;get admin access to Journal of Ecology website somehow…?&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<published>2012-04-12 00:00:00 -0500</published>
+				<published>2012-04-12 00:00:00 -0700</published>
 				<link>http://schamberlain.github.com/scott/2012/04/12/doing-interviews-chat-with-jai/</link>
 			</item>
 		
@@ -91,7 +105,7 @@
 &lt;p&gt;In the present, publishing costs are falling, while publisher profits are rising. Publishers are trying to tack on this (comments sections that no one uses) and that (paywalls, charging $30 per paper), like DRM for book publishers, in attempt to survive and make more profits. Instead, they need to evolve, or be pushed out of the way in a struggle for existence against newcomers such as PLoS and PENSOFT. &lt;/p&gt;
 
 </description>
-				<published>2012-03-21 00:00:00 -0500</published>
+				<published>2012-03-21 00:00:00 -0700</published>
 				<link>http://schamberlain.github.com/scott/2012/03/21/digital-lysenkoism/</link>
 			</item>
 		
@@ -109,7 +123,7 @@
 
 &lt;p&gt;By experimentally manipulating the proximity of a native sunflower species to crop sunflowers, we found that mutualist pollinators largely increased in abundance on wild sunflowers near sunflower crops, while antagonists decreased abundance on wild sunflowers near sunflower crops.  In turn, natural selection on floral traits was altered across the landscape due to changes in abundance and community structure of mutualists and antagonists. Crops altered natural selection on floral traits of native sunflowers, and reduced spatial variation in selection near relative to far from crops. Furthermore, all floral traits have nonzero heritabilities, suggesting that altered natural selection will have evolutionary consequences for this species.&lt;/p&gt;
 </description>
-				<published>2012-02-24 00:00:00 -0600</published>
+				<published>2012-02-24 00:00:00 -0800</published>
 				<link>http://schamberlain.github.com/scott/2012/02/24/ESA-2012-abstract/</link>
 			</item>
 		
@@ -141,7 +155,7 @@
 
 &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/recology_/6906871371/&quot; title=&quot;scalingmutualism by scottlus, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7038/6906871371_cec21e8a01.jpg&quot; width=&quot;500&quot; height=&quot;375&quot; alt=&quot;scalingmutualism&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-				<published>2012-02-19 00:00:00 -0600</published>
+				<published>2012-02-19 00:00:00 -0800</published>
 				<link>http://schamberlain.github.com/scott/2012/02/19/efn-scaling/</link>
 			</item>
 		
@@ -240,7 +254,7 @@
 &lt;p&gt;What do you think?  Does this journal idea sound feasible? Should we just start a journal hosted on GitHub and see what happens?&lt;/p&gt;
 
 </description>
-				<published>2012-02-13 00:00:00 -0600</published>
+				<published>2012-02-13 00:00:00 -0800</published>
 				<link>http://schamberlain.github.com/scott/2012/02/13/a-github-publishing-model/</link>
 			</item>
 		
@@ -265,7 +279,7 @@
 &lt;/ol&gt;
 
 </description>
-				<published>2012-01-10 00:00:00 -0600</published>
+				<published>2012-01-10 00:00:00 -0800</published>
 				<link>http://schamberlain.github.com/scott/2012/01/10/Tuesday-Jan102012/</link>
 			</item>
 		
@@ -273,7 +287,7 @@
 				<title>Testing twitterfeed</title>
 				<description>&lt;p&gt;Does this work on twitterfeed?&lt;/p&gt;
 </description>
-				<published>2012-01-08 00:00:00 -0600</published>
+				<published>2012-01-08 00:00:00 -0800</published>
 				<link>http://schamberlain.github.com/scott/2012/01/08/testing-twitterfeed/</link>
 			</item>
 		
@@ -284,7 +298,7 @@
 &lt;p&gt;Perhaps what we need is a &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; for science publishing.  It would be all open access, would provide version control so that papers could be continually updated, and you can drill down into the data directly from figures.  And of course, the code could all be hosted at this site.  &lt;/p&gt;
 
 </description>
-				<published>2012-01-08 00:00:00 -0600</published>
+				<published>2012-01-08 00:00:00 -0800</published>
 				<link>http://schamberlain.github.com/scott/2012/01/08/self-publishing/</link>
 			</item>
 		
@@ -295,20 +309,8 @@
 &lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/blog/design-research-tools/winners-of-the-first-binary-battle-apps-for-science-contest/&quot;&gt;We won third place&lt;/a&gt;!!  This gives us a $1,000 prize, plus a &lt;a href=&quot;http://ardrone.parrot.com/parrot-ar-drone/uk/&quot;&gt;Parrot AR Drone helicopter&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-				<published>2011-11-30 00:00:00 -0600</published>
+				<published>2011-11-30 00:00:00 -0800</published>
 				<link>http://schamberlain.github.com/scott/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle/</link>
-			</item>
-		
-			<item>
-				<title>Should the old thesis model die?</title>
-				<description>&lt;p&gt;So, the traditional Ph.D. thesis model involves 3 to 5 chapters on one topic &amp;#8211; an in-depth investigation of one question, or a series of tightly related questions.&lt;/p&gt;
-&lt;p&gt;However, collaborative work across labs, political borders, and conceptual borders, is increasingly occurring, either due to decreasing funding or other reasons.&lt;/p&gt;
-&lt;p&gt;Yet we hang on to the traditional thesis model concentrating on one single question, with all the chapters related.  Why can&amp;#8217;t a thesis mirror what is likely to happen post thesis work?&lt;/p&gt;
-&lt;p&gt;For example, my thesis involves three different projects (two projects with one paper each, and one project with two papers), and are only united in the sense that they investigate species interactions  - albeit across ecology and evolution.  Beyond my actual thesis chapters, I have been involved in a number of collaborative projects, some leading to papers, some not.&lt;/p&gt;
-&lt;p&gt;This sort of model of a thesis I think matches more closely what one is likely to due in a research job &amp;#8211; that is, work on a various different projects, with various collaborators, on sometimes unrelated questions.&lt;/p&gt;
-&lt;p&gt;I wonder how common this sort of thesis model is, one with more collaborative work and more distantly related questions than the traditional model?&lt;/p&gt;</description>
-				<published>2011-11-26 00:00:00 -0600</published>
-				<link>http://schamberlain.github.com/scott/2011/11/26/should-the-old-thesis-model-die/index.html</link>
 			</item>
 		
 	</channel>
