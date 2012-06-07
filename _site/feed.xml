@@ -6,20 +6,6 @@
 		<link>http://schamberlain.github.com/scott</link>
 		
 			<item>
-				<title>Recaptcha for figures from published science papers</title>
-				<description>&lt;p&gt;Can we leverage the crowd to digitize data from all figures in published scientific papers?&lt;/p&gt;
-
-&lt;h1 id=&quot;the-model&quot;&gt;The model&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-				<published>2012-05-28 00:00:00 -0700</published>
-				<link>http://schamberlain.github.com/scott/2012/05/28/recaptcha-for-science-data/</link>
-			</item>
-		
-			<item>
 				<title>Notes on doing in-person science interviews</title>
 				<description>&lt;p&gt;From chat with Jai Ranganathan on doing in-person science interviews&lt;/p&gt;
 
@@ -311,6 +297,18 @@
 </description>
 				<published>2011-11-30 00:00:00 -0800</published>
 				<link>http://schamberlain.github.com/scott/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle/</link>
+			</item>
+		
+			<item>
+				<title>Should the old thesis model die?</title>
+				<description>&lt;p&gt;So, the traditional Ph.D. thesis model involves 3 to 5 chapters on one topic &amp;#8211; an in-depth investigation of one question, or a series of tightly related questions.&lt;/p&gt;
+&lt;p&gt;However, collaborative work across labs, political borders, and conceptual borders, is increasingly occurring, either due to decreasing funding or other reasons.&lt;/p&gt;
+&lt;p&gt;Yet we hang on to the traditional thesis model concentrating on one single question, with all the chapters related.  Why can&amp;#8217;t a thesis mirror what is likely to happen post thesis work?&lt;/p&gt;
+&lt;p&gt;For example, my thesis involves three different projects (two projects with one paper each, and one project with two papers), and are only united in the sense that they investigate species interactions  - albeit across ecology and evolution.  Beyond my actual thesis chapters, I have been involved in a number of collaborative projects, some leading to papers, some not.&lt;/p&gt;
+&lt;p&gt;This sort of model of a thesis I think matches more closely what one is likely to due in a research job &amp;#8211; that is, work on a various different projects, with various collaborators, on sometimes unrelated questions.&lt;/p&gt;
+&lt;p&gt;I wonder how common this sort of thesis model is, one with more collaborative work and more distantly related questions than the traditional model?&lt;/p&gt;</description>
+				<published>2011-11-26 00:00:00 -0800</published>
+				<link>http://schamberlain.github.com/scott/2011/11/26/should-the-old-thesis-model-die/index.html</link>
 			</item>
 		
 	</channel>
