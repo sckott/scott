@@ -4,12 +4,3 @@ auto: true
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title/
-
-authors:
-  Scott Chamberlain:
-    display_name: Scott Chamberlain
-    gravatar: d9033fa816e09d79e44995e92f025cdd
-    email: myrmecocystus@gmail.com
-    web: http://schamberlain.github.com
-    twitter: recology_
-    github: SChamberlain
