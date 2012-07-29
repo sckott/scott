@@ -2,7 +2,7 @@
 layout: post
 title: Will a GitHub publishing model work?
 author: Scott
-tag:
+tags:
 - github
 - thoughts
 - publishing

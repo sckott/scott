@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Scott Chamberlain - R</title>
+		<description>Posts tagged as 'R'</description>
+		<link>http://schamberlain.github.com/scott</link>
+		
+			<item>
+				<title>We (rOpenSci) wond 3rd place in the PLoS-Mendeley Binary Battle!</title>
+				<description>&lt;p&gt;We entered two of our packages for integrating with PLoS Journals (rplos) and Mendeley (RMendeley) in the &lt;a href=&quot;http://dev.mendeley.com/api-binary-battle&quot;&gt;Mendeley-PLoS Binary Battle&lt;/a&gt;.  Get them at GitHub (&lt;a href=&quot;https://github.com/ropensci/rplos&quot;&gt;rplos&lt;/a&gt;, &lt;a href=&quot;https://github.com/ropensci/RMendeley&quot;&gt;RMendeley&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.mendeley.com/blog/design-research-tools/winners-of-the-first-binary-battle-apps-for-science-contest/&quot;&gt;We won third place&lt;/a&gt;!!  This gives us a $1,000 prize, plus a &lt;a href=&quot;http://ardrone.parrot.com/parrot-ar-drone/uk/&quot;&gt;Parrot AR Drone helicopter&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<published>2011-11-30 00:00:00 -0800</published>
+				<link>http://schamberlain.github.com/scott/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle/</link>
+			</item>
+		
+			<item>
+				<title>R meetings topics</title>
+				<description>&lt;p&gt;Potential topics for our R class at Rice:&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Ordinations (incl. rarefactions, etc.)&lt;/li&gt;
+    &lt;li&gt;Phylogenetics (incl. complete workflow from searching GenBank to phylogenetic tree output)&lt;/li&gt;
+    &lt;li&gt;Simulations (for loops, functions, etc.)&lt;/li&gt;
+    &lt;li&gt;Advanced visualizations (ggplot2, lattice, googleVis, etc.)&lt;/li&gt;
+    &lt;li&gt;Blitz day: a series of small talks given by class members&lt;/li&gt;
+    &lt;li&gt;Web data acquisition (introduce &lt;a href=&quot;http://ropensci.org/&quot; target=&quot;_blank&quot;&gt;rOpenSci&lt;/a&gt;, and include calling external programs from R, e.g., &lt;a href=&quot;http://lajeunesse.myweb.usf.edu/publications&quot; target=&quot;_blank&quot;&gt;phylometa&lt;/a&gt; or &lt;a href=&quot;http://mrbayes.sourceforge.net/&quot; target=&quot;_blank&quot;&gt;MrBayes&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+				<published>2011-10-14 00:00:00 -0700</published>
+				<link>http://schamberlain.github.com/scott/2011/10/14/r-meetings-topics/index.html</link>
+			</item>
+		
+			<item>
+				<title>Friday; simulations on phylogeny outgroup influence on phylogenetic meta-analysis model fit</title>
+				<description>&lt;p&gt;&lt;em&gt;Note to self: not sure if I did the simulation right....&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;&quot;&gt;Modeling: wanted to find out how an outgroup on a long branch (e.g., two species of plants are in a phylogeny where the remaining species are all animals) would influence model fit in phylogenetic meta-analysis. So I did like so:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Simulation details:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;**&lt;span style=&quot;color:#000000;font-family:tahoma, sans-serif;&quot;&gt;Simulated 100 trees under each of the two following conditions:&lt;/span&gt;&lt;/p&gt;
+
+&lt;div&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:x-small;&quot;&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;&quot;&gt;-regular trees, randomly generated coalescent tree (in fig legend as &quot;reg&quot;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+
+
+&lt;div&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:x-small;&quot;&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;&quot;&gt;-&lt;/span&gt;&lt;/span&gt;outgroup added trees, randomly generated coalescent tree with two fewer species than a reg tree, then an outgroup of two species added on a long branch (in fig legend as &quot;out&quot;)&lt;/span&gt;&lt;/div&gt;
+
+
+&lt;div&gt;&lt;span style=&quot;color:#000000;&quot;&gt;Each of the above two cases were generated at 10, 20, 40, 60, 80, and 100 species. &lt;/span&gt;&lt;/div&gt;
+
+
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;
+&lt;/span&gt;&lt;/div&gt;
+
+
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;I also evolved a trait on each tree (here, we assume this trait is the effect size), and created a dataset for each tree (with the effect size, variance set to 1 for each species, and no grouping variable).  This is perhaps not ideal...&lt;/span&gt;&lt;/div&gt;
+
+
+&lt;div&gt;&lt;span style=&quot;color:#000000;&quot;&gt;
+&lt;/span&gt;&lt;/div&gt;
+
+
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;I then ran all these trees and datasets through Phylometa (from R of course), and plotted the AIC max lik model fit (left two panels) and the ratio of phy:trad max lik model fit (right two panels), for both fixed (top two panels) and random (bottom two panels) effects models. &lt;/span&gt;&lt;/div&gt;
+
+
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;
+&lt;/span&gt;&lt;/div&gt;
+
+
+&lt;div&gt;&lt;span style=&quot;font-family:tahoma, sans-serif;color:#000000;&quot;&gt;The line fits are Loess, so no particular model was fitted there, just to help see the patterns. &lt;/span&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Here is the output from the simulation:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-587&quot; title=&quot;myplot&quot; src=&quot;http://schamber.files.wordpress.com/2011/10/myplot.jpeg&quot; alt=&quot;&quot; width=&quot;584&quot; height=&quot;584&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;em&gt;Bottom line: It seems that indeed, an outroup on a long branch does make model fit worse. &lt;/em&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+				<published>2011-10-07 00:00:00 -0700</published>
+				<link>http://schamberlain.github.com/scott/2011/10/07/friday-simulations-on-phylogeny-outgroup-influence-on-phylogenetic-meta-analysis-model-fit/index.html</link>
+			</item>
+		
+			<item>
+				<title>Wednesday</title>
+				<description>&lt;div&gt;To Do:&lt;/div&gt;
+
+
+&lt;ol&gt;
+    &lt;li&gt;New &lt;a href=&quot;http://api.plos.org/&quot; target=&quot;_blank&quot;&gt;PLoS API released&lt;/a&gt;. Try to write wrapper in R to query PLoS data. Joined Google Group for the PLoS API.&lt;/li&gt;
+    &lt;li&gt;Google Correlate....&lt;/li&gt;
+    &lt;li&gt;FIgure out how to query &lt;a href=&quot;http://linnaeus.zoology.gla.ac.uk/~rpage/tbmap/&quot; target=&quot;_blank&quot;&gt;TBMap&lt;/a&gt; to access a lot of taxonomic information from many data sources.&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+				<published>2011-06-01 00:00:00 -0700</published>
+				<link>http://schamberlain.github.com/scott/2011/06/01/wednesday/index.html</link>
+			</item>
+		
+	</channel>
+</rss>

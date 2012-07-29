@@ -1,27 +1,43 @@
 ---
-layout: page
+layout: layout_pubs
 title: Donors
 ---
 
-### Donors
+# Donors
 
-I was part of a campaign to see if the public would directly fund science through crowd-funding, called [SciFund][], which was hosted at [RocketHub][].
+### I was part of a campaign to see if the public would directly fund science through crowd-funding, called [SciFund][], which was hosted at [RocketHub][].
+<br/>
+<br/>
 
-The Donors:
+### The Donors:
 
-+ Eduardo Santos (check out his website [here][])
-+ Rafael Maia (check out his website [here][here2])
-+ Katherine Horn
-+ Matt Hutchinson
-+ Steve Dictor
-+ Ben Van Allen (check out his research [here][here3])
-+ Pascal Mickelson (Pascal is a postdoc at University of Arizona)
-+ Ethan White (is a prof at Utah State Univ., check him out [here][here4])
-+ Jeff Chamberlain (thanks dad!)
-+ Marty Bost (thanks Marty! Marty works in space science)
-+ Elissa Malcohn (check out her writing/work [here][here5])
-+ Keith Michel
-+ Eric Hall
+<br/>
+
++ ### Eduardo Santos (check out his website [here][])
+
++ ### Rafael Maia (check out his website [here][here2])
+
++ ### Katherine Horn
+
++ ### Matt Hutchinson
+
++ ### Steve Dictor
+
++ ### Ben Van Allen (check out his research [here][here3])
+
++ ### Pascal Mickelson (Pascal is a postdoc at University of Arizona)
+
++ ### Ethan White (is a prof at Utah State Univ., check him out [here][here4])
+
++ ### Jeff Chamberlain (thanks dad!)
+
++ ### Marty Bost (thanks Marty! Marty works in space science)
+
++ ### Elissa Malcohn (check out her writing/work [here][here5])
+
++ ### Keith Michel
+
++ ### Eric Hall
 
 [SciFund]: http://scifund.wordpress.com/
 [RocketHub]: http://rockethub.com/projects/3790-evolution-in-agriculture

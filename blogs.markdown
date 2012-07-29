@@ -1,19 +1,19 @@
 ---
-layout: page
+layout: layout_pubs
 title: Blogs
 ---
 
-### Blogs
+# Blogs
 
-1. [Journal of Ecology blog][] - I'm blogging for Journal of Ecology.
+### [Journal of Ecology blog][] - I'm blogging for Journal of Ecology.
 
-2. [Recology][] - A blog about using R for ecology and evolution.
+### [Recology][] - A blog about using R for ecology and evolution.
 
-3. [Lab Notebook][] - Notes about my research.
+### [Lab Notebook][] - Notes about my research.
 
-4. [rOpenSci blog][] - I contribute to the rOpenSci blog, and am part of the code development team.
+### [rOpenSci blog][] - I contribute to the rOpenSci blog, and am part of the code development team.
 
-5. [INNGE blog][] - I contribute to the INNGE blog.
+### [INNGE blog][] - I contribute to the INNGE blog.
 
 
 [Journal of Ecology blog]: http://jecologyblog.wordpress.com/

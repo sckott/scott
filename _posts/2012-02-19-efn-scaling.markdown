@@ -2,7 +2,7 @@
 layout: post
 title: Remember to ressurect paper on EFN scaling with plant size
 author: Scott
-tag:
+tags:
 - PapersToWrite
 - thoughts
 ---

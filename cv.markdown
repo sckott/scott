@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: layout_pubs
 title: CV
 ---
 

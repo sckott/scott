@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: layout_pubs
 title: R-Packages
 ---
 
-## R Packages
+# R Packages
 
-+ [govdat][] - Interface to various APIs for government data.
-+ [rdryad][] - R implementation of the [API][] for the [Dryad][] biological data repository
-+ [rplos][] - A programmatic interface to the Web Service methods provided by the Public Library of Science journals.
+### [govdat][] - Interface to various APIs for government data.
+### [rdryad][] - R implementation of the [API][] for the [Dryad][] biological data repository
+### [rplos][] - A programmatic interface to the Web Service methods provided by the Public Library of Science journals
 
 
 [govdat]: http://cran.r-project.org/web/packages/govdat/index.html

@@ -2,7 +2,7 @@
 layout: post
 title: Digital lysenkoism - an apt analogy for academic publishing?
 author: Scott
-tag:
+tags:
 - publishing
 - lysenkoism
 - open access
