@@ -1,7 +1,7 @@
 ---
 layout: post
 title: R meetings topics
-permalink: /2011/10/14/r-meetings-topics/index.html
+permalink: /scott/2011/10/14/r-meetings-topics/index.html
 post_id: 593
 tags: 
 - ggplot2

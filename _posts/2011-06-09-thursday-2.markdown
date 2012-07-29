@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thursday
-permalink: /2011/06/09/thursday-2/index.html
+permalink: /scott/2011/06/09/thursday-2/index.html
 post_id: 395
 tags: 
 - API

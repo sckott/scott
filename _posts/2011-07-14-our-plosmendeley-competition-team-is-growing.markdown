@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our PLoS/Mendeley competition team is growing
-permalink: /2011/07/14/our-plosmendeley-competition-team-is-growing/index.html
+permalink: /scott/2011/07/14/our-plosmendeley-competition-team-is-growing/index.html
 post_id: 473
 tags: 
 - Uncategorized

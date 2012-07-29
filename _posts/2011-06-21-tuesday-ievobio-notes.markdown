@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tuesday, ievobio notes
-permalink: /2011/06/21/tuesday-ievobio-notes/index.html
+permalink: /scott/2011/06/21/tuesday-ievobio-notes/index.html
 post_id: 465
 tags: 
 - Uncategorized

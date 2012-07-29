@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meta-analysis interactive website?
-permalink: /2011/08/08/meta-analysis-interactive-website/index.html
+permalink: /scott/2011/08/08/meta-analysis-interactive-website/index.html
 post_id: 493
 tags: 
 - Datasets

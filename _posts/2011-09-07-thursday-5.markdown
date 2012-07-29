@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wednesday
-permalink: /2011/09/07/thursday-5/index.html
+permalink: /scott/2011/09/07/thursday-5/index.html
 post_id: 549
 tags: 
 - Uncategorized

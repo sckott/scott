@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rice EEB seminar by John Wiens, Sep 26, 2011
-permalink: /2011/10/04/rice-eeb-seminar-by-john-wiens-sep-26-2011/index.html
+permalink: /scott/2011/10/04/rice-eeb-seminar-by-john-wiens-sep-26-2011/index.html
 post_id: 566
 tags: 
 - Ecology

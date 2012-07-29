@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Notes on 2011 ESA Bayesian workshop
-permalink: /2011/10/25/notes-on-2011-esa-bayesian-workshop/index.html
+permalink: /scott/2011/10/25/notes-on-2011-esa-bayesian-workshop/index.html
 post_id: 615
 tags: 
 - Uncategorized

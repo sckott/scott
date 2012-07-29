@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PLoS Article Level Metrics
-permalink: /2011/07/26/plos-article-level-metrics/index.html
+permalink: /scott/2011/07/26/plos-article-level-metrics/index.html
 post_id: 485
 tags: 
 - 
