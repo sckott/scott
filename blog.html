@@ -9,7 +9,7 @@ title: "Lab Notebook"
     <tr>
       <td>
 		  <h3><a href="http://schamberlain.github.com/scott{{ post.url }}">{{ post.title }}</a></h3>
-		  <p><small>{{ post.date | date: "%B %e, %Y" }} . {% for tag in post.tags %} <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>  {% if forloop.last != true %} {% endif %} {% endfor %} . <a href="http://schamberlain.github.com/scott{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></small></p>
+		  <p><small>{{ post.date | date: "%B %e, %Y" }} . {% for tag in post.tags %} <a href="http://schamberlain.github.com/scott/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>  {% if forloop.last != true %} {% endif %} {% endfor %} . <a href="http://schamberlain.github.com/scott{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></small></p>
 	  </td>
     </tr>
 	{% endfor %}			
