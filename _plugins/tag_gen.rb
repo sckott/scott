@@ -2,7 +2,7 @@ module Jekyll
 
   class TagIndex < Page    
     def initialize(site, base, dir, tag)
-      @site = site
+      @site = 'http://schamberlain.github.com/scott'
       @base = base
       @dir = dir
       @name = 'index.html'
