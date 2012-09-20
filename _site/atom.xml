@@ -4,12 +4,196 @@
  <title>Recology</title>
  <link href="http://schamberlain.github.com/atom.xml" rel="self"/>
  <link href="http://schamberlain.github.com/"/>
- <updated>2012-08-02T07:55:03-07:00</updated>
+ <updated>2012-09-20T16:32:42-07:00</updated>
  <id>http://schamberlain.github.com</id>
  <author>
    <name>Scott Chamberlain</name>
  </author>
  
+ 
+ <entry>
+   <title>Notes on Stouffer et al. 2012 Science</title>
+   <link href="http://schamberlain.github.com/2012/09/20/network-roles/"/>
+   <updated>2012-09-20T00:00:00-07:00</updated>
+   <id>http://schamberlain.github.com/2012/09/20/network-roles</id>
+   <content type="html">&lt;h3&gt;Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;title was &quot;Evolutionary conservation of species' roles in food webs&quot;&lt;/li&gt;
+&lt;li&gt;used 32 empirical food webs&lt;/li&gt;
+&lt;li&gt;questions were:
+
+&lt;ul&gt;
+&lt;li&gt;do species have consistent &quot;roles&quot; across different food webs they are embedded in, and&lt;/li&gt;
+&lt;li&gt;are species roles phylogenetically conserved&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Found that
+
+&lt;ul&gt;
+&lt;li&gt;species roles (motifs) are conserved across different communities&lt;/li&gt;
+&lt;li&gt;species benefit to the community (they call dynamic importance - bascially is the impact that the motif they are in has on community persistence simulations of the empirical networks) is homogenous - closely related species to have similar benefit to their community than expected at random&lt;/li&gt;
+&lt;li&gt;at larger taxonomic scales, they show that phyla, classes, orders, and families, tend to play similar roles betlween New Zealand food webs, and all other food webs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Other questions
+
+&lt;ul&gt;
+&lt;li&gt;What are the mechanisms for the evolutionary conservation of species roles?
+
+&lt;ul&gt;
+&lt;li&gt;Is it related to similarity in traits?&lt;/li&gt;
+&lt;li&gt;or possibly similarity in abundance?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Is there conservation of species roles in mutualistic plant-pollinator networks?
+
+&lt;ul&gt;
+&lt;li&gt;this paper only looked at food webs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Potential problems
+
+&lt;ul&gt;
+&lt;li&gt;they did not provide code, so can't necessarily replicate what they did&lt;/li&gt;
+&lt;li&gt;can we look at where species are in motifs with bipartite networks?  that is, species of similar type (plants) can’t interact with one another
+
+&lt;ul&gt;
+&lt;li&gt;probably: just means that motifs are of a more limited set, that is, whereas in a food web you can have a triangle, you can only have an open triangle in a bipartite network&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/img/triangle.png&quot; alt=&quot;triangle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;VS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/triangle_open.png&quot; alt=&quot;triangle&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Code: asked for code form Daniel Stouffer - it was not provided in the paper&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;How can we do something similar with bipartite networks?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Problems, in bipartite networks:
+
+&lt;ul&gt;
+&lt;li&gt;there is no directionality to links, so that decreases the unique graphlets/motifs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Possible solutions:
+
+&lt;ul&gt;
+&lt;li&gt;Use modules? (Olesen &lt;em&gt;et. al.&lt;/em&gt; 2007) talk about modules as roles in bipartite networks, however this isn't the same as motifs. Motifs/graphlets are asking what roles do species play in sub-structures of the network, whereas with modules we can say whether a species plays the role of a module hub, network hub, connector, or peripheral (according to Olesen terminology).  But this isn't the same as motif/graphlets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;bipartite&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+data&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;small1976&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+res &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; computeModules&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;small1976&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# takes several minutes!&lt;/span&gt;
+plotModuleWeb&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;res&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/img/modules.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+ Converting bipartite two-mode networks to one-mode networks
+    + One option is to convert two-mode bipartite networks into one-mode networks, which results in two one-mode networks, one for plants and one for pollinators.  Then, each one-mode network represents links shared by species in the same partite.  With this, one can look at motifs and graphlets, but what does that mean?  If a certain plant species X is found in a lot of motifs of a certain kind, does that tell us anything about the two-mode bipartite network of plant-pollinator interactions?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;tnet&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;bipartite&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+data&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;small1976&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# load small1976 network (it’s a matrix)&lt;/span&gt;
+mat &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; as.data.frame&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;small1976&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# convert to data.frame&lt;/span&gt;
+mat &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; mat&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;:&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# get samller matrix for ease&lt;/span&gt;
+plotweb&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# bipartite plot&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/img/twovsonemode1.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;row.names&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;NULL&lt;/span&gt;
+mat_elist &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; web2edges&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; return &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k-Variable&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# convert to edgelist&lt;/span&gt;
+mat_onemode &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; projecting_tm&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_elist&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; method &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Newman&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# make into one-mode network&lt;/span&gt;
+mat_onemode_i &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; tnet_igraph&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_onemode&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; directed &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k-Variable&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# convert to igraph object for plotting&lt;/span&gt;
+plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_onemode_i&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# plot one-mode undirected graph&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/img/twovsonemode2.png&quot; alt=&quot;NA&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+ or maybe we can do this: 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;tnet&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;bipartite&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;reshape2&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ggplot2&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+data&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;small1976&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# load small1976 network (it’s a matrix)&lt;/span&gt;
+mat &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; as.data.frame&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;small1976&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# convert to data.frame&lt;/span&gt;
+mat &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; mat&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;:&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# get samller matrix for ease&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# plotweb(mat) # bipartite plot&lt;/span&gt;
+row.names&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;NULL&lt;/span&gt;
+mat_elist &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; web2edges&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; return &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k-Variable&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# convert to edgelist&lt;/span&gt;
+onemode_plants &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; projecting_tm&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_elist&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; method &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Newman&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# make into one-mode network&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Insects (columns of mat)&lt;/span&gt;
+mat2 &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; matrix&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_elist&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; mat_elist&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; mat_elist&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; ncol &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# rearrange to get pollinators in first column&lt;/span&gt;
+onemode_pollinators &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; projecting_tm&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat2&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; method &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Newman&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# make into one-mode network&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Combine into one matrix&lt;/span&gt;
+dimnames&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_elist&lt;span class=&quot;p&quot;&gt;)[[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;i&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;j&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+dimnames&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;onemode_plants&lt;span class=&quot;p&quot;&gt;)[[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;i&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;j&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+dimnames&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;onemode_pollinators&lt;span class=&quot;p&quot;&gt;)[[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;i&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;j&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ee &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; rbind&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_elist&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; onemode_plants&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; onemode_pollinators&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ee_ &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; dcast&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; i ~ j&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; value.var &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ee_&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;is.na&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee_&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;
+row.names&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee_&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; ee_&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+ee_ &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; ee_&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Plotting it&lt;/span&gt;
+ee__ &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; tnet_igraph&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; directed &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k-Variable&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee__&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# where noddes 1-13 are plants, and 14-23 are pollinators&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/img/other.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically a network of plant-pollinator interactions together with the putative competitive/facilitative interactions within each partite (plants and pollinators). Obviously this graph needs coloring for the different types of nodes...&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/master/_drafts/2012-09-20-network-roles.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/tree/master/_posts/2012-09-20-network-roles.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+
+&lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;, and nice knitr highlighting/etc. in in &lt;a href=&quot;http://rstudio.org/&quot;&gt;RStudio&lt;/a&gt;.&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;h4&gt;References&lt;/h4&gt;
+
+&lt;p&gt;Olesen JM, Bascompte J, Dupont YL and Jordano P (2007).
+&amp;ldquo;The Modularity of Pollination Networks.&amp;rdquo;
+&lt;EM&gt;Proceedings of The National Academy of Sciences&lt;/EM&gt;, &lt;B&gt;104&lt;/B&gt;.
+ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;&gt;http://dx.doi.org/10.1073/pnas.0706375104&lt;/a&gt;.
+
+</content>
+ </entry>
  
  <entry>
    <title>Notes on doing in-person science interviews</title>
