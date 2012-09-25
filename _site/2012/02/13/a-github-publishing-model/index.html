@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Should the old thesis model die?</title>
+    <title>Will a GitHub publishing model work?</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -97,13 +97,13 @@
 		<div class="marketing">
 		<div class="content">    
 	<div class="row">
-	<p><h1>Should the old thesis model die?</h1></p>	
+	<p><h1>Will a GitHub publishing model work?</h1></p>	
 	<div class="span3 column">
-		<h4><strong>November 26, 2011 <small>.  . <a href="http://schamberlain.github.com/scott/scott/2011/11/26/should-the-old-thesis-model-die/index.html#disqus_thread" data-disqus-identifier="/scott/2011/11/26/should-the-old-thesis-model-die/index.html">Comments</a></small></strong>
-		<br/><small>Tags:  <a href="/tags/Uncategorized" title="View posts tagged with &quot;Uncategorized&quot;"><u>Uncategorized</u></a>    </small></h4>
+		<h4><strong>February 13, 2012 <small>.  . <a href="http://schamberlain.github.com/scott/2012/02/13/a-github-publishing-model/#disqus_thread" data-disqus-identifier="/2012/02/13/a-github-publishing-model/">Comments</a></small></strong>
+		<br/><small>Tags:  <a href="/tags/github" title="View posts tagged with &quot;github&quot;"><u>github</u></a>     <a href="/tags/thoughts" title="View posts tagged with &quot;thoughts&quot;"><u>thoughts</u></a>     <a href="/tags/publishing" title="View posts tagged with &quot;publishing&quot;"><u>publishing</u></a>    </small></h4>
 	</div>		
 	<div class="span9 column">
-		<p class="pull-right"> <a href="/scott/2011/11/10/evolution-in-agriculture-my-scifund-video/index.html" title="Previous Post: Evolution in Agriculture - my #SciFund video"><i class="icon-chevron-left"></i></a> 	    	<a href="/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle/" title="Next Post: We (rOpenSci) wond 3rd place in the PLoS-Mendeley Binary Battle!"><i class="icon-chevron-right"></i></a> 	 </p> 
+		<p class="pull-right"> <a href="/2012/01/10/Tuesday-Jan102012/" title="Previous Post: Tuesday Jan 10, 2012 Notes"><i class="icon-chevron-left"></i></a> 	    	<a href="/2012/02/19/efn-scaling/" title="Next Post: Remember to ressurect paper on EFN scaling with plant size"><i class="icon-chevron-right"></i></a> 	 </p> 
 	</div>
 </div>
 
@@ -113,24 +113,82 @@
 	</div>
 </div>
 
-    <p>So, the traditional Ph.D. thesis model involves 3 to 5 chapters on one topic - an in-depth investigation of one question, or a series of tightly related questions.</p>
+    <h2>Introduction</h2>
 
-<p>However, collaborative work across labs, political borders, and conceptual borders, is increasingly occurring, either due to decreasing funding or other reasons.</p>
+<p>Publishing and publishers are stagnant, and have not innovated much in a long time, save a few such as <a href="http://www.plos.org/publications/journals/">Public Library of Science or PLoS</a>.</p>
 
-<p>Yet we hang on to the traditional thesis model concentrating on one single question, with all the chapters related.  Why can't a thesis mirror what is likely to happen post thesis work?</p>
+<p>Beyond PLoS, some experiments in publishing are taking place, including:</p>
 
-<p>For example, my thesis involves three different projects (two projects with one paper each, and one project with two papers), and are only united in the sense that they investigate species interactions  - albeit across ecology and evolution.  Beyond my actual thesis chapters, I have been involved in a number of collaborative projects, some leading to papers, some not.</p>
+<ul>
+<li><p><a href="http://annotum.org/">Annotum</a>: an "open-source, open-process, open-access scholarly authoring and publishing platform based on WordPress"</p></li>
+<li><p><a href="http://scholasticahq.com/">Scholastica</a>: a peer-review, manuscript handling web-based platform.</p></li>
+<li><p><a href="http://www.peerageofscience.org/">Peerage of Science</a>: a web service for "automatically controlled, standardized, rigorous, fully anonymous scientific peer review"</p></li>
+<li><p><a href="http://www.gigasciencejournal.com/">GigaScience</a>: online open-access open-data journal, with big-data studies, links standard manuscript publication with database for associated data, data anlaysis tools, and cloud-computing resources.</p></li>
+</ul>
 
-<p>This sort of model of a thesis I think matches more closely what one is likely to due in a research job - that is, work on a various different projects, with various collaborators, on sometimes unrelated questions.</p>
 
-<p>I wonder how common this sort of thesis model is, one with more collaborative work and more distantly related questions than the traditional model?</p>
+<p>All these publishing innovations are great.  But, I think we need more, as do others.  A few weeks ago, a number of us discussed on Twitter the possibility of a publishing model based on <a href="https://github.com/">GitHub</a>.  (Marcio von Muhlen had a blog post in April last year titled <a href="http://marciovm.com/i-want-a-github-of-science/index.html">"We need a GithHub of science"</a> - which I should point out here as it is relavant.)</p>
+
+<h2>The proposal</h2>
+
+<p>What would a GitHub hosted journal look like?  I think there are three technological/software components (not counting human components of reviewers editors, etc.):</p>
+
+<ol>
+<li><p>Web platform/database for hosting manuscripts in various stages from just submitted to revisions to published.</p></li>
+<li><p>Review system, including database of reviewers, the reviews themselves, etc.</p></li>
+<li><p>A frontend to present the papers/etc, submit manuscripts, and CSS to make it all look pretty.</p></li>
+</ol>
+
+
+<p>In my opinion, GitHub can play a major role in numbers (1) and (3).  In (1), the git based versioning of code could also be used to submit and handle papers.  In addition, wrt (3), <a href="http://pages.github.com/">GitHub Pages</a> is a way to present content in a static web page from one of the branches of your GitHub repository.  See <a href="https://github.com/mojombo/jekyll/wiki/sites">here</a> for a growing list of websites hosted on GitHub pages.  Presenting published and early view papers, etc. doesn't need to have some insane website, so this could be a cheap way to do it. And you can use a custom domain name for the journal, e.g., go from myjournal.github.com to myjournal.com.</p>
+
+<p>As for (2), the above-mentioned Scholastica or Peerage of Science could be an option for handling peer reviews.</p>
+
+<h2>Disadvantages and advantages</h2>
+
+<h3>The disadvantages</h3>
+
+<p>So a GitHub hosted journal has obivous drawbacks...</p>
+
+<ul>
+<li><p>Technical knowhow: Some scientists may not know how to use git, and if papers have to be submitted in Latex, then you will eliminate many potential authors possibly.</p></li>
+<li><p>There aren't rich web markup tools.</p></li>
+<li><p>Others?</p></li>
+</ul>
+
+
+<h3>The advantages</h3>
+
+<p>...and advantages</p>
+
+<ul>
+<li><p>Completely open: A GitHub journal would be completely open, so that the public/scientists could see everything that was going on in the journal, including all the manuscript revisions, and reviews if they were done on GitHub, or at least mirrored to GitHub.</p></li>
+<li><p>API: GitHub has a built in API, so we don't have to build one ourselves.</p></li>
+<li><p>Versioning: manuscripts would include automatic versioning, including tracking down to the periods that were changed between versions</p></li>
+<li><p>Metrics: GitHub has built in metrics on "watchers", "followers", and for clones and forks, among other things. In addition, we could pull altmetrics data from the <a href="http://totalimpact.org/">TotalImpact</a> API, and present those data associated with papers on the rendered website for the journal. Of course, anyone could hit the TotalImpact, or GitHub APIs themselves for these metrics too.</p></li>
+<li><p>Pull requests: maybe pull requests could be used to submit papers.</p></li>
+</ul>
+
+
+<p>The question is do these advantages outweigh the potential drawbacks.  I don't know the answer to this question, but I think this conversation is worth having.</p>
+
+<h2>What would the structure look like on GitHub?</h2>
+
+<p>Maybe like this:</p>
+
+<iframe src="https://docs.google.com/presentation/embed?id=1J7DSxk0H90NVcRvPhug4UYcH_pCngMWO7-aIeqAxIeA&start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+<h2>What do you think?</h2>
+
+<p>What do you think?  Does this journal idea sound feasible? Should we just start a journal hosted on GitHub and see what happens?</p>
 		
 </div>
     
 
 		</div>
 		 <footer class="footer">		        
-	<p class="pull-right"> <a href="/scott/2011/11/10/evolution-in-agriculture-my-scifund-video/index.html" title="Previous Post: Evolution in Agriculture - my #SciFund video">&laquo; Previous Blog Post</a> 	  |  <a href="#">Back to top</a>  |   	<a href="/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle/" title="Next Post: We (rOpenSci) wond 3rd place in the PLoS-Mendeley Binary Battle!">Next Blog Post &raquo; </a> 	 </p> 
+	<p class="pull-right"> <a href="/2012/01/10/Tuesday-Jan102012/" title="Previous Post: Tuesday Jan 10, 2012 Notes">&laquo; Previous Blog Post</a> 	  |  <a href="#">Back to top</a>  |   	<a href="/2012/02/19/efn-scaling/" title="Next Post: Remember to ressurect paper on EFN scaling with plant size">Next Blog Post &raquo; </a> 	 </p> 
 
 	<br><br/>
 	<br><br/>

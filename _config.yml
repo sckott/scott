@@ -3,4 +3,4 @@ url: http://schamberlain.github.com
 auto: true
 markdown: rdiscount
 pygments: true
-permalink: /scott/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
