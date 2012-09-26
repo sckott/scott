@@ -4,7 +4,7 @@
  <title>Recology</title>
  <link href="http://schamberlain.github.com/atom.xml" rel="self"/>
  <link href="http://schamberlain.github.com/"/>
- <updated>2012-09-26T09:23:15-07:00</updated>
+ <updated>2012-09-26T09:29:06-07:00</updated>
  <id>http://schamberlain.github.com</id>
  <author>
    <name>Scott Chamberlain</name>
@@ -23,40 +23,48 @@
 &lt;h3&gt;Find a public AMI of RStudio, start an instance, then in the terminal:&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Update R to newest version by adding &lt;code&gt;deb http://&amp;lt;my.favorite.cran.mirror&amp;gt;/bin/linux/ubuntu oneiric/&lt;/code&gt; to your &lt;code&gt;sources.list&lt;/code&gt; file - back it up first &lt;code&gt;sudo cp /etc/apt/sources.list /etc/apt/sources.list.bckup&lt;/code&gt;, then run &lt;code&gt;sudo sh -c &quot;echo 'deb http://cran.stat.sfu.ca//bin/linux/ubuntu oneiric/'&amp;gt;&amp;gt;/etc/apt/sources.list&quot;&lt;/code&gt;. Change oneiric to your version of Ubuntu (see &lt;a href=&quot;http://cran.r-project.org/bin/linux/ubuntu/&quot;&gt;here&lt;/a&gt;). Then run &lt;code&gt;sudo apt-get update&lt;/code&gt;, then &lt;code&gt;sudo apt-get install r-base&lt;/code&gt; to update R.
-
-&lt;ul&gt;
+&lt;li&gt;Update R to newest version by adding &lt;code&gt;deb http://&amp;lt;my.favorite.cran.mirror&amp;gt;/bin/linux/ubuntu oneiric/&lt;/code&gt; to your &lt;code&gt;sources.list&lt;/code&gt; file -&lt;/li&gt;
+&lt;li&gt;back it up first &lt;code&gt;sudo cp /etc/apt/sources.list /etc/apt/sources.list.bckup&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;then run &lt;code&gt;sudo sh -c &quot;echo 'deb http://cran.stat.sfu.ca//bin/linux/ubuntu oneiric/'&amp;gt;&amp;gt;/etc/apt/sources.list&quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Change oneiric to your version of Ubuntu (see &lt;a href=&quot;http://cran.r-project.org/bin/linux/ubuntu/&quot;&gt;here&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Then run &lt;code&gt;sudo apt-get update&lt;/code&gt;, then &lt;code&gt;sudo apt-get install r-base&lt;/code&gt; to update R.&lt;/li&gt;
 &lt;li&gt;helpful sites for install on ubuntu:
 
-&lt;ul&gt;
-&lt;li&gt;http://blogs.helsinki.fi/bioinformatics-viikki/documentation/getting-started-with-r-programming/installingrlatest/&lt;/li&gt;
-&lt;li&gt;http://help.nceas.ucsb.edu/installing_r_on_ubuntu&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt;  + http://blogs.helsinki.fi/bioinformatics-viikki/documentation/getting-started-with-r-programming/installingrlatest/
+  + http://help.nceas.ucsb.edu/installing_r_on_ubuntu
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;Follow instructions on &lt;a href=&quot;http://rstudio.org/download/server&quot;&gt;RStudio's website&lt;/a&gt; to update RStudio server version.&lt;/li&gt;
 &lt;li&gt;Add new user by &lt;code&gt;sudo adduser username&lt;/code&gt;.  This is the credential you will use to login in to RStudio in the browser on the AMI.&lt;/li&gt;
 &lt;/ul&gt;
 
 
-&lt;h3&gt;We'll need some stuff on ubuntu to do web calls, which I do a lot of.&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;h3&gt;I need some stuff on ubuntu to do web calls, which I do a lot of.&lt;/h3&gt;
 
 &lt;h4&gt;Install dependencies for RCurl&lt;/h4&gt;
 
-&lt;p&gt;Learned from &lt;a href=&quot;http://www.omegahat.org/RCurl/FAQ.html&quot;&gt;here&lt;/a&gt; that once inside the Linux box on the AWS instance, run &lt;code&gt;sudo apt-get install libcurl4-openssl-dev&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learned from &lt;a href=&quot;http://www.omegahat.org/RCurl/FAQ.html&quot;&gt;here&lt;/a&gt; that once inside the Linux box on the AWS instance, run &lt;code&gt;sudo apt-get install libcurl4-openssl-dev&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
 
 &lt;h4&gt;Install dependencies for XML&lt;/h4&gt;
 
-&lt;p&gt;Learned from &lt;a href=&quot;http://stackoverflow.com/questions/7765429/unable-to-install-r-package-in-ubuntu-11-04&quot;&gt;here&lt;/a&gt;, that once inside the Linux box on the AWS instance, run &lt;code&gt;sudo apt-get update&lt;/code&gt; then &lt;code&gt;sudo apt-get install libxml2-dev&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learned from &lt;a href=&quot;http://stackoverflow.com/questions/7765429/unable-to-install-r-package-in-ubuntu-11-04&quot;&gt;here&lt;/a&gt;, that once inside the Linux box on the AWS instance, run &lt;code&gt;sudo apt-get update&lt;/code&gt; then &lt;code&gt;sudo apt-get install libxml2-dev&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
 
 &lt;h4&gt;These will allow to do &lt;code&gt;library(RCurl)&lt;/code&gt; and &lt;code&gt;library(XML)&lt;/code&gt;, both important for making web calls.&lt;/h4&gt;
+
+&lt;hr /&gt;
 
 &lt;h3&gt;Save the AMI as an image you own.  Then you can start up this image any time you want with whatever size instance you want.&lt;/h3&gt;
 
 &lt;hr /&gt;
 
-&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/master/_drafts/2012-09-26-using-aws.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/tree/master/_posts/2012-09-26-using-aws.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2012-09-26-using-aws.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/tree/gh-pages/_posts/2012-09-26-using-aws.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
 
 &lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;.&lt;/h4&gt;
 </content>
