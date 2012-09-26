@@ -4,7 +4,7 @@
  <title>Recology</title>
  <link href="http://schamberlain.github.com/atom.xml" rel="self"/>
  <link href="http://schamberlain.github.com/"/>
- <updated>2012-09-26T09:29:06-07:00</updated>
+ <updated>2012-09-26T09:31:57-07:00</updated>
  <id>http://schamberlain.github.com</id>
  <author>
    <name>Scott Chamberlain</name>
@@ -30,9 +30,11 @@
 &lt;li&gt;Then run &lt;code&gt;sudo apt-get update&lt;/code&gt;, then &lt;code&gt;sudo apt-get install r-base&lt;/code&gt; to update R.&lt;/li&gt;
 &lt;li&gt;helpful sites for install on ubuntu:
 
-&lt;pre&gt;&lt;code&gt;  + http://blogs.helsinki.fi/bioinformatics-viikki/documentation/getting-started-with-r-programming/installingrlatest/
-  + http://help.nceas.ucsb.edu/installing_r_on_ubuntu
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;http://blogs.helsinki.fi/bioinformatics-viikki/documentation/getting-started-with-r-programming/installingrlatest/&lt;/li&gt;
+&lt;li&gt;http://help.nceas.ucsb.edu/installing_r_on_ubuntu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Follow instructions on &lt;a href=&quot;http://rstudio.org/download/server&quot;&gt;RStudio's website&lt;/a&gt; to update RStudio server version.&lt;/li&gt;
 &lt;li&gt;Add new user by &lt;code&gt;sudo adduser username&lt;/code&gt;.  This is the credential you will use to login in to RStudio in the browser on the AMI.&lt;/li&gt;
 &lt;/ul&gt;
