@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>- notes</title>
+
+<base target="_blank"/>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<hr/>
+
+<p>layout: post<br/>
+title: Setting up an AMI for RStudio on AWS EC2<br/>
+author: Scott<br/>
+tags:</p>
+
+<ul>
+<li>rstudio</li>
+<li>aws</li>
+<li>ami</li>
+</ul>
+
+<h2>- notes</h2>
+
+<p>Stuff needed to get a RStudio AMI going on Amazon Web Services (AWS). </p>
+
+<h2>Starting from scratch</h2>
+
+<h3>Find a public AMI of RStudio, start an instance, then in the terminal:</h3>
+
+<ul>
+<li>Update R to newest version by adding <code>deb http://&lt;my.favorite.cran.mirror&gt;/bin/linux/ubuntu oneiric/</code> to your <code>sources.list</code> file - back it up first <code>sudo cp /etc/apt/sources.list /etc/apt/sources.list.bckup</code>, then run <code>sudo sh -c &quot;echo &#39;deb http://cran.stat.sfu.ca//bin/linux/ubuntu oneiric/&#39;&gt;&gt;/etc/apt/sources.list&quot;</code>. Change oneiric to your version of Ubuntu (see <a href="http://cran.r-project.org/bin/linux/ubuntu/">here</a>). Then run <code>sudo apt-get update</code>, then <code>sudo apt-get install r-base</code> to update R.
+
+<ul>
+<li>helpful sites for install on ubuntu: 
+
+<ul>
+<li><a href="http://blogs.helsinki.fi/bioinformatics-viikki/documentation/getting-started-with-r-programming/installingrlatest/">http://blogs.helsinki.fi/bioinformatics-viikki/documentation/getting-started-with-r-programming/installingrlatest/</a></li>
+<li><a href="http://help.nceas.ucsb.edu/installing_r_on_ubuntu">http://help.nceas.ucsb.edu/installing_r_on_ubuntu</a></li>
+</ul></li>
+</ul></li>
+<li>Follow instructions on <a href="http://rstudio.org/download/server">RStudio&#39;s website</a> to update RStudio server version.</li>
+<li>Add new user by <code>sudo adduser username</code>.  This is the credential you will use to login in to RStudio in the browser on the AMI. </li>
+</ul>
+
+<h3>We&#39;ll need some stuff on ubuntu to do web calls, which I do a lot of.</h3>
+
+<h4>Install dependencies for RCurl</h4>
+
+<p>Learned from <a href="http://www.omegahat.org/RCurl/FAQ.html">here</a> that once inside the Linux box on the AWS instance, run <code>sudo apt-get install libcurl4-openssl-dev</code>. </p>
+
+<h4>Install dependencies for XML</h4>
+
+<p>Learned from <a href="http://stackoverflow.com/questions/7765429/unable-to-install-r-package-in-ubuntu-11-04">here</a>, that once inside the Linux box on the AWS instance, run <code>sudo apt-get update</code> then <code>sudo apt-get install libxml2-dev</code>. </p>
+
+<h4>These will allow to do <code>library(RCurl)</code> and <code>library(XML)</code>, both important for making web calls.</h4>
+
+<h3>Save the AMI as an image you own.  Then you can start up this image any time you want with whatever size instance you want.</h3>
+
+<hr/>
+
+<h4>Get the .Rmd file used to create this post <a href="https://github.com/SChamberlain/scott/blob/master/_drafts/2012-09-26-using-aws.Rmd">at my github account</a> - or <a href="https://github.com/SChamberlain/scott/tree/master/_posts/2012-09-26-using-aws.md">.md file</a>.</h4>
+
+<h4>Written in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>, with help from <a href="http://yihui.name/knitr/">knitr</a>.</h4>
+
+</body>
+
+</html>
+
