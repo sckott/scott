@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Evolution in Agriculture - my #SciFund video"
-permalink: /scott/2011/11/10/evolution-in-agriculture-my-scifund-video/index.html
 post_id: 670
 tags: 
 - Ecology

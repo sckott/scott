@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Sunday: Research Ideas"
-permalink: /scott/2011/06/05/sunday-research-ideas/index.html
 post_id: 393
 tags: 
 - Uncategorized

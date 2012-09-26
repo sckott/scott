@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Notes on Jason Fridley's Talk at ESA 2011
-permalink: /scott/2011/08/11/notes-on-jason-fridleys-talk-at-esa-2011/index.html
 post_id: 499
 tags: 
 - Ecology

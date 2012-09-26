@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Friday; simulations on phylogeny outgroup influence on phylogenetic meta-analysis model fit
-permalink: /scott/2011/10/07/friday-simulations-on-phylogeny-outgroup-influence-on-phylogenetic-meta-analysis-model-fit/index.html
 post_id: 584
 tags: 
 - Evolution

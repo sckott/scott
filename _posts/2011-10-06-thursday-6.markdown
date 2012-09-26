@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Thursday
-permalink: /scott/2011/10/06/thursday-6/index.html
 post_id: 571
 tags: 
 - ToDo

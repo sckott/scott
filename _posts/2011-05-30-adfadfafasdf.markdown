@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Towards open science
-permalink: /scott/2011/05/30/adfadfafasdf/index.html
 post_id: 225
 tags: 
 - Uncategorized

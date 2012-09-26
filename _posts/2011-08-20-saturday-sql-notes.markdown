@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Saturday: SQL notes"
-permalink: /scott/2011/08/20/saturday-sql-notes/index.html
 post_id: 509
 tags: 
 - Uncategorized

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Wednesday
-permalink: /scott/2011/06/01/wednesday/index.html
 post_id: 229
 tags: 
 - R

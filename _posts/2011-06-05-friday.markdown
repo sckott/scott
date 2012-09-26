@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Friday
-permalink: /scott/2011/06/05/friday/index.html
 post_id: 389
 tags: 
 - Uncategorized

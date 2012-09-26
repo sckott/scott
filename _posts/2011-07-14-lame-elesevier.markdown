@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Lame, Elesevier, Lame
-permalink: /scott/2011/07/14/lame-elesevier/index.html
 post_id: 478
 tags: 
 - Uncategorized

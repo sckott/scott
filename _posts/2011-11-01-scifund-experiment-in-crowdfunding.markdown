@@ -1,7 +1,6 @@
 ---
 layout: post
 title: SciFund - experiment in crowdfunding
-permalink: /scott/2011/11/01/scifund-experiment-in-crowdfunding/index.html
 post_id: 635
 tags: 
 - Uncategorized

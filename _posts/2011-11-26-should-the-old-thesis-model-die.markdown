@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Should the old thesis model die?
-permalink: /scott/2011/11/26/should-the-old-thesis-model-die/index.html
 post_id: 687
 tags: 
 - Uncategorized
