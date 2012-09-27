@@ -4,12 +4,14 @@ title: Research
 ---
 
 
-## Some of my talks
+## Some of my talks (those written in html)
+
+### Get the code for these talks at GitHub [here](https://github.com/SChamberlain/posterstalks)
 
 <div class="row">
  <br> 
-<div class="span9 offset2">
-<li class="span3 nobullet">
+<div class="span9 offset1">
+<li class="span4 nobullet">
       <div class="thumbnail">
         <a href="http://schamberlain.github.com/posterstalks/rvantalk/slides/"><img src="http://schamberlain.github.com/scott/img/rvantalk.png" alt=""></a>
         <div class="caption">
@@ -18,15 +20,15 @@ title: Research
       </div>
     </li>
 
-<li class="span3 nobullet">
+<li class="span4 nobullet">
       <div class="thumbnail">
         <a href="http://schamberlain.github.com/posterstalks/ucalgarytalk/"><img src="http://schamberlain.github.com/scott/img/ucalgarytalk.png" alt="" border="1"></a>
         <div class="caption">
-          <p><a href="http://schamberlain.github.com/posterstalks/ucalgarytalk/">Univ. of Calgary Seminar</a>, Sep 28<sup>th</sup>, 2012. Scott Chamberlain</p>
+          <p><a href="http://www.bio.ucalgary.ca/">Univ. of Calgary Seminar</a>, Sep 28<sup>th</sup>, 2012. Scott Chamberlain</p>
         </div>
       </div>
     </li>
  </div>
 </div>
-
+<br> <br> 
 ## See other talks at Slideshare [here](http://www.slideshare.net/schamber)
