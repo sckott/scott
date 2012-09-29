@@ -4,7 +4,7 @@
  <title>Recology</title>
  <link href="http://schamberlain.github.com/atom.xml" rel="self"/>
  <link href="http://schamberlain.github.com/"/>
- <updated>2012-09-26T17:08:26-07:00</updated>
+ <updated>2012-09-28T22:17:52-06:00</updated>
  <id>http://schamberlain.github.com</id>
  <author>
    <name>Scott Chamberlain</name>
@@ -14,7 +14,7 @@
  <entry>
    <title>Setting up an AMI for RStudio on AWS EC2</title>
    <link href="http://schamberlain.github.com/2012/09/26/using-aws/"/>
-   <updated>2012-09-26T00:00:00-07:00</updated>
+   <updated>2012-09-26T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2012/09/26/using-aws</id>
    <content type="html">&lt;p&gt;Stuff needed to get a RStudio AMI going on Amazon Web Services (AWS).&lt;/p&gt;
 
@@ -75,7 +75,7 @@
  <entry>
    <title>Notes on Stouffer et al. 2012 Science</title>
    <link href="http://schamberlain.github.com/2012/09/20/network-roles/"/>
-   <updated>2012-09-20T00:00:00-07:00</updated>
+   <updated>2012-09-20T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2012/09/20/network-roles</id>
    <content type="html">&lt;h3&gt;Notes&lt;/h3&gt;
 
@@ -259,7 +259,7 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
  <entry>
    <title>Notes on doing in-person science interviews</title>
    <link href="http://schamberlain.github.com/2012/04/12/doing-interviews-chat-with-jai/"/>
-   <updated>2012-04-12T00:00:00-07:00</updated>
+   <updated>2012-04-12T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2012/04/12/doing-interviews-chat-with-jai</id>
    <content type="html">&lt;p&gt;From chat with Jai Ranganathan on doing in-person science interviews&lt;/p&gt;
 
@@ -342,7 +342,7 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
  <entry>
    <title>Digital lysenkoism - an apt analogy for academic publishing?</title>
    <link href="http://schamberlain.github.com/2012/03/21/digital-lysenkoism/"/>
-   <updated>2012-03-21T00:00:00-07:00</updated>
+   <updated>2012-03-21T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2012/03/21/digital-lysenkoism</id>
    <content type="html">&lt;p&gt;Here, I argue that Cory Doctorow's analogy of publishers insistence on DRM as digitial lysenkoism, is an apt anology to describe many academic publishers.&lt;/p&gt;
 
@@ -361,7 +361,7 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
  <entry>
    <title>Abstract for ESAA 2012 meeting</title>
    <link href="http://schamberlain.github.com/2012/02/24/ESA-2012-abstract/"/>
-   <updated>2012-02-24T00:00:00-08:00</updated>
+   <updated>2012-02-24T00:00:00-07:00</updated>
    <id>http://schamberlain.github.com/2012/02/24/ESA-2012-abstract</id>
    <content type="html">&lt;p&gt;I admit that this abstract was written very hastily, but how much better can you do so far ahead of when the actual thing will happen anyhow.&lt;/p&gt;
 
@@ -380,7 +380,7 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
  <entry>
    <title>Remember to ressurect paper on EFN scaling with plant size</title>
    <link href="http://schamberlain.github.com/2012/02/19/efn-scaling/"/>
-   <updated>2012-02-19T00:00:00-08:00</updated>
+   <updated>2012-02-19T00:00:00-07:00</updated>
    <id>http://schamberlain.github.com/2012/02/19/efn-scaling</id>
    <content type="html">&lt;p&gt;I have been wanting to write a paper on the the topic of whether mutualistic rewards scale with oranism size, as a way to control the costs of investment in attracting mutualistic partners.&lt;/p&gt;
 
@@ -405,7 +405,7 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
  <entry>
    <title>Will a GitHub publishing model work?</title>
    <link href="http://schamberlain.github.com/2012/02/13/a-github-publishing-model/"/>
-   <updated>2012-02-13T00:00:00-08:00</updated>
+   <updated>2012-02-13T00:00:00-07:00</updated>
    <id>http://schamberlain.github.com/2012/02/13/a-github-publishing-model</id>
    <content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
 
@@ -482,7 +482,7 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
  <entry>
    <title>Tuesday Jan 10, 2012 Notes</title>
    <link href="http://schamberlain.github.com/2012/01/10/Tuesday-Jan102012/"/>
-   <updated>2012-01-10T00:00:00-08:00</updated>
+   <updated>2012-01-10T00:00:00-07:00</updated>
    <id>http://schamberlain.github.com/2012/01/10/Tuesday-Jan102012</id>
    <content type="html">&lt;ol&gt;
 &lt;li&gt;Recology blog:
@@ -510,7 +510,7 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
  <entry>
    <title>Testing twitterfeed</title>
    <link href="http://schamberlain.github.com/2012/01/08/testing-twitterfeed/"/>
-   <updated>2012-01-08T00:00:00-08:00</updated>
+   <updated>2012-01-08T00:00:00-07:00</updated>
    <id>http://schamberlain.github.com/2012/01/08/testing-twitterfeed</id>
    <content type="html">&lt;p&gt;Does this work on twitterfeed?&lt;/p&gt;
 </content>
@@ -519,7 +519,7 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
  <entry>
    <title>Self publishing</title>
    <link href="http://schamberlain.github.com/2012/01/08/self-publishing/"/>
-   <updated>2012-01-08T00:00:00-08:00</updated>
+   <updated>2012-01-08T00:00:00-07:00</updated>
    <id>http://schamberlain.github.com/2012/01/08/self-publishing</id>
    <content type="html">&lt;p&gt;What if scientists just published their papers after peer review on their own websites?  Authors (&lt;a href=&quot;http://craphound.com/?p=3672&quot;&gt;Cory Doctorow&lt;/a&gt;), musicians (&lt;a href=&quot;http://www.rollingstone.com/music/news/wilco-to-self-release-the-whole-love-in-september-20110629&quot;&gt;Wilco&lt;/a&gt;), and comedians (&lt;a href=&quot;https://buy.louisck.net/&quot;&gt;Louis C.K.&lt;/a&gt;) are starting to do this in small numbers, and having some sucess.  They don't need peer review, but perhaps a site could be started where authors could solicit reviewers.  Self publishing would allow scientists to make everything free - papers, data, figures - everything.&lt;/p&gt;
 
@@ -530,7 +530,7 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
  <entry>
    <title>We (rOpenSci) wond 3rd place in the PLoS-Mendeley Binary Battle!</title>
    <link href="http://schamberlain.github.com/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle/"/>
-   <updated>2011-11-30T00:00:00-08:00</updated>
+   <updated>2011-11-30T00:00:00-07:00</updated>
    <id>http://schamberlain.github.com/2011/11/30/we-ropensci-wond-3rd-place-in-the-plos-mendeley-binary-battle</id>
    <content type="html">&lt;p&gt;We entered two of our packages for integrating with PLoS Journals (rplos) and Mendeley (RMendeley) in the &lt;a href=&quot;http://dev.mendeley.com/api-binary-battle&quot;&gt;Mendeley-PLoS Binary Battle&lt;/a&gt;.  Get them at GitHub (&lt;a href=&quot;https://github.com/ropensci/rplos&quot;&gt;rplos&lt;/a&gt;, &lt;a href=&quot;https://github.com/ropensci/RMendeley&quot;&gt;RMendeley&lt;/a&gt;).&lt;/p&gt;
 
@@ -541,7 +541,7 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
  <entry>
    <title>Should the old thesis model die?</title>
    <link href="http://schamberlain.github.com/2011/11/26/should-the-old-thesis-model-die/"/>
-   <updated>2011-11-26T00:00:00-08:00</updated>
+   <updated>2011-11-26T00:00:00-07:00</updated>
    <id>http://schamberlain.github.com/2011/11/26/should-the-old-thesis-model-die</id>
    <content type="html">&lt;p&gt;So, the traditional Ph.D. thesis model involves 3 to 5 chapters on one topic - an in-depth investigation of one question, or a series of tightly related questions.&lt;/p&gt;
 
@@ -560,7 +560,7 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
  <entry>
    <title>Evolution in Agriculture - my #SciFund video</title>
    <link href="http://schamberlain.github.com/2011/11/10/evolution-in-agriculture-my-scifund-video/"/>
-   <updated>2011-11-10T00:00:00-08:00</updated>
+   <updated>2011-11-10T00:00:00-07:00</updated>
    <id>http://schamberlain.github.com/2011/11/10/evolution-in-agriculture-my-scifund-video</id>
    <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/W1mQgK6xFn0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -570,7 +570,7 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
  <entry>
    <title>SciFund - experiment in crowdfunding</title>
    <link href="http://schamberlain.github.com/2011/11/01/scifund-experiment-in-crowdfunding/"/>
-   <updated>2011-11-01T00:00:00-07:00</updated>
+   <updated>2011-11-01T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/11/01/scifund-experiment-in-crowdfunding</id>
    <content type="html">&lt;p&gt;I'm trying to get some crowdfunding for my research on the evolution of native plants in agricultural landscapes. It's important to get a few bucks at the beginning so that the people that don't know me will chip in.  My campaign is part of a larger project by about 50 other scientists and me to see how well it works to go straight to the public to get funding for science research.  All these projects, including mine, are hosted at this site called RocketHub.  It is a site that hosts crowdfunding projects of all sorts - and now they have science.&lt;/p&gt;
 
@@ -585,7 +585,7 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
  <entry>
    <title>Notes on 2011 ESA Bayesian workshop</title>
    <link href="http://schamberlain.github.com/2011/10/25/notes-on-2011-esa-bayesian-workshop/"/>
-   <updated>2011-10-25T00:00:00-07:00</updated>
+   <updated>2011-10-25T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/10/25/notes-on-2011-esa-bayesian-workshop</id>
    <content type="html">&lt;div&gt;Bayesian Workshop ESA 2011
 &lt;ul&gt;
@@ -637,7 +637,7 @@ BUGS
  <entry>
    <title>R meetings topics</title>
    <link href="http://schamberlain.github.com/2011/10/14/r-meetings-topics/"/>
-   <updated>2011-10-14T00:00:00-07:00</updated>
+   <updated>2011-10-14T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/10/14/r-meetings-topics</id>
    <content type="html">&lt;p&gt;Potential topics for our R class at Rice:&lt;/p&gt;
 
@@ -656,7 +656,7 @@ BUGS
  <entry>
    <title>Friday; simulations on phylogeny outgroup influence on phylogenetic meta-analysis model fit</title>
    <link href="http://schamberlain.github.com/2011/10/07/friday-simulations-on-phylogeny-outgroup-influence-on-phylogenetic-meta-analysis-model-fit/"/>
-   <updated>2011-10-07T00:00:00-07:00</updated>
+   <updated>2011-10-07T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/10/07/friday-simulations-on-phylogeny-outgroup-influence-on-phylogenetic-meta-analysis-model-fit</id>
    <content type="html">&lt;p&gt;&lt;em&gt;Note to self: not sure if I did the simulation right....&lt;/em&gt;&lt;/p&gt;
 
@@ -707,7 +707,7 @@ BUGS
  <entry>
    <title>Thursday</title>
    <link href="http://schamberlain.github.com/2011/10/06/thursday-6/"/>
-   <updated>2011-10-06T00:00:00-07:00</updated>
+   <updated>2011-10-06T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/10/06/thursday-6</id>
    <content type="html">&lt;ul&gt;
     &lt;li&gt;Edited rOpenSci dryad tutorial for out website: &lt;a href=&quot;http://ropensci.org/&quot; target=&quot;_blank&quot;&gt;http://ropensci.org/&lt;/a&gt;&lt;/li&gt;
@@ -730,7 +730,7 @@ BUGS
  <entry>
    <title>Tuesday</title>
    <link href="http://schamberlain.github.com/2011/10/04/tuesday-3/"/>
-   <updated>2011-10-04T00:00:00-07:00</updated>
+   <updated>2011-10-04T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/10/04/tuesday-3</id>
    <content type="html">&lt;ul&gt;
     &lt;li&gt;Updated notes about manuscript on latitudinal gradients in biodiversity, based on &lt;a href=&quot;http://schamber.wordpress.com/2011/10/04/rice-eeb-seminar-by-john-wiens-sep-26-2011/&quot; target=&quot;_blank&quot;&gt;seminar here by John Weins&lt;/a&gt;&lt;/li&gt;
@@ -747,7 +747,7 @@ BUGS
  <entry>
    <title>Rice EEB seminar by John Wiens, Sep 26, 2011</title>
    <link href="http://schamberlain.github.com/2011/10/04/rice-eeb-seminar-by-john-wiens-sep-26-2011/"/>
-   <updated>2011-10-04T00:00:00-07:00</updated>
+   <updated>2011-10-04T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/10/04/rice-eeb-seminar-by-john-wiens-sep-26-2011</id>
    <content type="html">&lt;ul&gt;
     &lt;li&gt;Weins suggests that species interactions are important for evolution of climatic tolerances (i.e., climatic niche conservatism)&lt;/li&gt;
@@ -762,7 +762,7 @@ BUGS
  <entry>
    <title>Wednesday</title>
    <link href="http://schamberlain.github.com/2011/09/07/thursday-5/"/>
-   <updated>2011-09-07T00:00:00-07:00</updated>
+   <updated>2011-09-07T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/09/07/thursday-5</id>
    <content type="html">&lt;ol&gt;
     &lt;li&gt;Trying to learn how to interface with SQL from R&lt;/li&gt;
@@ -783,7 +783,7 @@ BUGS
  <entry>
    <title>Tuesday</title>
    <link href="http://schamberlain.github.com/2011/09/06/tuesday-2/"/>
-   <updated>2011-09-06T00:00:00-07:00</updated>
+   <updated>2011-09-06T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/09/06/tuesday-2</id>
    <content type="html">&lt;ol&gt;
     &lt;li&gt;Finished (almost) introduction R talk for Friday for our R meetings&lt;/li&gt;
@@ -807,7 +807,7 @@ BUGS
  <entry>
    <title>Friday</title>
    <link href="http://schamberlain.github.com/2011/09/02/friday-2/"/>
-   <updated>2011-09-02T00:00:00-07:00</updated>
+   <updated>2011-09-02T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/09/02/friday-2</id>
    <content type="html">&lt;ol&gt;
     &lt;li&gt;Chatted with Karthik and Carl of ropensci team about plans for future of ropensci. Exciting stuff!!!&lt;/li&gt;
@@ -830,7 +830,7 @@ BUGS
  <entry>
    <title>Thursday</title>
    <link href="http://schamberlain.github.com/2011/09/01/thursday-4/"/>
-   <updated>2011-09-01T00:00:00-07:00</updated>
+   <updated>2011-09-01T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/09/01/thursday-4</id>
    <content type="html">&lt;ol&gt;
     &lt;li&gt;Massive amounts of flower trait data entry&lt;/li&gt;
@@ -844,7 +844,7 @@ BUGS
  <entry>
    <title>Wednesday</title>
    <link href="http://schamberlain.github.com/2011/08/31/wednesday-2/"/>
-   <updated>2011-08-31T00:00:00-07:00</updated>
+   <updated>2011-08-31T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/08/31/wednesday-2</id>
    <content type="html">&lt;div&gt;Randomness&lt;/div&gt;
 
@@ -882,7 +882,7 @@ BUGS
  <entry>
    <title>Saturday: SQL notes</title>
    <link href="http://schamberlain.github.com/2011/08/20/saturday-sql-notes/"/>
-   <updated>2011-08-20T00:00:00-07:00</updated>
+   <updated>2011-08-20T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/08/20/saturday-sql-notes</id>
    <content type="html">&lt;pre&gt;-basic: SELECT * FROM tablename
 -JOIN: (add columns)
@@ -919,7 +919,7 @@ BUGS
  <entry>
    <title>Notes on Jason Fridley's Talk at ESA 2011</title>
    <link href="http://schamberlain.github.com/2011/08/11/notes-on-jason-fridleys-talk-at-esa-2011/"/>
-   <updated>2011-08-11T00:00:00-07:00</updated>
+   <updated>2011-08-11T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/08/11/notes-on-jason-fridleys-talk-at-esa-2011</id>
    <content type="html">&lt;div&gt;
 &lt;div id=&quot;magicdomid197&quot;&gt;
@@ -1004,7 +1004,7 @@ BUGS
  <entry>
    <title>Meta-analysis interactive website?</title>
    <link href="http://schamberlain.github.com/2011/08/08/meta-analysis-interactive-website/"/>
-   <updated>2011-08-08T00:00:00-07:00</updated>
+   <updated>2011-08-08T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/08/08/meta-analysis-interactive-website</id>
    <content type="html">&lt;p&gt;Possibly create a website where people submit their datasets to the site:&lt;/p&gt;
 
@@ -1031,7 +1031,7 @@ BUGS
  <entry>
    <title>PLoS Article Level Metrics</title>
    <link href="http://schamberlain.github.com/2011/07/26/plos-article-level-metrics/"/>
-   <updated>2011-07-26T00:00:00-07:00</updated>
+   <updated>2011-07-26T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/07/26/plos-article-level-metrics</id>
    <content type="html">&lt;p&gt;PLoS just announced their article level metrics API: http://api.plos.org/alm/faq/. This is very exciting, and I need to include these new data sources our &lt;a href=&quot;https://github.com/SChamberlain/rplos&quot; target=&quot;_blank&quot;&gt;rplos package for R&lt;/a&gt;. Examples of use of this API here: http://api.plos.org/alm/examples/.&lt;/p&gt;
 </content>
@@ -1040,7 +1040,7 @@ BUGS
  <entry>
    <title>Our PLoS/Mendeley competition team is growing</title>
    <link href="http://schamberlain.github.com/2011/07/14/our-plosmendeley-competition-team-is-growing/"/>
-   <updated>2011-07-14T00:00:00-07:00</updated>
+   <updated>2011-07-14T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/07/14/our-plosmendeley-competition-team-is-growing</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://nature.berkeley.edu/~karthik/&quot; target=&quot;_blank&quot;&gt;Karthik Ram&lt;/a&gt; (his blog Inundata &lt;a href=&quot;http://inundata.org/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;) has just joined &lt;a href=&quot;http://www.carlboettiger.info/&quot; target=&quot;_blank&quot;&gt;Carl Boettiger &lt;/a&gt;and I to develop two R packages further, and to develop a third package that may be called something like rOpenSci to fully search all open reference software, open journals, open databases, etc. online.&lt;/p&gt;
 
@@ -1067,7 +1067,7 @@ BUGS
  <entry>
    <title>Lame, Elesevier, Lame</title>
    <link href="http://schamberlain.github.com/2011/07/14/lame-elesevier/"/>
-   <updated>2011-07-14T00:00:00-07:00</updated>
+   <updated>2011-07-14T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/07/14/lame-elesevier</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://developer.sciverse.com/api&quot; target=&quot;_blank&quot;&gt;Elsevier's API &lt;/a&gt;only allows member institutions to create apps using their API. Will this ever change? Someday hopefully...&lt;/p&gt;
 
@@ -1090,7 +1090,7 @@ BUGS
  <entry>
    <title>Tuesday, ievobio notes</title>
    <link href="http://schamberlain.github.com/2011/06/21/tuesday-ievobio-notes/"/>
-   <updated>2011-06-21T00:00:00-07:00</updated>
+   <updated>2011-06-21T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/06/21/tuesday-ievobio-notes</id>
    <content type="html">&lt;p&gt;BiSciCol:&lt;/p&gt;
 
@@ -1125,7 +1125,7 @@ BUGS
  <entry>
    <title>Thursday</title>
    <link href="http://schamberlain.github.com/2011/06/16/thursday-3/"/>
-   <updated>2011-06-16T00:00:00-07:00</updated>
+   <updated>2011-06-16T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/06/16/thursday-3</id>
    <content type="html">&lt;ul&gt;
     &lt;li&gt;Possibly use &lt;a href=&quot;http://corp.topsy.com/developers/api/&quot; target=&quot;_blank&quot;&gt;Topsy API&lt;/a&gt; (and &lt;a href=&quot;http://code.google.com/p/otterapi/wiki/Resources?tm=6&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;) for looking at pages/url's that are referenced within tweets to integrate into rplos and/or rspringer, and like packages in development with Carl Boettiger. Does &lt;a href=&quot;http://cran.r-project.org/web/packages/twitteR/index.html&quot; target=&quot;_blank&quot;&gt;twitteR&lt;/a&gt; package already do this though?&lt;/li&gt;
@@ -1138,7 +1138,7 @@ BUGS
  <entry>
    <title>Thursday</title>
    <link href="http://schamberlain.github.com/2011/06/09/thursday-2/"/>
-   <updated>2011-06-09T00:00:00-07:00</updated>
+   <updated>2011-06-09T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/06/09/thursday-2</id>
    <content type="html">&lt;p&gt;-Check out Elsevier API, what kinds of information can be retrieved? (http://developer.sciverse.com/api). Seems that it's similar to Mendley in that API's are centered around specific applications being developed, unfortunately.
 -Test Carl's RMendeley package with API (https://github.com/cboettig/RMendeley.git)
@@ -1149,7 +1149,7 @@ BUGS
  <entry>
    <title>Tuesday</title>
    <link href="http://schamberlain.github.com/2011/06/07/tuesday/"/>
-   <updated>2011-06-07T00:00:00-07:00</updated>
+   <updated>2011-06-07T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/06/07/tuesday</id>
    <content type="html">&lt;ol&gt;
     &lt;li&gt;Try to incorporate the &lt;a href=&quot;http://cran.r-project.org/web/packages/RNCBI/index.html&quot; target=&quot;_blank&quot;&gt;RNCBI package &lt;/a&gt;to &lt;a href=&quot;https://SChamberlain@github.com/SChamberlain/taxize_.git&quot; target=&quot;_blank&quot;&gt;taxize&lt;/a&gt; instead of writing my own functions?&lt;/li&gt;
@@ -1164,7 +1164,7 @@ BUGS
  <entry>
    <title>Monday</title>
    <link href="http://schamberlain.github.com/2011/06/07/monday/"/>
-   <updated>2011-06-07T00:00:00-07:00</updated>
+   <updated>2011-06-07T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/06/07/monday</id>
    <content type="html">&lt;p&gt;Field work at Bardwell and Cameron, TX&lt;/p&gt;
 </content>
@@ -1173,7 +1173,7 @@ BUGS
  <entry>
    <title>Sunday: Research Ideas</title>
    <link href="http://schamberlain.github.com/2011/06/05/sunday-research-ideas/"/>
-   <updated>2011-06-05T00:00:00-07:00</updated>
+   <updated>2011-06-05T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/06/05/sunday-research-ideas</id>
    <content type="html">&lt;ol&gt;
     &lt;li&gt;IFNM: absciscic acid manipulate factors. Phylogenetic manips. Argentine ants colonizing in IFNM?&lt;/li&gt;
@@ -1203,7 +1203,7 @@ BUGS
  <entry>
    <title>Friday</title>
    <link href="http://schamberlain.github.com/2011/06/05/friday/"/>
-   <updated>2011-06-05T00:00:00-07:00</updated>
+   <updated>2011-06-05T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/06/05/friday</id>
    <content type="html">&lt;div&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;PLoS Journals API work&lt;/span&gt;&lt;/div&gt;
 
@@ -1228,7 +1228,7 @@ BUGS
  <entry>
    <title>Thursday</title>
    <link href="http://schamberlain.github.com/2011/06/03/thursday/"/>
-   <updated>2011-06-03T00:00:00-07:00</updated>
+   <updated>2011-06-03T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/06/03/thursday</id>
    <content type="html">&lt;ul&gt;
     &lt;li&gt;Field work at Beakley, watered plants, planted remaining MF near/far plants&lt;/li&gt;
@@ -1241,7 +1241,7 @@ BUGS
  <entry>
    <title>Wednesday</title>
    <link href="http://schamberlain.github.com/2011/06/01/wednesday/"/>
-   <updated>2011-06-01T00:00:00-07:00</updated>
+   <updated>2011-06-01T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/06/01/wednesday</id>
    <content type="html">&lt;div&gt;To Do:&lt;/div&gt;
 
@@ -1258,7 +1258,7 @@ BUGS
  <entry>
    <title>Towards open science</title>
    <link href="http://schamberlain.github.com/2011/05/30/adfadfafasdf/"/>
-   <updated>2011-05-30T00:00:00-07:00</updated>
+   <updated>2011-05-30T00:00:00-06:00</updated>
    <id>http://schamberlain.github.com/2011/05/30/adfadfafasdf</id>
    <content type="html">&lt;div&gt;
 
