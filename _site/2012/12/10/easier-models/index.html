@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Setting up an AMI for RStudio on AWS EC2</title>
+    <title>Easier model diagnostics function</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -97,13 +97,13 @@
 		<div class="marketing">
 		<div class="content">    
 	<div class="row">
-	<p><h1>Setting up an AMI for RStudio on AWS EC2</h1></p>	
+	<p><h1>Easier model diagnostics function</h1></p>	
 	<div class="span3 column">
-		<h4><strong>September 26, 2012 <small>.  . <a href="http://schamberlain.github.com/scott/2012/09/26/using-aws/#disqus_thread" data-disqus-identifier="/2012/09/26/using-aws/">Comments</a></small></strong>
-		<br/><small>Tags:  <a href="/tags/rstudio" title="View posts tagged with &quot;rstudio&quot;"><u>rstudio</u></a>     <a href="/tags/aws" title="View posts tagged with &quot;aws&quot;"><u>aws</u></a>     <a href="/tags/ami" title="View posts tagged with &quot;ami&quot;"><u>ami</u></a>     <a href="/tags/notes" title="View posts tagged with &quot;notes&quot;"><u>notes</u></a>    </small></h4>
+		<h4><strong>December 10, 2012 <small>.  . <a href="http://schamberlain.github.com/scott/2012/12/10/easier-models/#disqus_thread" data-disqus-identifier="/2012/12/10/easier-models/">Comments</a></small></strong>
+		<br/><small>Tags:  <a href="/tags/R" title="View posts tagged with &quot;R&quot;"><u>R</u></a>     <a href="/tags/data" title="View posts tagged with &quot;data&quot;"><u>data</u></a>     <a href="/tags/model" title="View posts tagged with &quot;model&quot;"><u>model</u></a>     <a href="/tags/statistics" title="View posts tagged with &quot;statistics&quot;"><u>statistics</u></a>     <a href="/tags/ggplot2" title="View posts tagged with &quot;ggplot2&quot;"><u>ggplot2</u></a>    </small></h4>
 	</div>		
 	<div class="span9 column">
-		<p class="pull-right"> <a href="/2012/09/20/network-roles/" title="Previous Post: Notes on Stouffer et al. 2012 Science"><i class="icon-chevron-left"></i></a> 	    	<a href="/2012/12/10/easier-models/" title="Next Post: Easier model diagnostics function"><i class="icon-chevron-right"></i></a> 	 </p> 
+		<p class="pull-right"> <a href="/2012/09/26/using-aws/" title="Previous Post: Setting up an AMI for RStudio on AWS EC2"><i class="icon-chevron-left"></i></a> 	    </p> 
 	</div>
 </div>
 
@@ -113,64 +113,112 @@
 	</div>
 </div>
 
-    <p>Stuff needed to get a RStudio AMI going on Amazon Web Services (AWS).</p>
+    <p>It's a pain to write a bunch of lines of code to do model diagnostics. This little function does a nice job of putting out a number of diagnostic plots, and the gives the ANOVA table too, with an option to just write the ANOVA table out as a data.frame so you can easily combine many ANOVA tables for easy writing to CSV for instance.</p>
 
-<h2>Starting from scratch</h2>
+<hr />
 
-<h3>Find a public AMI of RStudio, start an instance, then in the terminal:</h3>
+<h3>The function</h3>
 
-<ul>
-<li>Update R to newest version by adding <code>deb http://&lt;my.favorite.cran.mirror&gt;/bin/linux/ubuntu oneiric/</code> to your <code>sources.list</code> file -</li>
-<li>back it up first <code>sudo cp /etc/apt/sources.list /etc/apt/sources.list.bckup</code>,</li>
-<li>then run <code>sudo sh -c "echo 'deb http://cran.stat.sfu.ca//bin/linux/ubuntu oneiric/'&gt;&gt;/etc/apt/sources.list"</code>.</li>
-<li>Change oneiric to your version of Ubuntu (see <a href="http://cran.r-project.org/bin/linux/ubuntu/">here</a>).</li>
-<li>Then run <code>sudo apt-get update</code>, then <code>sudo apt-get install r-base</code> to update R.</li>
-<li>helpful sites for install on ubuntu:
-
-<ul>
-<li>http://blogs.helsinki.fi/bioinformatics-viikki/documentation/getting-started-with-r-programming/installingrlatest/</li>
-<li>http://help.nceas.ucsb.edu/installing_r_on_ubuntu</li>
-</ul>
-</li>
-<li>Follow instructions on <a href="http://rstudio.org/download/server">RStudio's website</a> to update RStudio server version.</li>
-<li>Add new user by <code>sudo adduser username</code>.  This is the credential you will use to login in to RStudio in the browser on the AMI.</li>
-</ul>
+<div class="highlight"><pre><code class="r">fitmod <span class="o">&lt;-</span> <span class="kr">function</span><span class="p">(</span>equation<span class="p">,</span> data<span class="p">,</span> gimme <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span> <span class="p">{</span>
+    conn_mod1 <span class="o">&lt;-</span> lm<span class="p">(</span>equation<span class="p">,</span> data <span class="o">=</span> data<span class="p">)</span>  <span class="c1"># run model</span>
+    m1 <span class="o">&lt;-</span> fortify<span class="p">(</span>conn_mod1<span class="p">,</span> data<span class="p">)</span>  <span class="c1"># adds model residuals/etc to original data.frame</span>
+    anov <span class="o">&lt;-</span> Anova<span class="p">(</span>conn_mod1<span class="p">,</span> type <span class="o">=</span> <span class="m">3</span><span class="p">)</span>  <span class="c1"># so we can get type III SS</span>
+    a <span class="o">&lt;-</span> ggplot<span class="p">(</span>m1<span class="p">,</span> aes_string<span class="p">(</span>x <span class="o">=</span> as.character<span class="p">(</span>equation<span class="p">)[[</span><span class="m">2</span><span class="p">]]))</span> <span class="o">+</span> geom_histogram<span class="p">()</span>
+    b <span class="o">&lt;-</span> qplot<span class="p">(</span><span class="m">.</span>fitted<span class="p">,</span> <span class="m">.</span>stdresid<span class="p">,</span> data <span class="o">=</span> m1<span class="p">,</span> geom <span class="o">=</span> <span class="s">&quot;point&quot;</span><span class="p">)</span>
+    c <span class="o">&lt;-</span> qplot<span class="p">(</span><span class="m">.</span>stdresid<span class="p">,</span> data <span class="o">=</span> m1<span class="p">,</span> geom <span class="o">=</span> <span class="s">&quot;histogram&quot;</span><span class="p">)</span>
+    <span class="kr">if</span> <span class="p">(</span>gimme<span class="p">)</span> <span class="p">{</span>
+        temp <span class="o">&lt;-</span> data.frame<span class="p">(</span>anov<span class="p">[</span><span class="m">1</span>:<span class="m">4</span><span class="p">])</span>
+        temp<span class="p">$</span>vars <span class="o">&lt;-</span> row.names<span class="p">(</span>temp<span class="p">)</span>
+        temp
+    <span class="p">}</span> <span class="kr">else</span> <span class="p">{</span>
+        list<span class="p">(</span>list<span class="p">(</span>anov<span class="p">),</span> do.call<span class="p">(</span>grid.arrange<span class="p">,</span> list<span class="p">(</span>a<span class="p">,</span> b<span class="p">,</span> c<span class="p">)))</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+</div>
 
 
 <hr />
 
-<h3>I need some stuff on ubuntu to do web calls, which I do a lot of.</h3>
+<h3>Just run the model and give results and diagnostic plots. This gives a histogram of the response variable, a plot of the fitted numbers vs. residuals, and a histogram of the residuals.</h3>
 
-<h4>Install dependencies for RCurl</h4>
+<div class="highlight"><pre><code class="r">library<span class="p">(</span>car<span class="p">);</span> library<span class="p">(</span>ggplot2<span class="p">)</span>
 
-<ul>
-<li>Learned from <a href="http://www.omegahat.org/RCurl/FAQ.html">here</a> that once inside the Linux box on the AWS instance, run <code>sudo apt-get install libcurl4-openssl-dev</code>.</li>
-</ul>
-
-
-<h4>Install dependencies for XML</h4>
-
-<ul>
-<li>Learned from <a href="http://stackoverflow.com/questions/7765429/unable-to-install-r-package-in-ubuntu-11-04">here</a>, that once inside the Linux box on the AWS instance, run <code>sudo apt-get update</code> then <code>sudo apt-get install libxml2-dev</code>.</li>
-</ul>
+fitmod<span class="p">(</span>Sepal.Length ~ Sepal.Width <span class="o">*</span> Species<span class="p">,</span> iris<span class="p">)</span>
+</code></pre>
+</div>
 
 
-<h4>These will allow to do <code>library(RCurl)</code> and <code>library(XML)</code>, both important for making web calls.</h4>
+<p><img src="http://schamberlain.github.com/scott/img/outputall.png" alt="center" /></p>
 
-<hr />
-
-<h3>Save the AMI as an image you own.  Then you can start up this image any time you want with whatever size instance you want.</h3>
-
-<h3>Increase size of the hard drive</h3>
-
-<ul>
-<li><a href="http://stackoverflow.com/questions/6151695/ec2-instace-on-amazon-and-i-am-greeted-with-no-space-left-on-the-disk">see here</a></li>
-</ul>
+<div class="highlight"><pre><code class="text">Response: Sepal.Length
+                    Sum Sq  Df F value  Pr(&gt;F)    
+(Intercept)           4.12   1   21.32 8.5e-06 ***
+Sepal.Width           3.36   1   17.36 5.3e-05 ***
+Species               0.50   2    1.29    0.28    
+Sepal.Width:Species   0.16   2    0.41    0.67    
+Residuals            27.85 144                    
+---
+Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1 
+</code></pre>
+</div>
 
 
 <hr />
 
-<h4>Get the .Rmd file used to create this post <a href="https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2012-09-26-using-aws.Rmd">at my github account</a> - or <a href="https://github.com/SChamberlain/scott/tree/gh-pages/_posts/2012-09-26-using-aws.md">.md file</a>.</h4>
+<h3>Or you can run the model and get just the ANOVA table back as a data.frame that can be combined with others, e.g., to write to a CSV file</h3>
+
+<div class="highlight"><pre><code class="r">library<span class="p">(</span>plyr<span class="p">)</span>
+<span class="c1"># Simple example</span>
+fitmod<span class="p">(</span>Sepal.Length ~ Sepal.Width <span class="o">*</span> Species<span class="p">,</span> iris<span class="p">,</span> gimme <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
+</code></pre>
+</div>
+
+
+
+
+<div class="highlight"><pre><code class="text">                     Sum.Sq  Df F.value    Pr..F.                vars
+(Intercept)          4.1233   1 21.3225 8.526e-06         (Intercept)
+Sepal.Width          3.3569   1 17.3592 5.311e-05         Sepal.Width
+Species              0.4982   2  1.2881 2.790e-01             Species
+Sepal.Width:Species  0.1572   2  0.4064 6.668e-01 Sepal.Width:Species
+Residuals           27.8465 144      NA        NA           Residuals
+</code></pre>
+</div>
+
+
+
+
+<div class="highlight"><pre><code class="r"><span class="c1"># Or do many in lapply call to combine them</span>
+mymods <span class="o">&lt;-</span> list<span class="p">(</span>Sepal.Length ~ Sepal.Width <span class="o">*</span> Species<span class="p">,</span> Petal.Length ~ Petal.Width <span class="o">*</span> 
+    Species<span class="p">)</span>
+out <span class="o">&lt;-</span> llply<span class="p">(</span>mymods<span class="p">,</span> <span class="kr">function</span><span class="p">(</span>x<span class="p">)</span> fitmod<span class="p">(</span>x<span class="p">,</span> iris<span class="p">,</span> <span class="kc">TRUE</span><span class="p">))</span>
+names<span class="p">(</span>out<span class="p">)</span> <span class="o">&lt;-</span> c<span class="p">(</span><span class="s">&quot;mod1&quot;</span><span class="p">,</span> <span class="s">&quot;mod2&quot;</span><span class="p">)</span>
+ldply<span class="p">(</span>out<span class="p">)</span>
+</code></pre>
+</div>
+
+
+
+
+<div class="highlight"><pre><code class="text">    .id  Sum.Sq  Df  F.value    Pr..F.                vars
+1  mod1  4.1233   1  21.3225 8.526e-06         (Intercept)
+2  mod1  3.3569   1  17.3592 5.311e-05         Sepal.Width
+3  mod1  0.4982   2   1.2881 2.790e-01             Species
+4  mod1  0.1572   2   0.4064 6.668e-01 Sepal.Width:Species
+5  mod1 27.8465 144       NA        NA           Residuals
+6  mod2 13.4329   1 102.8050 1.448e-18         (Intercept)
+7  mod2  0.1625   1   1.2438 2.666e-01         Petal.Width
+8  mod2  6.7474   2  25.8196 2.614e-10             Species
+9  mod2  2.0178   2   7.7213 6.525e-04 Petal.Width:Species
+10 mod2 18.8156 144       NA        NA           Residuals
+</code></pre>
+</div>
+
+
+<hr />
+
+<h4>Get the .Rmd file used to create this post <a href="https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2012-12-10-easier-models.Rmd">at my github account</a> - or <a href="https://github.com/SChamberlain/scott/blob/gh-pages/_posts/2012-12-10-easier-models.md">.md file</a>.</h4>
 
 <h4>Written in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>, with help from <a href="http://yihui.name/knitr/">knitr</a>.</h4>
 		
@@ -179,7 +227,7 @@
 
 		</div>
 		 <footer class="footer">		        
-	<p class="pull-right"> <a href="/2012/09/20/network-roles/" title="Previous Post: Notes on Stouffer et al. 2012 Science">&laquo; Previous Blog Post</a> 	  |  <a href="#">Back to top</a>  |   	<a href="/2012/12/10/easier-models/" title="Next Post: Easier model diagnostics function">Next Blog Post &raquo; </a> 	 </p> 
+	<p class="pull-right"> <a href="/2012/09/26/using-aws/" title="Previous Post: Setting up an AMI for RStudio on AWS EC2">&laquo; Previous Blog Post</a> 	  |  <a href="#">Back to top</a>  |   </p> 
 
 	<br><br/>
 	<br><br/>

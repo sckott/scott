@@ -1,6 +1,6 @@
 name: SAC
 url: http://schamberlain.github.com/scott
-auto: true
+auto: false
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title/
