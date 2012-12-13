@@ -30,5 +30,16 @@ title: Research
     </li>
  </div>
 </div>
+
+<li class="span4 nobullet">
+      <div class="thumbnail">
+        <a href="http://schamberlain.github.com/posterstalks/bestalk/"><img src="http://schamberlain.github.com/scott/img/bestalk.png" alt="" border="1"></a>
+        <div class="caption">
+          <p><a href="http://www.britishecologicalsociety.org/meetings/current_future_meetings/2012_annual_meeting/workshop_events.php">British Ecological Society Annual Meeting</a>, Dec 19<sup>th</sup>, 2012. Scott Chamberlain</p>
+        </div>
+      </div>
+    </li>
+ </div>
+</div>
 <br> <br> 
 ## See other talks at Slideshare [here](http://www.slideshare.net/schamber)
