@@ -4,7 +4,7 @@
  <title>Recology</title>
  <link href="http://schamberlain.github.com/atom.xml" rel="self"/>
  <link href="http://schamberlain.github.com/"/>
- <updated>2013-01-24T09:03:50-08:00</updated>
+ <updated>2013-01-24T09:08:49-08:00</updated>
  <id>http://schamberlain.github.com</id>
  <author>
    <name>Scott Chamberlain</name>
@@ -115,6 +115,14 @@
 &lt;h3&gt;Used bladj command in phylocom to stretch out branches to get branch lengths, as:&lt;/h3&gt;
 
 &lt;p&gt;&lt;code&gt;./phylocom bladj &amp;gt; out.txt&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3&gt;And the actual files used in the call to phylocom:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/data/phylo&quot;&gt;newick file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/data/ages&quot;&gt;node ages file&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 
 &lt;hr /&gt;
 

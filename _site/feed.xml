@@ -107,6 +107,14 @@
 
 &lt;p&gt;&lt;code&gt;./phylocom bladj &amp;gt; out.txt&lt;/code&gt;&lt;/p&gt;
 
+&lt;h3&gt;And the actual files used in the call to phylocom:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/data/phylo&quot;&gt;newick file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/data/ages&quot;&gt;node ages file&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
 &lt;hr /&gt;
 
 &lt;h3&gt;The phylogeny (visualized in FigTree, many nodes are collapsed, it has about 500 species):&lt;/h3&gt;

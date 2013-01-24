@@ -62,6 +62,10 @@ Unfortunately, this process can't all be collected in an R script, but below is 
 ### Used bladj command in phylocom to stretch out branches to get branch lengths, as:
 `./phylocom bladj > out.txt`
 
+### And the actual files used in the call to phylocom:
++ [newick file](https://raw.github.com/SChamberlain/scott/gh-pages/data/phylo)
++ [node ages file](https://raw.github.com/SChamberlain/scott/gh-pages/data/ages)
+
 ***************
 
 ### The phylogeny (visualized in FigTree, many nodes are collapsed, it has about 500 species):
