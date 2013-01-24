@@ -4,7 +4,7 @@
  <title>Recology</title>
  <link href="http://schamberlain.github.com/atom.xml" rel="self"/>
  <link href="http://schamberlain.github.com/"/>
- <updated>2012-12-13T11:39:38-08:00</updated>
+ <updated>2013-01-24T08:08:48-08:00</updated>
  <id>http://schamberlain.github.com</id>
  <author>
    <name>Scott Chamberlain</name>
@@ -12,11 +12,28 @@
  
  
  <entry>
-   <title>Easier model diagnostics function</title>
+   <title>Easier Models</title>
    <link href="http://schamberlain.github.com/2012/12/10/easier-models/"/>
    <updated>2012-12-10T00:00:00-08:00</updated>
    <id>http://schamberlain.github.com/2012/12/10/easier-models</id>
-   <content type="html">&lt;p&gt;It's a pain to write a bunch of lines of code to do model diagnostics. This little function does a nice job of putting out a number of diagnostic plots, and the gives the ANOVA table too, with an option to just write the ANOVA table out as a data.frame so you can easily combine many ANOVA tables for easy writing to CSV for instance.&lt;/p&gt;
+   <content type="html">&lt;p&gt;opts_chunk$set(warning=FALSE, message=FALSE, comment=NA, cache=FALSE)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;name: easier-models
+layout: post
+title: Easier model diagnostics function
+date: 2012-12-10
+author: Scott Chamberlain
+tags:
+- R
+- data
+- model
+- statistics&lt;/p&gt;
+
+&lt;h2&gt;- ggplot2&lt;/h2&gt;
+
+&lt;p&gt;It's a pain to write a bunch of lines of code to do model diagnostics. This little function does a nice job of putting out a number of diagnostic plots, and the gives the ANOVA table too, with an option to just write the ANOVA table out as a data.frame so you can easily combine many ANOVA tables for easy writing to CSV for instance.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -27,18 +44,17 @@
     m1 &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; fortify&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;conn_mod1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; data&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# adds model residuals/etc to original data.frame&lt;/span&gt;
     anov &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; Anova&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;conn_mod1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; type &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# so we can get type III SS&lt;/span&gt;
     a &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; ggplot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;m1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; aes_string&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;x &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; as.character&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;equation&lt;span class=&quot;p&quot;&gt;)[[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; geom_histogram&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    b &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; qplot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;.&lt;/span&gt;fitted&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;.&lt;/span&gt;stdresid&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; data &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; m1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; geom &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;point&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    c &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; qplot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;.&lt;/span&gt;stdresid&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; data &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; m1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; geom &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;histogram&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    b &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; qplot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;.fitted&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; .stdresid&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; data &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; m1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; geom &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;point&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    c &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; qplot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;.stdresid&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; data &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; m1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; geom &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;histogram&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;kr&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;gimme&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        temp &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; data.frame&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;anov&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;:&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-        temp&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;vars &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; row.names&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;temp&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        temp &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; data.frame&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;anov&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+        temp&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;vars &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; row.names&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;temp&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
         temp
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
         list&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;list&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;anov&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; do.call&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;grid.arrange&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; list&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; b&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; c&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;hr /&gt;
@@ -47,9 +63,8 @@
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;car&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ggplot2&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-fitmod&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;Sepal.Length ~ Sepal.Width &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; Species&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; iris&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+fitmod&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;Sepal.Length &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; Sepal.Width &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; Species&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; iris&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;img src=&quot;http://schamberlain.github.com/scott/img/outputall.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
@@ -63,8 +78,7 @@ Sepal.Width:Species   0.16   2    0.41    0.67
 Residuals            27.85 144                    
 ---
 Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;hr /&gt;
@@ -73,9 +87,8 @@ Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;plyr&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;# Simple example&lt;/span&gt;
-fitmod&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;Sepal.Length ~ Sepal.Width &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; Species&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; iris&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; gimme &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+fitmod&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;Sepal.Length &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; Sepal.Width &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; Species&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; iris&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; gimme &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 
@@ -86,20 +99,18 @@ Sepal.Width          3.3569   1 17.3592 5.311e-05         Sepal.Width
 Species              0.4982   2  1.2881 2.790e-01             Species
 Sepal.Width:Species  0.1572   2  0.4064 6.668e-01 Sepal.Width:Species
 Residuals           27.8465 144      NA        NA           Residuals
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# Or do many in lapply call to combine them&lt;/span&gt;
-mymods &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; list&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;Sepal.Length ~ Sepal.Width &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; Species&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; Petal.Length ~ Petal.Width &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; 
+mymods &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; list&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;Sepal.Length &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; Sepal.Width &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; Species&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; Petal.Length &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; Petal.Width &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; 
     Species&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 out &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; llply&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mymods&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; fitmod&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; iris&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 names&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;out&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;mod1&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;mod2&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 ldply&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;out&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 
@@ -115,8 +126,7 @@ ldply&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;out&lt;span class=&quot;p&quo
 8  mod2  6.7474   2  25.8196 2.614e-10             Species
 9  mod2  2.0178   2   7.7213 6.525e-04 Petal.Width:Species
 10 mod2 18.8156 144       NA        NA           Residuals
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;hr /&gt;
@@ -286,8 +296,7 @@ ldply&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;out&lt;span class=&quot;p&quo
 data&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;small1976&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 res &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; computeModules&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;small1976&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# takes several minutes!&lt;/span&gt;
 plotModuleWeb&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;res&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;img src=&quot;http://schamberlain.github.com/scott/img/modules.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
@@ -301,21 +310,19 @@ library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;bipartite&lt;span class=&qu
 
 data&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;small1976&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# load small1976 network (it’s a matrix)&lt;/span&gt;
 mat &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; as.data.frame&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;small1976&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# convert to data.frame&lt;/span&gt;
-mat &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; mat&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;:&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# get samller matrix for ease&lt;/span&gt;
+mat &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; mat&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# get samller matrix for ease&lt;/span&gt;
 plotweb&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# bipartite plot&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;img src=&quot;http://schamberlain.github.com/scott/img/twovsonemode1.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;row.names&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;NULL&lt;/span&gt;
-mat_elist &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; web2edges&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; return &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k-Variable&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# convert to edgelist&lt;/span&gt;
+mat_elist &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; web2edges&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k-Variable&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# convert to edgelist&lt;/span&gt;
 mat_onemode &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; projecting_tm&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_elist&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; method &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Newman&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# make into one-mode network&lt;/span&gt;
 mat_onemode_i &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; tnet_igraph&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_onemode&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; directed &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k-Variable&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# convert to igraph object for plotting&lt;/span&gt;
 plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_onemode_i&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# plot one-mode undirected graph&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;img src=&quot;http://schamberlain.github.com/scott/img/twovsonemode2.png&quot; alt=&quot;NA&quot; /&gt;&lt;/p&gt;
@@ -330,10 +337,10 @@ library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ggplot2&lt;span class=&quot
 
 data&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;small1976&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# load small1976 network (it’s a matrix)&lt;/span&gt;
 mat &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; as.data.frame&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;small1976&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# convert to data.frame&lt;/span&gt;
-mat &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; mat&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;:&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# get samller matrix for ease&lt;/span&gt;
+mat &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; mat&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# get samller matrix for ease&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;# plotweb(mat) # bipartite plot&lt;/span&gt;
 row.names&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;NULL&lt;/span&gt;
-mat_elist &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; web2edges&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; return &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k-Variable&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# convert to edgelist&lt;/span&gt;
+mat_elist &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; web2edges&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k-Variable&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# convert to edgelist&lt;/span&gt;
 onemode_plants &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; projecting_tm&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_elist&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; method &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Newman&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# make into one-mode network&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;# Insects (columns of mat)&lt;/span&gt;
@@ -345,7 +352,7 @@ dimnames&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_elist&lt;span class=&q
 dimnames&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;onemode_plants&lt;span class=&quot;p&quot;&gt;)[[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;i&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;j&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 dimnames&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;onemode_pollinators&lt;span class=&quot;p&quot;&gt;)[[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;i&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;j&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 ee &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; rbind&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_elist&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; onemode_plants&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; onemode_pollinators&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-ee_ &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; dcast&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; i ~ j&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; value.var &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ee_ &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; dcast&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; i &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; j&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; value.var &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 ee_&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;is.na&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee_&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;
 row.names&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee_&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; ee_&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 ee_ &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; ee_&lt;span class=&quot;p&quot;&gt;[,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
@@ -353,8 +360,7 @@ ee_ &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; ee_&lt;span class=&qu
 &lt;span class=&quot;c1&quot;&gt;# Plotting it&lt;/span&gt;
 ee__ &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; tnet_igraph&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; directed &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k-Variable&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee__&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# where noddes 1-13 are plants, and 14-23 are pollinators&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;img src=&quot;http://schamberlain.github.com/scott/img/other.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;

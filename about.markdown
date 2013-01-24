@@ -24,17 +24,7 @@ title: About
           <a href="http://twitter.com/recology_"><img src="/img/twitter.png" /></a>
           <a href="http://github.com/SChamberlain"><img src="/img/github.png" /></a>
           <a href="mailto:myrmecocystus@gmail.com"><img src="/img/gmail.png" /></a>
-          <a href="http://www.mendeley.com/profiles/scott-chamberlain/"><img border="0" src="http://www.mendeley.com/embed/icon/1/blue/big" alt="Scott Chamberlain's citations"/></a>
       </ul>
-    </div>
-  </li>
-  <li class="span3">
-    <div class="thumbnail">
-      <h3>Code</h3>
-          <iframe src="http://githubbadge.appspot.com/badge/SChamberlain?s=1&a=0" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder=0></iframe>
-              </br>
-          <a href="http://stackoverflow.com/users/1091766/scott-chamberlain">
-            <img src="http://stackoverflow.com/users/flair/1091766.png" width="208" height="58" alt="profile for Scott Chamberlain at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Scott Chamberlain at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
     </div>
   </li>
   <li class="span3">
@@ -45,35 +35,11 @@ title: About
   </li>
   <li class="span3">
     <div class="thumbnail">
-      <h3>Nerd communication</h3>
-        <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-          <script>
-          new TWTR.Widget({
-            version: 2,
-            type: 'profile',
-            rpp: 4,
-            interval: 30000,
-            width: 250,
-            height: 300,
-            theme: {
-              shell: {
-                background: '#333333',
-                color: '#ffffff'
-              },
-              tweets: {
-                background: '#000000',
-                color: '#ffffff',
-                links: '#4aed05'
-              }
-            },
-            features: {
-              scrollbar: false,
-              loop: false,
-              live: false,
-              behavior: 'all'
-            }
-          }).render().setUser('recology_').start();
-          </script>
+      <h3>Code</h3>
+          <iframe src="http://githubbadge.appspot.com/badge/SChamberlain?s=1&a=0" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder=0></iframe>
+              </br>
+          <a href="http://stackoverflow.com/users/1091766/scott-chamberlain">
+            <img src="http://stackoverflow.com/users/flair/1091766.png" width="208" height="58" alt="profile for Scott Chamberlain at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Scott Chamberlain at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
     </div>
   </li>
 </ul>
