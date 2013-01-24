@@ -6,6 +6,232 @@
 		<link>http://schamberlain.github.com/scott</link>
 		
 			<item>
+				<title>Networks phylogeny</title>
+				<description>&lt;h3&gt;Reasoning&lt;/h3&gt;
+
+&lt;p&gt;Made a phylogeny ecologist style for a paper I am working on in which we are asking questions about how species traits and phylogenetic history influence species interaction networks (plant-pollinator).&lt;/p&gt;
+
+&lt;p&gt;There were about 500 species to make a phylogeny for, including birds and insects, and many species that were bound to end up as large polytomies. I couldn't in reasonable time make a molecular phylogeny for this group of species, so made one ecologist style. If only there was a Phylomatic for other taxonomic groups...look out for &lt;a href=&quot;http://phylotastic.org/&quot;&gt;phylotastic&lt;/a&gt; and &lt;a href=&quot;http://opentreeoflife.org/&quot;&gt;opentreeoflife&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;That is, I:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Created a topology using [Mesquite software] from published phylogenies, then&lt;/li&gt;
+&lt;li&gt;Got node age estimates from &lt;a href=&quot;http://timetree.org/&quot;&gt;timetree.org&lt;/a&gt; (p.s. Wish I could use the new &lt;a href=&quot;http://datelife.org/&quot;&gt;http://datelife.org/&lt;/a&gt;, but there isn't much there quite yet), then&lt;/li&gt;
+&lt;li&gt;Used bladj function in phylocom to stretch out the branch lengths based on the node estimates.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Unfortunately, this process can't all be collected in an R script, but below is the process I followed, which hopefully makes it more reproducible.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Notes on which published phylogenies were used for constructing the topology&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Arthropods based on
+
+&lt;ul&gt;
+&lt;li&gt;Ishiwata et al. 2010 MolPhyloEvol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hymenoptera topology based on
+
+&lt;ul&gt;
+&lt;li&gt;Heraty et al. 2011 Mol. Phy. Evol, Fig. 1 Bayesian phylogeny&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Vespidae based on
+
+&lt;ul&gt;
+&lt;li&gt;Mines et al. 2007 PNAS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bees based on
+
+&lt;ul&gt;
+&lt;li&gt;Overall: Danforth et al. 2006 PNAS&lt;/li&gt;
+&lt;li&gt;Megachilidae: Gonzalez et al. 2012 SystEntomol&lt;/li&gt;
+&lt;li&gt;Apidae: Cardinal et al. 2010 PNAS&lt;/li&gt;
+&lt;li&gt;Andrenidae: Danforth et al. 2013 AnnRevEntomol - Fig. 5&lt;/li&gt;
+&lt;li&gt;Halictidae: Danforth et al. 2013 AnnRevEntomol - Fig. 6&lt;/li&gt;
+&lt;li&gt;Colletidae: not needed, only 2 species&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Coleoptera based on
+
+&lt;ul&gt;
+&lt;li&gt;Hunt et al. 2007 Science&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Lepidoptera based on
+
+&lt;ul&gt;
+&lt;li&gt;Overall:
+
+&lt;ul&gt;
+&lt;li&gt;Mutanen et al. 2010 PRSLB&lt;/li&gt;
+&lt;li&gt;Kim et al. 2011 Mol. Phyl. Evol.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Nymphalidae: Freitas &amp;amp; Brown 2004 Syst. Biol. - Figure 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hemiptera based on
+
+&lt;ul&gt;
+&lt;li&gt;Cryan and Urban 2011 Systematic Entomology - Figure 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Diptera based on
+
+&lt;ul&gt;
+&lt;li&gt;Overall: Wiegmann et al. 2011 PNAS - Figure 1&lt;/li&gt;
+&lt;li&gt;Bombyliidae: Yeates 1994 Bull. Amer. Mus. Nat. Hist.&lt;/li&gt;
+&lt;li&gt;Syrphinae: Mengual et al. 2007 Cladistics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;TimeTree used to get node ages for phylogeny&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://timetree.org/&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;&quot;&gt;here's a link&lt;/a&gt; to the node ages I used.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Used bladj command in phylocom to stretch out branches to get branch lengths, as:&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;./phylocom bladj &amp;gt; out.txt&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;The phylogeny (visualized in FigTree, many nodes are collapsed, it has about 500 species):&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/img/phylogeny.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2013-01-24-networks-phylogeny.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_posts/2013-01-24-networks-phylogeny.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+
+&lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;.&lt;/h4&gt;
+</description>
+				<published>2013-01-24 00:00:00 -0800</published>
+				<link>http://schamberlain.github.com/scott/2013/01/24/networks-phylogeny/</link>
+			</item>
+		
+			<item>
+				<title>Easier model diagnostics function</title>
+				<description>&lt;p&gt;It's a pain to write a bunch of lines of code to do model diagnostics. This little function does a nice job of putting out a number of diagnostic plots, and the gives the ANOVA table too, with an option to just write the ANOVA table out as a data.frame so you can easily combine many ANOVA tables for easy writing to CSV for instance.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;The function&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;fitmod &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;equation&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; data&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; gimme &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    conn_mod1 &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; lm&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;equation&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; data &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; data&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# run model&lt;/span&gt;
+    m1 &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; fortify&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;conn_mod1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; data&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# adds model residuals/etc to original data.frame&lt;/span&gt;
+    anov &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; Anova&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;conn_mod1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; type &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# so we can get type III SS&lt;/span&gt;
+    a &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; ggplot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;m1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; aes_string&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;x &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; as.character&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;equation&lt;span class=&quot;p&quot;&gt;)[[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; geom_histogram&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    b &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; qplot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;.fitted&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; .stdresid&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; data &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; m1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; geom &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;point&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    c &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; qplot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;.stdresid&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; data &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; m1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; geom &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;histogram&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kr&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;gimme&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        temp &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; data.frame&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;anov&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+        temp&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;vars &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; row.names&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;temp&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        temp
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        list&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;list&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;anov&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; do.call&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;grid.arrange&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; list&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; b&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; c&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Just run the model and give results and diagnostic plots. This gives a histogram of the response variable, a plot of the fitted numbers vs. residuals, and a histogram of the residuals.&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;car&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ggplot2&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+fitmod&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;Sepal.Length &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; Sepal.Width &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; Species&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; iris&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;http://schamberlain.github.com/scott/img/outputall.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text&quot;&gt;Response: Sepal.Length
+                    Sum Sq  Df F value  Pr(&amp;gt;F)    
+(Intercept)           4.12   1   21.32 8.5e-06 ***
+Sepal.Width           3.36   1   17.36 5.3e-05 ***
+Species               0.50   2    1.29    0.28    
+Sepal.Width:Species   0.16   2    0.41    0.67    
+Residuals            27.85 144                    
+---
+Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Or you can run the model and get just the ANOVA table back as a data.frame that can be combined with others, e.g., to write to a CSV file&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;library&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;plyr&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Simple example&lt;/span&gt;
+fitmod&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;Sepal.Length &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; Sepal.Width &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; Species&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; iris&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; gimme &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text&quot;&gt;                     Sum.Sq  Df F.value    Pr..F.                vars
+(Intercept)          4.1233   1 21.3225 8.526e-06         (Intercept)
+Sepal.Width          3.3569   1 17.3592 5.311e-05         Sepal.Width
+Species              0.4982   2  1.2881 2.790e-01             Species
+Sepal.Width:Species  0.1572   2  0.4064 6.668e-01 Sepal.Width:Species
+Residuals           27.8465 144      NA        NA           Residuals
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# Or do many in lapply call to combine them&lt;/span&gt;
+mymods &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; list&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;Sepal.Length &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; Sepal.Width &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; Species&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; Petal.Length &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; Petal.Width &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; 
+    Species&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+out &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; llply&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mymods&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; fitmod&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; iris&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+names&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;out&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;mod1&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;mod2&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ldply&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;out&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text&quot;&gt;    .id  Sum.Sq  Df  F.value    Pr..F.                vars
+1  mod1  4.1233   1  21.3225 8.526e-06         (Intercept)
+2  mod1  3.3569   1  17.3592 5.311e-05         Sepal.Width
+3  mod1  0.4982   2   1.2881 2.790e-01             Species
+4  mod1  0.1572   2   0.4064 6.668e-01 Sepal.Width:Species
+5  mod1 27.8465 144       NA        NA           Residuals
+6  mod2 13.4329   1 102.8050 1.448e-18         (Intercept)
+7  mod2  0.1625   1   1.2438 2.666e-01         Petal.Width
+8  mod2  6.7474   2  25.8196 2.614e-10             Species
+9  mod2  2.0178   2   7.7213 6.525e-04 Petal.Width:Species
+10 mod2 18.8156 144       NA        NA           Residuals
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2012-12-10-easier-models.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_posts/2012-12-10-easier-models.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+
+&lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;.&lt;/h4&gt;
+</description>
+				<published>2012-12-10 00:00:00 -0800</published>
+				<link>http://schamberlain.github.com/scott/2012/12/10/easier-models/</link>
+			</item>
+		
+			<item>
 				<title>We (rOpenSci) wond 3rd place in the PLoS-Mendeley Binary Battle!</title>
 				<description>&lt;p&gt;We entered two of our packages for integrating with PLoS Journals (rplos) and Mendeley (RMendeley) in the &lt;a href=&quot;http://dev.mendeley.com/api-binary-battle&quot;&gt;Mendeley-PLoS Binary Battle&lt;/a&gt;.  Get them at GitHub (&lt;a href=&quot;https://github.com/ropensci/rplos&quot;&gt;rplos&lt;/a&gt;, &lt;a href=&quot;https://github.com/ropensci/RMendeley&quot;&gt;RMendeley&lt;/a&gt;).&lt;/p&gt;
 

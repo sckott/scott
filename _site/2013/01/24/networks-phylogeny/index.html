@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Posts Tagged &ldquo;rstudio&rdquo;</title>
+    <title>Networks phylogeny</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -96,273 +96,142 @@
 </div>  
 	<div class="container">	
 		<div class="marketing">
-		<div class="container">
-	<div class="marketing">
-		<div class="content">	  
-			<div class="row">								
-			    <div class="span6 columns">
-					<h2>Posts Tagged &ldquo;rstudio&rdquo;</h2>
-					<table class="table table-striped">
-					  <tbody>
-							
-						
-						
-						
-						
-						
-						
-						
-							
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-							
-						
-						
-						<tr>
-						  <td>
-							<h3><a href="/2012/09/26/using-aws/">Setting up an AMI for RStudio on AWS EC2</a></h3>
-							<p><strong>September 26, 2012</strong> .  . <a href="http://schamberlain.github.com/scott/2012/09/26/using-aws/#disqus_thread" data-disqus-identifier="/2012/09/26/using-aws/"></a>
-							<br/><small><i class="icon-tags"></i>  <a href="http://schamberlain.github.com/scott/tags/rstudio" title="View posts tagged with &quot;rstudio&quot;"><u>rstudio</u></a>     <a href="http://schamberlain.github.com/scott/tags/aws" title="View posts tagged with &quot;aws&quot;"><u>aws</u></a>     <a href="http://schamberlain.github.com/scott/tags/ami" title="View posts tagged with &quot;ami&quot;"><u>ami</u></a>     <a href="http://schamberlain.github.com/scott/tags/notes" title="View posts tagged with &quot;notes&quot;"><u>notes</u></a>    </small></p>
-						  </td>
-						</tr>
-						
-						
-						
-						
-						
-						
-						
-						
-							
-						
-						
-						
-						
-						
-						
-						
-						
-						
-							
-						
-						
-						
-						
-						
-						
-						
-							
-						
-						
-						
-						
-						
-						
-						
-							
-						
-							
-						
-						
-						
-						
-						
-							
-						
-						
-						
-						
-						
-						
-						
-							
-						
-						
-						
-							
-						
-							
-						
-						
-						
-							
-						
-						
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-						
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-						
-						
-						
-						
-						
-						
-							
-						
-						
-						
-						
-						
-							
-						
-						
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-						
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-						
-						
-							
-						
-						
-						
-						
-						
-						
-						
-						
-						
-							
-						
-							
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-						
-						
-						
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-							
-						
-						
-						
-						
-						
-							
-						
-						
-						
-									
-					  </tbody>
-					</table> 
-				</div>
-			</div>
-		</div>
+		<div class="content">    
+	<div class="row">
+	<p><h1>Networks phylogeny</h1></p>	
+	<div class="span3 column">
+		<h4><strong>January 24, 2013 <small>.  . <a href="http://schamberlain.github.com/scott/2013/01/24/networks-phylogeny/#disqus_thread" data-disqus-identifier="/2013/01/24/networks-phylogeny/">Comments</a></small></strong>
+		<br/><small>Tags:  <a href="/tags/R" title="View posts tagged with &quot;R&quot;"><u>R</u></a>     <a href="/tags/data" title="View posts tagged with &quot;data&quot;"><u>data</u></a>     <a href="/tags/phylogenetics" title="View posts tagged with &quot;phylogenetics&quot;"><u>phylogenetics</u></a>    </small></h4>
 	</div>		
+	<div class="span9 column">
+		<p class="pull-right"> <a href="/2012/12/10/easier-models/" title="Previous Post: Easier model diagnostics function"><i class="icon-chevron-left"></i></a> 	    </p> 
+	</div>
 </div>
+
+<div class="row">
+	<div class="span12 column">
+		<hr>
+	</div>
+</div>
+
+    <h3>Reasoning</h3>
+
+<p>Made a phylogeny ecologist style for a paper I am working on in which we are asking questions about how species traits and phylogenetic history influence species interaction networks (plant-pollinator).</p>
+
+<p>There were about 500 species to make a phylogeny for, including birds and insects, and many species that were bound to end up as large polytomies. I couldn't in reasonable time make a molecular phylogeny for this group of species, so made one ecologist style. If only there was a Phylomatic for other taxonomic groups...look out for <a href="http://phylotastic.org/">phylotastic</a> and <a href="http://opentreeoflife.org/">opentreeoflife</a></p>
+
+<hr />
+
+<p>That is, I:</p>
+
+<ol>
+<li>Created a topology using [Mesquite software] from published phylogenies, then</li>
+<li>Got node age estimates from <a href="http://timetree.org/">timetree.org</a> (p.s. Wish I could use the new <a href="http://datelife.org/">http://datelife.org/</a>, but there isn't much there quite yet), then</li>
+<li>Used bladj function in phylocom to stretch out the branch lengths based on the node estimates.</li>
+</ol>
+
+
+<p>Unfortunately, this process can't all be collected in an R script, but below is the process I followed, which hopefully makes it more reproducible.</p>
+
+<hr />
+
+<h3>Notes on which published phylogenies were used for constructing the topology</h3>
+
+<ul>
+<li>Arthropods based on
+
+<ul>
+<li>Ishiwata et al. 2010 MolPhyloEvol</li>
+</ul>
+</li>
+<li>Hymenoptera topology based on
+
+<ul>
+<li>Heraty et al. 2011 Mol. Phy. Evol, Fig. 1 Bayesian phylogeny</li>
+</ul>
+</li>
+<li>Vespidae based on
+
+<ul>
+<li>Mines et al. 2007 PNAS</li>
+</ul>
+</li>
+<li>Bees based on
+
+<ul>
+<li>Overall: Danforth et al. 2006 PNAS</li>
+<li>Megachilidae: Gonzalez et al. 2012 SystEntomol</li>
+<li>Apidae: Cardinal et al. 2010 PNAS</li>
+<li>Andrenidae: Danforth et al. 2013 AnnRevEntomol - Fig. 5</li>
+<li>Halictidae: Danforth et al. 2013 AnnRevEntomol - Fig. 6</li>
+<li>Colletidae: not needed, only 2 species</li>
+</ul>
+</li>
+<li>Coleoptera based on
+
+<ul>
+<li>Hunt et al. 2007 Science</li>
+</ul>
+</li>
+<li>Lepidoptera based on
+
+<ul>
+<li>Overall:
+
+<ul>
+<li>Mutanen et al. 2010 PRSLB</li>
+<li>Kim et al. 2011 Mol. Phyl. Evol.</li>
+</ul>
+</li>
+<li>Nymphalidae: Freitas &amp; Brown 2004 Syst. Biol. - Figure 3</li>
+</ul>
+</li>
+<li>Hemiptera based on
+
+<ul>
+<li>Cryan and Urban 2011 Systematic Entomology - Figure 2</li>
+</ul>
+</li>
+<li>Diptera based on
+
+<ul>
+<li>Overall: Wiegmann et al. 2011 PNAS - Figure 1</li>
+<li>Bombyliidae: Yeates 1994 Bull. Amer. Mus. Nat. Hist.</li>
+<li>Syrphinae: Mengual et al. 2007 Cladistics</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>TimeTree used to get node ages for phylogeny</h3>
+
+<ul>
+<li><a href="http://timetree.org/">website</a>, <a href="">here's a link</a> to the node ages I used.</li>
+</ul>
+
+
+<h3>Used bladj command in phylocom to stretch out branches to get branch lengths, as:</h3>
+
+<p><code>./phylocom bladj &gt; out.txt</code></p>
+
+<hr />
+
+<h3>The phylogeny (visualized in FigTree, many nodes are collapsed, it has about 500 species):</h3>
+
+<p><img src="https://raw.github.com/SChamberlain/scott/gh-pages/img/phylogeny.png" alt="center" /></p>
+
+<hr />
+
+<h4>Get the .Rmd file used to create this post <a href="https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2013-01-24-networks-phylogeny.Rmd">at my github account</a> - or <a href="https://github.com/SChamberlain/scott/blob/gh-pages/_posts/2013-01-24-networks-phylogeny.md">.md file</a>.</h4>
+
+<h4>Written in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>, with help from <a href="http://yihui.name/knitr/">knitr</a>.</h4>
+		
+</div>
+    
+
 		</div>
 		 <footer class="footer">		        
-	<p class="pull-right">  |  <a href="#">Back to top</a>  |   </p> 
+	<p class="pull-right"> <a href="/2012/12/10/easier-models/" title="Previous Post: Easier model diagnostics function">&laquo; Previous Blog Post</a> 	  |  <a href="#">Back to top</a>  |   </p> 
 
 	<br><br/>
 	<br><br/>

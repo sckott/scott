@@ -4,7 +4,7 @@
  <title>Recology</title>
  <link href="http://schamberlain.github.com/atom.xml" rel="self"/>
  <link href="http://schamberlain.github.com/"/>
- <updated>2013-01-24T08:08:48-08:00</updated>
+ <updated>2013-01-24T08:59:18-08:00</updated>
  <id>http://schamberlain.github.com</id>
  <author>
    <name>Scott Chamberlain</name>
@@ -12,28 +12,130 @@
  
  
  <entry>
-   <title>Easier Models</title>
-   <link href="http://schamberlain.github.com/2012/12/10/easier-models/"/>
-   <updated>2012-12-10T00:00:00-08:00</updated>
-   <id>http://schamberlain.github.com/2012/12/10/easier-models</id>
-   <content type="html">&lt;p&gt;opts_chunk$set(warning=FALSE, message=FALSE, comment=NA, cache=FALSE)&lt;/p&gt;
+   <title>Networks phylogeny</title>
+   <link href="http://schamberlain.github.com/2013/01/24/networks-phylogeny/"/>
+   <updated>2013-01-24T00:00:00-08:00</updated>
+   <id>http://schamberlain.github.com/2013/01/24/networks-phylogeny</id>
+   <content type="html">&lt;h3&gt;Reasoning&lt;/h3&gt;
+
+&lt;p&gt;Made a phylogeny ecologist style for a paper I am working on in which we are asking questions about how species traits and phylogenetic history influence species interaction networks (plant-pollinator).&lt;/p&gt;
+
+&lt;p&gt;There were about 500 species to make a phylogeny for, including birds and insects, and many species that were bound to end up as large polytomies. I couldn't in reasonable time make a molecular phylogeny for this group of species, so made one ecologist style. If only there was a Phylomatic for other taxonomic groups...look out for &lt;a href=&quot;http://phylotastic.org/&quot;&gt;phylotastic&lt;/a&gt; and &lt;a href=&quot;http://opentreeoflife.org/&quot;&gt;opentreeoflife&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;name: easier-models
-layout: post
-title: Easier model diagnostics function
-date: 2012-12-10
-author: Scott Chamberlain
-tags:
-- R
-- data
-- model
-- statistics&lt;/p&gt;
+&lt;p&gt;That is, I:&lt;/p&gt;
 
-&lt;h2&gt;- ggplot2&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Created a topology using [Mesquite software] from published phylogenies, then&lt;/li&gt;
+&lt;li&gt;Got node age estimates from &lt;a href=&quot;http://timetree.org/&quot;&gt;timetree.org&lt;/a&gt; (p.s. Wish I could use the new &lt;a href=&quot;http://datelife.org/&quot;&gt;http://datelife.org/&lt;/a&gt;, but there isn't much there quite yet), then&lt;/li&gt;
+&lt;li&gt;Used bladj function in phylocom to stretch out the branch lengths based on the node estimates.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;It's a pain to write a bunch of lines of code to do model diagnostics. This little function does a nice job of putting out a number of diagnostic plots, and the gives the ANOVA table too, with an option to just write the ANOVA table out as a data.frame so you can easily combine many ANOVA tables for easy writing to CSV for instance.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, this process can't all be collected in an R script, but below is the process I followed, which hopefully makes it more reproducible.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Notes on which published phylogenies were used for constructing the topology&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Arthropods based on
+
+&lt;ul&gt;
+&lt;li&gt;Ishiwata et al. 2010 MolPhyloEvol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hymenoptera topology based on
+
+&lt;ul&gt;
+&lt;li&gt;Heraty et al. 2011 Mol. Phy. Evol, Fig. 1 Bayesian phylogeny&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Vespidae based on
+
+&lt;ul&gt;
+&lt;li&gt;Mines et al. 2007 PNAS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bees based on
+
+&lt;ul&gt;
+&lt;li&gt;Overall: Danforth et al. 2006 PNAS&lt;/li&gt;
+&lt;li&gt;Megachilidae: Gonzalez et al. 2012 SystEntomol&lt;/li&gt;
+&lt;li&gt;Apidae: Cardinal et al. 2010 PNAS&lt;/li&gt;
+&lt;li&gt;Andrenidae: Danforth et al. 2013 AnnRevEntomol - Fig. 5&lt;/li&gt;
+&lt;li&gt;Halictidae: Danforth et al. 2013 AnnRevEntomol - Fig. 6&lt;/li&gt;
+&lt;li&gt;Colletidae: not needed, only 2 species&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Coleoptera based on
+
+&lt;ul&gt;
+&lt;li&gt;Hunt et al. 2007 Science&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Lepidoptera based on
+
+&lt;ul&gt;
+&lt;li&gt;Overall:
+
+&lt;ul&gt;
+&lt;li&gt;Mutanen et al. 2010 PRSLB&lt;/li&gt;
+&lt;li&gt;Kim et al. 2011 Mol. Phyl. Evol.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Nymphalidae: Freitas &amp;amp; Brown 2004 Syst. Biol. - Figure 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hemiptera based on
+
+&lt;ul&gt;
+&lt;li&gt;Cryan and Urban 2011 Systematic Entomology - Figure 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Diptera based on
+
+&lt;ul&gt;
+&lt;li&gt;Overall: Wiegmann et al. 2011 PNAS - Figure 1&lt;/li&gt;
+&lt;li&gt;Bombyliidae: Yeates 1994 Bull. Amer. Mus. Nat. Hist.&lt;/li&gt;
+&lt;li&gt;Syrphinae: Mengual et al. 2007 Cladistics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;TimeTree used to get node ages for phylogeny&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://timetree.org/&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;&quot;&gt;here's a link&lt;/a&gt; to the node ages I used.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Used bladj command in phylocom to stretch out branches to get branch lengths, as:&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;./phylocom bladj &amp;gt; out.txt&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;The phylogeny (visualized in FigTree, many nodes are collapsed, it has about 500 species):&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/img/phylogeny.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2013-01-24-networks-phylogeny.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_posts/2013-01-24-networks-phylogeny.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+
+&lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;.&lt;/h4&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Easier model diagnostics function</title>
+   <link href="http://schamberlain.github.com/2012/12/10/easier-models/"/>
+   <updated>2012-12-10T00:00:00-08:00</updated>
+   <id>http://schamberlain.github.com/2012/12/10/easier-models</id>
+   <content type="html">&lt;p&gt;It's a pain to write a bunch of lines of code to do model diagnostics. This little function does a nice job of putting out a number of diagnostic plots, and the gives the ANOVA table too, with an option to just write the ANOVA table out as a data.frame so you can easily combine many ANOVA tables for easy writing to CSV for instance.&lt;/p&gt;
 
 &lt;hr /&gt;
 
