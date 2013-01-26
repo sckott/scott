@@ -4,12 +4,21 @@
  <title>Recology</title>
  <link href="http://schamberlain.github.com/atom.xml" rel="self"/>
  <link href="http://schamberlain.github.com/"/>
- <updated>2013-01-25T10:29:42-08:00</updated>
+ <updated>2013-01-26T12:59:56-08:00</updated>
  <id>http://schamberlain.github.com</id>
  <author>
    <name>Scott Chamberlain</name>
  </author>
  
+ 
+ <entry>
+   <title>testing ifttt recipe, ignore</title>
+   <link href="http://schamberlain.github.com/2013/01/26/ifttt-test/"/>
+   <updated>2013-01-26T00:00:00-08:00</updated>
+   <id>http://schamberlain.github.com/2013/01/26/ifttt-test</id>
+   <content type="html">&lt;p&gt;testing ifttt recipe&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>where to publish</title>
