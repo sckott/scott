@@ -21,16 +21,14 @@
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="/favicon.ico">    
   </head>
-<body data-spy="scroll" data-target=".subnav" data-offset="50">
-{% include navigation.html %}
 
-
-<!-- <div class="span6 columns"> -->
-	{{ content }} 					
-<!-- </div>	-->
-
-
-{% include footer_nodisqus.html %}
+    <body data-spy="scroll" data-target=".subnav" data-offset="50">
+        <div class="container">
+            {% include navigation.html %}
+        	   {{ content }} 			
+            {% include footer_nodisqus.html %}
+        </div>
+    </body>
 
     <!-- Le javascript
     ================================================== -->
@@ -68,5 +66,4 @@
 	  })();
 
 	</script>
-  </body>
 </html>
