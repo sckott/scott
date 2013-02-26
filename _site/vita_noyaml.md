@@ -1,4 +1,4 @@
-<h2> <a href="http://schamberlain.github.com/scott/blob/nl/pdfs/scott_vita.pdf">CV as PDF</a> </h2>
+<h2> <a href="http://schamberlain.github.com/scott/pdfs/scott_vita.pdf">CV as PDF</a> </h2>
 
 Education
 ---------
