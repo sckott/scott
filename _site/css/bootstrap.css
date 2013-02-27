@@ -4411,7 +4411,7 @@ input[type="submit"].btn.btn-mini {
   float: right;
   padding: 10px 20px 10px;
   margin-right: -20px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 200;
   color: rgb(68, 161, 235);
   text-shadow: 0 1px 0 #fefefe;
@@ -4522,7 +4522,7 @@ input[type="submit"].btn.btn-mini {
   padding: 4px 14px;
   margin-bottom: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1;
   -webkit-border-radius: 15px;
@@ -6309,7 +6309,7 @@ div.subnav .nav > li.active > a:hover {
 }
 
 .nav .nav-header {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: normal;
   text-transform: none;
 }
