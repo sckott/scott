@@ -9,7 +9,7 @@ title: index
 
 </br></br>
 
-### Learn about my research <a href="http://schamberlain.github.com/scott/research.html" class="badge badge-success">research &raquo;</a><br>
+### Read about my research <a href="http://schamberlain.github.com/scott/research.html" class="badge badge-success">research &raquo;</a><br>
 
 ### Publications <a href="http://schamberlain.github.com/scott/publications.html" class="badge badge-important">pubs &raquo;</a><br>
 
