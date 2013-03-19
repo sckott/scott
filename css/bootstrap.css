@@ -5297,6 +5297,17 @@ input[type="submit"].btn.btn-mini {
   margin-left: 0;
 }
 
+span[rel="tooltip"] {
+    background: #0088CC;
+    border-radius:10px;
+    color: #fff;
+    font-size: 10px;
+    vertical-align:top;
+    font-weight:bold;
+    line-height:10px;
+    margin: 0 6px 0 2px;
+}
+
 .tooltip {
   position: absolute;
   z-index: 1030;

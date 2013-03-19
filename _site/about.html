@@ -89,29 +89,27 @@
 		</ul> --> 
 		  <li class="divider-vertical"></li>
 		  <li class="">
-			<a property="account" alt="email" href="mailto:myrmecocystus@gmail.com"><i class="icon-envelope-alt" rel="tooltip" title="email me"></i></a>
+			<a property="account" alt="email" href="mailto:myrmecocystus@gmail.com"><i class="icon-envelope-alt" rel="tooltip" data-placement="bottom" title="email me"></i></a>
 		  </li>
 
 		  <li class="divider-vertical"></li>
 		  <li class="">
 				<!-- <li class=""><a href="https://twitter.com/recology_"><img src="http://schamberlain.github.com/scott/img/glyphicons/glyphicons_411_twitter.png" height="18" width="18"></a></li>	 -->
-				<a property="account" alt="twitter" href="https://twitter.com/recology_"><i class="icon-twitter" rel="tooltip" title="follow me on Twitter"></i></a>
+				<a property="account" alt="twitter" href="https://twitter.com/recology_"><i class="icon-twitter" rel="tooltip" data-placement="bottom"title="follow me on Twitter"></i></a>
 		  </li>
 		  <li class="divider-vertical"></li>
 		  <li class="">
 				<!-- <li class=""><a href="https://github.com/schamberlain"><img src="/img/glyphicons/glyphicons_401_github.png" height="18" width="18"></a></li> -->	
-				<a property="account" alt="github" href="https://github.com/schamberlain"><i class="icon-github" rel="tooltip" title="follow me on Github (code, research)"></i></a>
+				<a property="account" alt="github" href="https://github.com/schamberlain"><i class="icon-github" rel="tooltip" data-placement="bottom" title="follow me on Github (code, research)"></i></a>
 		  </li>
 
 		  <li class="divider-vertical"></li>
 			<li class="">
 				<!-- <li class=""><a href="https://github.com/schamberlain"><img src="/img/glyphicons/glyphicons_401_github.png" height="18" width="18"></a></li> -->	
-				<!-- <a property="account" alt="rss" href="http://feeds.feedburner.com/github/YWzL"><i class="icon-rss" rel="tooltip" title="subscribe to an RSS feed for my lab notebook"></i></a> -->
+				<a property="account" alt="rss" href="http://feeds.feedburner.com/github/YWzL"><i class="icon-rss" rel="tooltip" data-placement="bottom" title="subscribe to an RSS feed for my lab notebook"></i></a>
 				<!-- <a property="account" alt="rss" href="http://feeds.feedburner.com/github/YWzL"><span class="showtooltip" title="subscribe to an RSS feed for my lab notebook" placement="bottom"></span><i class="icon-rss"></i></a> -->
 
-				<a href="#" data-toggle="tooltip" data-placement="bottom" title="subscribe to an RSS feed for my lab notebook"><i class="icon-rss"></i></a>
-
-<!-- 					<a rel="foaf:account" alt="github" href="https://github.com/cboettig"><span class="showtooltip" title="follow me on Github (code, research)"><i class="icon-github"></i></span></a> -->
+				<!-- <a href="http://feeds.feedburner.com/github/YWzL"><span rel="showtooltip" data-title="subscribe to an RSS feed for my lab notebook"></span><i class="icon-rss"></i></a> -->
 		  </li>
 
 		  <li class="divider-vertical"></li>
@@ -219,6 +217,10 @@
     <script type="text/javascript" src="/js/jquery.githubwidget.min.js"></script>
     <script src="http://schamberlain.github.com/scott/js/custom.js" type="text/javascript"></script>
 
+
+    <script type="text/javascript">
+        $('[rel=tooltip]').tooltip();
+    </script>
 	<!-- Google Analytics -->
 	<script type="text/javascript">
 
