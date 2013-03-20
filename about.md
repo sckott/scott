@@ -12,6 +12,11 @@ title: About
 
 <br>
 
+<div class="container" style="width:1000px">
+    <div class="marketing">
+        <div class="content">   
+            <div class="row">               
+                <div class="span10 columns">
 <h1>Scott</h1>
 <ul class="stately" id="scott"> 
   <li data-state="al" class="al">A</li>
@@ -66,6 +71,11 @@ title: About
   <li data-state="wi" class="wi">x</li>
   <li data-state="wy" class="wy">y</li> 
 </ul>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 <br>
 ## Social, code, etc.
