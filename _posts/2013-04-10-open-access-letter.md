@@ -1,7 +1,7 @@
 ---
 name: open-access-letter
 layout: post
-title: My first letter turning down a review for open access!
+title: In support of open access - My first letter turning down a review for OA
 date: 2013-04-10
 author: Scott Chamberlain
 tags: 
