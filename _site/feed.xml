@@ -6,6 +6,41 @@
 		<link>http://schamberlain.github.com/scott</link>
 		
 			<item>
+				<title>My first letter turning down a review for open access!</title>
+				<description>&lt;h2&gt;Open access&lt;/h2&gt;
+
+&lt;p&gt;I want open access to succeed. It's important for so many reasons, which have been expressed much more clearly than I can ever say. Briefly, OA is important because&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the public (and scientists) shouldn't have to pay for science that they already payed for in taxes&lt;/li&gt;
+&lt;li&gt;many publishers are making a pretty penny off the backs of scientists - they can still make money in an OA business model, but the advantage with OA is that they still make money, but consumers of literature aren't being screwed&lt;/li&gt;
+&lt;li&gt;work will be more reproducible as everyone has access&lt;/li&gt;
+&lt;li&gt;text mining can hopefully happen (depending on the license)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;The letter just sent to ESA&lt;/h2&gt;
+
+&lt;p&gt;Dear Editor,&lt;/p&gt;
+
+&lt;p&gt;Thank you for your invitation to review for your journal. Because Ecology is not open access and does not provide its back content to an open resource venue (JSTOR is very closed), I regret that I am unwilling to do this review.  In the event that you do change your policies, then I will be happy to review for you.&lt;/p&gt;
+
+&lt;p&gt;The scientific literature is at present the most significant resource available to researchers. Without access to the literature science can not reach it's full potential because all science is built on the backs of others. Without the free input of manuscripts and referees’ many journals would not exist. By and large, the great majority of the work published is paid for by taxpayers. We now, either as individuals or as researchers whose grants are top-sliced, have to pay to read our own work and that of our colleagues, either personally or through our institutes’ libraries. I find that, increasingly, literature that is not available by open access is simply being ignored. Moreover, I am very aware that, increasingly, discovering information from the literature relies on some sort of computational analysis. This can only be effective if the entire content of primary research papers is freely available.&lt;/p&gt;
+
+&lt;p&gt;There are now several good models for open access publication (e.g., PLOS, eLife, PeerJ), and I would urge ESA to adopt one of these. I realize that as a society journal, ESA is not after the huge profit margin that Elsevier or Spring are after, but nonetheless, I feel I have to make a stand for open access If I want it to succeed.&lt;/p&gt;
+
+&lt;p&gt;I realize the hypocrisy of this if I also submit papers to ESA closed access journals - thus, I will refrain from submitting to ESA's closed access journals.&lt;/p&gt;
+
+&lt;p&gt;Yours sincerely,&lt;/p&gt;
+
+&lt;p&gt;Scott Chamberlain
+Simon Fraser University&lt;/p&gt;
+</description>
+				<published>2013-04-10 00:00:00 -0700</published>
+				<link>http://schamberlain.github.com/scott/2013/04/10/open-access-letter/</link>
+			</item>
+		
+			<item>
 				<title>testing ifttt recipe, ignore</title>
 				<description>&lt;p&gt;testing ifttt recipe&lt;/p&gt;
 </description>
@@ -675,30 +710,6 @@ ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;
 </description>
 				<published>2012-02-24 00:00:00 -0800</published>
 				<link>http://schamberlain.github.com/scott/2012/02/24/ESA-2012-abstract/</link>
-			</item>
-		
-			<item>
-				<title>Remember to ressurect paper on EFN scaling with plant size</title>
-				<description>&lt;p&gt;I have been wanting to write a paper on the the topic of whether mutualistic rewards scale with oranism size, as a way to control the costs of investment in attracting mutualistic partners.&lt;/p&gt;
-
-&lt;p&gt;My questions so far are:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Do quantity and/or quality of mutualistic rewards scale (correlate) with plant size?&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Prediction: Not sure exactly what null hypothesis should be, other than a null slope of zero. Benefits of producing rewards may saturate at large plant size, thus causing the reward-size relationship to saturate.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Does the relationship between rewards and plant size vary among species?&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Prediction: Species more closely related should display similar reward-size relationships.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;p&gt;There seems to be very little literature out there on this topic.&lt;/p&gt;
-
-&lt;p&gt;Below is a cartoon that I made back in 2008 (!) - not sure it makes sense, but...here it is anyway.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/recology_/6906871371/&quot; title=&quot;scalingmutualism by scottlus, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7038/6906871371_cec21e8a01.jpg&quot; width=&quot;500&quot; height=&quot;375&quot; alt=&quot;scalingmutualism&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-				<published>2012-02-19 00:00:00 -0800</published>
-				<link>http://schamberlain.github.com/scott/2012/02/19/efn-scaling/</link>
 			</item>
 		
 	</channel>
