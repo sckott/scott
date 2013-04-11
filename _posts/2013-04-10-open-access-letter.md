@@ -35,3 +35,8 @@ Yours sincerely,
 
 Scott Chamberlain
 Simon Fraser University
+
+
+## Attribution
+
+This letter was modified from a blog post by Casey Bergman [here](http://caseybergman.wordpress.com/2011/12/02/just-say-no/).
