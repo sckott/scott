@@ -39,16 +39,16 @@ title: Publications
 
 + Rosumek F.B. ,et al. 2009. Ants on plants: a meta-analysis of the role of ants as plant biotic defenses. _Oecologia_ 60:537–549
 
-[pdf1]: http://schamberlain.github.com/scott/pdfs/Chamberlain&Rudgers2011EvolEcol.pdf
-[pdf2]: http://schamberlain.github.com/scott/pdfs/HollandEtal2011Oikos.pdf
-[pdf3]: http://schamberlain.github.com/scott/pdfs/ChamberlainEtal2010Oecologia_journalcopy.pdf
-[pdf4]: http://schamberlain.github.com/scott/pdfs/HollandEtal2009JAridEnv.pdf
-[pdf5]: http://schamberlain.github.com/scott/pdfs/Chamberlain&Holland2009Ecology.pdf
-[pdf6]: http://schamberlain.github.com/scott/pdfs/HollandEtal2009IntJPlaSci.pdf
-[pdf7]: http://schamberlain.github.com/scott/pdfs/Chamberlain&Holland2009FunctEcol.pdf
-[pdf8]: http://schamberlain.github.com/scott/pdfs/HollandEtal2009JofEcol.pdf
-[pdf9]: http://schamberlain.github.com/scott/pdfs/Chamberlain&Holland2008Ecology.pdf
-[pdf10]: http://schamberlain.github.com/scott/pdfs/Chamberlain&Schlising2008EnvEnto.pdf
-[pdf11]: http://schamberlain.github.com/scott/pdfs/Holland&Chamberlain2007Ecology.pdf
-[pdf12]: http://schamberlain.github.com/scott/pdfs/Schlising&Chamberlain2006Madrono.pdf
-[pdf14]: http://schamberlain.github.com/scott/pdfs/ChamberlainEtal2012EcoLett.pdf
+[pdf1]: http://schamberlain.github.io/scott/pdfs/Chamberlain&Rudgers2011EvolEcol.pdf
+[pdf2]: http://schamberlain.github.io/scott/pdfs/HollandEtal2011Oikos.pdf
+[pdf3]: http://schamberlain.github.io/scott/pdfs/ChamberlainEtal2010Oecologia_journalcopy.pdf
+[pdf4]: http://schamberlain.github.io/scott/pdfs/HollandEtal2009JAridEnv.pdf
+[pdf5]: http://schamberlain.github.io/scott/pdfs/Chamberlain&Holland2009Ecology.pdf
+[pdf6]: http://schamberlain.github.io/scott/pdfs/HollandEtal2009IntJPlaSci.pdf
+[pdf7]: http://schamberlain.github.io/scott/pdfs/Chamberlain&Holland2009FunctEcol.pdf
+[pdf8]: http://schamberlain.github.io/scott/pdfs/HollandEtal2009JofEcol.pdf
+[pdf9]: http://schamberlain.github.io/scott/pdfs/Chamberlain&Holland2008Ecology.pdf
+[pdf10]: http://schamberlain.github.io/scott/pdfs/Chamberlain&Schlising2008EnvEnto.pdf
+[pdf11]: http://schamberlain.github.io/scott/pdfs/Holland&Chamberlain2007Ecology.pdf
+[pdf12]: http://schamberlain.github.io/scott/pdfs/Schlising&Chamberlain2006Madrono.pdf
+[pdf14]: http://schamberlain.github.io/scott/pdfs/ChamberlainEtal2012EcoLett.pdf
