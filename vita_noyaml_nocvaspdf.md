@@ -1,11 +1,3 @@
----
-layout: layout_pubs
-title: Vita 
-date: 2013-02-25
----
-
-<h2> <a href="http://schamberlain.github.com/scott/pdfs/scott_vita.pdf">CV as PDF</a> </h2>
-
 ### **Scott Chamberlain**
 - Code on GitHub: [https://github.com/schamberlain](https://github.com/schamberlain)
 - My website: [http://schamberlain.github.io/scott/](http://schamberlain.github.io/scott/)

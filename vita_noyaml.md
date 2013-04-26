@@ -1,14 +1,26 @@
 <h2> <a href="http://schamberlain.github.com/scott/pdfs/scott_vita.pdf">CV as PDF</a> </h2>
 
+### **Scott Chamberlain**
+- Code on GitHub: [https://github.com/schamberlain](https://github.com/schamberlain)
+- My website: [http://schamberlain.github.io/scott/](http://schamberlain.github.io/scott/)
+- My blog: [http://schamberlain.github.io/](http://schamberlain.github.io/)
+- Twitter: [@recology_](https://twitter.com/recology_)
+- Email: [myrmecocystus@gmail.com](mailto:myrmecocystus@gmail.com)
+
 Education
 ---------
 * 2012 Ph.D Dept. of Ecology & Evolutionary Biology, Rice University
-
 * 2009 M.A. Dept. of Ecology & Evolutionary Biology, Rice University
-
 * 2005 ---  Dept. of Entomology, University of Arizona
-
 * 2003 B.S. Biological Sciences, California State University
+
+
+Programming
+------------
+* R >> I have developed R software for 7 years, for research projects, and as packages (see them [on GitHub](https://github.com/schamberlain)). I co-founded a developer collective to make R software tools for scientists ([http://ropensci.org/](http://ropensci.org/)). 
+* Python >> I have programmed in Python for about a year now, and am relatively comfortable throughtout the language. 
+* Ruby >> I have picked up Ruby in the last year as well, and have deployed [an app to Heroku](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume.
+* Databases: I am familiar with and use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB).
 
 
 Projects/Working Groups
@@ -111,14 +123,7 @@ African Journal of Agricultural Research, Agricultural & Forest Entomology (2), 
 
 References
 -------
----------------------------------------- -----------------------------------
-Dr. Jennifer Rudgers                     Dr. Elizabeth Elle                 
-Ecology & Evolutionary Biology Dept.     Biology Dept.                      
-Rice University                          Simon Fraser University            
-jrudgers@rice.edu                        eelle@sfu.ca                       
-                                                                        
-Dr. Ken Whitney                          Dr. Robert Schlising               
-Ecology & Evolutionary Biology Dept.     Biology Dept.                      
-Rice University                          California State University, Chico 
-kwhitney@rice.edu                        rschlising@csuchico.edu            
-----------------------------------------------------------------------------
++ Dr. Elizabeth Elle, Biology Dept., Simon Fraser University, eelle@sfu.ca
++ Dr. Robert Schlising, Biology Dept., California State University, Chico, rschlising@csuchico.edu
++ Dr. Jennifer Rudgers, Biology Dept., University of New Mexico, jrudgers@unm.edu
++ Dr. Ken Whitney, Biology Dept., University of New Mexico, kwhitney@unm.edu
