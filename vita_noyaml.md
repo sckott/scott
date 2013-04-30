@@ -2,10 +2,11 @@
 
 ### **Scott Chamberlain**
 - Code on GitHub: [https://github.com/schamberlain](https://github.com/schamberlain)
-- My website: [http://schamberlain.github.io/scott/](http://schamberlain.github.io/scott/)
-- My blog: [http://schamberlain.github.io/](http://schamberlain.github.io/)
+- Website: [http://schamberlain.github.io/scott/](http://schamberlain.github.io/scott/)
+- Blog: [http://schamberlain.github.io/](http://schamberlain.github.io/)
+- LinkedIn: [http://www.linkedin.com/profile/view?id=198453270](http://www.linkedin.com/profile/view?id=198453270)
 - Twitter: [@recology_](https://twitter.com/recology_)
-- Email: [myrmecocystus@gmail.com](mailto:myrmecocystus@gmail.com)
+- Email: [myrmecocystus@gmail.com](mailto:myrmecocystus@gmail.com) or [scott@ropensci.org](mailto:scott@ropensci.org)
 
 Education
 ---------
@@ -13,7 +14,6 @@ Education
 * 2009 M.A. Dept. of Ecology & Evolutionary Biology, Rice University
 * 2005 ---  Dept. of Entomology, University of Arizona
 * 2003 B.S. Biological Sciences, California State University
-
 
 Programming
 ------------
