@@ -5,6 +5,10 @@ title: Publications
 
 # Publications
 
++ #### Chamberlain, S.A. _Accepted_. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [on github][isqpaper]
+<br> 
++ #### Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. _Accepted_. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_.
+<br>
 + #### Chamberlain, S.A., S.M. Hovick,...et al...K.D. Whitney. 2012. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. _Ecology Letters_ 15(6):627-636. [pdf][pdf14]
 <br>
 + #### Chamberlain, S.A., & J.A. Rudgers. 2012. How do plants balance multiple mutualists? Correlations among traits for attracting protective bodyguards and pollinators in cotton (_Gossypium_). _Evolutionary Ecology_ 26:65-77. [pdf][pdf1]
@@ -52,3 +56,4 @@ title: Publications
 [pdf11]: http://schamberlain.github.io/scott/pdfs/Holland&Chamberlain2007Ecology.pdf
 [pdf12]: http://schamberlain.github.io/scott/pdfs/Schlising&Chamberlain2006Madrono.pdf
 [pdf14]: http://schamberlain.github.io/scott/pdfs/ChamberlainEtal2012EcoLett.pdf
+[isqpaper]: https://github.com/schamberlain/isqaltms
