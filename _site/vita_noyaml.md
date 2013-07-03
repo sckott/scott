@@ -6,32 +6,34 @@
 - Blog: [http://schamberlain.github.io/](http://schamberlain.github.io/)
 - LinkedIn: [http://www.linkedin.com/profile/view?id=198453270](http://www.linkedin.com/profile/view?id=198453270)
 - Twitter: [@recology_](https://twitter.com/recology_)
-- Email: [myrmecocystus@gmail.com](mailto:myrmecocystus@gmail.com) or [scott@ropensci.org](mailto:scott@ropensci.org)
+- Email: [scott@ropensci.org](mailto:scott@ropensci.org)
 
 Education
 ---------
 * 2012 Ph.D Dept. of Ecology & Evolutionary Biology, Rice University
 * 2009 M.A. Dept. of Ecology & Evolutionary Biology, Rice University
-* 2005 ---  Dept. of Entomology, University of Arizona
 * 2003 B.S. Biological Sciences, California State University
 
 Programming
 ------------
-* R >> I have developed R software for 7 years, for research projects, and as packages (see them [on GitHub](https://github.com/schamberlain)). I co-founded a developer collective to make R software tools for scientists ([http://ropensci.org/](http://ropensci.org/)). 
-* Python >> I have programmed in Python for about a year now, and am relatively comfortable throughtout the language. 
-* Ruby >> I have picked up Ruby in the last year as well, and have deployed [an app to Heroku](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume.
-* Databases: I am familiar with and use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB).
+* R >> I have developed R software for 7 years, for research projects, and as packages (see them [on GitHub](https://github.com/schamberlain)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([http://ropensci.org/](http://ropensci.org/)). 
+* Python >> I have programmed in Python for about a year now, and am relatively comfortable throughtout the language, having used it for a variety of simulations. 
+* Ruby >> I have picked up Ruby in the last year as well, and am getting more comfortable (e.g. a) I have deployed [an app to Heroku](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume, and b) I wrote a tiny gem to get Bibtex style references by inputting a DOI [here](https://github.com/SChamberlain/doiref)).
+* HTML/CSS >> I use HTML often for my own website and blog, and occasionally customize CSS. 
+* Databases >> I am familiar with and use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB).
 
 
 Projects/Working Groups
 ------------
-* 2012-pres DataONE - Community Education and Engagement Working Group
+* 2012-pres [DataONE - Community Education and Engagement Working Group](http://www.dataone.org/working_groups/community-education-and-engagement)
 * 2012-pres British Ecological Society (BES) Digital Strategy Working Group
-* 2011-pres rOpenSci: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets. Website: http://ropensci.org/; code: https://github.com/ropensci.
+* 2011-pres rOpenSci: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets. [Website](http://ropensci.org/); [Code](https://github.com/ropensci).
 
 
 Publications
 ------------
++  Chamberlain, S.A. _Accepted_. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [on github][isqpaper]
++  Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. _Accepted_. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_.
 +  Chamberlain, S.A., S.M. Hovick,...et al...K.D. Whitney. 2012. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. _Ecology Letters_ 15(6):627-636. [pdf][pdf14]
 +  Chamberlain, S.A., & J.A. Rudgers. 2012. How do plants balance multiple mutualists? Correlations among traits for attracting protective bodyguards and pollinators in cotton (_Gossypium_). _Evolutionary Ecology_ 26:65-77. [pdf][pdf1]
 +  Holland, J.N., Chamberlain, S.A.and T.E.X. Miller. 2011. Consequences of ants and extrafloral nectar for a pollinating seed-consuming mutualism: ant satiation, floral distraction, or plant defense? _Oikos_. [pdf][pdf2]
@@ -65,10 +67,10 @@ Publications
 [pdf11]: http://schamberlain.github.com/scott/pdfs/Holland&Chamberlain2007Ecology.pdf
 [pdf12]: http://schamberlain.github.com/scott/pdfs/Schlising&Chamberlain2006Madrono.pdf
 [pdf14]: http://schamberlain.github.com/scott/pdfs/ChamberlainEtal2012EcoLett.pdf
+[isqpaper]: https://github.com/schamberlain/isqaltms
 
 
 ### In review/prep
-+ Chamberlain, S.A., K.D. Whitney, and J.A. Rudgers. In review in Ecosphere. Proximity to agriculture alters abundance and community structure of wild sunflower mutualists and antagonists. 
 + Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. In prep. How context-dependent are species interactions.
 + Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists. 
 
