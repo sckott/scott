@@ -30,8 +30,8 @@ Projects/Working Groups
 
 Publications
 ------------
-+  Chamberlain, S.A. _Accepted_. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [on github][isqpaper]
 +  Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. _Accepted_. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_.
++  Chamberlain, S.A. _Accepted_. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [github][isqpaper] [pdf][pdf15] [web][isqweb]
 +  Chamberlain, S.A., S.M. Hovick,...et al...K.D. Whitney. 2012. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. _Ecology Letters_ 15(6):627-636. [pdf][pdf14]
 +  Chamberlain, S.A., & J.A. Rudgers. 2012. How do plants balance multiple mutualists? Correlations among traits for attracting protective bodyguards and pollinators in cotton (_Gossypium_). _Evolutionary Ecology_ 26:65-77. [pdf][pdf1]
 +  Holland, J.N., Chamberlain, S.A.and T.E.X. Miller. 2011. Consequences of ants and extrafloral nectar for a pollinating seed-consuming mutualism: ant satiation, floral distraction, or plant defense? _Oikos_. [pdf][pdf2]
@@ -65,6 +65,8 @@ Publications
 [pdf11]: http://schamberlain.github.com/scott/pdfs/Holland&Chamberlain2007Ecology.pdf
 [pdf12]: http://schamberlain.github.com/scott/pdfs/Schlising&Chamberlain2006Madrono.pdf
 [pdf14]: http://schamberlain.github.com/scott/pdfs/ChamberlainEtal2012EcoLett.pdf
+[pdf15]: http://schamberlain.github.com/scott/pdfs/FE_Chamberlain_Consuming_ALMs_isq_v25no2.pdf
+[isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
 [isqpaper]: https://github.com/schamberlain/isqaltms
 
 
