@@ -73,6 +73,8 @@ Publications
 
 
 ### In review/prep
++ Chamberlain, S.A., and Eduard Szöcs. In review at PLOS One. taxize: taxonomic search and retrieval in R.
++ Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. In Review at Ecology and Evolution. Pollinators visit related plant species across 29 plant-pollinator networks.
 + Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. In prep. How context-dependent are species interactions.
 + Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists. 
 
