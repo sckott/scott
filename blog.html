@@ -8,8 +8,8 @@ title: "Lab Notebook"
 	{% for post in site.posts %}	
     <tr>
       <td>
-		  <h3><a href="http://schamberlain.github.com/scott{{ post.url }}">{{ post.title }}</a></h3>
-		  <p><small>{{ post.date | date: "%B %e, %Y" }} . {% for tag in post.tags %} <a href="http://schamberlain.github.com/scott/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>  {% if forloop.last != true %} {% endif %} {% endfor %} . <a href="http://schamberlain.github.com/scott{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></small></p>
+		  <h3><a href="{{ url }}{{ post.url }}">{{ post.title }}</a></h3>
+		  <p><small>{{ post.date | date: "%B %e, %Y" }} . {% for tag in post.tags %} <a href="{{ url }}/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>  {% if forloop.last != true %} {% endif %} {% endfor %} . <a href="{{ url }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></small></p>
 	  </td>
     </tr>
 	{% endfor %}			
