@@ -1,5 +1,5 @@
 name: SAC
-url: http://schamberlain.github.io/scott
+url: http://scottchamberlain.info/
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title/
