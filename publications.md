@@ -5,9 +5,9 @@ title: Publications
 
 # Publications
 
-+ #### Chamberlain, S.A. _Accepted_. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [on github][isqpaper]
++ #### Chamberlain, S.A. 2013. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [on github][isqpaper] [pdf][pdf16] [web][isqweb]
 <br> 
-+ #### Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. _Accepted_. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_.
++ #### Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. 2013. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_. [pdf][pdf15]
 <br>
 + #### Chamberlain, S.A., S.M. Hovick,...et al...K.D. Whitney. 2012. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. _Ecology Letters_ 15(6):627-636. [pdf][pdf14]
 <br>
@@ -43,17 +43,29 @@ title: Publications
 
 + Rosumek F.B. ,et al. 2009. Ants on plants: a meta-analysis of the role of ants as plant biotic defenses. _Oecologia_ 60:537–549
 
-[pdf1]: http://schamberlain.github.io/scott/pdfs/Chamberlain&Rudgers2011EvolEcol.pdf
-[pdf2]: http://schamberlain.github.io/scott/pdfs/HollandEtal2011Oikos.pdf
-[pdf3]: http://schamberlain.github.io/scott/pdfs/ChamberlainEtal2010Oecologia_journalcopy.pdf
-[pdf4]: http://schamberlain.github.io/scott/pdfs/HollandEtal2009JAridEnv.pdf
-[pdf5]: http://schamberlain.github.io/scott/pdfs/Chamberlain&Holland2009Ecology.pdf
-[pdf6]: http://schamberlain.github.io/scott/pdfs/HollandEtal2009IntJPlaSci.pdf
-[pdf7]: http://schamberlain.github.io/scott/pdfs/Chamberlain&Holland2009FunctEcol.pdf
-[pdf8]: http://schamberlain.github.io/scott/pdfs/HollandEtal2009JofEcol.pdf
-[pdf9]: http://schamberlain.github.io/scott/pdfs/Chamberlain&Holland2008Ecology.pdf
-[pdf10]: http://schamberlain.github.io/scott/pdfs/Chamberlain&Schlising2008EnvEnto.pdf
-[pdf11]: http://schamberlain.github.io/scott/pdfs/Holland&Chamberlain2007Ecology.pdf
-[pdf12]: http://schamberlain.github.io/scott/pdfs/Schlising&Chamberlain2006Madrono.pdf
-[pdf14]: http://schamberlain.github.io/scott/pdfs/ChamberlainEtal2012EcoLett.pdf
+### In review/prep
+
++ Chamberlain, S.A., and Eduard Szöcs. In review at F1000 Research. taxize: taxonomic search and retrieval in R.
++ Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. In Review at Ecology and Evolution. Pollinators visit related plant species across 29 plant-pollinator networks.
++ Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. In prep. How context-dependent are species interactions.
++ Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists. 
++ Chamberlain, S.A., et al. In review at Oecologia. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities
++ Chamberlain, S.A., et al. In prep. Phylogenetic tree shape and the structure of mutualistic networks
+
+[pdf1]: {{ url }}/pdfs/Chamberlain&Rudgers2011EvolEcol.pdf
+[pdf2]: {{ url }}/pdfs/HollandEtal2011Oikos.pdf
+[pdf3]: {{ url }}/pdfs/ChamberlainEtal2010Oecologia_journalcopy.pdf
+[pdf4]: {{ url }}/pdfs/HollandEtal2009JAridEnv.pdf
+[pdf5]: {{ url }}/pdfs/Chamberlain&Holland2009Ecology.pdf
+[pdf6]: {{ url }}/pdfs/HollandEtal2009IntJPlaSci.pdf
+[pdf7]: {{ url }}/pdfs/Chamberlain&Holland2009FunctEcol.pdf
+[pdf8]: {{ url }}/pdfs/HollandEtal2009JofEcol.pdf
+[pdf9]: {{ url }}/pdfs/Chamberlain&Holland2008Ecology.pdf
+[pdf10]: {{ url }}/pdfs/Chamberlain&Schlising2008EnvEnto.pdf
+[pdf11]: {{ url }}/pdfs/Holland&Chamberlain2007Ecology.pdf
+[pdf12]: {{ url }}/pdfs/Schlising&Chamberlain2006Madrono.pdf
+[pdf14]: {{ url }}/pdfs/ChamberlainEtal2012EcoLett.pdf
+[pdf15]: {{ url }}/pdfs/ChamberlainEtal2013Ecosphere.pdf
+[pdf16]: {{ url }}/pdfs/FE_Chamberlain_Consuming_ALMs_isq_v25no2.pdf
 [isqpaper]: https://github.com/schamberlain/isqaltms
+[isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/

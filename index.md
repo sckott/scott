@@ -9,13 +9,13 @@ title: index
 
 </br></br>
 
-### Learn about my research <a href="http://schamberlain.github.com/scott/research.html" class="badge badge-success" rel="tooltip" data-placement="right" title="Read about my research">research &raquo;</a><br>
+### Learn about my research <a href="{{ url }}/research.html" class="badge badge-success" rel="tooltip" data-placement="right" title="Read about my research">research &raquo;</a><br>
 
-### Publications <a href="http://schamberlain.github.com/scott/publications.html" class="badge badge-important" rel="tooltip" data-placement="right" title="just a bit of writing here and there">pubs &raquo;</a><br>
+### Publications <a href="{{ url }}/publications.html" class="badge badge-important" rel="tooltip" data-placement="right" title="just a bit of writing here and there">pubs &raquo;</a><br>
 
-### About me <a href="http://schamberlain.github.com/scott/about.html" class="badge badge-warning" rel="tooltip" data-placement="right" title="my 'hello world'">about me &raquo;</a><br>
+### About me <a href="{{ url }}/about.html" class="badge badge-warning" rel="tooltip" data-placement="right" title="my 'hello world'">about me &raquo;</a><br>
 
-### Talks <a href="http://schamberlain.github.com/scott/talks.html" class="badge badge-info" rel="tooltip" data-placement="right" title="See my talks on Slideshare and in html">talks &raquo;</a>
+### Talks <a href="{{ url }}/talks.html" class="badge badge-info" rel="tooltip" data-placement="right" title="See my talks on Slideshare and in html">talks &raquo;</a>
 
 <br>
 <br>

@@ -1,15 +1,15 @@
 ---
 layout: layout_pubs
 title: Vita 
-date: 2013-07-02
+date: 2013-09-02
 ---
 
-<h2> <a href="http://schamberlain.github.com/scott/pdfs/scott_vita.pdf">CV as PDF</a> </h2>
+<h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> </h2>
 
 ### **Scott Chamberlain**
 - Code on GitHub: [https://github.com/schamberlain](https://github.com/schamberlain)
-- Website: [http://schamberlain.github.io/scott/](http://schamberlain.github.io/scott/)
-- Blog: [http://schamberlain.github.io/](http://schamberlain.github.io/)
+- Website: [http://scottchamberlain.info](http://scottchamberlain.info)
+- Blog: [http://recology.info](http://recology.info)
 - LinkedIn: [http://www.linkedin.com/profile/view?id=198453270](http://www.linkedin.com/profile/view?id=198453270)
 - Twitter: [@recology_](https://twitter.com/recology_)
 - Email: [scott@ropensci.org](mailto:scott@ropensci.org)
@@ -38,8 +38,8 @@ Projects/Working Groups
 
 Publications
 ------------
-+  Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. _Accepted_. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_.
-+  Chamberlain, S.A. _Accepted_. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [github][isqpaper] [pdf][pdf15] [web][isqweb]
++  Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. 2013. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_. [pdf][pdf16]
++  Chamberlain, S.A. 2013. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [github][isqpaper] [pdf][pdf15] [web][isqweb]
 +  Chamberlain, S.A., S.M. Hovick,...et al...K.D. Whitney. 2012. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. _Ecology Letters_ 15(6):627-636. [pdf][pdf14]
 +  Chamberlain, S.A., & J.A. Rudgers. 2012. How do plants balance multiple mutualists? Correlations among traits for attracting protective bodyguards and pollinators in cotton (_Gossypium_). _Evolutionary Ecology_ 26:65-77. [pdf][pdf1]
 +  Holland, J.N., Chamberlain, S.A.and T.E.X. Miller. 2011. Consequences of ants and extrafloral nectar for a pollinating seed-consuming mutualism: ant satiation, floral distraction, or plant defense? _Oikos_. [pdf][pdf2]
@@ -60,29 +60,32 @@ Publications
 
 + Rosumek F.B. ,et al. 2009. Ants on plants: a meta-analysis of the role of ants as plant biotic defenses. _Oecologia_ 60:537–549
 
-[pdf1]: http://schamberlain.github.com/scott/pdfs/Chamberlain&Rudgers2011EvolEcol.pdf
-[pdf2]: http://schamberlain.github.com/scott/pdfs/HollandEtal2011Oikos.pdf
-[pdf3]: http://schamberlain.github.com/scott/pdfs/ChamberlainEtal2010Oecologia_journalcopy.pdf
-[pdf4]: http://schamberlain.github.com/scott/pdfs/HollandEtal2009JAridEnv.pdf
-[pdf5]: http://schamberlain.github.com/scott/pdfs/Chamberlain&Holland2009Ecology.pdf
-[pdf6]: http://schamberlain.github.com/scott/pdfs/HollandEtal2009IntJPlaSci.pdf
-[pdf7]: http://schamberlain.github.com/scott/pdfs/Chamberlain&Holland2009FunctEcol.pdf
-[pdf8]: http://schamberlain.github.com/scott/pdfs/HollandEtal2009JofEcol.pdf
-[pdf9]: http://schamberlain.github.com/scott/pdfs/Chamberlain&Holland2008Ecology.pdf
-[pdf10]: http://schamberlain.github.com/scott/pdfs/Chamberlain&Schlising2008EnvEnto.pdf
-[pdf11]: http://schamberlain.github.com/scott/pdfs/Holland&Chamberlain2007Ecology.pdf
-[pdf12]: http://schamberlain.github.com/scott/pdfs/Schlising&Chamberlain2006Madrono.pdf
-[pdf14]: http://schamberlain.github.com/scott/pdfs/ChamberlainEtal2012EcoLett.pdf
-[pdf15]: http://schamberlain.github.com/scott/pdfs/FE_Chamberlain_Consuming_ALMs_isq_v25no2.pdf
+[pdf1]: {{ url }}/pdfs/Chamberlain&Rudgers2011EvolEcol.pdf
+[pdf2]: {{ url }}/pdfs/HollandEtal2011Oikos.pdf
+[pdf3]: {{ url }}/pdfs/ChamberlainEtal2010Oecologia_journalcopy.pdf
+[pdf4]: {{ url }}/pdfs/HollandEtal2009JAridEnv.pdf
+[pdf5]: {{ url }}/pdfs/Chamberlain&Holland2009Ecology.pdf
+[pdf6]: {{ url }}/pdfs/HollandEtal2009IntJPlaSci.pdf
+[pdf7]: {{ url }}/pdfs/Chamberlain&Holland2009FunctEcol.pdf
+[pdf8]: {{ url }}/pdfs/HollandEtal2009JofEcol.pdf
+[pdf9]: {{ url }}/pdfs/Chamberlain&Holland2008Ecology.pdf
+[pdf10]: {{ url }}/pdfs/Chamberlain&Schlising2008EnvEnto.pdf
+[pdf11]: {{ url }}/pdfs/Holland&Chamberlain2007Ecology.pdf
+[pdf12]: {{ url }}/pdfs/Schlising&Chamberlain2006Madrono.pdf
+[pdf14]: {{ url }}/pdfs/ChamberlainEtal2012EcoLett.pdf
+[pdf15]: {{ url }}/pdfs/FE_Chamberlain_Consuming_ALMs_isq_v25no2.pdf
+[pdf16]: {{ url }}/pdfs/ChamberlainEtal2013Ecosphere.pdf
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
 [isqpaper]: https://github.com/schamberlain/isqaltms
 
 
 ### In review/prep
-+ Chamberlain, S.A., and Eduard Szöcs. In review at PLOS One. taxize: taxonomic search and retrieval in R.
++ Chamberlain, S.A., and Eduard Szöcs. In review at F1000 Research. taxize: taxonomic search and retrieval in R.
 + Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. In Review at Ecology and Evolution. Pollinators visit related plant species across 29 plant-pollinator networks.
 + Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. In prep. How context-dependent are species interactions.
 + Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists. 
++ Chamberlain, S.A., et al. In review at Oecologia. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities
++ Chamberlain, S.A., et al. In prep. Phylogenetic tree shape and the structure of mutualistic networks
 
 
 Presentations
@@ -94,7 +97,7 @@ Presentations
 + 2009  Chamberlain, S.A., & J.A. Rudgers. Extrafloral-floral nectar trade-offs or synergies in cotton (Gossypium). Poster presentation at the 94thannual meeting of the Ecological Society of America.
 + 2009  Chamberlain, S.A., & J.A. Rudgers. Comparing variation in interaction outcome among competition, predation, and mutualism: a meta-analysis. Oral presentation at the 6th Annual Southeastern Ecol. and Evol. Conference at the University of Florida.
 + 2009  Chamberlain, S.A., & J.A. Rudgers. Comparing variation in interaction outcome among competition, predation, and mutualism: a meta-analysis. Oral presentation at the 10th Annual Ecological Inegration Symposium at Texas A&M University.
-+ 2008  Chamberlain, S.A., & J.N. Holland. Factors influencing extrafloral nectar mediated ant-plant interactions in the Sonoran Desert. Poster presentation at Entomological Society of America’s 56th Annual Meeting.  
++ 2008  Chamberlain, S.A., & J.N. Holland. Factors influencing extrafloral nectar mediated ant-plant interactions in the Sonoran Desert. Poster presentation at Entomological Society of America’s 56th Annual Meeting.
 + 2008  Holland J.N., S.A. Chamberlain, & K.C. Horn.Costs of mutualism: Optimal defense theory predicts investment in extrafloral nectar resources in ant-plant interactions. Oral presentation at Ecological Society of America’s 93rdAnnual Meeting.
 + 2007  S.A. Chamberlain. Community context reveals alternative function of extrafloral nectar. Oral presentation-California Botanical Society 22nd Graduate Student Meeting. 
 + 2007  Hunt, J.W., S.A. Chamberlain& D.M. Wood. Surface-active beetles as indicators of habitat change in riparian restoration along the Sacramento River, California, USA. Oral presentation at Ecological Society of America’s 92ndAnnual Meeting. 
