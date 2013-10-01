@@ -1,7 +1,7 @@
 ---
 layout: layout_pubs
 title: Vita 
-date: 2013-09-02
+date: 2013-10-01
 ---
 
 <h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> </h2>
@@ -38,21 +38,22 @@ Projects/Working Groups
 
 Publications
 ------------
-+  Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. 2013. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_. [pdf][pdf16]
-+  Chamberlain, S.A. 2013. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [github][isqpaper] [pdf][pdf15] [web][isqweb]
-+  Chamberlain, S.A., S.M. Hovick,...et al...K.D. Whitney. 2012. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. _Ecology Letters_ 15(6):627-636. [pdf][pdf14]
-+  Chamberlain, S.A., & J.A. Rudgers. 2012. How do plants balance multiple mutualists? Correlations among traits for attracting protective bodyguards and pollinators in cotton (_Gossypium_). _Evolutionary Ecology_ 26:65-77. [pdf][pdf1]
-+  Holland, J.N., Chamberlain, S.A.and T.E.X. Miller. 2011. Consequences of ants and extrafloral nectar for a pollinating seed-consuming mutualism: ant satiation, floral distraction, or plant defense? _Oikos_. [pdf][pdf2]
-+  Chamberlain, S.A., J.K. Kilpatrick, & J.N. Holland. 2010. Do extrafloral nectar resources, abundances, and body sizes contribute to the structure of ant-plant mutualistic networks? _Oecologia_ 164:741-750. [pdf][pdf3]
-+  Holland, J.N., Chamberlain, S.A.,& K.C. Horn. 2010. Temporal variation in extrafloral nectar   secretion by reproductive tissues of the senita cactus, _Pachycereus schottii_ (Cactaceae), in the Sonoran Desert of Mexico. _Journal of Arid Environments_ 74(6):712-714. [pdf][pdf4]
-+  Chamberlain, S.A., & J.N. Holland. 2009. Quantitative synthesis of context-dependency in ant-plant protection mutualisms. _Ecology_ 90(9):2384-2392. [pdf][pdf5] ***
-+  Holland, J.N., S.A.Chamberlain, A.M. Waguespack, and A.S. Kinyo. 2009. Effects of pollen load and donor diversity on variation in seed and fruit size in a columnar cactus, _Pachycereus schottii_ (Cactaceae). _International Journal of Plant Sciences_ 170:467-475. [pdf][pdf6]
-+  Chamberlain, S.A.& J.N. Holland. 2009. Body size predicts degree in ant-plant mutualistic networks. _Functional Ecology_ 23:196-202. [pdf][pdf7]
-+  Holland, J.N., Chamberlain, S.A.,& K.C. Horn. 2009. Constitutive and induced extrafloral nectar production: optimal defense theory predicts plant resource investment in a protection  mutualism. _Journal of Ecology_ 97(1):89-96. [pdf][pdf8]
-+  Chamberlain, S.A. & J.N. Holland. 2008. Density-mediated and context-dependent consumer-resource interactions between ants and extrafloral nectar plants. _Ecology_ 89(5):1364-1374. [pdf][pdf9]
-+  Chamberlain, S.A.& R.A. Schlising. 2008. Role of honey bees (Hymenoptera: Apidae) in the   pollination biology of a California native plant, _Triteleia laxa_ (Asparagales: Themidaceae). _Environmental Entomology_ 37(3):808-816. [pdf][pdf10]
-+  Holland, J.N. &S.A. Chamberlain. 2007. Ecological and evolutionary mechanisms for low seed:ovule ratios: need for a pluralistic approach? _Ecology_ 88(3):706-715. [pdf][pdf11]
-+  Schlising, R.A. &S.A. Chamberlain. 2006. Biology of the geophytic lily, _Triteleia laxa_ (Themidaceae), in grasslands of the Northern Sacramento Valley. _Madroño_ 53(4):321-341. [pdf][pdf12]
++ Chamberlain SA, Szöcs E. 2013. taxize: taxonomic search and retrieval in R [v1; ref status: indexed, http://f1000r.es/1pv] F1000Research 2013, 2:191 (doi: 10.12688/f1000research.2-191.v1) [github][taxizepaper] [pdf][pdf17]
++ Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. 2013. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_. [pdf][pdf16]
++ Chamberlain, S.A. 2013. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [github][isqpaper] [pdf][pdf15] [web][isqweb]
++ Chamberlain, S.A., S.M. Hovick,...et al...K.D. Whitney. 2012. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. _Ecology Letters_ 15(6):627-636. [pdf][pdf14]
++ Chamberlain, S.A., & J.A. Rudgers. 2012. How do plants balance multiple mutualists? Correlations among traits for attracting protective bodyguards and pollinators in cotton (_Gossypium_). _Evolutionary Ecology_ 26:65-77. [pdf][pdf1]
++ Holland, J.N., Chamberlain, S.A.and T.E.X. Miller. 2011. Consequences of ants and extrafloral nectar for a pollinating seed-consuming mutualism: ant satiation, floral distraction, or plant defense? _Oikos_. [pdf][pdf2]
++ Chamberlain, S.A., J.K. Kilpatrick, & J.N. Holland. 2010. Do extrafloral nectar resources, abundances, and body sizes contribute to the structure of ant-plant mutualistic networks? _Oecologia_ 164:741-750. [pdf][pdf3]
++ Holland, J.N., Chamberlain, S.A.,& K.C. Horn. 2010. Temporal variation in extrafloral nectar   secretion by reproductive tissues of the senita cactus, _Pachycereus schottii_ (Cactaceae), in the Sonoran Desert of Mexico. _Journal of Arid Environments_ 74(6):712-714. [pdf][pdf4]
++ Chamberlain, S.A., & J.N. Holland. 2009. Quantitative synthesis of context-dependency in ant-plant protection mutualisms. _Ecology_ 90(9):2384-2392. [pdf][pdf5] ***
++ Holland, J.N., S.A.Chamberlain, A.M. Waguespack, and A.S. Kinyo. 2009. Effects of pollen load and donor diversity on variation in seed and fruit size in a columnar cactus, _Pachycereus schottii_ (Cactaceae). _International Journal of Plant Sciences_ 170:467-475. [pdf][pdf6]
++ Chamberlain, S.A.& J.N. Holland. 2009. Body size predicts degree in ant-plant mutualistic networks. _Functional Ecology_ 23:196-202. [pdf][pdf7]
++ Holland, J.N., Chamberlain, S.A.,& K.C. Horn. 2009. Constitutive and induced extrafloral nectar production: optimal defense theory predicts plant resource investment in a protection  mutualism. _Journal of Ecology_ 97(1):89-96. [pdf][pdf8]
++ Chamberlain, S.A. & J.N. Holland. 2008. Density-mediated and context-dependent consumer-resource interactions between ants and extrafloral nectar plants. _Ecology_ 89(5):1364-1374. [pdf][pdf9]
++ Chamberlain, S.A.& R.A. Schlising. 2008. Role of honey bees (Hymenoptera: Apidae) in the   pollination biology of a California native plant, _Triteleia laxa_ (Asparagales: Themidaceae). _Environmental Entomology_ 37(3):808-816. [pdf][pdf10]
++ Holland, J.N. &S.A. Chamberlain. 2007. Ecological and evolutionary mechanisms for low seed:ovule ratios: need for a pluralistic approach? _Ecology_ 88(3):706-715. [pdf][pdf11]
++ Schlising, R.A. &S.A. Chamberlain. 2006. Biology of the geophytic lily, _Triteleia laxa_ (Themidaceae), in grasslands of the Northern Sacramento Valley. _Madroño_ 53(4):321-341. [pdf][pdf12]
 
 ***Also, please see two other meta-analyses on this same topic:
 
@@ -75,12 +76,13 @@ Publications
 [pdf14]: {{ url }}/pdfs/ChamberlainEtal2012EcoLett.pdf
 [pdf15]: {{ url }}/pdfs/FE_Chamberlain_Consuming_ALMs_isq_v25no2.pdf
 [pdf16]: {{ url }}/pdfs/ChamberlainEtal2013Ecosphere.pdf
+[pdf17]: {{ url }}/pdfs/Chamberlain&Szocs2013f1000Research.pdf
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
 [isqpaper]: https://github.com/schamberlain/isqaltms
+[taxizepaper]: https://github.com/ropensci/taxize_/tree/dev_ms/f1000_rev
 
 
 ### In review/prep
-+ Chamberlain, S.A., and Eduard Szöcs. In review at F1000 Research. taxize: taxonomic search and retrieval in R.
 + Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. In Review at Ecology and Evolution. Pollinators visit related plant species across 29 plant-pollinator networks.
 + Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. In prep. How context-dependent are species interactions.
 + Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists. 
