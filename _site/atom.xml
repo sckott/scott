@@ -4,7 +4,7 @@
  <title>Recology</title>
  <link href="http://schamberlain.github.com/atom.xml" rel="self"/>
  <link href="http://schamberlain.github.com/"/>
- <updated>2013-10-01T12:29:42-07:00</updated>
+ <updated>2013-12-03T18:43:34-08:00</updated>
  <id>http://schamberlain.github.com</id>
  <author>
    <name>Scott Chamberlain</name>
@@ -512,7 +512,7 @@ ldply&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;out&lt;span class=&quot;p&quo
 &lt;li&gt;Possible solutions:
 
 &lt;ul&gt;
-&lt;li&gt;Use modules? (Olesen &lt;em&gt;et. al.&lt;/em&gt; 2007) talk about modules as roles in bipartite networks, however this isn't the same as motifs. Motifs/graphlets are asking what roles do species play in sub-structures of the network, whereas with modules we can say whether a species plays the role of a module hub, network hub, connector, or peripheral (according to Olesen terminology).  But this isn't the same as motif/graphlets.&lt;/li&gt;
+&lt;li&gt;Use modules? (Olesen &lt;em&gt;et. al.&lt;/em&gt; 2007) talk about modules as roles in bipartite networks, however this isn't the same as motifs. Motifs/graphlets are asking what roles do species play in substructures of the network, whereas with modules we can say whether a species plays the role of a module hub, network hub, connector, or peripheral (according to Olesen terminology).  But this isn't the same as motif/graphlets.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -603,11 +603,10 @@ plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee__&lt;span class=&quot;p&quo
 
 &lt;h4&gt;References&lt;/h4&gt;
 
-&lt;p&gt;Olesen JM, Bascompte J, Dupont YL and Jordano P (2007).
+&lt;p&gt;&lt;p&gt;Olesen JM, Bascompte J, Dupont YL and Jordano P (2007).
 &amp;ldquo;The Modularity of Pollination Networks.&amp;rdquo;
 &lt;EM&gt;Proceedings of The National Academy of Sciences&lt;/EM&gt;, &lt;B&gt;104&lt;/B&gt;.
-ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;&gt;http://dx.doi.org/10.1073/pnas.0706375104&lt;/a&gt;.
-
+ISSN 0027-8424, &lt;a href=&quot;http://dx.doi.org/10.1073/pnas.0706375104&quot;&gt;http://dx.doi.org/10.1073/pnas.0706375104&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  

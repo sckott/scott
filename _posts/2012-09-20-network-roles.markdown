@@ -22,7 +22,7 @@ tags:
 	+ at larger taxonomic scales, they show that phyla, classes, orders, and families, tend to play similar roles betlween New Zealand food webs, and all other food webs. 
 + Other questions
 	+ What are the mechanisms for the evolutionary conservation of species roles?
-		+ Is it related to similarity in traits?  
+		+ Is it related to similarity in traits?
 		+ or possibly similarity in abundance?
 	+ Is there conservation of species roles in mutualistic plant-pollinator networks?
 		+ this paper only looked at food webs.
@@ -43,7 +43,7 @@ VS.
 + Problems, in bipartite networks:
 	+ there is no directionality to links, so that decreases the unique graphlets/motifs
 + Possible solutions:
-	+ Use modules? (Olesen _et. al._ 2007) talk about modules as roles in bipartite networks, however this isn't the same as motifs. Motifs/graphlets are asking what roles do species play in sub-structures of the network, whereas with modules we can say whether a species plays the role of a module hub, network hub, connector, or peripheral (according to Olesen terminology).  But this isn't the same as motif/graphlets. 
+	+ Use modules? (Olesen _et. al._ 2007) talk about modules as roles in bipartite networks, however this isn't the same as motifs. Motifs/graphlets are asking what roles do species play in substructures of the network, whereas with modules we can say whether a species plays the role of a module hub, network hub, connector, or peripheral (according to Olesen terminology).  But this isn't the same as motif/graphlets. 
 
 
 
