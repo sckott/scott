@@ -15,6 +15,6 @@ title: Blogs
 
 
 [Journal of Ecology blog]: http://jecologyblog.wordpress.com/
-[Recology]: http://schamberlain.github.io/blog.html
-[Lab Notebook]: http://schamberlain.github.io/labnotebook
+[Recology]: http://sckott.github.io/blog.html
+[Lab Notebook]: http://sckott.github.io/labnotebook
 [rOpenSci blog]: http://ropensci.org/articles/

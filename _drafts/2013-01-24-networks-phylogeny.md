@@ -62,7 +62,7 @@ Unfortunately, this process can't all be collected in an R script, but below is 
 
 The phylogeny (visualized in FigTree, many nodes are collapsed, it has about 500 species):
 
-![center](https://raw.github.com/SChamberlain/schamberlain.github.com/master/img/phylogeny.png)
+![center](https://raw.github.com/SChamberlain/sckott.github.com/master/img/phylogeny.png)
 
 *********
 #### Get the .Rmd file used to create this post [at my github account](https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2013-01-24-networks-phylogeny.Rmd) - or [.md file](https://github.com/SChamberlain/scott/blob/gh-pages/_posts/2013-01-24-networks-phylogeny.md).

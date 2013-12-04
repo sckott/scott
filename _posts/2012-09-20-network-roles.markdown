@@ -31,11 +31,11 @@ tags:
 	+ can we look at where species are in motifs with bipartite networks?  that is, species of similar type (plants) can’t interact with one another
 		+ probably: just means that motifs are of a more limited set, that is, whereas in a food web you can have a triangle, you can only have an open triangle in a bipartite network
 
-![triangle](http://schamberlain.github.com/scott/img/triangle.png)
+![triangle](http://sckott.github.com/scott/img/triangle.png)
 
 VS.
 
-![triangle](http://schamberlain.github.com/scott/img/triangle_open.png)
+![triangle](http://sckott.github.com/scott/img/triangle_open.png)
 
 + Code: asked for code form Daniel Stouffer - it was not provided in the paper 
 
@@ -54,7 +54,7 @@ res <- computeModules(small1976)  # takes several minutes!
 plotModuleWeb(res)
 {% endhighlight %}
 
-![center](http://schamberlain.github.com/scott/img/modules.png) 
+![center](http://sckott.github.com/scott/img/modules.png) 
 
 		
 	+ Converting bipartite two-mode networks to one-mode networks
@@ -71,7 +71,7 @@ mat <- mat[, 1:10]  # get samller matrix for ease
 plotweb(mat)  # bipartite plot
 {% endhighlight %}
 
-![center](http://schamberlain.github.com/scott/img/twovsonemode1.png) 
+![center](http://sckott.github.com/scott/img/twovsonemode1.png) 
 
 {% highlight r %}
 row.names(mat) <- NULL
@@ -81,7 +81,7 @@ mat_onemode_i <- tnet_igraph(mat_onemode, directed = F)  # convert to igraph obj
 plot(mat_onemode_i)  # plot one-mode undirected graph
 {% endhighlight %}
 
-![NA](http://schamberlain.github.com/scott/img/twovsonemode2.png) 
+![NA](http://sckott.github.com/scott/img/twovsonemode2.png) 
 
 
 	+ or maybe we can do this: 
@@ -120,7 +120,7 @@ ee__ <- tnet_igraph(ee, directed = F)
 plot(ee__)  # where noddes 1-13 are plants, and 14-23 are pollinators
 {% endhighlight %}
 
-![center](http://schamberlain.github.com/scott/img/other.png) 
+![center](http://sckott.github.com/scott/img/other.png) 
 
 
 Basically a network of plant-pollinator interactions together with the putative competitive/facilitative interactions within each partite (plants and pollinators). Obviously this graph needs coloring for the different types of nodes...

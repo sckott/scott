@@ -48,7 +48,7 @@ fitmod(Sepal.Length ~ Sepal.Width * Species, iris)
 {% endhighlight %}
 
 
-![center](http://schamberlain.github.com/scott/img/outputall.png) 
+![center](http://sckott.github.com/scott/img/outputall.png) 
 
 {% highlight text %}
 Response: Sepal.Length

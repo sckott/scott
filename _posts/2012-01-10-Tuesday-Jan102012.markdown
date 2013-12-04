@@ -16,4 +16,4 @@ tags:
 	2. include points along with histogram
 	3. more?
 
-[here]: http://schamberlain.github.com/2012/01/logistic-regression-barplot-fig/
+[here]: http://sckott.github.com/2012/01/logistic-regression-barplot-fig/

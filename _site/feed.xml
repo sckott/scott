@@ -280,7 +280,7 @@ fitmod&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;Sepal.Length &lt;span class=
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;http://schamberlain.github.com/scott/img/outputall.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://sckott.github.com/scott/img/outputall.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text&quot;&gt;Response: Sepal.Length
                     Sum Sq  Df F value  Pr(&amp;gt;F)    
@@ -474,11 +474,11 @@ ldply&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;out&lt;span class=&quot;p&quo
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;http://schamberlain.github.com/scott/img/triangle.png&quot; alt=&quot;triangle&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://sckott.github.com/scott/img/triangle.png&quot; alt=&quot;triangle&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;VS.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://schamberlain.github.com/scott/img/triangle_open.png&quot; alt=&quot;triangle&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://sckott.github.com/scott/img/triangle_open.png&quot; alt=&quot;triangle&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Code: asked for code form Daniel Stouffer - it was not provided in the paper&lt;/li&gt;
@@ -510,7 +510,7 @@ plotModuleWeb&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;res&lt;span class=&qu
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;http://schamberlain.github.com/scott/img/modules.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://sckott.github.com/scott/img/modules.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;+ Converting bipartite two-mode networks to one-mode networks
     + One option is to convert two-mode bipartite networks into one-mode networks, which results in two one-mode networks, one for plants and one for pollinators.  Then, each one-mode network represents links shared by species in the same partite.  With this, one can look at motifs and graphlets, but what does that mean?  If a certain plant species X is found in a lot of motifs of a certain kind, does that tell us anything about the two-mode bipartite network of plant-pollinator interactions?
@@ -526,7 +526,7 @@ plotweb&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&q
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;http://schamberlain.github.com/scott/img/twovsonemode1.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://sckott.github.com/scott/img/twovsonemode1.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;row.names&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;NULL&lt;/span&gt;
 mat_elist &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; web2edges&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k-Variable&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# convert to edgelist&lt;/span&gt;
@@ -536,7 +536,7 @@ plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mat_onemode_i&lt;span class=&q
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;http://schamberlain.github.com/scott/img/twovsonemode2.png&quot; alt=&quot;NA&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://sckott.github.com/scott/img/twovsonemode2.png&quot; alt=&quot;NA&quot; /&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;+ or maybe we can do this: 
 &lt;/code&gt;&lt;/pre&gt;
@@ -574,7 +574,7 @@ plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee__&lt;span class=&quot;p&quo
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;http://schamberlain.github.com/scott/img/other.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://sckott.github.com/scott/img/other.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Basically a network of plant-pollinator interactions together with the putative competitive/facilitative interactions within each partite (plants and pollinators). Obviously this graph needs coloring for the different types of nodes...&lt;/p&gt;
 
