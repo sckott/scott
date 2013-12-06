@@ -4,4 +4,4 @@ markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title/
 
-exclude: [blog.html, _posts]
+exclude: [projects.html, Rpackages.md, blog.html, _posts]
