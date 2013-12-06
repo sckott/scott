@@ -5,7 +5,7 @@ title: index
 
 <a href="http://www.flickr.com/photos/recology_/7698223864/" title="me3 by scottlus, on Flickr"><img src="http://farm9.staticflickr.com/8429/7698223864_98ef95de23_m.jpg" width="120" height="140" alt="me3" class="floatRight"></a>
 
-### I study the evolution of species interactions, how species interactions influence evolution of species traits and influence communities, among other things. 
+### I'm Scott Chamberlain. I study the evolution of species interactions, how species interactions influence evolution of species traits and influence communities, among other things. 
 
 </br></br>
 

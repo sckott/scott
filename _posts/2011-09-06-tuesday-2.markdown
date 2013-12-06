@@ -13,7 +13,7 @@ tags:
 	<li>Also, some content for the meetings at Github here:  <a href="https://github.com/organizations/RatRiceEEB" target="_blank">https://github.com/organizations/RatRiceEEB</a></li>
 </ul>
 	<li>Finished manuscript review for manuscript on honeybees</li>
-	<li>Checked over functions in the taxize package on github, <a href="https://github.com/SChamberlain/taxize_" target="_blank">here</a></li>
+	<li>Checked over functions in the taxize package on github, <a href="https://github.com/sckott/taxize_" target="_blank">here</a></li>
 <ul>
 	<li>Some of the taxize functions should probably be removed</li>
 	<li>need to figure out uBio API services</li>

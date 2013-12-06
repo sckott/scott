@@ -8,6 +8,6 @@ tags:
 
 <ol>
 	<li>Massive amounts of flower trait data entry</li>
-	<li>Added five new functions to our R wrapper for the National Phenology Network database <a href="https://github.com/SChamberlain/rnpn" target="_blank">at Github</a></li>
+	<li>Added five new functions to our R wrapper for the National Phenology Network database <a href="https://github.com/sckott/rnpn" target="_blank">at Github</a></li>
 	<li>Discussed R course in our department</li>
 </ol>

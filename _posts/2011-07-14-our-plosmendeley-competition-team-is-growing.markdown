@@ -10,7 +10,7 @@ tags:
 
 See <a href="http://dev.mendeley.com/api-binary-battle" target="_blank">here</a> for the PLoS/Mendeley competition.
 
-Github site for <a href="https://github.com/SChamberlain/rplos" target="_blank">rplos</a> and <a href="https://github.com/cboettig/RMendeley" target="_blank">RMendeley</a>.
+Github site for <a href="https://github.com/sckott/rplos" target="_blank">rplos</a> and <a href="https://github.com/cboettig/RMendeley" target="_blank">RMendeley</a>.
 
 <span style="text-decoration:underline;">*THE TEAM*</span>
 

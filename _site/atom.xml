@@ -4,7 +4,7 @@
  <title>Recology</title>
  <link href="http://sckott.github.com/atom.xml" rel="self"/>
  <link href="http://sckott.github.com/"/>
- <updated>2013-12-03T19:04:32-08:00</updated>
+ <updated>2013-12-06T07:57:44-08:00</updated>
  <id>http://sckott.github.com</id>
  <author>
    <name>Scott Chamberlain</name>
@@ -121,7 +121,7 @@ Simon Fraser University&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2013-01-25-where-to-publish.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_posts/2013-01-25-where-to-publish.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_drafts/2013-01-25-where-to-publish.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_posts/2013-01-25-where-to-publish.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
 
 &lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;.&lt;/h4&gt;
 </content>
@@ -224,7 +224,7 @@ Simon Fraser University&lt;/p&gt;
 &lt;h3&gt;TimeTree used to get node ages for phylogeny&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://timetree.org/&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/data/nodeages.csv&quot;&gt;here's a link&lt;/a&gt; to the node ages I used.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://timetree.org/&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;https://raw.github.com/sckott/scott/gh-pages/data/nodeages.csv&quot;&gt;here's a link&lt;/a&gt; to the node ages I used.&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -235,8 +235,8 @@ Simon Fraser University&lt;/p&gt;
 &lt;h3&gt;And the actual files used in the call to phylocom:&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/data/phylo&quot;&gt;newick file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/data/ages&quot;&gt;node ages file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://raw.github.com/sckott/scott/gh-pages/data/phylo&quot;&gt;newick file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://raw.github.com/sckott/scott/gh-pages/data/ages&quot;&gt;node ages file&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -244,11 +244,11 @@ Simon Fraser University&lt;/p&gt;
 
 &lt;h3&gt;The phylogeny (visualized in FigTree, many nodes are collapsed, it has about 500 species):&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/img/phylogeny.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.github.com/sckott/scott/gh-pages/img/phylogeny.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2013-01-24-networks-phylogeny.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_posts/2013-01-24-networks-phylogeny.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_drafts/2013-01-24-networks-phylogeny.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_posts/2013-01-24-networks-phylogeny.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
 
 &lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;.&lt;/h4&gt;
 </content>
@@ -357,7 +357,7 @@ ldply&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;out&lt;span class=&quot;p&quo
 
 &lt;hr /&gt;
 
-&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2012-12-10-easier-models.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_posts/2012-12-10-easier-models.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_drafts/2012-12-10-easier-models.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_posts/2012-12-10-easier-models.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
 
 &lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;.&lt;/h4&gt;
 </content>
@@ -425,7 +425,7 @@ ldply&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;out&lt;span class=&quot;p&quo
 
 &lt;hr /&gt;
 
-&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2012-09-26-using-aws.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/tree/gh-pages/_posts/2012-09-26-using-aws.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_drafts/2012-09-26-using-aws.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/sckott/scott/tree/gh-pages/_posts/2012-09-26-using-aws.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
 
 &lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;.&lt;/h4&gt;
 </content>
@@ -595,7 +595,7 @@ plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee__&lt;span class=&quot;p&quo
 
 &lt;hr /&gt;
 
-&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/master/_drafts/2012-09-20-network-roles.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/tree/master/_posts/2012-09-20-network-roles.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/sckott/scott/blob/master/_drafts/2012-09-20-network-roles.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/sckott/scott/tree/master/_posts/2012-09-20-network-roles.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
 
 &lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;, and nice knitr highlighting/etc. in in &lt;a href=&quot;http://rstudio.org/&quot;&gt;RStudio&lt;/a&gt;.&lt;/h4&gt;
 
@@ -1146,7 +1146,7 @@ BUGS
     &lt;li&gt;Also, some content for the meetings at Github here:  &lt;a href=&quot;https://github.com/organizations/RatRiceEEB&quot; target=&quot;_blank&quot;&gt;https://github.com/organizations/RatRiceEEB&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
     &lt;li&gt;Finished manuscript review for manuscript on honeybees&lt;/li&gt;
-    &lt;li&gt;Checked over functions in the taxize package on github, &lt;a href=&quot;https://github.com/SChamberlain/taxize_&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Checked over functions in the taxize package on github, &lt;a href=&quot;https://github.com/sckott/taxize_&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;ul&gt;
     &lt;li&gt;Some of the taxize functions should probably be removed&lt;/li&gt;
     &lt;li&gt;need to figure out uBio API services&lt;/li&gt;
@@ -1188,7 +1188,7 @@ BUGS
    <id>http://sckott.github.com/2011/09/01/thursday-4</id>
    <content type="html">&lt;ol&gt;
     &lt;li&gt;Massive amounts of flower trait data entry&lt;/li&gt;
-    &lt;li&gt;Added five new functions to our R wrapper for the National Phenology Network database &lt;a href=&quot;https://github.com/SChamberlain/rnpn&quot; target=&quot;_blank&quot;&gt;at Github&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Added five new functions to our R wrapper for the National Phenology Network database &lt;a href=&quot;https://github.com/sckott/rnpn&quot; target=&quot;_blank&quot;&gt;at Github&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;Discussed R course in our department&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -1387,7 +1387,7 @@ BUGS
    <link href="http://sckott.github.com/2011/07/26/plos-article-level-metrics/"/>
    <updated>2011-07-26T00:00:00-07:00</updated>
    <id>http://sckott.github.com/2011/07/26/plos-article-level-metrics</id>
-   <content type="html">&lt;p&gt;PLoS just announced their article level metrics API: http://api.plos.org/alm/faq/. This is very exciting, and I need to include these new data sources our &lt;a href=&quot;https://github.com/SChamberlain/rplos&quot; target=&quot;_blank&quot;&gt;rplos package for R&lt;/a&gt;. Examples of use of this API here: http://api.plos.org/alm/examples/.&lt;/p&gt;
+   <content type="html">&lt;p&gt;PLoS just announced their article level metrics API: http://api.plos.org/alm/faq/. This is very exciting, and I need to include these new data sources our &lt;a href=&quot;https://github.com/sckott/rplos&quot; target=&quot;_blank&quot;&gt;rplos package for R&lt;/a&gt;. Examples of use of this API here: http://api.plos.org/alm/examples/.&lt;/p&gt;
 </content>
  </entry>
  
@@ -1400,7 +1400,7 @@ BUGS
 
 &lt;p&gt;See &lt;a href=&quot;http://dev.mendeley.com/api-binary-battle&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; for the PLoS/Mendeley competition.&lt;/p&gt;
 
-&lt;p&gt;Github site for &lt;a href=&quot;https://github.com/SChamberlain/rplos&quot; target=&quot;_blank&quot;&gt;rplos&lt;/a&gt; and &lt;a href=&quot;https://github.com/cboettig/RMendeley&quot; target=&quot;_blank&quot;&gt;RMendeley&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Github site for &lt;a href=&quot;https://github.com/sckott/rplos&quot; target=&quot;_blank&quot;&gt;rplos&lt;/a&gt; and &lt;a href=&quot;https://github.com/cboettig/RMendeley&quot; target=&quot;_blank&quot;&gt;RMendeley&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;em&gt;THE TEAM&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
 
@@ -1496,7 +1496,7 @@ BUGS
    <id>http://sckott.github.com/2011/06/09/thursday-2</id>
    <content type="html">&lt;p&gt;-Check out Elsevier API, what kinds of information can be retrieved? (http://developer.sciverse.com/api). Seems that it's similar to Mendley in that API's are centered around specific applications being developed, unfortunately.
 -Test Carl's RMendeley package with API (https://github.com/cboettig/RMendeley.git)
--Further develop/simplify plot_throughtime function in rplos (https://github.com/SChamberlain/rplos).&lt;/p&gt;
+-Further develop/simplify plot_throughtime function in rplos (https://github.com/sckott/rplos).&lt;/p&gt;
 </content>
  </entry>
  
@@ -1506,7 +1506,7 @@ BUGS
    <updated>2011-06-07T00:00:00-07:00</updated>
    <id>http://sckott.github.com/2011/06/07/tuesday</id>
    <content type="html">&lt;ol&gt;
-    &lt;li&gt;Try to incorporate the &lt;a href=&quot;http://cran.r-project.org/web/packages/RNCBI/index.html&quot; target=&quot;_blank&quot;&gt;RNCBI package &lt;/a&gt;to &lt;a href=&quot;https://SChamberlain@github.com/SChamberlain/taxize_.git&quot; target=&quot;_blank&quot;&gt;taxize&lt;/a&gt; instead of writing my own functions?&lt;/li&gt;
+    &lt;li&gt;Try to incorporate the &lt;a href=&quot;http://cran.r-project.org/web/packages/RNCBI/index.html&quot; target=&quot;_blank&quot;&gt;RNCBI package &lt;/a&gt;to &lt;a href=&quot;https://sckott@github.com/sckott/taxize_.git&quot; target=&quot;_blank&quot;&gt;taxize&lt;/a&gt; instead of writing my own functions?&lt;/li&gt;
     &lt;li&gt;Start developing code for a wrapper to the new PLoS API to query their databases and papers, etc.&lt;/li&gt;
     &lt;li&gt;Also incorporate Encyclopedia of Life API, not easily used URL format though&lt;/li&gt;
     &lt;li&gt;And uBio API&lt;/li&gt;

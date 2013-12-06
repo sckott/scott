@@ -127,7 +127,7 @@ Basically a network of plant-pollinator interactions together with the putative 
 
 
 *********
-#### Get the .Rmd file used to create this post [at my github account](https://github.com/SChamberlain/scott/blob/master/_drafts/2012-09-20-network-roles.Rmd) - or [.md file](https://github.com/SChamberlain/scott/tree/master/_posts/2012-09-20-network-roles.md).
+#### Get the .Rmd file used to create this post [at my github account](https://github.com/sckott/scott/blob/master/_drafts/2012-09-20-network-roles.Rmd) - or [.md file](https://github.com/sckott/scott/tree/master/_posts/2012-09-20-network-roles.md).
 
 #### Written in [Markdown](http://daringfireball.net/projects/markdown/), with help from [knitr](http://yihui.name/knitr/), and nice knitr highlighting/etc. in in [RStudio](http://rstudio.org/).
 

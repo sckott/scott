@@ -3,3 +3,5 @@ url: http://scottchamberlain.info/
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title/
+
+exclude: [blog.html, _posts]

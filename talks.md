@@ -6,7 +6,7 @@ title: Research
 
 ## Some of my talks (those written in html)
 
-### Get the code for these talks at GitHub [here](https://github.com/SChamberlain/posterstalks)
+### Get the code for these talks at GitHub [here](https://github.com/sckott/posterstalks)
 
 <div class="row">
  <br> 

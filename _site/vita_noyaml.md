@@ -1,7 +1,7 @@
 <h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> </h2>
 
 ### **Scott Chamberlain**
-- Code on GitHub: [https://github.com/schamberlain](https://github.com/schamberlain)
+- Code on GitHub: [https://github.com/sckott](https://github.com/sckott)
 - Website: [http://scottchamberlain.info](http://scottchamberlain.info)
 - Blog: [http://recology.info](http://recology.info)
 - LinkedIn: [http://www.linkedin.com/profile/view?id=198453270](http://www.linkedin.com/profile/view?id=198453270)
@@ -16,9 +16,9 @@ Education
 
 Programming
 ------------
-* R >> I have developed R software for 7 years, for research projects, and as packages (see them [on GitHub](https://github.com/schamberlain)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([http://ropensci.org/](http://ropensci.org/)). 
+* R >> I have developed R software for 7 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([http://ropensci.org/](http://ropensci.org/)). 
 * Python >> I have programmed in Python for about a year now, and am relatively comfortable throughtout the language, having used it for a variety of simulations. 
-* Ruby >> I have picked up Ruby in the last year as well, and am getting more comfortable (e.g. a) I have deployed [an app to Heroku](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume, and b) I wrote a tiny gem to get Bibtex style references by inputting a DOI [here](https://github.com/SChamberlain/doiref)).
+* Ruby >> I have picked up Ruby in the last year as well, and am getting more comfortable (e.g. a) I have deployed [an app to Heroku](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume, and b) I wrote a tiny gem to get Bibtex style references by inputting a DOI [here](https://github.com/sckott/doiref)).
 * HTML/CSS >> I use HTML often for my own website and blog, and occasionally customize CSS. 
 * Databases >> I am familiar with and use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB).
 
@@ -72,7 +72,7 @@ Publications
 [pdf16]: {{ url }}/pdfs/ChamberlainEtal2013Ecosphere.pdf
 [pdf17]: {{ url }}/pdfs/Chamberlain&Szocs2013f1000Research.pdf
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
-[isqpaper]: https://github.com/schamberlain/isqaltms
+[isqpaper]: https://github.com/sckott/isqaltms
 [taxizepaper]: https://github.com/ropensci/taxize_/tree/dev_ms/f1000_rev
 
 

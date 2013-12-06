@@ -110,7 +110,7 @@ Simon Fraser University&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2013-01-25-where-to-publish.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_posts/2013-01-25-where-to-publish.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_drafts/2013-01-25-where-to-publish.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_posts/2013-01-25-where-to-publish.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
 
 &lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;.&lt;/h4&gt;
 </description>
@@ -212,7 +212,7 @@ Simon Fraser University&lt;/p&gt;
 &lt;h3&gt;TimeTree used to get node ages for phylogeny&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://timetree.org/&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/data/nodeages.csv&quot;&gt;here's a link&lt;/a&gt; to the node ages I used.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://timetree.org/&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;https://raw.github.com/sckott/scott/gh-pages/data/nodeages.csv&quot;&gt;here's a link&lt;/a&gt; to the node ages I used.&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -223,8 +223,8 @@ Simon Fraser University&lt;/p&gt;
 &lt;h3&gt;And the actual files used in the call to phylocom:&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/data/phylo&quot;&gt;newick file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/data/ages&quot;&gt;node ages file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://raw.github.com/sckott/scott/gh-pages/data/phylo&quot;&gt;newick file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://raw.github.com/sckott/scott/gh-pages/data/ages&quot;&gt;node ages file&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -232,11 +232,11 @@ Simon Fraser University&lt;/p&gt;
 
 &lt;h3&gt;The phylogeny (visualized in FigTree, many nodes are collapsed, it has about 500 species):&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.github.com/SChamberlain/scott/gh-pages/img/phylogeny.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.github.com/sckott/scott/gh-pages/img/phylogeny.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2013-01-24-networks-phylogeny.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_posts/2013-01-24-networks-phylogeny.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_drafts/2013-01-24-networks-phylogeny.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_posts/2013-01-24-networks-phylogeny.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
 
 &lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;.&lt;/h4&gt;
 </description>
@@ -344,7 +344,7 @@ ldply&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;out&lt;span class=&quot;p&quo
 
 &lt;hr /&gt;
 
-&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2012-12-10-easier-models.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_posts/2012-12-10-easier-models.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_drafts/2012-12-10-easier-models.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_posts/2012-12-10-easier-models.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
 
 &lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;.&lt;/h4&gt;
 </description>
@@ -411,7 +411,7 @@ ldply&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;out&lt;span class=&quot;p&quo
 
 &lt;hr /&gt;
 
-&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2012-09-26-using-aws.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/tree/gh-pages/_posts/2012-09-26-using-aws.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/sckott/scott/blob/gh-pages/_drafts/2012-09-26-using-aws.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/sckott/scott/tree/gh-pages/_posts/2012-09-26-using-aws.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
 
 &lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;.&lt;/h4&gt;
 </description>
@@ -580,7 +580,7 @@ plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;ee__&lt;span class=&quot;p&quo
 
 &lt;hr /&gt;
 
-&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/SChamberlain/scott/blob/master/_drafts/2012-09-20-network-roles.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/SChamberlain/scott/tree/master/_posts/2012-09-20-network-roles.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
+&lt;h4&gt;Get the .Rmd file used to create this post &lt;a href=&quot;https://github.com/sckott/scott/blob/master/_drafts/2012-09-20-network-roles.Rmd&quot;&gt;at my github account&lt;/a&gt; - or &lt;a href=&quot;https://github.com/sckott/scott/tree/master/_posts/2012-09-20-network-roles.md&quot;&gt;.md file&lt;/a&gt;.&lt;/h4&gt;
 
 &lt;h4&gt;Written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;, with help from &lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt;, and nice knitr highlighting/etc. in in &lt;a href=&quot;http://rstudio.org/&quot;&gt;RStudio&lt;/a&gt;.&lt;/h4&gt;
 

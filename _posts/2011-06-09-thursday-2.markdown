@@ -11,4 +11,4 @@ tags:
 
 -Check out Elsevier API, what kinds of information can be retrieved? (http://developer.sciverse.com/api). Seems that it's similar to Mendley in that API's are centered around specific applications being developed, unfortunately. 
 -Test Carl's RMendeley package with API (https://github.com/cboettig/RMendeley.git)
--Further develop/simplify plot_throughtime function in rplos (https://github.com/SChamberlain/rplos). 
+-Further develop/simplify plot_throughtime function in rplos (https://github.com/sckott/rplos). 

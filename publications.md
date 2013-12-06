@@ -67,5 +67,5 @@ title: Publications
 [pdf14]: {{ url }}/pdfs/ChamberlainEtal2012EcoLett.pdf
 [pdf15]: {{ url }}/pdfs/ChamberlainEtal2013Ecosphere.pdf
 [pdf16]: {{ url }}/pdfs/FE_Chamberlain_Consuming_ALMs_isq_v25no2.pdf
-[isqpaper]: https://github.com/schamberlain/isqaltms
+[isqpaper]: https://github.com/sckott/isqaltms
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/

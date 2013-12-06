@@ -46,6 +46,6 @@ Stuff needed to get a RStudio AMI going on Amazon Web Services (AWS).
 
 
 *********
-#### Get the .Rmd file used to create this post [at my github account](https://github.com/SChamberlain/scott/blob/gh-pages/_drafts/2012-09-26-using-aws.Rmd) - or [.md file](https://github.com/SChamberlain/scott/tree/gh-pages/_posts/2012-09-26-using-aws.md).
+#### Get the .Rmd file used to create this post [at my github account](https://github.com/sckott/scott/blob/gh-pages/_drafts/2012-09-26-using-aws.Rmd) - or [.md file](https://github.com/sckott/scott/tree/gh-pages/_posts/2012-09-26-using-aws.md).
 
 #### Written in [Markdown](http://daringfireball.net/projects/markdown/), with help from [knitr](http://yihui.name/knitr/).
