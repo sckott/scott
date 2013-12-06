@@ -634,6 +634,8 @@ a:focus {
 }
 
 .container-fluid {
+  margin-right: auto;
+  margin-left: auto;
   padding-right: 20px;
   padding-left: 20px;
   *zoom: 1;
@@ -4548,6 +4550,7 @@ input[type="submit"].btn.btn-mini {
   /*left: 0;*/
   z-index: 1030;
   margin-bottom: 0;
+  font-size: 20px;
 }
 
 .navbar-fixed-top .navbar-inner,
