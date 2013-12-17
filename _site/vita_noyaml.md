@@ -1,4 +1,4 @@
-<h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> </h2>
+<h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/pdfs/scott_vita_onepage.pdf">CV as PDF (1 pg)</a> </h2>
 
 ### **Scott Chamberlain**
 - Code on GitHub: [https://github.com/sckott](https://github.com/sckott)
@@ -77,7 +77,7 @@ Publications
 
 
 ### In review/prep
-+ Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. In Review at Oecologia. Pollinators visit related plant species across 29 plant-pollinator networks.
++ Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. In Review at Ecology and Evolution. Pollinators visit related plant species across 29 plant-pollinator networks.
 + Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. In prep. How context-dependent are species interactions.
 + Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists. 
 + Chamberlain, S.A., et al. In review at Oecologia. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities

@@ -1,10 +1,10 @@
 ---
 layout: layout_pubs
 title: Vita 
-date: 2013-10-01
+date: 2013-12-16
 ---
 
-<h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> </h2>
+<h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/pdfs/scott_vita_onepage.pdf">CV as PDF (1 pg)</a> </h2>
 
 ### **Scott Chamberlain**
 - Code on GitHub: [https://github.com/sckott](https://github.com/sckott)
