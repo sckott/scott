@@ -11,7 +11,7 @@
 
 &lt;p&gt;Made a phylogeny ecologist style for a paper I am working on in which we are asking questions about how species traits and phylogenetic history influence species interaction networks (plant-pollinator).&lt;/p&gt;
 
-&lt;p&gt;There were about 500 species to make a phylogeny for, including birds and insects, and many species that were bound to end up as large polytomies. I couldn't in reasonable time make a molecular phylogeny for this group of species, so made one ecologist style. If only there was a Phylomatic for other taxonomic groups...look out for &lt;a href=&quot;http://phylotastic.org/&quot;&gt;phylotastic&lt;/a&gt; and &lt;a href=&quot;http://opentreeoflife.org/&quot;&gt;opentreeoflife&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There were about 500 species to make a phylogeny for, including birds and insects, and many species that were bound to end up as large polytomies. I couldn&#39;t in reasonable time make a molecular phylogeny for this group of species, so made one ecologist style. If only there was a Phylomatic for other taxonomic groups...look out for &lt;a href=&quot;http://phylotastic.org/&quot;&gt;phylotastic&lt;/a&gt; and &lt;a href=&quot;http://opentreeoflife.org/&quot;&gt;opentreeoflife&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -19,12 +19,12 @@
 
 &lt;ol&gt;
 &lt;li&gt;Created a topology using [Mesquite software] from published phylogenies, then&lt;/li&gt;
-&lt;li&gt;Got node age estimates from &lt;a href=&quot;http://timetree.org/&quot;&gt;timetree.org&lt;/a&gt; (p.s. Wish I could use the new &lt;a href=&quot;http://datelife.org/&quot;&gt;http://datelife.org/&lt;/a&gt;, but there isn't much there quite yet), then&lt;/li&gt;
+&lt;li&gt;Got node age estimates from &lt;a href=&quot;http://timetree.org/&quot;&gt;timetree.org&lt;/a&gt; (p.s. Wish I could use the new &lt;a href=&quot;http://datelife.org/&quot;&gt;http://datelife.org/&lt;/a&gt;, but there isn&#39;t much there quite yet), then&lt;/li&gt;
 &lt;li&gt;Used bladj function in phylocom to stretch out the branch lengths based on the node estimates.&lt;/li&gt;
 &lt;/ol&gt;
 
 
-&lt;p&gt;Unfortunately, this process can't all be collected in an R script, but below is the process I followed, which hopefully makes it more reproducible.&lt;/p&gt;
+&lt;p&gt;Unfortunately, this process can&#39;t all be collected in an R script, but below is the process I followed, which hopefully makes it more reproducible.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -99,7 +99,7 @@
 &lt;h3&gt;TimeTree used to get node ages for phylogeny&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://timetree.org/&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;https://raw.github.com/sckott/scott/gh-pages/data/nodeages.csv&quot;&gt;here's a link&lt;/a&gt; to the node ages I used.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://timetree.org/&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;https://raw.github.com/sckott/scott/gh-pages/data/nodeages.csv&quot;&gt;here&#39;s a link&lt;/a&gt; to the node ages I used.&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -133,7 +133,7 @@
 		
 			<item>
 				<title>Easier model diagnostics function</title>
-				<description>&lt;p&gt;It's a pain to write a bunch of lines of code to do model diagnostics. This little function does a nice job of putting out a number of diagnostic plots, and the gives the ANOVA table too, with an option to just write the ANOVA table out as a data.frame so you can easily combine many ANOVA tables for easy writing to CSV for instance.&lt;/p&gt;
+				<description>&lt;p&gt;It&#39;s a pain to write a bunch of lines of code to do model diagnostics. This little function does a nice job of putting out a number of diagnostic plots, and the gives the ANOVA table too, with an option to just write the ANOVA table out as a data.frame so you can easily combine many ANOVA tables for easy writing to CSV for instance.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -271,7 +271,7 @@ ldply&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;out&lt;span class=&quot;p&quo
 				<title>Friday; simulations on phylogeny outgroup influence on phylogenetic meta-analysis model fit</title>
 				<description>&lt;p&gt;&lt;em&gt;Note to self: not sure if I did the simulation right....&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;span style=&quot;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;&quot;&gt;Modeling: wanted to find out how an outgroup on a long branch (e.g., two species of plants are in a phylogeny where the remaining species are all animals) would influence model fit in phylogenetic meta-analysis. So I did like so:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family:&#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif;&quot;&gt;Modeling: wanted to find out how an outgroup on a long branch (e.g., two species of plants are in a phylogeny where the remaining species are all animals) would influence model fit in phylogenetic meta-analysis. So I did like so:&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Simulation details:&lt;/em&gt;&lt;/p&gt;
 

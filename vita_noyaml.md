@@ -1,4 +1,4 @@
-<h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/pdfs/scott_vita_onepage.pdf">CV as PDF (1 pg)</a> </h2>
+<h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/vita_onepage.html">1 pg vita</a> </h2>
 
 ### **Scott Chamberlain**
 - Code on GitHub: [https://github.com/sckott](https://github.com/sckott)
@@ -32,7 +32,7 @@ Projects/Working Groups
 
 Publications
 ------------
-+ Chamberlain SA, Szöcs E. 2013. taxize: taxonomic search and retrieval in R [v1; ref status: indexed, http://f1000r.es/1pv] F1000Research 2013, 2:191 (doi: 10.12688/f1000research.2-191.v1) [github][taxizepaper] [pdf][pdf17]
++ Chamberlain SA, Szöcs E. 2013. taxize: taxonomic search and retrieval in R [v1; ref status: indexed, http://f1000r.es/1pv] _F1000Research_ 2013, 2:191 (doi: 10.12688/f1000research.2-191.v1) [github][taxizepaper] [pdf][pdf17]
 + Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. 2013. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_. [pdf][pdf16]
 + Chamberlain, S.A. 2013. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [github][isqpaper] [pdf][pdf15] [web][isqweb]
 + Chamberlain, S.A., S.M. Hovick,...et al...K.D. Whitney. 2012. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. _Ecology Letters_ 15(6):627-636. [pdf][pdf14]

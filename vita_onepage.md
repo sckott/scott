@@ -1,44 +1,64 @@
-<h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> </h2>
+---
+layout: layout_pubs
+title: VitaOnePage 
+date: 2014-01-07
+---
 
-### **Scott Chamberlain**
+<h2> <a href="{{ url }}/pdfs/scott_vita_onepage.pdf">CV as PDF</a></h2>
 
-- Code on GitHub: [https://github.com/sckott](https://github.com/sckott)
-- Website: [http://scottchamberlain.info](http://scottchamberlain.info)
-- Blog: [http://recology.info](http://recology.info)
-- LinkedIn: [http://www.linkedin.com/profile/view?id=198453270](http://www.linkedin.com/profile/view?id=198453270)
-- Twitter: [@recology_](https://twitter.com/recology_)
-- Email: [scott@ropensci.org](mailto:scott@ropensci.org)
-
-Education
+Scott Chamberlain
 ---------
+
+Web: [scottchamberlain.info](http://scottchamberlain.info), Email: [scott@ropensci.org](mailto:scott@ropensci.org), Ph: (713) 364-5048
+
+__Education__
 
 * 2012 Ph.D Dept. of Ecology & Evolutionary Biology, Rice University
 * 2009 M.A. Dept. of Ecology & Evolutionary Biology, Rice University
 * 2003 B.S. Biological Sciences, California State University
 
-Programming
-------------
+__Programming__
 
-* R: I have developed R software for 7 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([http://ropensci.org/](http://ropensci.org/)). 
-* Python: I have programmed in Python for about a year now, and am relatively comfortable throughtout the language, having used it for a variety of simulations. 
-* Ruby: I have picked up Ruby in the last year as well, and am getting more comfortable (e.g. a) I have deployed [an app to Heroku](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume, and b) I wrote a tiny gem to get Bibtex style references by inputting a DOI [here](https://github.com/sckott/doiref)).
-* HTML/CSS: I use HTML often for my own website and blog, and occasionally customize CSS. 
-* Databases: I am familiar with and use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB).
+* Code: [github.com/sckott](https://github.com/sckott)
+* __R__ Developed R software for 8 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). 
+* __Python__ Programmed in Python for 1.5 years. Writing a Python package for getting taxonomy data from the web [pytaxize](https://github.com/sckott/pytaxize).
+* __Ruby__ Programmed in Ruby for 1 year. Deployed [an app](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume, and wrote a Ruby package [doiref](https://github.com/sckott/doiref) to search articles, and get references.
+* __HTML/CSS__ Use HTML often for websites, and customize CSS.
+* __Databases__ Use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB).
 
-Publications
--------
+__Work Experience__
 
-I have 16 peer-reviewed publications, some in top journals in my field, including the top journal in my field, Ecology Letters. 
+* __Simon Fraser University__ _2012-present. PostDoctoral Researcher._
 
-Projects
--------
+Built and maintained a SQL database containing data from a large network of dozens of researchers. Synthesized data from a research network across Canada to answer questions about pollinator communities, producing four peer-reviewed papers. 
 
-I co-founded a developer collective to make R packages to facilitate use of open source journals and data sets. [Website](http://ropensci.org/); [Code](https://github.com/ropensci). We recieved a ~$160,000 grant in June 2012 for one year, and are likely to get more funding in the next round.
+* __rOpenSci__ _2011-present. Co-founder._
 
-References
+Co-founded a developer collective to make R packages to facilitate use of open source journals and data sets. [Website](http://ropensci.org/); [Code](https://github.com/ropensci). Recieved a $160,000 grant in June 2012. Use R heavily for software development. Maintain software tutorials with HTML, CSS, and Javascript.
+
+* __Dittes and Guardino Consulting__ _2003-2005. Environmental Consultant_.
+
+Carried out plant surveys for the USDA Forest Service prior to awarding contracts to logging companies. Prepared environmental managagment plans for muncipalities. Performed GIS data collection in the field, and created maps using ArcGIS and related software.
+
+
+__Honors and Publications__
+
+* Sixteen peer-reviewed publications in top journals in my field. 
+* 2012  Public Library of Science & Mendeley Binary Battle - 3rd place in code competition ($1,000)
+* 2010-2011 Lodieska Stockbridge Vaughn Fellowship
+* 2010  Prairie Biotic Research, Inc. Grant ($896)
+* 2002  National Science Foundation REU (Research Experience for Undergraduates), CSU, Chico ($3,000)
+
+__Activities__
+
+* 2012-pres [DataONE - Community Education and Engagement Working Group](http://www.dataone.org/working_groups/community-education-and-engagement)
+* 2012-pres British Ecological Society (BES) Digital Strategy Working Group
+* 2004-2005 Board Member, Friends of Bidwell Park Board of Directors, Chico, California. Advocacy for sound environmental stewardship of parks.
+
+<!-- References
 -------
 + Dr. Elizabeth Elle, Biology Dept., Simon Fraser University, eelle@sfu.ca
 + Dr. Robert Schlising, Biology Dept., California State University, Chico, rschlising@csuchico.edu
 + Dr. Jennifer Rudgers, Biology Dept., University of New Mexico, jrudgers@unm.edu
 + Dr. Ken Whitney, Biology Dept., University of New Mexico, kwhitney@unm.edu
-+ John Dittes, Dittes-Guardino Consulting, jcdittes@sbcglobal.net
++ John Dittes, Dittes-Guardino Consulting, jcdittes@sbcglobal.net -->

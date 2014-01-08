@@ -19,9 +19,11 @@ with open("vita_noyaml_nocvaspdf.md", "w") as fp:
 with open("vita_onepage.md") as fp:
     lines = fp.readlines()
 
-lines2 = lines[2:]
-# lines3 = lines[8:]
+lines2 = lines[5:]
+lines3 = lines[7:]
 
-# print lines2
 with open("vita_onepage_noyaml.md", "w") as fp:
     fp.writelines(lines2)
+
+with open("vita_onepage_nocvaspdf.md", "w") as fp:
+    fp.writelines(lines3)
