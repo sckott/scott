@@ -4,45 +4,15 @@ title: Talks
 ---
 
 
-## Some of my talks (those written in html)
+## Some of my talks (those written in html/md)
 
-### Get the code for these talks at GitHub [here](https://github.com/sckott/posterstalks)
+### Get the code for these talks at GitHub <a href="https://github.com/sckott/talks" target="_blank">here</a>
 
-<div class="row">
- <br> 
-<div class="span9 offset1">
-<li class="span3 nobullet">
-      <div class="thumbnail">
-        <a href="http://sckott.github.io/posterstalks/rvantalk/slides/"><img src="http://sckott.github.io/scott/img/rvantalk.png" alt=""></a>
-        <div class="caption">
-          <p><a href="http://www.meetup.com/Vancouver-R-Users-Group-data-analysis-statistics/events/73785912/">Vancouver R Users Group</a>, Aug 28<sup>th</sup>, 2012. Scott Chamberlain</p>
-        </div>
-      </div>
-    </li>
+<ul>        
+  <li><a href="http://www.meetup.com/Vancouver-R-Users-Group-data-analysis-statistics/events/73785912/" target="_blank">Vancouver R Users Group</a>, Aug 28<sup>th</sup>, 2012 - <a href="http://sckott.github.io/talks/rvantalk/slides/" target="_blank">Slides</a> </li>
+  <li><a href="http://www.bio.ucalgary.ca/" target="_blank">Univ. of Calgary Seminar</a>, Sep 28<sup>th</sup>, 2012 - <a href="http://sckott.github.io/talks/ucalgarytalk/" target="_blank">Slides</a></li>
+  <li><a href="http://www.britishecologicalsociety.org/meetings/current_future_meetings/2012_annual_meeting/workshop_events.php" target="_blank">British Ecological Society Annual Meeting</a>, Dec 19<sup>th</sup>, 2012 - <a href="http://sckott.github.io/talks/bestalk/" target="_blank">Slides</a></li>
+</ul>
 
-<li class="span3 nobullet">
-      <div class="thumbnail">
-        <a href="http://sckott.github.io/posterstalks/ucalgarytalk/"><img src="http://sckott.github.io/scott/img/ucalgarytalk.png" alt="" border="1"></a>
-        <div class="caption">
-          <p><a href="http://www.bio.ucalgary.ca/">Univ. of Calgary Seminar</a>, Sep 28<sup>th</sup>, 2012. Scott Chamberlain</p>
-        </div>
-      </div>
-</li>
- </div>
-</div>
-
-<div class="row">
-  <div class="span9 offset1">
-<li class="span3 nobullet">
-      <div class="thumbnail">
-        <a href="http://sckott.github.io/posterstalks/bestalk/"><img src="http://sckott.github.io/scott/img/bestalk.png" alt="" border="1"></a>
-        <div class="caption">
-          <p><a href="http://www.britishecologicalsociety.org/meetings/current_future_meetings/2012_annual_meeting/workshop_events.php">British Ecological Society Annual Meeting</a>, Dec 19<sup>th</sup>, 2012. Scott Chamberlain</p>
-        </div>
-      </div>
-</li>
-  </div>
-</div>
-
-<br> <br> 
-## See other talks at Slideshare [here](http://www.slideshare.net/schamber)
+<br>
+### See other talks at Slideshare [here](http://www.slideshare.net/schamber)

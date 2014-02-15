@@ -1,6 +1,6 @@
 ---
-layout: layout_pubs
-title: VitaOnePage 
+layout: otherpage
+title: vita_onepage
 date: 2014-01-07
 ---
 

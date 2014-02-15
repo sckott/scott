@@ -3,6 +3,7 @@ layout: page
 title: Publications
 ---
 
++ Chamberlain SA, Szöcs E. (2013) taxize: taxonomic search and retrieval in R [v2; ref status: indexed, http://f1000r.es/24v] F1000Research 2013, 2:191 (doi: 10.12688/f1000research.2-191.v2) [pdf][pdf17] [web][f1000web]
 + Chamberlain, S.A. 2013. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [on github][isqpaper] [pdf][pdf16] [web][isqweb]
 <br> 
 + Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. 2013. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_. [pdf][pdf15]
@@ -43,7 +44,6 @@ title: Publications
 
 ### In review/prep
 
-+ Chamberlain, S.A., and Eduard Szöcs. In review at F1000 Research. taxize: taxonomic search and retrieval in R.
 + Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. In Review at Ecology and Evolution. Pollinators visit related plant species across 29 plant-pollinator networks.
 + Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. In prep. How context-dependent are species interactions.
 + Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists. 
@@ -65,5 +65,7 @@ title: Publications
 [pdf14]: {{ url }}/pdfs/ChamberlainEtal2012EcoLett.pdf
 [pdf15]: {{ url }}/pdfs/ChamberlainEtal2013Ecosphere.pdf
 [pdf16]: {{ url }}/pdfs/FE_Chamberlain_Consuming_ALMs_isq_v25no2.pdf
+[pdf17]: {{ url }}/pdfs/Chamberlain&Szocs2013F1000Research.pdf
+[f1000web]: http://f1000research.com/articles/2-191/v2
 [isqpaper]: https://github.com/sckott/isqaltms
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/

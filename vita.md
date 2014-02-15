@@ -4,7 +4,7 @@ title: Vita
 date: 2013-12-16
 ---
 
-<h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/vita_onepage.html">1 pg vita</a> </h2>
+<h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/vita_onepage">1 pg vita</a> </h2>
 
 ### **Scott Chamberlain**
 - Code on GitHub: [https://github.com/sckott](https://github.com/sckott)
