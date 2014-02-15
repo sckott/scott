@@ -1,5 +1,5 @@
 ---
-layout: layout_pubs
+layout: page
 title: Research
 ---
 

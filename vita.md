@@ -1,5 +1,5 @@
 ---
-layout: layout_pubs
+layout: page
 title: Vita 
 date: 2013-12-16
 ---
