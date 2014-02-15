@@ -1,7 +1,25 @@
-name: SAC
-url: http://scottchamberlain.info/
-markdown: rdiscount
-pygments: true
-permalink: /:year/:month/:day/:title/
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
-exclude: [projects.html, Rpackages.md, blog.html, _posts]
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Scott Chamberlain
+tagline:          'ecology and programming'
+description:      'I am an ecologist and programmer. I am on Twitter at <a href="https://twitter.com/recology_" target="_blank">@recology_</a>.'
+url:              http://scottchamberlain.info/
+
+author:
+  name:           'Scott Chamberlain'
+  url:            https://twitter.com/recology_
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  me:           https://github.com/sckott
+  ropensci:     https://github.com/ropensci

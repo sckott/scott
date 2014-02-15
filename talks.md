@@ -1,6 +1,6 @@
 ---
-layout: layout_pubs
-title: Research
+layout: page
+title: Talks
 ---
 
 
