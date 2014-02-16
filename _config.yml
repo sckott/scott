@@ -10,14 +10,14 @@ url: http://scottchamberlain.info
 # Setup
 title:            Scott Chamberlain
 tagline:          'ecologist / programmer'
-description:      'I am an ecologist and programmer. I am on Twitter at <a href="https://twitter.com/recology_" target="_blank">@recology_</a>.'
+description:      'I am an ecologist and programmer. I am on Twitter at <a href="https://twitter.com/recology_" target="_blank">@recology_</a>'
 url:              http://scottchamberlain.info/
 
 author:
   name:           'Scott Chamberlain'
   url:            https://twitter.com/recology_
 
-paginate:         5
+# paginate:         5
 
 # Custom vars
 version:          1.0.0
@@ -25,3 +25,5 @@ version:          1.0.0
 github:
   me:           https://github.com/sckott
   ropensci:     https://github.com/ropensci
+
+reproduce: https://github.com/sckott/scott

@@ -3,9 +3,6 @@ layout: page
 title: Talks
 ---
 
-
-## Some of my talks (those written in html/md)
-
 ### Get the code for these talks at GitHub <a href="https://github.com/sckott/talks" target="_blank">here</a>
 
 <ul>        

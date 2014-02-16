@@ -3,7 +3,6 @@ layout: page
 title: Research
 ---
 
-
 ## Current Research
 </br>
 ### My current research is doing synthetic work with CANPOLIN (Canadian Pollinator Inititative): Various projects involving pollinators and they plants they interact with across Canada

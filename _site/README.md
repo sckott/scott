@@ -5,6 +5,6 @@ Modified from the [Lanyon theme](https://github.com/poole/poole) made by [Mark O
 * Icons from [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
 * License for the Lanyon theme: [MIT license](LICENSE.md)
 
-As the Layon readme states
+As the Lanyon readme states
 
 > Lanyon is an unassuming Jekyll theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
