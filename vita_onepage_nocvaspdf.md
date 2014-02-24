@@ -1,10 +1,3 @@
----
-layout: otherpage
-title: vita_onepage
-date: 2014-01-07
----
-
-<h2> <a href="{{ url }}/pdfs/vita_onepage_word.pdf">CV as PDF</a></h2>
 
 Scott Chamberlain
 ---------
