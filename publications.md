@@ -3,6 +3,8 @@ layout: page
 title: Publications
 ---
 
++ Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. Accepted. Pollinators visit related plant species across 29 plant-pollinator networks. Ecology & Evolution. 
+<br>
 + Chamberlain SA, Szöcs E. (2013) taxize: taxonomic search and retrieval in R [v2; ref status: indexed, http://f1000r.es/24v] F1000Research 2013, 2:191 (doi: 10.12688/f1000research.2-191.v2) [pdf][pdf17] [web][f1000web]
 + Chamberlain, S.A. 2013. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [on github][isqpaper] [pdf][pdf16] [web][isqweb]
 <br> 
@@ -38,7 +40,6 @@ title: Publications
 
 ### In review
 
-+ Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. In Review at Ecology and Evolution. Pollinators visit related plant species across 29 plant-pollinator networks.
 + Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. In Review. How context-dependent are species interactions.
 + Chamberlain, S.A., et al. In Review at Oecologia. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities
 + Chamberlain, S.A., et al. In review at Journal of Ecology. Phylogenetic tree shape and the structure of mutualistic networks
