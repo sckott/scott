@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vita 
-date: 2013-12-16
+date: 2014-03-15
 ---
 
 <h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/vita_onepage">1 pg vita</a> </h2>
@@ -37,7 +37,8 @@ Projects/Working Groups
 
 Publications
 ------------
-+ Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. Accepted. Pollinators visit related plant species across 29 plant-pollinator networks. Ecology & Evolution. 
++ Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. (Accepted). How context-dependent are species interactions. _Ecology Letters_
++ Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. (Accepted). Pollinators visit related plant species across 29 plant-pollinator networks. Ecology & Evolution. 
 + Chamberlain SA, Szöcs E. 2013. taxize: taxonomic search and retrieval in R [v1; ref status: indexed, http://f1000r.es/1pv] _F1000Research_ 2013, 2:191 (doi: 10.12688/f1000research.2-191.v1) [github][taxizepaper] [pdf][pdf17]
 + Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. 2013. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_. [pdf][pdf16]
 + Chamberlain, S.A. 2013. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [github][isqpaper] [pdf][pdf15] [web][isqweb]
@@ -77,10 +78,10 @@ Publications
 
 
 ### In review/prep
-+ Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. In review at Ecology Letters. How context-dependent are species interactions.
 + Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists. 
 + Chamberlain, S.A., et al. In review at Oecologia. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities
 + Chamberlain, S.A., et al. In review at Journal of Ecology. Phylogenetic tree shape and the structure of mutualistic networks
++ Revell, L., S.A. Chamberlain. In review at Methods in Ecology & Evolution. Rphylip: An R interface for PHYLIP.
 
 
 Presentations
