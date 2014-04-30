@@ -5,11 +5,13 @@ title: Publications
 
 + Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. (2014). How context-dependent are species interactions. _Ecology Letters_ [web][condmaweb]
 <br>
++ Barraquand F, Ezard TH, Jørgensen PS, Zimmerman N, Chamberlain S et al. (2014) Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions. PeerJ 2:e285 [web][peerjms] [pdf][pdf18] [xml][peerjxml]
+<br>
 + Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. (Accepted). Pollinators visit related plant species across 29 plant-pollinator networks. _Ecology & Evolution_
 <br>
 + Chamberlain S.A., Szöcs E. (2013) taxize: taxonomic search and retrieval in R [v2; ref status: indexed, http://f1000r.es/24v] _F1000Research_ 2013, 2:191 (doi: 10.12688/f1000research.2-191.v2) [pdf][pdf17] [web][f1000web]
 + Chamberlain, S.A. 2013. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [on github][isqpaper] [pdf][pdf16] [web][isqweb]
-<br> 
+<br>
 + Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. 2013. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_. [pdf][pdf15]
 <br>
 + Chamberlain, S.A., S.M. Hovick,...et al...K.D. Whitney. 2012. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. _Ecology Letters_ 15(6):627-636. [pdf][pdf14]
@@ -49,7 +51,7 @@ title: Publications
 
 ### In preparation
 
-+ Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists. 
++ Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists.
 
 
 [pdf1]: {{ url }}/pdfs/Chamberlain&Rudgers2011EvolEcol.pdf
@@ -68,7 +70,10 @@ title: Publications
 [pdf15]: {{ url }}/pdfs/ChamberlainEtal2013Ecosphere.pdf
 [pdf16]: {{ url }}/pdfs/FE_Chamberlain_Consuming_ALMs_isq_v25no2.pdf
 [pdf17]: {{ url }}/pdfs/Chamberlain&Szocs2013F1000Research.pdf
+[pdf18]: {{ url }}/pdfs/BarraquandEtal2014peerj.pdf
 [f1000web]: http://f1000research.com/articles/2-191/v2
 [isqpaper]: https://github.com/sckott/isqaltms
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
 [condmaweb]: http://onlinelibrary.wiley.com/doi/10.1111/ele.12279/abstract
+[peerjms]: http://dx.doi.org/10.7717/peerj.285
+[peerjxml]: https://peerj.com/articles/285.xml

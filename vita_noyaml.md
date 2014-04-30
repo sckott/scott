@@ -1,11 +1,11 @@
 <h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/vita_onepage">1 pg vita</a> </h2>
 
 ### **Scott Chamberlain**
-- Code on GitHub: [https://github.com/sckott](https://github.com/sckott)
-- Website: [http://scottchamberlain.info](http://scottchamberlain.info)
-- Blog: [http://recology.info](http://recology.info)
-- LinkedIn: [http://www.linkedin.com/profile/view?id=198453270](http://www.linkedin.com/profile/view?id=198453270)
-- Twitter: [@recology_](https://twitter.com/recology_)
+- Code on GitHub: [github.com/sckott](https://github.com/sckott)
+- Website: [scottchamberlain.info](http://scottchamberlain.info)
+- Blog: [recology.info](http://recology.info)
+- LinkedIn: [linkedin.com/profile/view?id=198453270](http://www.linkedin.com/profile/view?id=198453270)
+- Twitter: <a href="https://twitter.com/recology_">@recology_</a>
 - Email: [scott@ropensci.org](mailto:scott@ropensci.org)
 
 Education
@@ -16,10 +16,10 @@ Education
 
 Programming
 ------------
-* R >> I have developed R software for 7 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([http://ropensci.org/](http://ropensci.org/)). 
-* Python >> I have programmed in Python for about a year now, and am relatively comfortable throughtout the language, having used it for a variety of simulations. 
+* R >> I have developed R software for 7 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([http://ropensci.org/](http://ropensci.org/)).
+* Python >> I have programmed in Python for about a year now, and am relatively comfortable throughtout the language, having used it for a variety of simulations.
 * Ruby >> I have picked up Ruby in the last year as well, and am getting more comfortable (e.g. a) I have deployed [an app to Heroku](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume, and b) I wrote a tiny gem to get Bibtex style references by inputting a DOI [here](https://github.com/sckott/doiref)).
-* HTML/CSS >> I use HTML often for my own website and blog, and occasionally customize CSS. 
+* HTML/CSS >> I use HTML often for my own website and blog, and occasionally customize CSS.
 * Databases >> I am familiar with and use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB).
 
 
@@ -32,6 +32,7 @@ Projects/Working Groups
 Publications
 ------------
 + Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. (2014). How context-dependent are species interactions. _Ecology Letters_ [web][condmaweb]
++ Barraquand F, Ezard TH, Jørgensen PS, Zimmerman N, Chamberlain S et al. (2014) Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions. PeerJ 2:e285 [web][peerjms] [pdf][pdf18] [xml][peerjxml]
 + Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. (Accepted). Pollinators visit related plant species across 29 plant-pollinator networks. _Ecology & Evolution_
 + Chamberlain SA, Szöcs E. 2013. taxize: taxonomic search and retrieval in R [v1; ref status: indexed, http://f1000r.es/1pv] _F1000Research_ 2013, 2:191 (doi: 10.12688/f1000research.2-191.v1) [github][taxizepaper] [pdf][pdf17]
 + Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. 2013. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_. [pdf][pdf16]
@@ -66,13 +67,16 @@ Publications
 [pdf15]: {{ url }}/pdfs/FE_Chamberlain_Consuming_ALMs_isq_v25no2.pdf
 [pdf16]: {{ url }}/pdfs/ChamberlainEtal2013Ecosphere.pdf
 [pdf17]: {{ url }}/pdfs/Chamberlain&Szocs2013f1000Research.pdf
+[pdf18]: {{ url }}/pdfs/BarraquandEtal2014peerj.pdf
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
 [isqpaper]: https://github.com/sckott/isqaltms
 [taxizepaper]: https://github.com/ropensci/taxize_/tree/dev_ms/f1000_rev
 [condmaweb]: http://onlinelibrary.wiley.com/doi/10.1111/ele.12279/abstract
+[peerjms]: http://dx.doi.org/10.7717/peerj.285
+[peerjxml]: https://peerj.com/articles/285.xml
 
 ### In review/prep
-+ Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists. 
++ Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists.
 + Chamberlain, S.A., et al. In review at Oecologia. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities
 + Chamberlain, S.A., et al. In review at Journal of Ecology. Phylogenetic tree shape and the structure of mutualistic networks
 + Revell, L., S.A. Chamberlain. In review at Methods in Ecology & Evolution. Rphylip: An R interface for PHYLIP.
@@ -81,16 +85,16 @@ Publications
 Presentations
 -------------
 + 2012    Chamberlain, S.A., J.A. Rudgers & K.D. Whitney. Effects of agriculture on evolution of native species. Poster presented at the 97th Ecological Society of America Meeting.
-+ 2011    Chamberlain, S.A. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. Invited talk at the FAB* lab at Simon Fraser University. 
++ 2011    Chamberlain, S.A. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. Invited talk at the FAB* lab at Simon Fraser University.
 + 2011  Chamberlain, S.A., & K.D. Whitney. Comparison of plant mutualist and antagonist arthropod communities near crop and wild sunflowers. Oral presentation at the 96th Annual meeting of the Ecological Society of America.
-+ 2011  Chamberlain, S.A. How important is accounting for evolutionary history in ecological meta-analyses? Oral Presentation at the 3rd annual Rice University-University of Houston Joint Graduate Student Conference 
++ 2011  Chamberlain, S.A. How important is accounting for evolutionary history in ecological meta-analyses? Oral Presentation at the 3rd annual Rice University-University of Houston Joint Graduate Student Conference
 + 2009  Chamberlain, S.A., & J.A. Rudgers. Extrafloral-floral nectar trade-offs or synergies in cotton (Gossypium). Poster presentation at the 94thannual meeting of the Ecological Society of America.
 + 2009  Chamberlain, S.A., & J.A. Rudgers. Comparing variation in interaction outcome among competition, predation, and mutualism: a meta-analysis. Oral presentation at the 6th Annual Southeastern Ecol. and Evol. Conference at the University of Florida.
 + 2009  Chamberlain, S.A., & J.A. Rudgers. Comparing variation in interaction outcome among competition, predation, and mutualism: a meta-analysis. Oral presentation at the 10th Annual Ecological Inegration Symposium at Texas A&M University.
 + 2008  Chamberlain, S.A., & J.N. Holland. Factors influencing extrafloral nectar mediated ant-plant interactions in the Sonoran Desert. Poster presentation at Entomological Society of America’s 56th Annual Meeting.
 + 2008  Holland J.N., S.A. Chamberlain, & K.C. Horn.Costs of mutualism: Optimal defense theory predicts investment in extrafloral nectar resources in ant-plant interactions. Oral presentation at Ecological Society of America’s 93rdAnnual Meeting.
-+ 2007  S.A. Chamberlain. Community context reveals alternative function of extrafloral nectar. Oral presentation-California Botanical Society 22nd Graduate Student Meeting. 
-+ 2007  Hunt, J.W., S.A. Chamberlain& D.M. Wood. Surface-active beetles as indicators of habitat change in riparian restoration along the Sacramento River, California, USA. Oral presentation at Ecological Society of America’s 92ndAnnual Meeting. 
++ 2007  S.A. Chamberlain. Community context reveals alternative function of extrafloral nectar. Oral presentation-California Botanical Society 22nd Graduate Student Meeting.
++ 2007  Hunt, J.W., S.A. Chamberlain& D.M. Wood. Surface-active beetles as indicators of habitat change in riparian restoration along the Sacramento River, California, USA. Oral presentation at Ecological Society of America’s 92ndAnnual Meeting.
 + 2003  Hunt, J.W., S.A. Chamberlain& D.M. Wood. Comparison of surface-active beetle (Order: Coleoptera) assemblages in remnant and restored riparian forests of varying ages on the Middle Sacramento River, California. Poster presented at CALFED Bay-Delta Conference.
 
 
