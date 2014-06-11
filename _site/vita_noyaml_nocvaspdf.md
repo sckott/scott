@@ -29,6 +29,8 @@ Projects/Working Groups
 
 Publications
 ------------
++ Chamberlain, S.A., et al. (In press). Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities. _Oecologia_
++ Chamberlain, S.A., et al. (In press). Phylogenetic tree shape and the structure of mutualistic networks. _Journal of Ecology_
 + Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. (2014). How context-dependent are species interactions. _Ecology Letters_ [web][condmaweb]
 + Barraquand F, Ezard TH, Jørgensen PS, Zimmerman N, Chamberlain S et al. (2014) Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions. PeerJ 2:e285 [web][peerjms] [pdf][pdf18] [xml][peerjxml]
 + Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. (Accepted). Pollinators visit related plant species across 29 plant-pollinator networks. _Ecology & Evolution_
@@ -74,16 +76,14 @@ Publications
 [peerjxml]: https://peerj.com/articles/285.xml
 
 ### In review/prep
-+ Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists.
-+ Chamberlain, S.A., et al. In review at Oecologia. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities
-+ Chamberlain, S.A., et al. In review at Journal of Ecology. Phylogenetic tree shape and the structure of mutualistic networks
+
 + Revell, L., S.A. Chamberlain. In review at Methods in Ecology & Evolution. Rphylip: An R interface for PHYLIP.
 
 
 Presentations
 -------------
-+ 2012    Chamberlain, S.A., J.A. Rudgers & K.D. Whitney. Effects of agriculture on evolution of native species. Poster presented at the 97th Ecological Society of America Meeting.
-+ 2011    Chamberlain, S.A. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. Invited talk at the FAB* lab at Simon Fraser University.
++ 2012  Chamberlain, S.A., J.A. Rudgers & K.D. Whitney. Effects of agriculture on evolution of native species. Poster presented at the 97th Ecological Society of America Meeting.
++ 2011  Chamberlain, S.A. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. Invited talk at the FAB* lab at Simon Fraser University.
 + 2011  Chamberlain, S.A., & K.D. Whitney. Comparison of plant mutualist and antagonist arthropod communities near crop and wild sunflowers. Oral presentation at the 96th Annual meeting of the Ecological Society of America.
 + 2011  Chamberlain, S.A. How important is accounting for evolutionary history in ecological meta-analyses? Oral Presentation at the 3rd annual Rice University-University of Houston Joint Graduate Student Conference
 + 2009  Chamberlain, S.A., & J.A. Rudgers. Extrafloral-floral nectar trade-offs or synergies in cotton (Gossypium). Poster presentation at the 94thannual meeting of the Ecological Society of America.
