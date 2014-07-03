@@ -3,6 +3,10 @@ layout: page
 title: Publications
 ---
 
++ Chamberlain, S.A., et al. Accepted. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities. _Oecologia_
+<br>
++ Chamberlain, S.A., et al. Accepted. Phylogenetic tree shape and the structure of mutualistic networks. _Journal of Ecology_ [web][jecolcanpolin] [pdf][pdf19]
+<br>
 + Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. (2014). How context-dependent are species interactions. _Ecology Letters_ [web][condmaweb]
 <br>
 + Barraquand F, Ezard TH, Jørgensen PS, Zimmerman N, Chamberlain S et al. (2014) Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions. PeerJ 2:e285 [web][peerjms] [pdf][pdf18] [xml][peerjxml]
@@ -44,14 +48,8 @@ title: Publications
 
 ### In review
 
-+ Chamberlain, S.A., et al. In Review at Oecologia. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities
-+ Chamberlain, S.A., et al. In review at Journal of Ecology. Phylogenetic tree shape and the structure of mutualistic networks
 + Hongyu Guo, Scott A. Chamberlain, Eran Elhaik, Inder Jalli, Alana-Rose Lynes, Laurie Marczak, Niv Sabath, Amy Vargas, Kazimierz Więski, Emily M. Zelig, and Steven C. Pennings. In Review at Global Ecology and Biogeography. Biogeographic variation in plant community structure of salt marshes: species, functional and phylogenetic perspectives.
 + Revell, L., S.A. Chamberlain. In review at Methods in Ecology & Evolution. Rphylip: An R interface for PHYLIP.
-
-### In preparation
-
-+ Chamberlain, S.A., J.A. Rudgers, and K.D. Whitney. In prep. Proximity to crop sunflowers affects patterns of natural selection in a wild relative through plant mutualists and antagonists.
 
 
 [pdf1]: {{ url }}/pdfs/Chamberlain&Rudgers2011EvolEcol.pdf
@@ -71,9 +69,11 @@ title: Publications
 [pdf16]: {{ url }}/pdfs/FE_Chamberlain_Consuming_ALMs_isq_v25no2.pdf
 [pdf17]: {{ url }}/pdfs/Chamberlain&Szocs2013F1000Research.pdf
 [pdf18]: {{ url }}/pdfs/BarraquandEtal2014peerj.pdf
+[pdf19]: {{ url }}/pdfs/ChamberlainEtal2014JEcol.pdf
 [f1000web]: http://f1000research.com/articles/2-191/v2
 [isqpaper]: https://github.com/sckott/isqaltms
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
 [condmaweb]: http://onlinelibrary.wiley.com/doi/10.1111/ele.12279/abstract
 [peerjms]: http://dx.doi.org/10.7717/peerj.285
 [peerjxml]: https://peerj.com/articles/285.xml
+[jecolcanpolin]: http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2745/accepted
