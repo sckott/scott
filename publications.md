@@ -7,7 +7,7 @@ title: Publications
 <br>
 + Chamberlain, S.A., et al. Accepted. Phylogenetic tree shape and the structure of mutualistic networks. _Journal of Ecology_ [web][jecolcanpolin] [pdf][pdf19]
 <br>
-+ Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. (2014). How context-dependent are species interactions. _Ecology Letters_ [web][condmaweb]
++ Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. (2014). How context-dependent are species interactions. _Ecology Letters_ [web][condmaweb] [pdf][pdf20]
 <br>
 + Barraquand F, Ezard TH, Jørgensen PS, Zimmerman N, Chamberlain S et al. (2014) Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions. PeerJ 2:e285 [web][peerjms] [pdf][pdf18] [xml][peerjxml]
 <br>
@@ -70,6 +70,7 @@ title: Publications
 [pdf17]: {{ url }}/pdfs/Chamberlain&Szocs2013F1000Research.pdf
 [pdf18]: {{ url }}/pdfs/BarraquandEtal2014peerj.pdf
 [pdf19]: {{ url }}/pdfs/ChamberlainEtal2014JEcol.pdf
+[pdf20]: {{ url }}/pdfs/ChamberlainEtal2014EcolLett.pdf
 [f1000web]: http://f1000research.com/articles/2-191/v2
 [isqpaper]: https://github.com/sckott/isqaltms
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
