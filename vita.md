@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Vita
-date: 2014-07-03s
+date: 2014-07-18
 ---
 
 <h2> <a href="{{ url }}/pdfs/scott_vita.pdf">CV as PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/vita_onepage">1 pg vita</a> </h2>
 
-### **Scott Chamberlain**
+# **Scott Chamberlain**
 - Code on GitHub: [github.com/sckott](https://github.com/sckott)
 - Website: [scottchamberlain.info](http://scottchamberlain.info)
 - Blog: [recology.info](http://recology.info)
@@ -22,18 +22,16 @@ Education
 
 Programming
 ------------
-* R >> I have developed R software for 7 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([http://ropensci.org/](http://ropensci.org/)).
-* Python >> I have programmed in Python for about a year now, and am relatively comfortable throughtout the language, having used it for a variety of simulations.
+* R >> I have developed R software for 8 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([http://ropensci.org/](http://ropensci.org/)).
+* Python >> I have programmed in Python for 2 years, and am relatively comfortable throughtout the language, having used it for a variety of simulations.
 * Ruby >> I have picked up Ruby in the last year as well, and am getting more comfortable (e.g. a) I have deployed [an app to Heroku](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume, and b) I wrote a tiny gem to get Bibtex style references by inputting a DOI [here](https://github.com/sckott/doiref)).
 * HTML/CSS >> I use HTML often for my own website and blog, and occasionally customize CSS.
-* Databases >> I am familiar with and use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB).
-
+* Databases >> I am familiar with and use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB). I am also  familiar with Elasticsearch and Solr, and have created R clients for both of them.
 
 Projects/Working Groups
 ------------
 * 2012-pres [DataONE - Community Education and Engagement Working Group](http://www.dataone.org/working_groups/community-education-and-engagement)
 * 2011-pres rOpenSci: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets. [Website](http://ropensci.org/); [Code](https://github.com/ropensci).
-
 
 Publications
 ------------
@@ -91,7 +89,7 @@ Publications
 + Revell, L., S.A. Chamberlain. In review at Methods in Ecology & Evolution. Rphylip: An R interface for PHYLIP.
 
 
-Presentations
+Academic Presentations
 -------------
 + 2012  Chamberlain, S.A., J.A. Rudgers & K.D. Whitney. Effects of agriculture on evolution of native species. Poster presented at the 97th Ecological Society of America Meeting.
 + 2011  Chamberlain, S.A. Does phylogeny matter? Assessing the impact of phylogenetic information in ecological meta-analysis. Invited talk at the FAB* lab at Simon Fraser University.
@@ -128,7 +126,7 @@ Larry Liu (Summer 2008), Rameez Anwar (Fall 2008-Spring 2009), Yosuke Akiyama (F
 Extramural service and community outreach
 -------
 + 2010  Organized the Rice University-University of Houston Joint Graduate Student Conference
-+ 2008-pres Board Member, Rice University Bicycle Safety Committee, Graduate Student Representative to prepare a bicycle safety policy for Rice University
++ 2008-2009 Board Member, Rice University Bicycle Safety Committee, Graduate Student Representative to prepare a bicycle safety policy for Rice University
 + 2007-2010 Treasurer/Secretary, Ecology & Evolutionary Biology Graduate Student Association, Rice University.
 + 2004-2005   Board Member, Friends of Bidwell Park Board of Directors, Chico, California. Advocacy for sound environmental stewardship of parks.
 
