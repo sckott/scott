@@ -3,6 +3,8 @@ layout: page
 title: Publications
 ---
 
++ Revell, L., S.A. Chamberlain. 2014. Rphylip: An R interface for PHYLIP. Methods in Ecology & Evolution [web][rphylipweb] [pdf][pdf21]
+<br>
 + Chamberlain, S.A., et al. Accepted. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities. _Oecologia_
 <br>
 + Chamberlain, S.A., et al. Accepted. Phylogenetic tree shape and the structure of mutualistic networks. _Journal of Ecology_ [web][jecolcanpolin] [pdf][pdf19]
@@ -49,8 +51,6 @@ title: Publications
 ### In review
 
 + Hongyu Guo, Scott A. Chamberlain, Eran Elhaik, Inder Jalli, Alana-Rose Lynes, Laurie Marczak, Niv Sabath, Amy Vargas, Kazimierz Więski, Emily M. Zelig, and Steven C. Pennings. In Review at Global Ecology and Biogeography. Biogeographic variation in plant community structure of salt marshes: species, functional and phylogenetic perspectives.
-+ Revell, L., S.A. Chamberlain. In review at Methods in Ecology & Evolution. Rphylip: An R interface for PHYLIP.
-
 
 [pdf1]: {{ url }}/pdfs/Chamberlain&Rudgers2011EvolEcol.pdf
 [pdf2]: {{ url }}/pdfs/HollandEtal2011Oikos.pdf
@@ -71,6 +71,7 @@ title: Publications
 [pdf18]: {{ url }}/pdfs/BarraquandEtal2014peerj.pdf
 [pdf19]: {{ url }}/pdfs/ChamberlainEtal2014JEcol.pdf
 [pdf20]: {{ url }}/pdfs/ChamberlainEtal2014EcolLett.pdf
+[pdf21]: {{ url }}/pdfs/Revell&Chamberlain2014MEE.pdf
 [f1000web]: http://f1000research.com/articles/2-191/v2
 [isqpaper]: https://github.com/sckott/isqaltms
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
@@ -78,3 +79,4 @@ title: Publications
 [peerjms]: http://dx.doi.org/10.7717/peerj.285
 [peerjxml]: https://peerj.com/articles/285.xml
 [jecolcanpolin]: http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2745/accepted
+[rphylipweb]: http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12233/abstract
