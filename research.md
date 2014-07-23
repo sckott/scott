@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---
 
-## Current Research
+## Past Research
 </br>
 ### My current research is doing synthetic work with CANPOLIN (Canadian Pollinator Inititative): Various projects involving pollinators and they plants they interact with across Canada
 </br>
@@ -16,9 +16,6 @@ Plant-pollinator networks have been collected across Canada at many sites. We ar
 What are the hotspots of pollinator diversity in Canada? How does pollinator biodiversity compare in pristine vs. human-altered landscapes? We will address these kinds of questions.  
 
 </br>
-</br>
-
-## Past Research
 </br>
 ### What is the influence of agriculture on spatially variable selection on floral traits in Helianthus (sunflower)?
 

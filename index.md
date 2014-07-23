@@ -5,6 +5,8 @@ title: Home
 
 ### I co-founded a developer collective along with <a href="http://www.carlboettiger.info/">Carl Boettiger</a>, <a href="http://inundata.org/">Karthik Ram</a>, and <a href="http://emhart.github.com/">Ted Hart</a> called <a href="http://ropensci.org/">rOpenSci</a> to make R packages to connect open source data and literature into the R environment.
 
+### I'm currently working full time on rOpenSci at UC Berkeley.
+
 ### Software
 
 * R >> [taxize][taxize] - [rgbif][rgbif] - [rplos][rplos] - [alm][alm] - [solr][solr]
