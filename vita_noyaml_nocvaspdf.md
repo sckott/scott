@@ -27,6 +27,7 @@ Projects/Working Groups
 
 Publications
 ------------
++ Mair, P, and S. Chamberlain. 2014. Web Technologies Task View. The R Journal 6(1): 178-181. [web][webtechweb] [pdf][pdf22]
 + Revell, L., S.A. Chamberlain. 2014. Rphylip: An R interface for PHYLIP. Methods in Ecology & Evolution [web][rphylipweb] [pdf][pdf21]
 + Chamberlain, S.A., et al. Accepted. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities. _Oecologia_
 + Chamberlain, S.A., et al. Accepted. Phylogenetic tree shape and the structure of mutualistic networks. _Journal of Ecology_ [web][jecolcanpolin] [pdf][pdf19]
@@ -70,6 +71,7 @@ Publications
 [pdf19]: {{ url }}/pdfs/ChamberlainEtal2014JEcol.pdf
 [pdf20]: {{ url }}/pdfs/ChamberlainEtal2014EcolLett.pdf
 [pdf21]: {{ url }}/pdfs/Revell&Chamberlain2014MEE.pdf
+[pdf22]: {{ url }}/pdfs/Mair&Chamberlain2014RJournal.pdf
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
 [isqpaper]: https://github.com/sckott/isqaltms
 [taxizepaper]: https://github.com/ropensci/taxize_/tree/dev_ms/f1000_rev
@@ -78,6 +80,7 @@ Publications
 [peerjxml]: https://peerj.com/articles/285.xml
 [jecolcanpolin]: http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2745/accepted
 [rphylipweb]: http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12233/abstract
+[webtechweb]: http://journal.r-project.org/archive/2014-1/
 
 ### In review/prep
 
