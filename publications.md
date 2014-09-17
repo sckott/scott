@@ -5,19 +5,19 @@ title: Publications
 
 + Mair, P, and S. Chamberlain. 2014. Web Technologies Task View. The R Journal 6(1): 178-181.  [web][webtechweb] [pdf][pdf22]
 <br/>
-+ Revell, L., S.A. Chamberlain. 2014. Rphylip: An R interface for PHYLIP. Methods in Ecology & Evolution [web][rphylipweb] [pdf][pdf21]
++ Revell, L., S.A. Chamberlain. 2014. Rphylip: An R interface for PHYLIP. _Methods in Ecology & Evolution_ [web][rphylipweb] [pdf][pdf21]
 <br/>
-+ Chamberlain, S.A., et al. Accepted. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities. _Oecologia_
++ Chamberlain, S.A., et al. 2014. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities. _Oecologia_ [web][oecologiaweb]
 <br/>
-+ Chamberlain, S.A., et al. Accepted. Phylogenetic tree shape and the structure of mutualistic networks. _Journal of Ecology_ [web][jecolcanpolin] [pdf][pdf19]
++ Chamberlain, S.A., et al. 2014. Phylogenetic tree shape and the structure of mutualistic networks. _Journal of Ecology_ [web][jecolcanpolin] [pdf][pdf19]
 <br/>
-+ Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. (2014). How context-dependent are species interactions. _Ecology Letters_ [web][condmaweb] [pdf][pdf20]
++ Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. 2014. How context-dependent are species interactions. _Ecology Letters_ [web][condmaweb] [pdf][pdf20]
 <br/>
-+ Barraquand F, Ezard TH, Jørgensen PS, Zimmerman N, Chamberlain S et al. (2014) Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions. PeerJ 2:e285 [web][peerjms] [pdf][pdf18] [xml][peerjxml]
++ Barraquand F, Ezard TH, Jørgensen PS, Zimmerman N, Chamberlain S et al. 2014 Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions. PeerJ 2:e285 [web][peerjms] [pdf][pdf18] [xml][peerjxml]
 <br/>
-+ Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. (Accepted). Pollinators visit related plant species across 29 plant-pollinator networks. _Ecology & Evolution_
++ Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. 2014. Pollinators visit related plant species across 29 plant-pollinator networks. _Ecology & Evolution_
 <br/>
-+ Chamberlain S.A., Szöcs E. (2013) taxize: taxonomic search and retrieval in R [v2; ref status: indexed, http://f1000r.es/24v] _F1000Research_ 2013, 2:191 (doi: 10.12688/f1000research.2-191.v2) [pdf][pdf17] [web][f1000web]
++ Chamberlain S.A., Szöcs E. 2013. taxize: taxonomic search and retrieval in R [v2; ref status: indexed, http://f1000r.es/24v] _F1000Research_ 2013, 2:191 (doi: 10.12688/f1000research.2-191.v2) [pdf][pdf17] [web][f1000web]
 + Chamberlain, S.A. 2013. Consuming Article-Level Metrics: Observations and Lessons from Comparing Aggregator Provider Data. _Information Standards Quarterly_. [on github][isqpaper] [pdf][pdf16] [web][isqweb]
 <br/>
 + Chamberlain, S.A., J.A. Rudgers, & K.D. Whitney. 2013. Proximity to agriculture alters abundance and community composition of wild sunflower mutualists and antagonists. _Ecosphere_. [pdf][pdf15]
@@ -84,3 +84,4 @@ title: Publications
 [jecolcanpolin]: http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1365-2745/accepted
 [rphylipweb]: http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12233/abstract
 [webtechweb]: http://journal.r-project.org/archive/2014-1/
+[oecologiaweb]: http://escholarship.org/uc/item/2483w551

@@ -20,7 +20,7 @@ __Education__
 __Programming__
 
 * Code: [github.com/sckott](https://github.com/sckott)
-* __R__ Developed R software for 8 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). 
+* __R__ Developed R software for 8 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)).
 * __Python__ Programmed in Python for 1.5 years. Writing a Python package for getting taxonomy data from the web [pytaxize](https://github.com/sckott/pytaxize).
 * __Ruby__ Programmed in Ruby for 1 year. Deployed [an app](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume, and wrote a Ruby package [doiref](https://github.com/sckott/doiref) to search articles, and get references.
 * __HTML/CSS__ Use HTML often for websites, and customize CSS.
@@ -28,13 +28,13 @@ __Programming__
 
 __Work Experience__
 
-* __Simon Fraser University__ _2012-present. PostDoctoral Researcher._
-
-Built and maintained a SQL database containing data from a large network of dozens of researchers. Synthesized data from a research network across Canada to answer questions about pollinator communities, producing four peer-reviewed papers. 
-
 * __rOpenSci__ _2011-present. Co-founder._
 
-Co-founded a developer collective to make R packages to facilitate use of open source journals and data sets. [Website](http://ropensci.org/); [Code](https://github.com/ropensci). Recieved a $160,000 grant in June 2012. Use R heavily for software development. Maintain software tutorials with HTML, CSS, and Javascript.
+Co-founded a developer collective to make R packages to facilitate use of open source journals and data sets. [Website](http://ropensci.org/); [Code](https://github.com/ropensci). Recieved a $160,000 grant in June 2012. Use R heavily for software development. Maintain software tutorials with HTML, CSS, and Javascript. rOpenSci is now housed within UC Berkeley.
+
+* __Simon Fraser University__ _2012-2014. PostDoctoral Researcher._
+
+Built and maintained a SQL database containing data from a large network of dozens of researchers. Synthesized data from a research network across Canada to answer questions about pollinator communities, producing four peer-reviewed papers.
 
 * __Dittes and Guardino Consulting__ _2003-2005. Environmental Consultant_.
 
@@ -43,7 +43,7 @@ Carried out plant surveys for the USDA Forest Service prior to awarding contract
 
 __Honors and Publications__
 
-* Sixteen peer-reviewed publications in top journals in my field. 
+* Sixteen peer-reviewed publications in top journals in my field.
 * 2012  Public Library of Science & Mendeley Binary Battle - 3rd place in code competition ($1,000)
 * 2010-2011 Lodieska Stockbridge Vaughn Fellowship
 * 2010  Prairie Biotic Research, Inc. Grant ($896)
