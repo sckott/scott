@@ -14,7 +14,7 @@ title: Home
 
 <i class="fa fa-github"></i> See the rest <a href="https://github.com/sckott/" target="_blank">on Github</a>
 
-### Other things
+### Other stuff
 
 * [R for cats](http://rforcats.net/)
 
