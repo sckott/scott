@@ -5,7 +5,7 @@ title: Research
 
 ## Past Research
 </br>
-### My current research is doing synthetic work with CANPOLIN (Canadian Pollinator Inititative): Various projects involving pollinators and they plants they interact with across Canada
+### During my postdoc I did synthetic work with CANPOLIN (Canadian Pollinator Inititative): Various projects involving pollinators and they plants they interact with across Canada
 </br>
 #### Network structure of plant-pollinator interactions
 
