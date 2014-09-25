@@ -18,7 +18,7 @@ title: Home
 
 * [R for cats](http://rforcats.net/)
 
-### > I used to be an ecologist. I studied the evolution of species interactions.  See [my pubs][pubs].
+### > I used to be an ecologist/evolutionary ecologist. See [my pubs][pubs].
 
 [taxize]: https://github.com/ropensci/taxize
 [rgbif]: https://github.com/ropensci/rgbif
