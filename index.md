@@ -26,3 +26,6 @@ title: Home
 [alm]: https://github.com/ropensci/alm
 [solr]: https://github.com/ropensci/solr
 [pubs]: /publications
+
+<br>
+<a href="https://impactstory.org/ScottChamberlain"><img src="https://impactstory.org/logo/small" width="100" /></a>
