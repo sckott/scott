@@ -9,7 +9,7 @@ title: About
 
 #### Before the postdoc at Simon Fraser University I did my master's degree and Ph.D. training at <a href="http://eeb.rice.edu/" target="_blank">Rice University</a> in Houston, TX.  There I studied a range of topics, including: ant-plant interactions, pollination, population and community ecology, species interaction networks, and evolutionary ecology.</p>
 
-#### In addition to doing science, I am involved in a number of projects. I was the blog editor for the Journal of Ecology until December 2013. I just joined the <a href="http://www.dataone.org/working_groups/community-education-and-engagement" target="_blank">Community Education and Engagement Working Group at DataONE</a>. Last, I am helping organize iEvoBio 2014!
+#### In addition to doing science, I was involved in a number of projects. I was the blog editor for the Journal of Ecology until December 2013. I was on the <a href="http://www.dataone.org/working_groups/community-education-and-engagement" target="_blank">Community Education and Engagement Working Group at DataONE</a>, and helped organize <a href="http://ievobio.org/">iEvoBio 2014</a>!
 
 <hr>
 <div class="span6">
