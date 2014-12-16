@@ -1,0 +1,606 @@
+Oecologia DOI 10.1007/s00442-014-3035-2
+Community ecology - Original research
+Traits and phylogenetic history contribute to network structure across Canadian plant­pollinator communities
+Scott A. Chamberlain · Ralph V. Cartar · Anne C. Worley · Sarah J. Semmler · Grahame Gielens · Sherri Elwell · Megan E. Evans · Jana C. Vamosi · Elizabeth Elle 
+
+Received: 26 August 2013 / Accepted: 1 August 2014 © Springer-Verlag Berlin Heidelberg 2014
+
+Abstract Interaction webs, or networks, define how the members of two or more trophic levels interact. However, the traits that mediate network structure have not been widely investigated. Generally, the mechanism that determines plant-pollinator partnerships is thought to involve the matching of a suite of species traits (such as abundance, phenology, morphology) between trophic levels. These traits are often unknown or hard to measure, but may reflect phylogenetic history. We asked whether morphological traits or phylogenetic history were more important in mediating network structure in mutualistic plant-pollinator interaction networks from Western Canada. At the plant species level, sexual system, growth form, and flower symmetry were the most important traits. For example species with radially symmetrical flowers had more connections within their modules (a subset of species that interact more among one another than outside of the module) than species with bilaterally symmetrical flowers. At the pollinator species level, social species had more connections within and
+Communicated by Steven D. Johnson.
+Electronic supplementary materialThe online version of this article (doi:10.1007/s00442-014-3035-2) contains supplementary material, which is available to authorized users.
+S. A. Chamberlain (*) · G. Gielens · S. Elwell · E. Elle  Department of Biological Sciences, Simon Fraser University, Burnaby, BC V5A 1S6, Canada e-mail: myrmecocystus@gmail.com
+R. V. Cartar · M. E. Evans · J. C. Vamosi  Department of Biological Sciences, University of Calgary, Calgary, AB T2N 1N4, Canada
+A. C. Worley · S. J. Semmler  Department of Biological Sciences, University of Manitoba, Winnipeg, MB R3T 2N2, Canada
+
+among modules. In addition, larger pollinators tended to be more specialized. As traits mediate interactions and have a phylogenetic signal, we found that phylogenetically close species tend to interact with a similar set of species. At the network level, patterns were weak, but we found increasing functional trait and phylogenetic diversity of plants associated with increased weighted nestedness. These results provide evidence that both specific traits and phylogenetic history can contribute to the nature of mutualistic interactions within networks, but they explain less variation between networks.
+KeywordsMutualism · Interaction webs · Trophic levels · Morphological trait · Functional trait
+Introduction
+Interaction webs define how the members of two or more trophic levels interact with one another. Comparisons of the structure of different mutualistic interaction webs reveal some consistent patterns, suggesting common mechanisms by which communities are assembled. For example, the degree distribution (distribution of number of interactions per species) of mutualistic networks has a consistent pattern, despite differences in species composition across networks (Bascompte and Jordano 2007). In addition, a pattern of many weak, and few strong species interactions, is pervasive across not only mutualistic networks (Bascompte et al. 2006), but food webs as well (Paine 1980). However, despite consistent structural patterns, there is still no consensus on what mediates the production of these patterns. Generally, traits of the species within networks are thought to either encourage or prevent interactions (Santamaría and Rodríguez-Gironés 2007; Vázquez et al. 2009; Junker et al.
+
+13
+
+Oecologia
+
+2010; Cagnolo et al. 2011; Donatti et al. 2011; DanieliSilva et al. 2012), yet stochastic processes may also play a role. Because the traits themselves are evolving at varying rates, the phylogenetic history of any given assemblage of species can therefore influence network structure.
+There are two ways in which traits can mediate linkage rules in a plant-pollinator bipartite community: barrier (the difference between traits of plants and pollinators prevents interaction), and complementarity (the degree to which traits are similar allows interaction). Traits involved in mediating species interactions are likely to be specific; for example, the maximum length a pollinator's tongue can extend will determine the nectar tube lengths and therefore plant species it can visit. Junker et al. (2013) showed that flower traits have a large impact on the pollinators that visit them, and the resulting network structure; however, they did not compare the ability of traits to explain structure compared to other factors (e.g. abundance). Stang et al. (2006) showed that both abundance (plant and pollinator) and flower traits independently contributed to network structure, but the combination of the two better predicted network structure. There are few studies that have been able to use many traits of both sides of a network to ask how traits contribute to network structure. Furthermore, a limitation of most studies exploring how traits relate to network structure is small size of data sets: it is difficult to combine a large set of networks with trait data for the component species. Because of this difficulty, we explore the possibility of using phylogenetic information as a surrogate representing unmeasured differences among species.
+Many species traits are phylogenetically conserved (Blomberg et al. 2003); in which case closely related species tend to have more similar traits than distantly related species. Thus, if species traits are the result, at least in part, of their phylogenetic history, traits and phylogeny should predict network structure to similar degrees. However, differences can arise because: (1) some important traits are evolutionarily labile and show little phylogenetic signal; and (2) some traits do show a phylogenetic signal, yet may not have been regularly measured, either due to perceptual differences (e.g. ultraviolet (UV) reflectance in flowers that insects can see but humans cannot) or because we simply did not appreciate their importance [e.g. electrical fields (Clarke et al. 2013)]. Considering the possibility for the presence of "unknown" important traits, as well as the large amount of time it takes to collect data on a suite of potentially important traits, it would be useful if phylogenetic history could be a proxy for describing a list of traits that mediate species interactions. Thus far, several studies have shown that phylogenies do influence network structure and specific species interactions, but the effect of phylogeny overall appears to be modest relative to traits (Rezende et al. 2007; Vázquez et al. 2009).
+
+There is a temptation to reduce all of the interactions observed in a community into summary metrics, such as connectance, nestedness and interaction asymmetry, and link these summary metrics to some value of vulnerability of the community to invasion or disturbance (Elle et al. 2012). While these observations are intriguing, the mechanisms that may cause these metrics to be associated with stability are often unclear and an investigation of traits can be a good place to begin to tease apart mechanistic influences. Here we use 47 mutualistic plant-pollinator interaction networks from Western Canada to ask what mediates their structure. Specifically, we ask:
+1.How do phylogeny and traits affect individual species interaction patterns, as measured by several commonly used metrics?
+2.How do phylogeny and traits affect structural properties of whole networks?
+We list empirically based predictions, where possible, for question 1 in Table 1.
+Materials and methods
+Study sites
+A total of 47 mutualistic plant-pollinator networks were studied in four regions of Western Canada, from west to east: oak savannah (British Columbia; 12 networks), shrubsteppe (British Columbia; eight networks), foothills rough fescue prairie (Alberta; 21 networks), and upland tall grass prairie and sedge meadow habitat (Manitoba; six networks) [see Table A1 (Electronic supplementary material; ESM) for site information]. Our original data set included 52 networks, but five from very degraded rough fescue prairie were excluded because they had less than ten species in total (no. plant + pollinator species).
+Collection of mutualistic network data
+Two sampling methods were used in this study: transects and plots. Plots are generally more appropriate when the plant species in the community are very patchily distributed (Gibson et al. 2011). In the plot method, sampling focuses on individual plant species, with an attempt to observe each plant species for an equal amount of time. The transect method is more appropriate for communities in which plant species are relatively homogeneously distributed so that a few transects can capture most of the plant species. An observer walks each transect for an equal amount of time. The tendency of the plot method is to pick up rare pollinators, while the transect method can be biased towards
+
+13
+
+Oecologia
+
+Table1Description of traits included in this study, and expectations on how each trait should relate to four pollinator or plant network structures
+
+Trait Description
+
+Expectation at c z ia d
+
+Pollinators
+
+ Sociality
+
+Solitary, social
+
+Social
+
+
+
+ Nest location
+
+Above- or belowground
+
+Aboveground
+
+XXXX
+
+ Nest type
+
+Renters or excavators
+
+Renters
+
+XXXX
+
+ Parasitism
+
+Parasitic, non-parasitic
+
+Non-parasitic
+
+XXX
+
+ Body size
+
+Intertegular distance
+
+Larger size
+
+
+
+Plants
+
+ Flower symmetry
+
+Zygomorphic, actinomorphic
+
+Actinomorphic    
+
+ Flower colour
+
+Flower colour
+
+Yellow flowers    
+
+ Sexual system
+
+Perfect, monoecious, dioecious
+
+Perfect
+
+XXXX
+
+ Growth form
+
+Herbaceous, woody
+
+Herbs
+
+  X
+
+ Life span
+
+Short lived, long lived
+
+Annual
+
+  X
+
+ Flower size
+
+Flower size
+
+Larger size
+
+  X
+
+Upwards arrows indicate that we expect the value of the network metrics [e.g. among-module connectivity (c; among-module degree)] to increase if the value of the trait is that listed in the Expectation at column; we expect those with downwards arrows to decrease in value; we do not have a prediction for those with an X.
+z Within-module degree, ia interaction asymmetry, d specialization
+
+observing common pollinators. We attempt to correct for the different methods by including collection method as a categorical variable in the analyses (see "Data analyses"). The following are details of collection methods in each region [see Appendix Table A1 (ESMs) for details].
+
+over a 2-m-wide area centered on each transect. We visited sites twice per survey date (a.m. and p.m.), walking at a pace to cover 600 m in 30 min. Each site was sampled from three to eight times (median = 5) during the flowering season, but different sites were sampled in 2009 and 2010.
+
+Oak savannah sites
+
+Tall grass prairie
+
+We collected data on species interactions in 1-ha plots at each of six sites in both 2009 and 2010. Each plot was surveyed from ten to 12 times per season between late April and early July, the majority of the flowering period. Over the flowering period we attempted to visit sites morning, midday, and afternoon on different survey dates to reduce bias due to flight-time differences among visiting insects. During each survey, each plant species in flower was observed for a 10-min period by each of two surveyors, on haphazard walks throughout the plot.
+Shrubsteppe sites
+Data were collected in 2010 for eight sites using the same methodology as for oak-savannah sites, but surveys occurred from the beginning of April up to and including the end of July for a total of 12 samples per site.
+Foothills rough fescue prairie
+We collected data on species interactions in six parallel 100-m transects at each of 21 sites. Bees were sampled
+
+Sampling occurred in four upland tall grass prairie sites and two sites in sedge meadow. Insect observations took place within two 4 × 90-m parallel belt transects in each site. Transects were walked by two researchers for 1 h between 0900 and 1500 hours. Start times for observations in each site were rotated over survey dates. Each plot was sampled eight times between June and mid-September 2010.
+With the exception of the tall grass prairie networks, all pollinators were collected for identification in the lab to the lowest taxonomic level possible (species or genus). For the tall grass prairie networks some pollinators could be identified to morphospecies on the wing; all other specimens were collected for identification in the lab.
+Plant and pollinator traits
+Using information in published floras, we collected the following traits for plant species: flower symmetry (radial, bilateral); flower colour (blue, pink, white, yellow, green); sexual system (dioecious, gynodioecious, gynomonecious, perfect, and other, which includes monoecy, andromonoecy, androdioecy, etc.); life span [short lived (annual, biennial)
+
+13
+
+Oecologia
+
+or long lived (perennial)]; growth form [(herbaceous and other (including sub-shrubs, shrubs, trees, and woody vines)]; and flower size. Flower size was determined by taking the midpoint of the minimum and maximum range of flower size given in each species' description in the flora (in millimetres). Flower colours available in floras do not include UV reflectance in flowers that insects can see but humans cannot. However, it is worth asking if flower colour classes do drive any variation in network structures because the spectrum humans see is at least part of the spectrum pollinators can see. Plant trait data were collected from various sources, including the Flora of North America (Flora of North America Editorial 2002) and the E-Flora of British Columbia (Klinkenberg 2012).
+For pollinators, we collected the following life history traits, also from the literature: sociality (solitary, social, unknown); parasitism (not parasitic, social parasite, cleptoparasite); nest location (aboveground, belowground, above/belowground); and nest type (rent or excavate). Renters construct nests within existing tunnels or other cavities regardless of nest location, while excavators dig or bore the chamber/tunnel within existing substrate (Michener 2007). Life history data were collected from Michener (2007). We also estimated body size for some of the bees and flies collected in this research. We measured intertegular distance (ITwidth) for bees, which correlates with body size (Cane 1987; Greenleaf et al. 2007), and with foraging distance (Greenleaf et al. 2007). We calculated bee mass (milligrams) using the equation: mass = 0.77 × ITwidth0.405, following Cane (1987). For flies, we measured body length (tip of the head to the end of the abdomen), and used the following equation to convert body length to mass (milligrams): mass = 0.032 × length2.63, following Sabo et al. (2002). Body size was not estimated for other taxa.
+Plant and pollinator phylogenetic reconstruction
+Plant phylogenies were built using Phylomatic (http://phylodiversity.net/phylomatic/; Webb and Donoghue 2004). Phylomatic is an online interface used to retrieve a phylogeny based on a user-defined set of plant species taxonomic names. Branch lengths were estimated for the master plant phylogeny using the algorithm for branch length adjustment (BLADJ) in the software Phylocom (Webb et al. 2008), which fixes a set of nodes in the tree to specified ages (Wikstrom et al. 2001) and evenly distributes the ages of the remaining nodes. The file (in multiple formats) we used to run the bladj command in Phylocom is provided in Appendix B (ESM). See the master plant phylogeny in Appendix B (ESM) and on Figshare.org (http://figshare.com/articles/Canadian_Networks/1014346).
+Animal phylogenies were built using a variety of tools, similar to that implemented in Phylomatic for plant
+
+phylogenies. First, we built a topology of all animal pollinators across all networks in the study in Mesquite version 2.75 (Maddison and Maddison 2011), based on a variety of published phylogenies [Appendix B (ESM)]. Second, we collected 33 node age estimates (in millions of years) from TimeTree.org (Hedges et al. 2006), which are provided in Appendix B (ESM). Last, we used the algorithm for branch length adjustment (BLADJ) as described above for plants, except that we used our node age estimates retrieved from TimeTree.org. See the master pollinator phylogeny in Appendix B (ESM) and on Figshare.org (http://figshare.com/articles/Canadian_Networks/1014346).
+We pruned the master phylogenies made above for both plants and pollinators for each network, to produce phylogenies for each site/year combination.
+Specieslevel network metrics
+For species-level metrics of interaction, we calculated direction of interaction strength asymmetry (ia), a measure of specialization [Blüthgen's d (Blüthgen et al. 2006)], degree (number of other species the focal species interacts with), within-module degree (z), among-module connectivity (c), and ecological similarity. We used the species level function in the bipartite R package (Dormann 2011). Positive values of ia show that a focal species affects an interactor more than the interactor affects the focal species; negative values of ia indicate that a focal species is, on average, affected more by the interactor than the converse (Vázquez et al. 2007). The d metric of specialization measures how specialized a species is with respect to available resources. z is the standardized number of links to other species in the same module, and c is the extent of connections of the species to other modules (Olesen et al. 2007). Ecological similarity of any two species was calculated following Rezende et al. (2007) as the number of species with which both species interact divided by the total number of species with which they separately interact. A large value means the two species share interactions with the same species, while a small value indicates they share relatively few of the same species. This measure is necessarily one that depends on comparing two species--thus, this measure is only used when investigating how phylogenetic history relates to species traits (see below).
+Network structural properties and trait diversity
+For both plants and pollinators, we quantified trait diversity within each network using a measure of functional dispersion (Laliberté and Legendre 2010). FDis computes the mean distance of a species in ordination space from the mean for all species, where the ordination space is defined by a set of traits. This is in effect a multidimensional
+
+13
+
+Oecologia
+
+measure of functional diversity. FDis is highly correlated with Rao's quadratic entropy (Q) (Botta-Dukát 2005), but FDis has better properties than Q (Laliberté and Legendre 2010). FDis can be weighted by the abundance of each species, but we did not do this because FDis is used in analyses in which the measures of abundance are the sums of cell values in the interaction matrices; this lack of independence would confound analyses. In these network-level analyses, we did not include traits individually because many traits were categorical/nominal, which would leave few residual df and low statistical power.
+For both plants and pollinators, we calculated one network-level measure of phylogenetic diversity: mean pairwise distance (MPD) (Webb et al. 2008) between all taxa. We calculated four measures of network-level structure: weighted nestedness, modularity, weighted connectance, and network-level specialization (H2). For nestedness, we used the weighted nestedness metric based on overlap and decreasing fill (NODF), proposed by Almeida-Neto and Ulrich (2011). We used a modified version, NODF2, which sorts the matrix before calculating the measure, ideal for comparisons across different networks as it is independent of the initial matrix. Values of zero indicate non-nestedness, those of 100 are perfect nesting. Modularity measures the extent to which a network is organized into clearly delimited modules, where a module is a subset of species that interact more among one another than outside of the module (Bascompte and Jordano 2007). We used the modularity-detecting algorithm, which maximized modularity using simulated annealing implemented in the command line function netcarto_cl in the C library R graph (Guimera and Amaral 2005a, b). Weighted connectance is the quantitative version of linkage density divided by number of species in the network, following Tylianakis et al. (2007). H2 was introduced by Blüthgen et al. (2006), and characterizes the degree of specialization in a network, while not being affected by network size or sampling intensity. A summary table of these network-level metrics is presented in Appendix C (ESM).
+Data analyses
+Phylogenetic signal
+We calculated phylogenetic signal for a subset of traits that were either binary (plants­lifespan, growth form, and flower symmetry; pollinators­nest location, parasitic, and sociality) or continuous (plants­flower size; pollinators­ body size). For binary traits we calculated the D-statistic proposed by Fritz and Purvis (2010), while for continuous traits we calculated the K-statistic proposed by Blomberg et al. (2003). For both methods we performed 1,000 simulations to compare the observed statistic to a distribution of
+
+values from species randomized on the tips of each phylogeny. We calculated phylogenetic signal for each trait in each site, for both plants and pollinators. For D, we determined whether D was significantly greater than 0 (indicating that trait is more phylogenetically conserved than under a Brownian motion model), and whether it was significantly less than 1 (indicating that trait is phylogenetically overdispersed). The K statistic tests whether K is significantly different from 1; less than 1 indicates that trait is phylogenetically overdispersed, while a value greater than 1 indicates that trait is phylogenetically conserved. We could not calculate signal for some site/organism/trait combinations because trait values were the same for all species. Thus, sample sizes are less than 47 for some tests. We summarized these analyses by presenting the proportion of networks that had D-values significantly greater than 0 or less than 1, and Kvalues significantly less than or greater than 1. A potential source of bias in detecting phylogenetic signal was that some networks had fewer than 20 species, which Blomberg et al. (2003) showed have less than 0.8 statistical power.
+How do phylogeny and traits affect specieslevel interaction metrics?
+For species-level analyses we tested for a relationship between species-level interaction metrics and phylogenetic history within individual networks, and separately tested for a relationship between species-level network metrics and traits across the entire data set. For phylogenies, we calculated pairwise phylogenetic distance between each species pair in the phylogeny for each network using the cophenetic.phylo function in the ape R package (Paradis et al. 2004) and compared them to distance matrices based on interaction metrics using Mantel tests. Separate analyses were done for plants and pollinators. Although there are some drawbacks to Mantel tests (Harmon and Glor 2010), we use them with caution, recognizing that, relative to the alternative K statistic, type I error is unaffected, but that type II error is inflated. We used the function mantel in the vegan R package (Oksanen et al. 2013).
+For our analysis of trait effects, we used mixed linear models for all variables, some with Gaussian error distributions (response variables­ia, and z) and others with binomial distributions (d and c). Models were run separately for plant traits and pollinator traits. All plant models were: network metric ~ symmetry + colour category + flower size  + sexual system + life span + growth form + collection method. All pollinator models were: network metric ~ sociality + parasitism + nest location + nest type + mass + collection method. In both models, region (e.g. oak savannah, rough fescue) and network (i.e. site) were included as random effects. The explanatory variable
+
+13
+
+Oecologia
+
+mass was log10 transformed to improve assumptions of normality and homoscedasticity of residuals. In the case of significant effects of categorical variables, we performed post hoc Tukey tests to determine what levels within a variable differ from one another. For the d' and c response variables, we used generalized linear mixed models with binomial error distribution with a logit link function, using the function glmer in the package lme4 (Bates et al. 2012).
+How do phylogeny and traits affect network structures?
+To address the extent to which phylogeny and traits influence community-level network structures, we modeled each of the five network structures with the model: network structure ~NTOT + FDisPO + FDisPL + MPDPO + MPDPL, where NTOT is total network size (no. pollinator species  + no. plant species), FDisPO is pollinator functional trait dispersion, FDisPL is plant functional trait dispersion; MPDPO is mean phylogenetic diversity of pollinators, and MPDPL is mean phylogenetic diversity of plants. As all response variables were continuous and bounded between 0 and 1, we used  regression models for each network metric, using the betareg R package (Cribari-neto and Zeileis 2010), which are appropriate for this kind of data. Z-tests were used to perform significance tests of model coefficients. Nestedness was calculated as between 0 and 100, but is essentially a proportion by dividing the nestedness value by 100. Network-level data used in analyses are provided in Appendix C (ESM).
+Results
+Phylogenetic signal
+Plants
+Overall, the two traits that showed phylogenetic signal the most frequently were plant growth form (herb, woody) and flower symmetry (radial, bilateral). Life span was phylogenetically conserved in 17 % (six of 35) of trees, and overdispersed in 17 % of trees [see Appendix E (ESM)]. Growth form was phylogenetically conserved in 6 % (two of 34) of trees, and overdispersed in 12 % of trees. Flower symmetry was phylogenetically conserved in 41 % (19 of 46) of trees, and overdispersed in 0 trees. Flower size had a significant phylogenetic signal in 28 % (13 of 47) of trees, with phylogenetic conservation in seven trees, and overdispersion in six.
+Pollinators
+Overall, the two traits that showed phylogenetic signal most frequently were sociality and nest location (above- vs.
+
+Table2Summary of results of species-level analyses of the relationship between species-level interaction metrics and phylogenetic distance
+
+Network structure
+
+Phylogenetic
+
+Pollinators
+
+Plants
+
+ia d c z Ecosim
+
+13 (14 %) 2 (2 %) 3 (3 %) 5 (5 %) 15 (16 %)
+
+2 (2 %) 9 (10 %) 2 (2 %) 5 (5 %) 16 (17 %)
+
+Numbers in each cell are the number of networks with significant (P < 0.05) relationships between species-level interaction metrics (ia, d, c, z, and ecosim) and phylogenetic distance; percentages are percent of total networks with significant relationships. For abbreviations, see Table 1
+
+belowground). For nest location, 73 % (22 of 30) of trees were phylogenetically conserved, while no trees were overdispersed [see Appendix E (ESM)]. For parasitism, 38 % (three of eight) of trees were phylogenetically conserved, while 13 % (one of eight) of trees were overdispersed. For sociality, 93 % (38 of 41) of trees were phylogenetically conserved, while no trees were overdispersed. Body size had a significant phylogenetic signal in 55 % (25 of 47) of trees, with two trees showing phylogenetic conservation, and 24 showing overdispersion.
+Phylogenetic history
+For plants, ecological similarity was most frequently related to plant phylogenetic distance, with significant relationships in 17 % of networks. Specialization (d) was significantly related to pollinator phylogenetic distance in 10 % of networks, while z was related to pollinator phylogenetic distance in 5 % of networks. For pollinators, ecological similarity was most frequently related to pollinator phylogenetic distance, with significant relationships in 16 % of networks (Table  2; Fig. 1). ia was related to pollinator phylogenetic distance in 14 % of networks. z was significantly related to pollinator phylogenetic distance in 5 % of networks.
+How do phylogeny and traits affect specieslevel interaction metrics?
+Plant traits
+Sexual systems, plant growth form, and flower symmetry were important traits for species-level network metrics [Appendix Table D1 (ESM); Fig. 2]. Species with a perfect sexual system had greater specialization (d) and interacted with fewer insect species (lower degree) than did gynomonecious species. Sexual system also significantly influenced z, but post hoc tests showed no differences among levels
+
+13
+
+Oecologia
+
+ia
+
+d
+
+Correlation between phylogeny and network metric
+
+zc
+
+1.0 (a)
+0.5 0.0 -0.5
+
+(c)
+1.0 0.5 0.0 -0.5
+
+(e)
+1.0 0.5 0.0 -0.5
+
+(g)
+1.0 0.5 0.0 -0.5
+
+1.0 0.5 0.0 -0.5
+
+(i)
+
+Plants
+50 50 50 50 50
+
+1.0 (b)
+0.5
+0.0
+-0.5 100
+(d)
+1.0
+0.5
+0.0
+-0.5 100
+(f)
+1.0
+0.5
+0.0
+-0.5 100
+(h)
+1.0
+0.5
+0.0
+-0.5 100
+(j)
+1.0
+0.5
+0.0
+-0.5 100
+Network size (no. of species)
+
+Pollinators
+50 100 50 100 50 100 50 100 50 100
+
+ecosim
+
+Fig.1The relationship between phylogenetic distance and species-
+level network metrics for plants and pollinators, in relationship to network size for five network metrics: a interaction asymmetry (ia), b specialization (d), c among-module connectivity (c), d within-module degree (z), and e ecosim. Open circles Non-significant, filled circles
+
+statistically significant (Pearson correlation coefficient; P < 0.05). We used Mantel tests of distance matrices. S Solitary, SO social. Network variables: c among-module connectivity, z within-module degree, ia interaction asymmetry, d' specialization
+
+of either factor. For growth form, woody plant species had greater interaction asymmetry and higher z than species with an herbaceous growth form. Finally, species with radial flowers had greater z than those with bilaterally symmetrical flowers. Flower size was important in one network metric. There was a significant negative relationship between z and flower size, such that species with larger flowers had smaller values of z, or interacted less within their modules.
+Pollinator traits
+Sociality was by far the most important pollinator trait for species-level network metrics [Appendix Table D1 (ESM); Fig.  3]. Social species had higher values of z and c than
+
+solitary species, indicating that they interact with more plant species overall, and have more interactions both within and among modules than do solitary species. Solitary species also had significantly more negative values of ia than social species. That is, solitary species were affected more by their interactors on average than were social species. Body size also affected some network traits. Larger species had more positive values of ia, while smaller species tended to have more negative values. In addition, specialization (d) was higher in larger species.
+Surprisingly, we found no association between the networks where phylogeny significantly determined ecological similarity of interactions and the networks where there was a phylogenetic signal in important traits such as floral
+
+13
+
+Oecologia
+
+ia d
+
+Mean metric value
+
+(a) Sexual system
+
+10 a
+0
+-10
+-20
+-30
+(f)
+
+b
+
+0.2
+
+(b) duration
+0.0 -2.5 -5.0
+(g)
+0.10
+
+0.0
+-0.2
+-0.4
+(k)
+1.5 1.0 0.5 0.0
+d gd gm o p
+
+0.05
+0.00
+-0.05
+(l)
+1.2 0.9 0.6 0.3 0.0
+long short
+
+(c) flower color
+2.5
+
+(d) growth form
+
+(e) symmetry
+
+2
+
+0.0 -2.5 -5.0
+(h)
+0.2
+0.0
+-0.2
+-0.4
+
+0.0
+-2.5
+-5.0
+(i)
+0.2
+0.1 a
+0.0
+-0.1
+
+0
+-2
+-4
+-6
+(j)
+0.10 0.05 0.00 b -0.05 -0.10
+
+(m)
+
+(n) b
+
+(o) b
+
+1.25
+
+1.0
+
+a 1.0
+
+1.00 a
+
+0.75
+
+0.5 0.5
+
+0.50
+
+0.0 0.25
+
+0.0 0.00
+
+B G PWY
+
+hw
+
+br
+
+Trait value
+
+z
+
+Fig.2Relationship between species-level interaction traits (c, d', ia, and z) and plant traits across all networks. See Fig. 1 for more information and abbreviations. Variables: sexual system [perfect (p); dioecious (d); gynomonoecious (gm); gynodioecious (gd); other, including monoecy, andromonoecy, androdioecy, etc. (o)]; life span [long
+
+lived (long), short lived (short)]; colour category [pink and red (P), white (W), yellow-orange (Y), purple-blue (B), greenish/brown/bur gundy (G)]; growth form [herb (h), woody (w)]; symmetry [bilaterally symmetrical (b), radially symmetrical (r)]
+
+symmetry (P  = 0.441; Fisher's two-tailed exact test) or sociality (P  = 0.323; Fisher's two-tailed exact test) indicating that there are further unmeasured or unappreciated traits with a phylogenetic signal that determine network structure more than the traits included here.
+How do phylogenetic and trait diversity affect wholenetwork structures?
+Modularity, weighted network connectance, and H2 were all significantly negatively related to network size (Table  3). There were no other significant main effects for H2, but there was a significant interaction between pollinator functional trait dispersion and pollinator phylogenetic diversity (Table 3), such that the effects of trait diversity and phylogenetic diversity interact to influence network structures. There was a significant and positive
+
+effect of plant functional diversity on weighted nestedness, such that more diverse communities with respect to plant traits lead to more nested networks. In addition, there was a relatively weak, but significant effect of plant phylogenetic diversity on weighted nestedness, such that communities with a more phylogenetically diverse set of plant species are associated with more nested networks. Last, there was a significant negative interaction between plant functional trait diversity and phylogenetic diversity. Because we were concerned about the possible effect of differences in sampling and focus on certain functional groups on our results, we re-ran these analyses excluding networks where the sampling was restricted to the bee community. We obtained qualitatively similar results for most of the analyses, with the exception of a stronger effect of mean phylogenetic plant diversity (MPDPL) on H2.
+
+13
+
+Oecologia
+Fig.3The relationship between species-level network metrics (c, d, ia, and z) and pollinator sociality across all networks. Bars are least square means of the mean values for each network ± SE. Asterisks indicate significant (P < 0.05) differences for each metric from post hoc Tukey tests. We only show data for sociality here (other categorical variables were not significant, but see discussion of body size in "Results"). See Fig. 1 for abbreviations
+
+(a) metric :c
+0
+-2
+-4
+-6 *
+-8
+(c) metric: d
+0.0
+
+(b) metric: ia
+0.0
+-0.5
+-1.0
+-1.5
+(d) metric: z
+0.0
+
+Mean metric value
+
+-0.2
+*-0.4
+
+-0.1 -0.2
+*-0.3
+
+-0.6
+
+Social
+
+-0.4
+
+Solitary
+
+Social
+
+Pollinator Sociality
+
+Solitary
+
+Table3The joint effects of trait diversity and phylogenetic diversity on network-level structures
+
+Term
+
+H2
+
+W. nestedness
+
+Modularity
+
+Est. P
+
+Est. P
+
+Est.
+
+P
+
+W. connectance Est. P
+
+NTOT FDisPO FDisPL MPDPO MPDPL FDisPO × MPDPO FDisPL × MPDPL
+
+-1.11 -0.93 -5.50
+0.00 0.00 0.01 0.01
+
+0.019 0.707 0.342 0.543 0.254 0.049 0.527
+
+0.77 -1.38 14.92
+0.00 0.01 -0.01 -0.03
+
+0.133 0.603 0.008 0.106 0.036 0.069 0.048
+
+-0.76 1.77
+-2.64 0.00 0.00 0.00 0.00
+
+0.006 0.236 0.449 0.096 0.417 0.892 0.858
+
+-1.09 -1.28
+1.67 0.00 0.00 0.00 0.00
+
+<0.001 0.171 0.466 0.928 0.516 0.631 0.463
+
+See "Materials and methods" for more details H2 Network-level specialization, W. nestedness weighted nestedness, W. connectance weighted connectance, NTOT total network size, FDisPO pollinator functional trait dispersion, FDisPL plant functional trait dispersion, MPDPO mean phylogenetic diversity of pollinators, MPDPL mean phylogenetic diversity of plants P < 0.05 in italic
+
+Discussion
+We asked whether species traits or phylogenetic history were more important in mediating network structure in
+
+47 mutualistic plant-pollinator networks. At the plant species level, sexual system, growth form, and flower symmetry were the most important traits. At the pollinator species level, social species had more connections within and
+
+13
+
+Oecologia
+
+among modules, and larger pollinators tended to be more specialized. Given some traits mediated species interactions and had a phylogenetic signal, we found that phylogenetically close species tend to interact with a similar set of species. At the network level, we found increasing functional trait and phylogenetic diversity of plants associated with increased weighted nestedness. We explore our findings in further detail below.
+Specieslevel network metrics
+A minority of networks (17 % or fewer) showed significant relationships between phylogeny and species-level metrics for either plants or pollinators. This was surprising given that the most important traits influencing these metrics were phylogenetically conserved in 41 % (floral symmetry) and 93 % (pollinator sociality) of networks examined. However, the finding that there was no association between the networks where important traits had a strong phylogenetic signal and the networks where phylogeny determined mutualistic partnerships indicates that phylogeny accounts for the effects of unmeasured traits to some degree. The large amount of remaining unexplained variance, however, suggests that other unmeasured factors that are not correlated with phylogeny (e.g. abundance, phenology) are of even greater importance than phylogenetic effects on species-level interaction metrics. More detailed examination of individual networks where abundance is measured independently of interaction frequencies would be needed to distinguish among these explanations.
+For pollinators, the only traits that were important for species-level network structures were sociality and body size. As expected (see Table 1), among-module connectivity was greater in social than in solitary species. This likely reflects the fact that social species are active longer in the season, thus interacting with more plant species, and individuals within a colony can specialize on different plant species (Fontaine et al. 2008), making the colony as a whole quite generalized (Cane and Sipes 2006). As expected (Table 1), we found that interaction asymmetry was greater (more positive) in social species than solitary species. Thus, solitary species visit mostly a few generalists, while social species visit multiple plant species, many of which are generalists. This pattern contributes to the nested pattern found in many mutualistic networks (Bascompte et al. 2003).
+Pollinator body size was important in specialization (d) and asymmetry, both of which were associated with an increase in body size (larger species are more specialized, and larger species have more positive asymmetry values, meaning that other species depend on them more than they depend on others). These findings also fit our expectations (Table 1), and the results of other studies (Woodward et al. 2005; Chamberlain and Holland 2009).
+
+For plants, three traits, sexual system, growth form, and flower symmetry, were often important in explaining species-level network structures. We lacked a clear expectation with respect to sexual system, yet found that gynomonecious plants (having both bisexual and female flowers on the same plant) had larger degree and were less specialized than plants with a perfect sexual system (each flower has both male and female structures). However, all gynomonecious plant species in our study were Asteraceae, raising the possibility that unmeasured trait(s) could be driving this difference between Asteraceae and plants from other families. Plant species that had an herbaceous growth form had lower z than woody species, which fit our expectation (Table  1). In addition, although we had no expectation, woody plants had a more positive mean asymmetry value, suggesting that other species depend on them more than they depend on other species. The importance of woody species (mostly sub-shrubs and shrubs, in our data set) may reflect larger plant size and therefore flower number, or a longer flowering period.
+Networklevel properties
+Overall, plant traits and their phylogenetic history emerged as slightly more important to network-level structures than those of pollinators. This result is inconsistent with that of Rezende et al. (2007), who showed that phylogenetic history was more often significantly related to network structure in animals than in plants. Rezende et al. (2007) suggested that differences in mobility or "evolvability" could be involved in the difference between animals and plants (Bronstein et al. 2006), with the presence of certain pollinator clades in networks in accordance to their preferences for particular suites of floral traits.
+In general, the overall effect of phylogeny on wholenetwork structures was generally weak compared to what was found in species-level metrics. This is not surprising because the species-level and network-level metrics examine different biological processes. The MPD parameter provides a metric of the overall amount of phylogenetic diversity in the community. The positive association of MPD of plants with nestedness could arise if some networks have a preponderance of certain clades where overlap in pollinators is especially low [e.g. monocots (Cortis et al. 2009)].
+A stronger pattern was observed with species-level metrics where phylogeny determines the number and identity of partnerships to some degree. We found little evidence that our included traits were driving this pattern because networks where phylogeny predicted interaction similarity were not the same networks where important traits had a strong phylogenetic signal, suggesting that other unmeasured traits that do have a phylogenetic signal are driving network structure.
+
+13
+
+Oecologia
+
+We found that nestedness increased with increasing plant functional diversity but otherwise found little to suggest that increased trait diversity was associated with whole-network metrics. This is a surprising result given that trait diversity is often thought to enhance maintenance of biodiversity and ecosystem function (Cardinale et al. 2012). There is evidence that high nestedness, connectance, and modularity can contribute to robustness in mutualistic networks (Dunne et al. 2002; Thébault and Fontaine 2010; Donatti et al. 2011). Our results suggest that increased trait diversity is only weakly associated with networks that are potentially less robust to species loss.
+Caveats
+When considering how traits influence ecological response variables, it is difficult to be sure that all possible important traits were measured. In this study, we included traits that were likely to be important variables in structuring communities. However, we were unable to include phenology or local abundance due to differences in the level of detail among data sets--basically sacrificing greater detail for the power that comes from including many different networks. Both phenology and local abundance have influenced visitation patterns in other pollination networks (Vázquez et al. 2007; Encinas-Viso et al. 2012). A more geographically restricted focus would be needed to enable this kind of indepth analysis. And, although we could have used the data we collected in each community to quantify network structure as a measure of abundance, this would mean that the same data would be used in the response and predictor variables in our models, violating a basic statistical assumption.
+We combined networks described as part of different research projects, and with two different collection methods, which could bias results. However, we have accounted for these differences by including region (where each region comprised a single study) and collection method in our models.
+Another potential source of error is variation in taxonomic sampling and level of identification--some taxonomic groups were sampled more thoroughly than others and some taxonomic groups were identified to species while others were identified to genus or higher. However, taxonomic identification was specific enough to unambiguously assign traits to taxa.
+Conclusion
+We found that certain traits (namely, sociality and body size in pollinators, and flower symmetry and growth form in plants) were important in mediating network structure in mutualistic plant-pollinator interaction networks in Western Canada. Many networks showed no evidence that phylogeny was important in determining species-level interaction
+
+metrics. At the network level, both functional trait and phylogenetic diversity had only weak effects on overall network structure. In contrast to previous studies, pollinator traits and phylogenetic history appear to be less important than those of plants in determining community-level network structure.
+Acknowledgments We thank one anonymous reviewer and Handling Editor Steve Johnson for suggestions that greatly improved this manuscript. We acknowledge funding from NSERC-CANPOLIN, the Canadian Pollination Initiative. Additional funding was provided by an Alberta Conservation Association Grants in Biodiversity Program grant to Megan Evans, an Agriculture and AgriFood Canada grant to Mark Wonnick, NSERC-DG to Ralph Cartar, and NSERC-DG to Elizabeth Elle. This is publication 96 of NSERC-CANPOLIN. The experiments comply with the current laws of the country (Canada) in which the experiments were performed.
+References
+Almeida-Neto M, Ulrich W (2011) A straightforward computational approach for measuring nestedness using quantitative matrices. Environ Model Softw 26:173­178
+Bascompte J, Jordano P (2007) Plant-animal mutualistic networks: the architecture of biodiversity. Annu Rev Ecol Evol Syst 38:567­593
+Bascompte J, Jordano P, Melián CJ, Olesen JM (2003) The nested assembly of plant­animal mutualistic networks. Proc Natl Acad Sci 100:9383­9387
+Bascompte J, Jordano P, Olesen JM (2006) Asymmetric coevolutionary networks facilitate biodiversity maintenance. Science 312:431­433
+Bates D, Maechler M, Bolker B, et al. (2012) lme4: linear mixedeffects models using S4 classes. R package version 0.999999-0
+Blomberg SP, Garland T Jr, Ives AR (2003) Testing for phylogenetic signal in comparative data: behavioral traits are more labile. Evolution 57:717­745
+Blüthgen N, Menzel F, Blüthgen N (2006) Measuring specialization in species interaction networks. BMC Ecol 6:9. doi:10.1186/1472-6785-6-9
+Botta-Dukát Z (2005) Rao's quadratic entropy as a measure of functional diversity based on multiple traits. J Veg Sci 16:533­540
+Bronstein JL, Alarcón R, Geber M (2006) The evolution of plant­ insect mutualisms. New Phytol 172:412­428
+Cagnolo L, Salvo A, Valladares G (2011) Network topology: patterns and mechanisms in plant-herbivore and host-parasitoid food webs. J Anim Ecol 80:342­351
+Cane JH (1987) Estimation of bee size using intertegular span (Apoidea). J Kans Entomol Soc 60:145-147
+Cane JH, Sipes S (2006) Characterizing floral specialization by bees: analytical methods and a revised lexicon for oligolecty. Plant-Pollinator Interact Spec Gen Univ Chic Press Chic Lond, pp 99­122
+Cardinale BJ, Duffy JE, Gonzalez A, et al. (2012) Biodiversity loss and its impact on humanity. Nature 486:59­67
+Chamberlain SA, Holland JN (2009) Quantitative synthesis of context dependency in ant-plant protection mutualisms. Ecology 90:2384­2392. doi:10.1890/08-1490.1
+Clarke D, Whitney H, Sutton G, Robert D (2013) Detection and learning of floral electric fields by bumblebees. Science 340:66­69
+Cortis P, Vereecken N, Schiestl F, et al. (2009) Pollinator convergence and the nature of species' boundaries in sympatric Sardinian Ophrys (Orchidaceae). Ann Bot 104:497­506
+
+13
+
+Oecologia
+
+Cribari-neto F, Zeileis A (2010) Beta regression in R. J Stat Softw 34:1­24
+Danieli-Silva A, De Souza JMT, Donatti AJ, et al. (2012) Do pollination syndromes cause modularity and predict interactions in a pollination network in tropical high-altitude grasslands? Oikos 121:35­43
+Donatti CI, Guimarães PR, Galetti M, et al. (2011) Analysis of a hyper-diverse seed dispersal network: modularity and underlying mechanisms. Ecol Lett 14:773­781
+Dormann CF (2011) How to be a specialist? Quantifying specialisation in pollination networks. Netw Biol 1:1­20
+Dunne JA, Williams RJ, Martinez ND (2002) Network structure and biodiversity loss in food webs: robustness increases with connectance. Ecol Lett 5:558­567
+Elle E, Elwell SL, Gielens GA (2012) The use of pollination networks in conservation. 1. Botany 90:525­534
+Encinas-Viso F, Revilla TA, Etienne RS (2012) Phenology drives mutualistic network structure and diversity. Ecol Lett 15:198­208
+Flora of North America Editorial (2002) Flora of North America: Magnoliophyta: Commelinidae (in Part): Cyperaceae, vol 23. Oxford University Press, Oxford
+Fontaine C, Collin CL, Dajoz I (2008) Generalist foraging of pollinators: diet expansion at high density. J Ecol 96:1002­1010
+Fritz SA, Purvis A (2010) Selectivity in mammalian extinction risk and threat types: a new measure of phylogenetic signal strength in binary traits. Conserv Biol 24:1042­1051
+Gibson RH, Knott B, Eberlein T, Memmott J (2011) Sampling method influences the structure of plant-pollinator networks. Oikos 120:822­831
+Greenleaf SS, Williams NM, Winfree R, Kremen C (2007) Bee foraging ranges and their relationship to body size. Oecologia 153:589­596
+Guimera R, Amaral LAN (2005a) Functional cartography of complex metabolic networks. Nature 433:895­900
+Guimera R, Amaral LAN (2005b) Cartography of complex networks: modules and universal roles. J Stat Mech Theory Exp 2005:P02001
+Harmon LJ, Glor RE (2010) Poor statistical performance of the Mantel test in phylogenetic comparative analyses. Evolution 64:2173­2178
+Hedges SB, Dudley J, Kumar S (2006) TimeTree: a public knowledge-base of divergence times among organisms. Bioinformatics 22:2971­2972
+Junker RR, Höcherl N, Blüthgen N (2010) Responses to olfactory signals reflect network structure of flower-visitor interactions. J Anim Ecol 79:818­823
+Junker RR, Blüthgen N, Brehm T, et al. (2013) Specialization on traits as basis for the niche-breadth of flower visitors and as structuring mechanism of ecological networks. Funct Ecol 27:329­341. doi:10.1111/1365-2435.12005
+Klinkenberg B (2012) E-Flora BC: atlas of the plants of British Columbia. http://www.eflora.bc.ca
+
+Laliberté E, Legendre P (2010) A distance-based framework for measuring functional diversity from multiple traits. Ecology 91:299­305
+Maddison WP, Maddison DR (2011) Mesquite: a modular system for evolutionary analysis. Version 2.75. http://mesquiteproject.org
+Michener CD (2007) The bees of the world, 2nd edn. John Hopkins University Press, Baltimore
+Oksanen J, Blanchet FG, Kindt R, et al. (2013) vegan: community ecology package. R package version 20-6. http:// cran.r-project.org/web/packages/vegan/
+Olesen JM, Bascompte J, Dupont YL, Jordano P (2007) The modularity of pollination networks. Proc Natl Acad Sci 104:19891­19896
+Paine RT (1980) Food webs: linkage, interaction strength and community infrastructure. J Anim Ecol 49:667­685
+Paradis E, Claude J, Strimmer K (2004) APE: analyses of phylogenetics and evolution in R language. Bioinformatics 20:289­290
+Rezende EL, Lavabre JE, Guimarães PR, et al. (2007) Non-random coextinctions in phylogenetically structured mutualistic networks. Nature 448:925­928
+Sabo JL, Bastow JL, Power ME (2002) Length-mass relationships for adult aquatic and terrestrial invertebrates in a California watershed. J North Am Benthol Soc 21:336­343
+Santamaría L, Rodríguez-Gironés MA (2007) Linkage rules for plant­pollinator networks: trait complementarity or exploitation barriers? PLoS Biol 5:e31. doi:10.1371/journal.pbio.0050031
+Stang M, Klinkhamer PG, Van Der Meijden E (2006) Size constraints and flower abundance determine the number of interactions in a plant­flower visitor web. Oikos 112:111­121
+Thébault E, Fontaine C (2010) Stability of ecological communities and the architecture of mutualistic and trophic networks. Science 329:853­856
+Tylianakis JM, Tscharntke T, Lewis OT (2007) Habitat modification alters the structure of tropical host­parasitoid food webs. Nature 445:202­205
+Vázquez DP, Melián CJ, Williams NM, et al. (2007) Species abundance and asymmetric interaction strength in ecological networks. Oikos 116:1120­1127
+Vázquez DP, Chacoff NP, Cagnolo L (2009) Evaluating multiple determinants of the structure of plant-animal mutualistic networks. Ecology 90:2039­2046
+Webb CO, Donoghue MJ (2004) Phylomatic: tree assembly for applied phylogenetics. Mol Ecol Notes 5:181­183
+Webb CO, Ackerly DD, Kembel SW (2008) Phylocom: software for the analysis of phylogenetic community structure and trait evolution. Bioinformatics 24:2098­2100
+Wikstrom N, Savolainen V, Chase MW (2001) Evolution of the angiosperms: calibrating the family tree. Proc R Soc B Biol Sci 268:2211­2220. doi:10.1098/rspb.2001.1782
+Woodward G, Ebenman B, Emmerson M, et al. (2005) Body size in ecological networks. Trends Ecol Evol 20:402­409
+
+13
+
+
