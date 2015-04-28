@@ -8,8 +8,8 @@ title: Home
 ### Software
 
 * R >> [taxize][taxize] - [rgbif][rgbif] - [rplos][rplos] - [alm][alm] - [solr][solr]
-* Python >> [pytaxize](https://github.com/sckott/pytaxize) - [pyalm](https://github.com/cameronneylon/pyalm)
-* Ruby >> [cites](https://github.com/sckott/cites) - [alm](https://github.com/sckott/alm)
+* Python >> [pytaxize](https://github.com/sckott/pytaxize) - [pyalm](https://github.com/articlemetrics/pyalm)
+* Ruby >> [cites](https://github.com/sckott/cites) - [alm](https://github.com/articlemetrics/lagotto-rb)
 * [more software](/software)
 
 <i class="fa fa-github"></i> See the rest <a href="https://github.com/sckott/" target="_blank">on Github</a>

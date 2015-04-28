@@ -26,9 +26,9 @@ Most of these are collaborative projects, of which I am the maintainer
 ## Python
 
 [pytaxize](https://github.com/sckott/pytaxize) <i class="fa fa-chevron-right"></i> A Python port of the R taxize library.</br>
-[pyalm](https://github.com/cameronneylon/pyalm) <i class="fa fa-chevron-right"></i> A Python client for the PLOS Lagotto altmetrics application.
+[pyalm](https://github.com/articlemetrics/pyalm) <i class="fa fa-chevron-right"></i> A Python client for the PLOS Lagotto altmetrics application.
 
 ## Ruby
 
 [cites](https://github.com/sckott/cites) <i class="fa fa-chevron-right"></i> Search for and get citations from the command line.</br>
-[alm](https://github.com/sckott/alm) <i class="fa fa-chevron-right"></i> A Ruby gem for the PLOS Lagotto altmetrics application.
+[alm](https://github.com/articlemetrics/lagotto-rb) <i class="fa fa-chevron-right"></i> A Ruby gem for the PLOS Lagotto altmetrics application.
