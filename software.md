@@ -21,7 +21,16 @@ Most of these are collaborative projects, of which I am the maintainer
 [rbhl](https://github.com/ropensci/rbhl) <i class="fa fa-chevron-right"></i> R client for the Biodiversity Heritage Library</br>
 [httping](https://github.com/sckott/httping) <i class="fa fa-chevron-right"></i> R client to ping urls to time requests.</br>
 [rcrossref](https://github.com/ropensci/rcrossref) <i class="fa fa-chevron-right"></i> R client for various CrossRef APIs</br>
-[vcr](https://github.com/ropensci/vcr) <i class="fa fa-chevron-right"></i> Record HTTP calls and replay them. Port of the Ruby gem of the same name.
+[vcr](https://github.com/ropensci/vcr) <i class="fa fa-chevron-right"></i> Record HTTP calls and replay them. Port of the Ruby gem of the same name.</br>
+[rbison](https://github.com/ropensci/rbison) <i class="fa fa-chevron-right"></i> Wrapper to the USGS Bison API.</br>
+[rerddap](https://github.com/ropensci/rerddap) <i class="fa fa-chevron-right"></i> Work with [ERDDAP](http://upwell.pfeg.noaa.gov/erddap/index.html) servers.</br>
+[musemeta](https://github.com/ropensci/musemeta) <i class="fa fa-chevron-right"></i> Scrape Museum Metadata.</br>
+[gistr](https://github.com/ropensci/gistr) <i class="fa fa-chevron-right"></i> Interact with GitHub gists from R.</br>
+[rif](https://github.com/ropensci/rif) <i class="fa fa-chevron-right"></i> [
+Neuroscience Information Network](http://neuinfo.org/) client.</br>
+[lawn](https://github.com/ropensci/lawn) <i class="fa fa-chevron-right"></i> [turf.js](http://turfjs.org/) R client.</br>
+[geojsonio](https://github.com/ropensci/geojsonio) <i class="fa fa-chevron-right"></i> Convert many data formats to & from GeoJSON & TopoJSON.</br>
+[wellknown](https://github.com/ropensci/wellknown) <i class="fa fa-chevron-right"></i> Go from well known text to GeoJSON and back.
 
 ## Python
 

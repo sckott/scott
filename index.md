@@ -10,6 +10,7 @@ title: Home
 * R >> [taxize][taxize] - [rgbif][rgbif] - [rplos][rplos] - [alm][alm] - [solr][solr]
 * Python >> [pytaxize](https://github.com/sckott/pytaxize) - [pyalm](https://github.com/articlemetrics/pyalm)
 * Ruby >> [cites](https://github.com/sckott/cites) - [alm](https://github.com/articlemetrics/lagotto-rb)
+* Web Services >> [fishbaseapi](https://github.com/ropensci/fishbaseapi), a Ruby Sinatra RESTful API - along w/ [Carl Boettiger][cboettig]
 * [more software](/software)
 
 <i class="fa fa-github"></i> See the rest <a href="https://github.com/sckott/" target="_blank">on Github</a>
@@ -26,3 +27,5 @@ title: Home
 [alm]: https://github.com/ropensci/alm
 [solr]: https://github.com/ropensci/solr
 [pubs]: /publications
+[cboettig]: https://github.com/cboettig/
+
