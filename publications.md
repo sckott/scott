@@ -3,6 +3,7 @@ layout: page
 title: Publications
 ---
 
++ Guo H, Chamberlain SA, Elhaik E, Jalli I, Lynes A-R, et al. 2015. Geographic Variation in Plant Community Structure of Salt Marshes: Species, Functional and Phylogenetic Perspectives. PLoS ONE 10(5): e0127781. doi: 10.1371/journal.pone.0127781 [web][websaltmarsh] [pdf][pdf23]
 + Mair, P, and S. Chamberlain. 2014. Web Technologies Task View. The R Journal 6(1): 178-181.  [web][webtechweb] [pdf][pdf22]
 <br/>
 + Revell, L., S.A. Chamberlain. 2014. Rphylip: An R interface for PHYLIP. _Methods in Ecology & Evolution_ [web][rphylipweb] [pdf][pdf21]
@@ -50,10 +51,6 @@ title: Publications
 <br/>
 <br/>
 
-### In review
-
-+ Hongyu Guo, Scott A. Chamberlain, Eran Elhaik, Inder Jalli, Alana-Rose Lynes, Laurie Marczak, Niv Sabath, Amy Vargas, Kazimierz Więski, Emily M. Zelig, and Steven C. Pennings. In Review at Global Ecology and Biogeography. Biogeographic variation in plant community structure of salt marshes: species, functional and phylogenetic perspectives.
-
 [pdf1]: {{ url }}/pdfs/Chamberlain&Rudgers2011EvolEcol.pdf
 [pdf2]: {{ url }}/pdfs/HollandEtal2011Oikos.pdf
 [pdf3]: {{ url }}/pdfs/ChamberlainEtal2010Oecologia_journalcopy.pdf
@@ -75,6 +72,7 @@ title: Publications
 [pdf20]: {{ url }}/pdfs/ChamberlainEtal2014EcolLett.pdf
 [pdf21]: {{ url }}/pdfs/Revell&Chamberlain2014MEE.pdf
 [pdf22]: {{ url }}/pdfs/Mair&Chamberlain2014RJournal.pdf
+[pdf23]: {{ url }}/pdfs/GuoEtal2015PlosOne.pdf
 [f1000web]: http://f1000research.com/articles/2-191/v2
 [isqpaper]: https://github.com/sckott/isqaltms
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
@@ -85,3 +83,4 @@ title: Publications
 [rphylipweb]: http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12233/abstract
 [webtechweb]: http://journal.r-project.org/archive/2014-1/
 [oecologiaweb]: http://escholarship.org/uc/item/2483w551
+[websaltmarsh]: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127781

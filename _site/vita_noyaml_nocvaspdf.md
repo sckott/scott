@@ -26,6 +26,7 @@ Work Experience
 
 Publications
 ------------
++ Guo H, Chamberlain SA, Elhaik E, Jalli I, Lynes A-R, et al. 2015. Geographic Variation in Plant Community Structure of Salt Marshes: Species, Functional and Phylogenetic Perspectives. PLoS ONE 10(5): e0127781. doi: 10.1371/journal.pone.0127781 [web][websaltmarsh] [pdf][pdf23]
 + Mair, P, and S. Chamberlain. 2014. Web Technologies Task View. The R Journal 6(1): 178-181. [web][webtechweb] [pdf][pdf22]
 + Revell, L., S.A. Chamberlain. 2014. Rphylip: An R interface for PHYLIP. Methods in Ecology & Evolution [web][rphylipweb] [pdf][pdf21]
 + Chamberlain, S.A., et al. 2014. Traits and phylogenetic history contribute to network structure across Canadian plant-pollinator communities. _Oecologia_ [web][oecologiaweb]
@@ -71,6 +72,7 @@ Publications
 [pdf20]: {{ url }}/pdfs/ChamberlainEtal2014EcolLett.pdf
 [pdf21]: {{ url }}/pdfs/Revell&Chamberlain2014MEE.pdf
 [pdf22]: {{ url }}/pdfs/Mair&Chamberlain2014RJournal.pdf
+[pdf23]: {{ url }}/pdfs/GuoEtal2015PlosOne.pdf
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
 [isqpaper]: https://github.com/sckott/isqaltms
 [taxizepaper]: https://github.com/ropensci/taxize_/tree/dev_ms/f1000_rev
@@ -81,6 +83,7 @@ Publications
 [rphylipweb]: http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12233/abstract
 [webtechweb]: http://journal.r-project.org/archive/2014-1/
 [oecologiaweb]: http://escholarship.org/uc/item/2483w551
+[websaltmarsh]: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127781
 
 Academic Presentations
 -------------
@@ -127,7 +130,7 @@ Extramural service and community outreach
 Peer review service
 -------
 
-African Journal of Agricultural Research, Agricultural & Forest Entomology (2), The American Naturalist, Annals of Botany (2), Biological Invasions, Ecography, Ecological Complexity, Ecological Entomology, Ecology (2), Ecology Letters, Environmental Management, Evolutionary Ecology, Florida Entomologist (2), Journal of Avian Biology, Journal of Tropical Ecology, Methods in Ecology and Evolution, New Phytologist, Oecologia, Oikos (3), Plant Ecology, Population Ecology (2), Proceedings of the Royal Society B, The R Journal
+African Journal of Agricultural Research, Agricultural & Forest Entomology (2), The American Naturalist, Annals of Botany (2), Biodiversity Data Journal, Biological Invasions, Ecography (2), Ecological Complexity, Ecological Entomology, Ecological Complexity, Ecology (3), Ecology Letters, Ecology and Evolution, Environmental Management, Evolutionary Ecology, Florida Entomologist (2), Journal of Avian Biology, Journal of Ecology (4), Journal of Tropical Ecology, Methods in Ecology and Evolution (3), New Phytologist, Oecologia, Oikos (3), Plant Ecology, PLOS One (2), Population Ecology (2), Proceedings of the Royal Society B, The R Journal
 
 
 References
