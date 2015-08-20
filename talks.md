@@ -6,6 +6,7 @@ title: Talks
 ### Get the code for these talks at GitHub <a href="https://github.com/sckott/talks" target="_blank">here</a>
 
 <ul>
+  <li><em>solr - an R client for Apache Solr</em> at the <a href="http://www.meetup.com/SFBay-Lucene-Solr-Meetup/events/224315905/" target="_blank">SFBay Apache Lucene/Solr Meetup at Stanford</a>, August 20<sup>th</sup>, 2015 <a href="http://recology.info/talks/sfbaysolr" target="_blank">Slides</a> </li>
   <li><em>Building tools and community for open and reproducible research</em> at <a href="https://www.stat.sfu.ca/research/seminars.html" target="_blank">Simon Fraser University</a>, Nov 7<sup>th</sup>, 2014 <a href="http://recology.info/talks/sfustats/" target="_blank">Slides</a> </li>
   <li><em>Cultivating open and reproducible science</em> at <a href="http://iob.uga.edu/event/bioinformatics-seminar-13/" target="_blank">University of Georgia</a>, Sep 26<sup>th</sup>, 2014 <a href="http://recology.info/talks/uga/" target="_blank">Slides</a> </li>
   <li><em>A Data Toolkit for Open Science</em> at <a href="http://qcbs.ca/events/qcbs-annual-symposium/qcbs-2013-symposium/" target="_blank">Montreal QCBS meeting</a>, Dec 11-13, 2013 <a href="http://recology.info/talks/montreal/" target="_blank">Slides</a> </li>  
