@@ -11,7 +11,7 @@ date: 2014-07-18
 - Website: [scottchamberlain.info](http://scottchamberlain.info)
 - Blog: [recology.info](http://recology.info)
 - LinkedIn: [linkedin.com/profile/view?id=198453270](http://www.linkedin.com/profile/view?id=198453270)
-- Twitter: <a href="https://twitter.com/recology_">@recology_</a>
+- Twitter: <a href="https://twitter.com/sckottie">@sckottie</a>
 - Email: [scott@ropensci.org](mailto:scott@ropensci.org)
 
 Education
