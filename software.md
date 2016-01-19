@@ -11,13 +11,13 @@ Most of these are collaborative projects, of which I am the maintainer
 [rgbif](https://github.com/ropensci/rgbif) <i class="fa fa-chevron-right"></i> Interface to GBIF.</br>
 [rplos](https://github.com/ropensci/rplos) <i class="fa fa-chevron-right"></i> Interace to the Public Library of Science search API.</br>
 [alm](https://github.com/ropensci/alm) <i class="fa fa-chevron-right"></i> An R client for the PLOS Lagotto altmetrics application.</br>
-[solr](https://github.com/ropensci/solr) <i class="fa fa-chevron-right"></i> R client for Apache SOLR.</br>
+[solrium](https://github.com/ropensci/solrium) <i class="fa fa-chevron-right"></i> R client for Apache SOLR.</br>
 [elastic](https://github.com/ropensci/elastic) <i class="fa fa-chevron-right"></i> R client for Elasticsearch.</br>
 [analogsea](https://github.com/sckott/analogsea) <i class="fa fa-chevron-right"></i> R client for [Digital Ocean](https://www.digitalocean.com/)</br>
 [rnoaa](https://github.com/sckott/rnoaa) <i class="fa fa-chevron-right"></i> R client for many NOAA datasets</br>
 [rphylopic](https://github.com/sckott/rphylopic) <i class="fa fa-chevron-right"></i> R client for [Phylopic](http://phylopic.org/)</br>
 [cowsay](https://github.com/sckott/cowsay) <i class="fa fa-chevron-right"></i> Like the command line program `cowsay`, but for R</br>
-[rgauges](https://github.com/ropensci/rgauges) <i class="fa fa-chevron-right"></i> R client for Gaug.es website analytics API</br>
+[rgauges](https://github.com/ropensci/rgauges) <i class="fa fa-chevron-right"></i> R client for Gaug.es website analytics API</br> (defunct)
 [rbhl](https://github.com/ropensci/rbhl) <i class="fa fa-chevron-right"></i> R client for the Biodiversity Heritage Library</br>
 [httping](https://github.com/sckott/httping) <i class="fa fa-chevron-right"></i> R client to ping urls to time requests.</br>
 [rcrossref](https://github.com/ropensci/rcrossref) <i class="fa fa-chevron-right"></i> R client for various CrossRef APIs</br>
@@ -34,10 +34,17 @@ Neuroscience Information Network](http://neuinfo.org/) client.</br>
 
 ## Python
 
-[pytaxize](https://github.com/sckott/pytaxize) <i class="fa fa-chevron-right"></i> A Python port of the R taxize library.</br>
-[pyalm](https://github.com/articlemetrics/pyalm) <i class="fa fa-chevron-right"></i> A Python client for the PLOS Lagotto altmetrics application.
+[habanero](https://github.com/sckott/habanero) <i class="fa fa-chevron-right"></i> A Python client for the [Crossref search API][crapi].</br>
+[pygbif](https://github.com/sckott/pygbif) <i class="fa fa-chevron-right"></i> A Python client for the [GBIF API](http://www.gbif.org/developer/summary).</br>
+[pytaxize](https://github.com/sckott/pytaxize) <i class="fa fa-chevron-right"></i> A Python port of the [R taxize library](https://github.com/ropensci/taxize).</br>
+[pyalm](https://github.com/lagotto/pyalm) <i class="fa fa-chevron-right"></i> A Python client for the [Lagotto API](http://www.lagotto.io/).
 
 ## Ruby
 
+[serrano](https://github.com/sckott/serrano) <i class="fa fa-chevron-right"></i> A Python client for the [Crossref search API][crapi].</br>
+[textminer](https://github.com/sckott/textminer) <i class="fa fa-chevron-right"></i> Client to do text-mining via Crossref metadata - built on [serrano](https://github.com/sckott/serrano).</br>
 [cites](https://github.com/sckott/cites) <i class="fa fa-chevron-right"></i> Search for and get citations from the command line.</br>
-[alm](https://github.com/articlemetrics/lagotto-rb) <i class="fa fa-chevron-right"></i> A Ruby gem for the PLOS Lagotto altmetrics application.
+[lagotto-rb](https://github.com/lagotto/lagotto-rb) <i class="fa fa-chevron-right"></i> A Ruby gem for the PLOS Lagotto altmetrics application.
+
+[crapi]: https://github.com/CrossRef/rest-api-doc/blob/master/rest_api.md
+
