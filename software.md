@@ -44,7 +44,9 @@ Neuroscience Information Network](http://neuinfo.org/) client.</br>
 [serrano](https://github.com/sckott/serrano) <i class="fa fa-chevron-right"></i> A Python client for the [Crossref search API][crapi].</br>
 [textminer](https://github.com/sckott/textminer) <i class="fa fa-chevron-right"></i> Client to do text-mining via Crossref metadata - built on [serrano](https://github.com/sckott/serrano).</br>
 [cites](https://github.com/sckott/cites) <i class="fa fa-chevron-right"></i> Search for and get citations from the command line.</br>
-[lagotto-rb](https://github.com/lagotto/lagotto-rb) <i class="fa fa-chevron-right"></i> A Ruby gem for the PLOS Lagotto altmetrics application.
+[lagotto-rb](https://github.com/lagotto/lagotto-rb) <i class="fa fa-chevron-right"></i> A Ruby gem for the PLOS Lagotto altmetrics application.</br>
+[veyor](https://github.com/sckott/veyor) <i class="fa fa-chevron-right"></i> A Ruby gem for the Appveyor API.</br>
+[rubrb](https://github.com/sckott/rubrb) <i class="fa fa-chevron-right"></i> A command line tool to help with R tasks - a weird thing, I know.
 
 [crapi]: https://github.com/CrossRef/rest-api-doc/blob/master/rest_api.md
 
