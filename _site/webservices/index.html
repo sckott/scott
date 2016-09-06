@@ -10,7 +10,7 @@
 
   <title>
     
-      Scott Chamberlain &middot; programmerist
+      WebServices &middot; Scott Chamberlain
     
   </title>
 
@@ -43,7 +43,7 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item active" href="/">Home</a>
+    <a class="sidebar-nav-item" href="/">Home</a>
 
     
 
@@ -107,7 +107,7 @@
     
       
         
-          <a class="sidebar-nav-item" href="/webservices/">WebServices</a>
+          <a class="sidebar-nav-item active" href="/webservices/">WebServices</a>
         
       
     
@@ -136,28 +136,57 @@
       </div>
 
       <div class="container content">
-        <h3 id="i-co-founded-a-developer-collective-called-a-hrefhttpropensciorgropenscia-to-help-connect-open-source-data-into-the-r-environment-i-work-full-time-on-ropensci">I co-founded a developer collective called <a href="http://ropensci.org/">rOpenSci</a> to help connect open source data into the R environment. I work full time on rOpenSci.</h3>
+        <div class="page">
+  <h1 class="page-title">WebServices</h1>
+  <h2 id="fishbase-api">Fishbase API</h2>
 
-<h3 id="software">Software</h3>
-
-<ul>
-  <li>R » <a href="https://github.com/ropensci/taxize">taxize</a> - <a href="https://github.com/ropensci/rgbif">rgbif</a> - <a href="https://github.com/ropensci/rplos">rplos</a> - <a href="https://github.com/ropensci/elastic">elastic</a> - <a href="https://github.com/ropensci/solrium">solrium</a> - <a href="https://github.com/ropensci/jqr">jqr</a> - <a href="https://github.com/sckott/analogsea">analogsea</a> - <a href="https://github.com/sckott/request">request</a></li>
-  <li>Python » <a href="https://github.com/sckott/habanero">habanero</a> - <a href="https://github.com/sckott/pytaxize">pytaxize</a> - <a href="https://github.com/sckott/pygbif">pygbif</a> - <a href="https://github.com/lagotto/pyalm">pyalm</a></li>
-  <li>Ruby » <a href="https://github.com/sckott/serrano">serrano</a> - <a href="https://github.com/sckott/textminer">textminer</a> - <a href="https://github.com/sckott/cites">cites</a> - <a href="https://github.com/lagotto/lagotto-rb">lagotto-rb</a> - <a href="https://github.com/sckott/veyor">veyor</a></li>
-  <li>Web Services » See the <a href="/webservices">webservices</a> page</li>
-  <li><a href="/software">more software</a></li>
-</ul>
-
-<p><i class="fa fa-github"></i> See the rest <a href="https://github.com/sckott/" target="_blank">on Github</a></p>
-
-<h3 id="other-stuff">Other stuff</h3>
+<p>API for <a href="http://www.fishbase.org">http://www.fishbase.org</a></p>
 
 <ul>
-  <li><a href="http://rforcats.net">R for cats - Or R for beginners</a></li>
+  <li>source: <a href="https://github.com/ropensci/fishbaseapi">ropensci/fishbaseapi</a></li>
+  <li>base URL <a href="https://fishbase.ropensci.org">https://fishbase.ropensci.org</a></li>
+  <li>in collaboration w/ <a href="https://github.com/cboettig/">Carl Boettiger</a></li>
 </ul>
 
-<h3 id="i-used-to-be-an-ecologist-see-my-pubspubs">&gt; I used to be an ecologist. See my <a href="/publications">pubs</a>.</h3>
+<h2 id="usda-plants-database-api">USDA plants database API</h2>
 
+<p>API for <a href="http://plants.usda.gov/java/">http://plants.usda.gov/java/</a></p>
+
+<ul>
+  <li>source: <a href="https://github.com/sckott/usdaplantsapi">sckott/usdaplantsapi</a></li>
+  <li>base URL <a href="https://plantsdb.xyz">https://plantsdb.xyz</a></li>
+</ul>
+
+<h2 id="ropensci-api">rOpenSci API</h2>
+
+<p>API for <a href="https://ropensci.org">https://ropensci.org</a> packages, citations, etc.</p>
+
+<ul>
+  <li>source: <a href="https://github.com/ropensci/roapi">ropensci/roapi</a></li>
+  <li>base URL <a href="https://roapi.org">https://roapi.org</a></li>
+</ul>
+
+<h2 id="gbids-api">GBIDS API</h2>
+
+<p>API for ID checking and conversion for Genbank IDs</p>
+
+<ul>
+  <li>source: <a href="https://github.com/sckott/gbids">sckott/gbids</a></li>
+  <li>base URL <a href="https://gbids.xyz">https://gbids.xyz</a></li>
+</ul>
+
+<h2 id="technologies-used">Technologies used</h2>
+
+<ul>
+  <li>All above use the <a href="http://www.sinatrarb.com">Ruby Sinatra API framework</a></li>
+  <li>Some use Docker, some do not</li>
+  <li>MySQL or PostgreSQL used as the DB</li>
+  <li>Server is <a href="https://caddyserver.com/">Caddy</a> for all</li>
+  <li><a href="http://redis.io/">Redis</a> used for caching for all</li>
+</ul>
+
+
+</div>
 
       </div>
     </div>
