@@ -6,6 +6,7 @@ title: Talks
 ### Get the code for these talks at GitHub <a href="https://github.com/sckott/talks" target="_blank">here</a>
 
 <ul>
+  <li><em>request - easier HTTP requests</em>, a talk at the <a href="http://www.crossref.org/annualmeeting/agenda.html" target="_blank">Portland R meetup group</a>, July 12<sup>th</sup>, 2016 <a href="http://recology.info/talks/request" target="_blank">Slides</a> <a href="https://www.youtube.com/watch?v=B3zkgt04mNE">Video</a> </li>
   <li><em>Thinking programmatically</em>, a keynote talk at the <a href="http://www.crossref.org/annualmeeting/agenda.html" target="_blank">Crossref Annual Meeting</a>, November 18<sup>th</sup>, 2015 <a href="http://recology.info/talks/cr-talk" target="_blank">Slides</a> <a href="https://crossref.wistia.com/medias/w5eftc2u7m">Video</a> </li>
   <li><em>Crossref clients - R, Python, Ruby</em> at the <a href="http://www.crossref.org/annualmeeting/agenda.html" target="_blank">Crossref Annual Meeting</a>, November 17<sup>th</sup>, 2015 <a href="http://recology.info/talks/cr-tech" target="_blank">Slides</a> <a href="https://crossref.wistia.com/medias/8rh0jm5eda">Video</a> </li>
   <li><em>solr - an R client for Apache Solr</em> at the <a href="http://www.meetup.com/SFBay-Lucene-Solr-Meetup/events/224315905/" target="_blank">SFBay Apache Lucene/Solr Meetup at Stanford</a>, August 20<sup>th</sup>, 2015 <a href="http://recology.info/talks/sfbaysolr" target="_blank">Slides</a> </li>
