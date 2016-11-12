@@ -1,6 +1,5 @@
 # Dependencies
 highlighter:         rouge
-gems: [httparty]
 
 # Permalinks
 permalink:        pretty
