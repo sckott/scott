@@ -3,7 +3,9 @@ layout: page
 title: Talks
 ---
 
-### Get the code for these talks at GitHub <a href="https://github.com/sckott/talks" target="_blank">here</a>
+### Get the code for these talks at <a href="https://github.com/sckott/talks" target="_blank">sckott/talks</a>
+
+Talks at <https://scotttalks.info>
 
 <ul>
   <li><em>request - easier HTTP requests</em>, a talk at the <a href="http://www.crossref.org/annualmeeting/agenda.html" target="_blank">Portland R meetup group</a>, July 12<sup>th</sup>, 2016 <a href="https://scotttalks.info/request" target="_blank">Slides</a> <a href="https://www.youtube.com/watch?v=B3zkgt04mNE">Video</a> </li>
