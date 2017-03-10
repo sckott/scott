@@ -25,19 +25,26 @@ API for <https://ropensci.org> packages, citations, etc.
 * source: [ropensci/roapi](https://github.com/ropensci/roapi)
 * base URL <https://roapi.org>
 
-## GBIDS API
+## TraitsDB API
 
-API for ID checking and conversion for Genbank IDs
+API for traits data - very much a work in progress - would love your thoughts at <https://github.com/sckott/traitdb/issues/1>
 
-* source: [sckott/gbids](https://github.com/sckott/gbids)
-* base URL <https://gbids.xyz>
+* source: [sckott/traitdb](https://github.com/sckott/traitdb)
+* base URL <https://traits.party/>
+
+## Full Text DOI API
+
+API for resolving DOIs to full text URLs (if available)
+
+* source: [ropenscilabs/pubpatternsapi](https://github.com/ropenscilabs/pubpatternsapi)
+* base URL <https://ftdoi.org/>
 
 ## Technologies used
 
 * All above use the [Ruby Sinatra API framework](http://www.sinatrarb.com)
 * Some use Docker, some do not
-* MySQL or PostgreSQL used as the DB
-* Server is [Caddy](https://caddyserver.com/) for all
-* [Redis](http://redis.io/) used for caching for all
+* MySQL or PostgreSQL or SQLite used as the DB
+* Server is always [Caddy](https://caddyserver.com/)
+* [Redis](http://redis.io/) used for caching for some (other's don't have caching)
 
 [cboettig]: https://github.com/cboettig/

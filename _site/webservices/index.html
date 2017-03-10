@@ -166,13 +166,22 @@
   <li>base URL <a href="https://roapi.org">https://roapi.org</a></li>
 </ul>
 
-<h2 id="gbids-api">GBIDS API</h2>
+<h2 id="traitsdb-api">TraitsDB API</h2>
 
-<p>API for ID checking and conversion for Genbank IDs</p>
+<p>API for traits data - very much a work in progress - would love your thoughts at <a href="https://github.com/sckott/traitdb/issues/1">https://github.com/sckott/traitdb/issues/1</a></p>
 
 <ul>
-  <li>source: <a href="https://github.com/sckott/gbids">sckott/gbids</a></li>
-  <li>base URL <a href="https://gbids.xyz">https://gbids.xyz</a></li>
+  <li>source: <a href="https://github.com/sckott/traitdb">sckott/traitdb</a></li>
+  <li>base URL <a href="https://traits.party/">https://traits.party/</a></li>
+</ul>
+
+<h2 id="full-text-doi-api">Full Text DOI API</h2>
+
+<p>API for resolving DOIs to full text URLs (if available)</p>
+
+<ul>
+  <li>source: <a href="https://github.com/ropenscilabs/pubpatternsapi">ropenscilabs/pubpatternsapi</a></li>
+  <li>base URL <a href="https://ftdoi.org/">https://ftdoi.org/</a></li>
 </ul>
 
 <h2 id="technologies-used">Technologies used</h2>
@@ -180,9 +189,9 @@
 <ul>
   <li>All above use the <a href="http://www.sinatrarb.com">Ruby Sinatra API framework</a></li>
   <li>Some use Docker, some do not</li>
-  <li>MySQL or PostgreSQL used as the DB</li>
-  <li>Server is <a href="https://caddyserver.com/">Caddy</a> for all</li>
-  <li><a href="http://redis.io/">Redis</a> used for caching for all</li>
+  <li>MySQL or PostgreSQL or SQLite used as the DB</li>
+  <li>Server is always <a href="https://caddyserver.com/">Caddy</a></li>
+  <li><a href="http://redis.io/">Redis</a> used for caching for some (other’s don’t have caching)</li>
 </ul>
 
 

@@ -17,7 +17,7 @@ Most of these are collaborative projects, of which I am the maintainer
 [rnoaa](https://github.com/sckott/rnoaa) <i class="fa fa-chevron-right"></i> R client for many NOAA datasets<br>
 [rphylopic](https://github.com/sckott/rphylopic) <i class="fa fa-chevron-right"></i> R client for [Phylopic](http://phylopic.org/)<br>
 [cowsay](https://github.com/sckott/cowsay) <i class="fa fa-chevron-right"></i> Like the command line program `cowsay`, but for R<br>
-[rgauges](https://github.com/ropensci/rgauges) <i class="fa fa-chevron-right"></i> R client for Gaug.es website analytics API<br> (defunct)
+[rgauges](https://github.com/ropensci/rgauges) <i class="fa fa-chevron-right"></i> R client for Gaug.es website analytics API (DEFUNCT)<br>
 [rbhl](https://github.com/ropensci/rbhl) <i class="fa fa-chevron-right"></i> R client for the Biodiversity Heritage Library<br>
 [httping](https://github.com/sckott/httping) <i class="fa fa-chevron-right"></i> R client to ping urls to time requests.<br>
 [rcrossref](https://github.com/ropensci/rcrossref) <i class="fa fa-chevron-right"></i> R client for various CrossRef APIs<br>
@@ -30,7 +30,8 @@ Most of these are collaborative projects, of which I am the maintainer
 Neuroscience Information Network](http://neuinfo.org/) client.<br>
 [lawn](https://github.com/ropensci/lawn) <i class="fa fa-chevron-right"></i> [turf.js](http://turfjs.org/) R client.<br>
 [geojsonio](https://github.com/ropensci/geojsonio) <i class="fa fa-chevron-right"></i> Convert many data formats to & from GeoJSON & TopoJSON.<br>
-[wellknown](https://github.com/ropensci/wellknown) <i class="fa fa-chevron-right"></i> Go from well known text to GeoJSON and back.
+[wellknown](https://github.com/ropensci/wellknown) <i class="fa fa-chevron-right"></i> Go from well known text to GeoJSON and back.<br>
+[crul](https://github.com/ropensci/crul) <i class="fa fa-chevron-right"></i> An HTTP client, taking inspiration from Ruby's faraday.
 
 ## Python
 
@@ -44,7 +45,6 @@ Neuroscience Information Network](http://neuinfo.org/) client.<br>
 [serrano](https://github.com/sckott/serrano) <i class="fa fa-chevron-right"></i> A Python client for the [Crossref search API][crapi].<br>
 [textminer](https://github.com/sckott/textminer) <i class="fa fa-chevron-right"></i> Client to do text-mining via Crossref metadata - built on [serrano](https://github.com/sckott/serrano).<br>
 [cites](https://github.com/sckott/cites) <i class="fa fa-chevron-right"></i> Search for and get citations from the command line.<br>
-[lagotto-rb](https://github.com/lagotto/lagotto-rb) <i class="fa fa-chevron-right"></i> A Ruby gem for the PLOS Lagotto altmetrics application.<br>
 [veyor](https://github.com/sckott/veyor) <i class="fa fa-chevron-right"></i> A Ruby gem for the Appveyor API.<br>
 [rubrb](https://github.com/sckott/rubrb) <i class="fa fa-chevron-right"></i> A command line tool to help with R tasks - a weird thing, I know.
 

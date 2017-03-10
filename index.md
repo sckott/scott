@@ -7,9 +7,9 @@ title: Home
 
 ### Software
 
-* R >> [taxize][taxize] - [rgbif][rgbif] - [rplos][rplos] - [elastic][elastic] - [solrium][solrium] - [jqr][jqr] - [analogsea][analogsea] - [request][request]
+* R >> [taxize][taxize] - [rgbif][rgbif] - [rplos][rplos] - [elastic][elastic] - [solrium][solrium] - [jqr][jqr] - [analogsea][analogsea] - [crul][crul] - [request][request] - [geojsonio][geojsonio]
 * Python >> [habanero](https://github.com/sckott/habanero) - [pytaxize](https://github.com/sckott/pytaxize) - [pygbif](https://github.com/sckott/pygbif) - [pyalm](https://github.com/lagotto/pyalm)
-* Ruby >> [serrano](https://github.com/sckott/serrano) - [textminer](https://github.com/sckott/textminer) - [cites](https://github.com/sckott/cites) - [lagotto-rb](https://github.com/lagotto/lagotto-rb) - [veyor](https://github.com/sckott/veyor)
+* Ruby >> [serrano](https://github.com/sckott/serrano) - [textminer](https://github.com/sckott/textminer) - [cites](https://github.com/sckott/cites) - [veyor](https://github.com/sckott/veyor)
 * Web Services >> See the [webservices](/webservices) page
 * [more software](/software)
 
@@ -23,6 +23,7 @@ title: Home
 
 [taxize]: https://github.com/ropensci/taxize
 [rgbif]: https://github.com/ropensci/rgbif
+[crul]: https://github.com/ropensci/crul
 [rplos]: https://github.com/ropensci/rplos
 [jqr]: https://github.com/ropensci/jqr
 [solrium]: https://github.com/ropensci/solrium
@@ -31,3 +32,4 @@ title: Home
 [analogsea]: https://github.com/sckott/analogsea
 [request]: https://github.com/sckott/request
 [elastic]: https://github.com/ropensci/elastic
+[geojsonio]: https://github.com/ropensci/geojsonio

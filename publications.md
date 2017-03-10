@@ -3,6 +3,7 @@ layout: page
 title: Publications
 ---
 
++ Winslow, L. A., Chamberlain, S., Appling, A. P., & Read, J. S. (2016). sbtools: A package connecting R to cloud-based data for collaborative online research. The R Journal, 8(1), 387-398. doi: 10.1371/journal.pone.0127781 [web][websbtools] [pdf][pdf24]
 + Guo H, Chamberlain SA, Elhaik E, Jalli I, Lynes A-R, et al. 2015. Geographic Variation in Plant Community Structure of Salt Marshes: Species, Functional and Phylogenetic Perspectives. PLoS ONE 10(5): e0127781. doi: 10.1371/journal.pone.0127781 [web][websaltmarsh] [pdf][pdf23]
 + Mair, P, and S. Chamberlain. 2014. Web Technologies Task View. The R Journal 6(1): 178-181.  [web][webtechweb] [pdf][pdf22]
 <br/>
@@ -73,6 +74,7 @@ title: Publications
 [pdf21]: {{ url }}/pdfs/Revell&Chamberlain2014MEE.pdf
 [pdf22]: {{ url }}/pdfs/Mair&Chamberlain2014RJournal.pdf
 [pdf23]: {{ url }}/pdfs/GuoEtal2015PlosOne.pdf
+[pdf24]: {{ url }}/pdfs/winslow-chamberlain-appling-etal.pdf
 [f1000web]: http://f1000research.com/articles/2-191/v2
 [isqpaper]: https://github.com/sckott/isqaltms
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
@@ -84,3 +86,4 @@ title: Publications
 [webtechweb]: http://journal.r-project.org/archive/2014-1/
 [oecologiaweb]: http://escholarship.org/uc/item/2483w551
 [websaltmarsh]: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127781
+[websbtools]: https://journal.r-project.org/archive/accepted/winslow-chamberlain-appling-etal.pdf
