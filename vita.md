@@ -8,9 +8,9 @@ date: 2014-07-18
 
 # **Scott Chamberlain**
 - Code on GitHub: [github.com/sckott](https://github.com/sckott)
-- Website: [scottchamberlain.info](http://scottchamberlain.info)
-- Blog: [recology.info](http://recology.info)
-- LinkedIn: [linkedin.com/profile/view?id=198453270](http://www.linkedin.com/profile/view?id=198453270)
+- Website: [scottchamberlain.info](https://scottchamberlain.info)
+- Blog: [recology.info](https://recology.info)
+- LinkedIn: [linkedin.com/profile/view?id=198453270](https://www.linkedin.com/profile/view?id=198453270)
 - Twitter: <a href="https://twitter.com/sckottie">@sckottie</a>
 - Email: [scott@ropensci.org](mailto:scott@ropensci.org)
 
@@ -22,15 +22,15 @@ Education
 
 Programming
 ------------
-* R >> I have developed R software for 8 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([http://ropensci.org/](http://ropensci.org/)).
-* Python >> I have programmed in Python for 2 years, and am relatively comfortable throughtout the language, having used it for a variety of simulations.
-* Ruby >> I have picked up Ruby in the last year as well, and am getting more comfortable (e.g. a) I have deployed [an app to Heroku](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume, and b) I wrote a tiny gem to get Bibtex style references by inputting a DOI [here](https://github.com/sckott/doiref)).
+* R >> I have developed R software for 11 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([https://ropensci.org/](https://ropensci.org/)).
+* Python >> I have programmed in Python for 4 years, and am relatively comfortable throughtout the language, having used it for a variety of simulations, and maintain 3 python libraries on pypi.
+* Ruby >> I have programmed in Ruby for about 3 years. I have deployed [an app to Heroku](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume, and b) I wrote a tiny gem to get Bibtex style references by inputting a DOI [here](https://github.com/sckott/doiref)), and I write many RESTful APIs in Ruby Sinatra. I have 5 gems on Rubygems.
 * HTML/CSS >> I use HTML often for my own website and blog, and occasionally customize CSS.
 * Databases >> I am familiar with and use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB). I am also  familiar with Elasticsearch and Solr, and have created R clients for both of them.
 
 Work Experience
 ------------
-* 2011-pres rOpenSci: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets. [Website](http://ropensci.org/); [Code](https://github.com/ropensci).  rOpenSci is now housed within UC Berkeley.
+* 2011-pres rOpenSci: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets. [Website](https://ropensci.org/); [Code](https://github.com/ropensci).  rOpenSci is now housed within UC Berkeley.
 
 Publications
 ------------
@@ -124,7 +124,7 @@ Grants
 
 Student mentoring
 -------
-Larry Liu (Summer 2008), Rameez Anwar (Fall 2008-Spring 2009), Yosuke Akiyama (Fall 2008-Spring 2009), Rohini Sigireddi(Summer 2009), Neha Deshpande(Summer 2009), Matt King (Spring 2010), Tianshi Ji (Fall 2010), Morgan Black (Fall 2010-present), Roy Wu (Fall 2010), Thanh Vu (Spring 2011-present), Charles Danan (Spring 2011-present)
+Larry Liu (Summer 2008), Rameez Anwar (Fall 2008-Spring 2009), Yosuke Akiyama (Fall 2008-Spring 2009), Rohini Sigireddi(Summer 2009), Neha Deshpande(Summer 2009), Matt King (Spring 2010), Tianshi Ji (Fall 2010), Morgan Black (Fall 2010-2011), Roy Wu (Fall 2010), Thanh Vu (Spring 2011-2012), Charles Danan (Spring 2011-2012)
 
 
 Extramural service and community outreach
@@ -138,7 +138,7 @@ Extramural service and community outreach
 Peer review service
 -------
 
-African Journal of Agricultural Research, Agricultural & Forest Entomology (2), The American Naturalist, Annals of Botany (2), Biodiversity Data Journal, Biological Invasions, Ecography (2), Ecological Complexity, Ecological Entomology, Ecological Complexity, Ecology (3), Ecology Letters, Ecology and Evolution, Environmental Management, Evolutionary Ecology, Florida Entomologist (2), Journal of Avian Biology, Journal of Ecology (4), Journal of Tropical Ecology, Methods in Ecology and Evolution (3), New Phytologist, Oecologia, Oikos (3), Plant Ecology, PLOS One (2), Population Ecology (2), Proceedings of the Royal Society B, The R Journal
+African Journal of Agricultural Research, Agricultural & Forest Entomology (2), The American Naturalist, Annals of Botany (2), Biodiversity Data Journal, Biological Invasions, Ecography (2), Ecological Complexity, Ecological Entomology, Ecological Complexity, Ecology (3), Ecology Letters, Ecology and Evolution, Environmental Management, Evolutionary Ecology, F1000 Research, Florida Entomologist (2), Journal of Avian Biology, Journal of Ecology (4), Journal of Tropical Ecology, Methods in Ecology and Evolution (7), New Phytologist, Oecologia, Oikos (3), Plant Ecology, PLOS One (2), Population Ecology (2), Proceedings of the Royal Society B, The R Journal, Scientific Data
 
 
 References
