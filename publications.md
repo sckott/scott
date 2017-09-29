@@ -3,6 +3,7 @@ layout: page
 title: Publications
 ---
 
++ Chamberlain, S., C. Boettiger. 2017. R Python, and Ruby clients for GBIF species occurrence data. PeerJ Preprints. [web][gbif] [pdf][pdf26]
 + Winslow, L. A., Chamberlain, S., Appling, A. P., & Read, J. S. (2016). sbtools: A package connecting R to cloud-based data for collaborative online research. The R Journal, 8(1), 387-398. doi: 10.1371/journal.pone.0127781 [web][websbtools] [pdf][pdf24]
 + Boettiger, C., Chamberlain, S., Hart, E., & Ram, K. (2015). Building software, building community: lessons from the rOpenSci project. Journal of Open Research Software, 3(1). <https://doi.org/10.5334/jors.bu> [pdf][pdf25]
 + Guo H, Chamberlain SA, Elhaik E, Jalli I, Lynes A-R, et al. 2015. Geographic Variation in Plant Community Structure of Salt Marshes: Species, Functional and Phylogenetic Perspectives. PLoS ONE 10(5): e0127781. doi: 10.1371/journal.pone.0127781 [web][websaltmarsh] [pdf][pdf23]
@@ -77,6 +78,7 @@ title: Publications
 [pdf23]: {{ url }}/pdfs/GuoEtal2015PlosOne.pdf
 [pdf24]: {{ url }}/pdfs/winslow-chamberlain-appling-etal.pdf
 [pdf25]: {{ url }}/pdfs/75-752-1-PB.pdf
+[pdf26]: {{ url }}/pdfs/Chamberlain&Boettiger2017PeerjPreprint.pdf
 [f1000web]: http://f1000research.com/articles/2-191/v2
 [isqpaper]: https://github.com/sckott/isqaltms
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
@@ -89,3 +91,4 @@ title: Publications
 [oecologiaweb]: http://escholarship.org/uc/item/2483w551
 [websaltmarsh]: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127781
 [websbtools]: https://journal.r-project.org/archive/accepted/winslow-chamberlain-appling-etal.pdf
+[gbif]: https://peerj.com/preprints/3304/
