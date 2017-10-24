@@ -3,11 +3,12 @@ layout: page
 title: Publications
 ---
 
-+ Chamberlain, S., C. Boettiger. 2017. R Python, and Ruby clients for GBIF species occurrence data. PeerJ Preprints. [web][gbif] [pdf][pdf26]
-+ Winslow, L. A., Chamberlain, S., Appling, A. P., & Read, J. S. (2016). sbtools: A package connecting R to cloud-based data for collaborative online research. The R Journal, 8(1), 387-398. doi: 10.1371/journal.pone.0127781 [web][websbtools] [pdf][pdf24]
-+ Boettiger, C., Chamberlain, S., Hart, E., & Ram, K. (2015). Building software, building community: lessons from the rOpenSci project. Journal of Open Research Software, 3(1). <https://doi.org/10.5334/jors.bu> [pdf][pdf25]
-+ Guo H, Chamberlain SA, Elhaik E, Jalli I, Lynes A-R, et al. 2015. Geographic Variation in Plant Community Structure of Salt Marshes: Species, Functional and Phylogenetic Perspectives. PLoS ONE 10(5): e0127781. doi: 10.1371/journal.pone.0127781 [web][websaltmarsh] [pdf][pdf23]
-+ Mair, P, and S. Chamberlain. 2014. Web Technologies Task View. The R Journal 6(1): 178-181.  [web][webtechweb] [pdf][pdf22]
++ Chamberlain, S., C. Boettiger. 2017. R Python, and Ruby clients for GBIF species occurrence data. _PeerJ Preprints_. [web][gbif] [pdf][pdf26]
++ Winslow, L. A., Chamberlain, S., Appling, A. P., & Read, J. S. (2016). sbtools: A package connecting R to cloud-based data for collaborative online research. _The R Journal_, 8(1), 387-398. doi: 10.1371/journal.pone.0127781 [web][websbtools] [pdf][pdf24]
++ Boettiger C, Chamberlain S, Vos R and Lapp H. 2016. RNeXML: A Package for Reading and Writing Richly Annotated Phylogenetic, Character, and Trait Data in R. _Methods in Ecology and Evolution_, 7, 352-357. (http://doi.org/10.1111/2041-210X.12469). [web][rnexml] [pdf][pdf27]
++ Boettiger, C., Chamberlain, S., Hart, E., & Ram, K. 2015. Building software, building community: lessons from the rOpenSci project. _Journal of Open Research Software_, 3(1). <https://doi.org/10.5334/jors.bu> [pdf][pdf25]
++ Guo H, Chamberlain SA, Elhaik E, Jalli I, Lynes A-R, et al. 2015. Geographic Variation in Plant Community Structure of Salt Marshes: Species, Functional and Phylogenetic Perspectives. _PLoS ONE_, 10(5): e0127781. doi: 10.1371/journal.pone.0127781 [web][websaltmarsh] [pdf][pdf23]
++ Mair, P, and S. Chamberlain. 2014. Web Technologies Task View. _The R Journal_, 6(1): 178-181.  [web][webtechweb] [pdf][pdf22]
 <br/>
 + Revell, L., S.A. Chamberlain. 2014. Rphylip: An R interface for PHYLIP. _Methods in Ecology & Evolution_ [web][rphylipweb] [pdf][pdf21]
 <br/>
@@ -17,7 +18,7 @@ title: Publications
 <br/>
 + Chamberlain, S.A., J.A. Rudgers, and J.L. Bronstein. 2014. How context-dependent are species interactions. _Ecology Letters_ [web][condmaweb] [pdf][pdf20]
 <br/>
-+ Barraquand F, Ezard TH, Jørgensen PS, Zimmerman N, Chamberlain S et al. 2014 Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions. PeerJ 2:e285 [web][peerjms] [pdf][pdf18] [xml][peerjxml]
++ Barraquand F, Ezard TH, Jørgensen PS, Zimmerman N, Chamberlain S et al. 2014. Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions. _PeerJ_ 2:e285 [web][peerjms] [pdf][pdf18] [xml][peerjxml]
 <br/>
 + Vamosi, J.; Chamberlain, S.A., Garcha, N.; Moray, C.; Mooers, A. 2014. Pollinators visit related plant species across 29 plant-pollinator networks. _Ecology & Evolution_
 <br/>
@@ -79,6 +80,7 @@ title: Publications
 [pdf24]: {{ url }}/pdfs/winslow-chamberlain-appling-etal.pdf
 [pdf25]: {{ url }}/pdfs/75-752-1-PB.pdf
 [pdf26]: {{ url }}/pdfs/Chamberlain&Boettiger2017PeerjPreprint.pdf
+[pdf27]: {{ url }}/pdfs/rnexml.pdf
 [f1000web]: http://f1000research.com/articles/2-191/v2
 [isqpaper]: https://github.com/sckott/isqaltms
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
@@ -92,3 +94,4 @@ title: Publications
 [websaltmarsh]: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127781
 [websbtools]: https://journal.r-project.org/archive/accepted/winslow-chamberlain-appling-etal.pdf
 [gbif]: https://peerj.com/preprints/3304/
+[rnexml]: https://doi.org/10.1111/2041-210X.12469

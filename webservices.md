@@ -3,6 +3,20 @@ layout: page
 title: WebServices
 ---
 
+## BIEN API
+
+API for Botanical Information and Ecology Network data <http://bien.nceas.ucsb.edu/bien/>
+
+* source: [ropensci/bienapi](https://github.com/ropensci/bienapi)
+* base URL <https://bienapi.club/>
+
+## CRAN checks API
+
+API for software check results for the R package distribution network <https://cran.rstudio.com/web/packages/>
+
+* source: [ropensci/cchecksapi](https://github.com/ropensci/cchecksapi)
+* base URL <https://cranchecks.info/>
+
 ## Fishbase API
 
 API for <http://www.fishbase.org>
