@@ -7,20 +7,26 @@ title: Home
 
 ### Software
 
-* R >> [taxize][] - [rgbif][] - [rplos][] - [elastic][] - [solrium][] - [jqr][] - [analogsea][] - [crul][] - [request][] - [geojsonio][] - [geojson][] - [bold][] - [cowsay][] - [discgolf][] - [fulltext][] - [gistr][] - [hoardr][] - [randgeo][] - [rcrossref][] - [rorcid][] - [wellknown][] - [webmockr][] - [charlatan][]
-* Python >> [habanero](https://github.com/sckott/habanero) - [pytaxize](https://github.com/sckott/pytaxize) - [pygbif](https://github.com/sckott/pygbif) - [pyalm](https://github.com/lagotto/pyalm)
+* R >> [taxize][] - [rgbif][] - [rplos][] - [elastic][] - [solrium][] - [jqr][] - [analogsea][] - [crul][] - [request][] - [geojsonio][] - [geojson][] - [bold][] - [cowsay][] - [discgolf][] - [fulltext][] - [gistr][] - [hoardr][] - [randgeo][] - [rcrossref][] - [rorcid][] - [wellknown][] - [webmockr][] - [charlatan][] - ...
+* Python >> [habanero](https://github.com/sckott/habanero) - [pytaxize](https://github.com/sckott/pytaxize) - [pygbif](https://github.com/sckott/pygbif) 
 * Ruby >> [serrano](https://github.com/sckott/serrano) - [textminer](https://github.com/sckott/textminer) - [cites](https://github.com/sckott/cites) - [veyor](https://github.com/sckott/veyor) - [phenoscaperb][] - [gbifrb][]
 * Web Services >> See the [webservices](/webservices) page
 * [more software](/software)
 
 <i class="fa fa-github"></i> See the rest <a href="https://github.com/sckott/" target="_blank">on Github</a>
 
+### Blog
+
+I blog about code/software and other things at <https://recology.info>
+
 ### Other stuff
 
 * [R for cats - Or R for beginners](https://rforcats.net)
 * [APIs for cats - APIs for R users](https://apisforcats.com)
 
-### > I used to be an ecologist. See my [pubs][pubs].
+----
+
+I used to be an ecologist. See my [pubs][pubs].
 
 [taxize]: https://github.com/ropensci/taxize
 [rgbif]: https://github.com/ropensci/rgbif
