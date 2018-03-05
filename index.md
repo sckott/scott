@@ -7,7 +7,7 @@ title: Home
 
 ### Software
 
-* R >> [taxize][] - [rgbif][] - [rplos][] - [elastic][] - [solrium][] - [jqr][] - [analogsea][] - [crul][] - [request][] - [geojsonio][] - [geojson][] - [bold][] - [cowsay][] - [discgolf][] - [fulltext][] - [gistr][] - [hoardr][] - [randgeo][] - [rcrossref][] - [rorcid][] - [wellknown][] - [webmockr][] - [charlatan][] - ...
+* R >> [taxize][] - [rgbif][] - [rplos][] - [elastic][] - [solrium][] - [jqr][] - [analogsea][] - [crul][] - [request][] - [geojsonio][] - [geojson][] - [bold][] - [cowsay][] - [discgolf][] - [fulltext][] - [gistr][] - [hoardr][] - [randgeo][] - [rcrossref][] - [rorcid][] - [wellknown][] - [webmockr][] - [vcr][] - [charlatan][] - ...
 * Python >> [habanero](https://github.com/sckott/habanero) - [pytaxize](https://github.com/sckott/pytaxize) - [pygbif](https://github.com/sckott/pygbif) 
 * Ruby >> [serrano](https://github.com/sckott/serrano) - [textminer](https://github.com/sckott/textminer) - [cites](https://github.com/sckott/cites) - [veyor](https://github.com/sckott/veyor) - [phenoscaperb][] - [gbifrb][]
 * Web Services >> See the [webservices](/webservices) page
@@ -52,6 +52,7 @@ I used to be an ecologist. See my [pubs][pubs].
 [rorcid]: https://github.com/ropensci/rorcid
 [wellknown]: https://github.com/ropensci/wellknown
 [webmockr]: https://github.com/ropensci/webmockr
+[vcr]: https://github.com/ropensci/vcr
 [charlatan]: https://github.com/ropensci/charlatan
 [phenoscaperb]: https://github.com/phenoscape/phenoscaperb
 [gbifrb]: https://github.com/sckott/gbifrb
