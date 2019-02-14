@@ -3,11 +3,11 @@ layout: default
 title: Home
 ---
 
-### I co-founded a developer collective called <a href="http://ropensci.org/">rOpenSci</a> to help connect open source data into the R environment. I work full time on rOpenSci.
+### I work with a developer collective I co-founded called <a href="http://ropensci.org/">rOpenSci</a>
 
 ### Software
 
-* R >> [taxize][] - [rgbif][] - [rplos][] - [elastic][] - [solrium][] - [jqr][] - [analogsea][] - [crul][] - [request][] - [geojsonio][] - [geojson][] - [bold][] - [cowsay][] - [discgolf][] - [fulltext][] - [gistr][] - [hoardr][] - [randgeo][] - [rcrossref][] - [rorcid][] - [wellknown][] - [webmockr][] - [vcr][] - [charlatan][] - ...
+* R >> [taxize][] - [rgbif][] - [webmockr][] - [vcr][] - [charlatan][] - [rplos][] - [elastic][] - [solrium][] - [jqr][] - [analogsea][] - [crul][] - [request][] - [geojsonio][] - [geojson][] - [bold][] - [cowsay][] - [discgolf][] - [fulltext][] - [gistr][] - [hoardr][] - [randgeo][] - [rcrossref][] - [rorcid][] - [wellknown][] - ...
 * Python >> [habanero](https://github.com/sckott/habanero) - [pytaxize](https://github.com/sckott/pytaxize) - [pygbif](https://github.com/sckott/pygbif) 
 * Ruby >> [serrano](https://github.com/sckott/serrano) - [textminer](https://github.com/sckott/textminer) - [cites](https://github.com/sckott/cites) - [veyor](https://github.com/sckott/veyor) - [phenoscaperb][] - [gbifrb][]
 * Web Services >> See the [webservices](/webservices) page
@@ -22,7 +22,6 @@ I blog about code/software and other things at <https://recology.info>
 ### Other stuff
 
 * [R for cats - Or R for beginners](https://rforcats.net)
-* [APIs for cats - APIs for R users](https://apisforcats.com)
 
 ----
 
