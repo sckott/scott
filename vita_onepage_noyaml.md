@@ -4,7 +4,7 @@
 Scott Chamberlain
 ---------
 
-Web: [scottchamberlain.info](http://scottchamberlain.info), Email: [scott@ropensci.org](mailto:scott@ropensci.org), Ph: (713) 364-5048
+Web: [scottchamberlain.info](http://scottchamberlain.info), Email: [myrmecocystus@gmail.com](mailto:myrmecocystus@gmail.com), Ph: (713) 364-5048
 
 __Education__
 

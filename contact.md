@@ -5,7 +5,7 @@ title: Contact
 
 ## email
 
-[scott@ropensci.org](mailto:scott@ropensci.org)
+[myrmecocystus@gmail.com](mailto:myrmecocystus@gmail.com)
 
 ## twitter
 
