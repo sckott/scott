@@ -3,6 +3,7 @@ layout: page
 title: Publications
 ---
 
++ Ram, K., Boettiger, C., Chamberlain, S., Ross, N., Salmon, M., & Butland, S. (2019). A Community of Practice Around Peer Review for Long-Term Research Software Sustainability. Computing in Science & Engineering, 21(2), 59–65. [web][ieee] [pdf][pdf29]
 +  Foster ZSL, Chamberlain S and Grünwald NJ. 2018. taxa: An R package implementing data standards and methods for taxonomic data [version 1; referees: awaiting peer review]. F1000Research, 7:272 [web][taxa] [pdf][pdf28]
 + Chamberlain, S., C. Boettiger. 2017. R Python, and Ruby clients for GBIF species occurrence data. _PeerJ Preprints_. [web][gbif] [pdf][pdf26]
 + Winslow, L. A., Chamberlain, S., Appling, A. P., & Read, J. S. (2016). sbtools: A package connecting R to cloud-based data for collaborative online research. _The R Journal_, 8(1), 387-398. doi: 10.1371/journal.pone.0127781 [web][websbtools] [pdf][pdf24]
@@ -83,6 +84,7 @@ title: Publications
 [pdf26]: {{ url }}/pdfs/Chamberlain&Boettiger2017PeerjPreprint.pdf
 [pdf27]: {{ url }}/pdfs/rnexml.pdf
 [pdf28]: {{ url }}/pdfs/taxa.pdf
+[pdf29]: {{ url }}/pdfs/RamEtal2019ComputingInScienceEngineering.pdf
 [f1000web]: http://f1000research.com/articles/2-191/v2
 [isqpaper]: https://github.com/sckott/isqaltms
 [isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
@@ -98,3 +100,4 @@ title: Publications
 [gbif]: https://peerj.com/preprints/3304/
 [rnexml]: https://doi.org/10.1111/2041-210X.12469
 [taxa]: https://doi.org/10.12688/f1000research.14013.1
+[ieee]: https://doi.org/10.1109/mcse.2018.2882753
