@@ -87,7 +87,7 @@ title: Publications
 [pdf29]: {{ url }}/pdfs/RamEtal2019ComputingInScienceEngineering.pdf
 [f1000web]: http://f1000research.com/articles/2-191/v2
 [isqpaper]: https://github.com/sckott/isqaltms
-[isqweb]: http://www.niso.org/publications/isq/2013/v25no2/chamberlain/
+[isqweb]: https://www.niso.org/niso-io/2013/06/chamberlain
 [condmaweb]: http://onlinelibrary.wiley.com/doi/10.1111/ele.12279/abstract
 [peerjms]: http://dx.doi.org/10.7717/peerj.285
 [peerjxml]: https://peerj.com/articles/285.xml
