@@ -3,8 +3,12 @@
 - Website: [scottchamberlain.info](http://scottchamberlain.info)
 - Blog: [recology.info](http://recology.info)
 - LinkedIn: [linkedin.com/profile/view?id=198453270](http://www.linkedin.com/profile/view?id=198453270)
-- Twitter: <a href="https://twitter.com/sckottie">@sckottie</a>
+- Twitter: @sckottie (https://twitter.com/sckottie)
 - Email: [myrmecocystus@gmail.com](mailto:myrmecocystus@gmail.com)
+
+Work
+------------
+* 2011-pres rOpenSci: co-founded non-profit to facilitate open science through the creation of open source software.  Website: https://ropensci.org/; Code: https://github.com/ropensci
 
 Education
 ---------
@@ -19,10 +23,6 @@ Programming
 * Ruby >> I have picked up Ruby in the last year as well, and am getting more comfortable (e.g. a) I have deployed [an app to Heroku](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume, and b) I wrote a tiny gem to get Bibtex style references by inputting a DOI [here](https://github.com/sckott/doiref)).
 * HTML/CSS >> I use HTML often for my own website and blog, and occasionally customize CSS.
 * Databases >> I am familiar with and use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB). I am also  familiar with Elasticsearch and Solr, and have created R clients for both of them.
-
-Work Experience
-------------
-* 2011-pres rOpenSci: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets. [Website](http://ropensci.org/); [Code](https://github.com/ropensci).  rOpenSci is now housed within UC Berkeley.
 
 Publications
 ------------
