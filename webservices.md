@@ -18,27 +18,12 @@ API for <https://www.fishbase.de/>
 * base URL <https://fishbase.ropensci.org>
 * in collaboration w/ [Carl Boettiger][cboettig]
 
-## USDA plants database API
-
-API for <http://plants.usda.gov/java/>
-
-* source: [sckott/usdaplantsapi](https://github.com/sckott/usdaplantsapi)
-* base URL <https://plantsdb.xyz>
-
-## Full Text DOI API
-
-API for resolving DOIs to full text URLs (if available)
-
-* source: [ropenscilabs/pubpatternsapi](https://github.com/ropenscilabs/pubpatternsapi)
-* base URL <https://ftdoi.org/>
-
-
 ## BIEN API
 
 API for Botanical Information and Ecology Network data <http://bien.nceas.ucsb.edu/bien/>
 
-* source: [ropensci/bienapi](https://github.com/ropensci/bienapi)
-* base URL <https://bienapidev.xyz/>
+* source: [ropensci/bienapi](https://github.com/ropenscilabs/bienapi)
+* base URL <https://bienapi.xyz/>
 
 ## Technologies used
 
@@ -50,7 +35,21 @@ API for Botanical Information and Ecology Network data <http://bien.nceas.ucsb.e
 
 --------
 
-## No longer maintained
+## Defunct - No longer maintained
+
+### Full Text DOI API
+
+API for resolving DOIs to full text URLs (if available)
+
+* source: [ropenscilabs/pubpatternsapi](https://github.com/ropenscilabs/pubpatternsapi)
+* base URL <https://ftdoi.org/>
+
+### USDA plants database API
+
+API for <http://plants.usda.gov/java/>
+
+* source: [sckott/usdaplantsapi](https://github.com/sckott/usdaplantsapi)
+* base URL <https://plantsdb.xyz>
 
 ### rOpenSci API - 
 
