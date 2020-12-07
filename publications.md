@@ -4,7 +4,7 @@ title: Publications
 ---
 
 + Norman, K. E. A., Chamberlain, S., & Boettiger, C. (2020). taxadb: A high‐performance local taxonomic database interface. Methods in Ecology and Evolution, 11(9), 1153–1159. [web][norma] [pdf][pdf32]
-+ Guzman, L. M., Chamberlain, S. A., & Elle, E. (2020). Phenology and Robustness in plant-pollinator networks. [web][guzman] [pdf][pdf30]
++ Guzman, L. M., Chamberlain, S. A., & Elle, E. (2020). Phenology and Robustness in plant-pollinator networks. BioRxiv Preprint. [web][guzman] [pdf][pdf30]
 + Conde, D. A., Staerk, J., Colchero, F., da Silva, R., Schöley, J., Baden, H. M., … Vaupel, J. W. (2019). Data gaps and opportunities for comparative and conservation biology. Proceedings of the National Academy of Sciences, 116(19), 9658–9664. [web][conde] [pdf][pdf31]
 + Ram, K., Boettiger, C., Chamberlain, S., Ross, N., Salmon, M., & Butland, S. (2019). A Community of Practice Around Peer Review for Long-Term Research Software Sustainability. Computing in Science & Engineering, 21(2), 59–65. [web][ieee] [pdf][pdf29]
 + Pearse, W., & Chamberlain, S.A. (2018). Suppdata: Downloading Supplementary Data from Published Manuscripts. Journal of Open Source Software, 3(25), 721. [web][pearse] [pdf][pdf33]
