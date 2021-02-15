@@ -3,6 +3,7 @@ layout: page
 title: Publications
 ---
 
++ Mitchell, N., Chamberlain, S. A., & Whitney, K. D. (2021). Proximity to crop relatives determines some patterns of natural selection in a wild sunflower. Evolutionary Applications. [web][mitchell] [pdf][pdf34]
 + Norman, K. E. A., Chamberlain, S., & Boettiger, C. (2020). taxadb: A high‐performance local taxonomic database interface. Methods in Ecology and Evolution, 11(9), 1153–1159. [web][norma] [pdf][pdf32]
 + Guzman, L. M., Chamberlain, S. A., & Elle, E. (2020). Phenology and Robustness in plant-pollinator networks. BioRxiv Preprint. [web][guzman] [pdf][pdf30]
 + Conde, D. A., Staerk, J., Colchero, F., da Silva, R., Schöley, J., Baden, H. M., … Vaupel, J. W. (2019). Data gaps and opportunities for comparative and conservation biology. Proceedings of the National Academy of Sciences, 116(19), 9658–9664. [web][conde] [pdf][pdf31]
@@ -93,6 +94,7 @@ title: Publications
 [pdf31]: {{ url }}/pdfs/conde.pdf
 [pdf32]: {{ url }}/pdfs/norma.pdf
 [pdf33]: {{ url }}/pdfs/pearse.pdf
+[pdf34]: {{ url }}/pdfs/mitchelletal.pdf
 [f1000web]: http://f1000research.com/articles/2-191/v2
 [isqpaper]: https://github.com/sckott/isqaltms
 [isqweb]: https://www.niso.org/niso-io/2013/06/chamberlain
@@ -113,3 +115,4 @@ title: Publications
 [conde]: https://doi.org/10.1073/pnas.1816367116
 [norma]: https://doi.org/10.1111/2041-210x.13440
 [pearse]: https://doi.org/10.21105/joss.00721
+[mitchell]: https://doi.org/10.1111/eva.13201

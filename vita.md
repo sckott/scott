@@ -38,6 +38,7 @@ Programming
 
 Publications
 ------------
++ Mitchell, N., __Chamberlain, S. A.__, & Whitney, K. D. (2021). Proximity to crop relatives determines some patterns of natural selection in a wild sunflower. Evolutionary Applications. <https://doi.org/10.1111/eva.13201>
 + Guzman, L. M., __Chamberlain, S. A.__, & Elle, E. (2020). Phenology and Robustness in plant-pollinator networks. BioRxiv Preprint. <https://doi.org/10.1101/2020.10.30.362616>
 + Conde, D. A., Staerk, J., Colchero, F., __Chamberlain, S.__, _et al_. 2019. Data gaps and opportunities for comparative and conservation biology. __PNAS__, 116(19), 9658–9664. <https://doi.org/10.1073/pnas.1816367116>
 + Ram, K., Boettiger, C., __Chamberlain, S.__, _et al_. 2019. A Community of Practice Around Peer Review for Long-Term Research Software Sustainability. __Computing in Science & Engineering__, 21(2), 59–65. <https://doi.org/10.1109/MCSE.2018.2882753>
