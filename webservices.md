@@ -18,13 +18,6 @@ API for <https://www.fishbase.de/>
 * base URL <https://fishbase.ropensci.org>
 * in collaboration w/ [Carl Boettiger][cboettig]
 
-## BIEN API
-
-API for Botanical Information and Ecology Network data <http://bien.nceas.ucsb.edu/bien/>
-
-* source: [ropensci/bienapi](https://github.com/ropenscilabs/bienapi)
-* base URL <https://bienapi.xyz/>
-
 ## Technologies used
 
 * All above use the [Ruby Sinatra API framework](http://www.sinatrarb.com)
@@ -35,7 +28,16 @@ API for Botanical Information and Ecology Network data <http://bien.nceas.ucsb.e
 
 --------
 
-## Defunct - No longer maintained
+## No longer maintained
+
+Or **I** am no longer involved in maintaining.
+
+### BIEN API
+
+API for Botanical Information and Ecology Network data <http://bien.nceas.ucsb.edu/bien/>
+
+* source: [sckott/bienapi](https://github.com/sckott/bienapi)
+* base URL <https://bienapi.xyz/>
 
 ### Full Text DOI API
 
