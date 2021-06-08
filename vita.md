@@ -20,7 +20,8 @@ date: 2020-04-14
 Work
 ----
 * 2011-present&nbsp;&nbsp;&nbsp;__rOpenSci__: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets. [Website](https://ropensci.org/); [Code](https://github.com/ropensci).  rOpenSci is now housed within UC Berkeley.
-* 2012-2014&nbsp;&nbsp;&nbsp;__Postdoctoral Scholar__: Simon Fraser University - Plant-pollinator networks
+* 2016-2021&nbsp;&nbsp;&nbsp;__Open Knowledge Maps__, Backend Data Sources Consultant/Volunteer
+* 2012-2014&nbsp;&nbsp;&nbsp;__Simon Fraser University__: Postdoctoral Scholar - Plant-pollinator networks
 
 Education
 ---------
