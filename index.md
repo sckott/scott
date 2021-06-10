@@ -3,7 +3,11 @@ layout: default
 title: Home
 ---
 
-### I work with a developer collective I co-founded called <a href="http://ropensci.org/">rOpenSci</a>
+## I'm looking for a job as a software engineer - email me <a href="mailto:myrmecocystus@gmail.com/" target="_blank">myrmecocystus@gmail.com</a> if you have any ideas or you're hiring. [CV](pdfs/cv.pdf) - [LinkedIn](https://www.linkedin.com/in/sckott/)
+
+----
+
+### I co-founded a developer collective called <a href="http://ropensci.org/">rOpenSci</a>
 
 ### Software
 
