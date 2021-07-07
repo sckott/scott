@@ -3,12 +3,6 @@ layout: default
 title: Home
 ---
 
-## I'm looking for a job as a software engineer - email me <a href="mailto:myrmecocystus@gmail.com/" target="_blank">myrmecocystus@gmail.com</a> if you have any ideas or you're hiring. [CV](pdfs/cv.pdf) - [LinkedIn](https://www.linkedin.com/in/sckott/)
-
-----
-
-### I co-founded a developer collective called <a href="http://ropensci.org/">rOpenSci</a>
-
 ### Software
 
 * R >> [taxize][] - [rgbif][] - [webmockr][] - [vcr][] - [charlatan][] - [rplos][] - [elastic][] - [solrium][] - [jqr][] - [analogsea][] - [crul][] - [geojsonio][] - [geojson][] - [bold][] - [cowsay][] - [discgolf][] - [fulltext][] - [gistr][] - [hoardr][] - [randgeo][] - [rcrossref][] - [rorcid][] - [wellknown][] - ...
