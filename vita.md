@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vita
-date: 2020-04-14
+date: 2021-07-09
 ---
 
 <!-- <h2> <a href="{{ url }}/pdfs/cv.pdf">PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/vita_onepage">1 pg vita</a> </h2> -->
@@ -19,8 +19,8 @@ date: 2020-04-14
 
 Work
 ----
-* 2011-present&nbsp;&nbsp;&nbsp;__rOpenSci__: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets. [Website](https://ropensci.org/); [Code](https://github.com/ropensci).  rOpenSci is now housed within UC Berkeley.
-* 2016-2021&nbsp;&nbsp;&nbsp;__Open Knowledge Maps__, Backend Data Sources Consultant/Volunteer
+* 2014-July 2021&nbsp;&nbsp;&nbsp;__rOpenSci__: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets. [Website](https://ropensci.org/); [Code](https://github.com/ropensci).
+* 2016-Jan 2021&nbsp;&nbsp;&nbsp;__Open Knowledge Maps__, Backend Data Sources Consultant/Volunteer
 * 2012-2014&nbsp;&nbsp;&nbsp;__Simon Fraser University__: Postdoctoral Scholar - Plant-pollinator networks
 
 Education

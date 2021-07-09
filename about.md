@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-#### I am a co-founder of <a href="http://ropensci.org/" target="_blank">rOpenSci</a>, a project to facilitate open science by creating open source tools witin the <a href="http://cran.r-project.org/" target="_blank">R</a> programming environment. Read more about rOpenSci at our website <a href="http://ropensci.org/" target="_blank">here</a>.  I'm currently working full time on rOpenSci.
+#### I was a co-founder of <a href="http://ropensci.org/" target="_blank">rOpenSci</a>, a project to facilitate open science by creating open source tools witin the <a href="http://cran.r-project.org/" target="_blank">R</a> programming environment.
 
 #### From 2012-2014 I was a postdoc in the Biology Department at Simon Fraser University in Vancouver, Canada.
 
