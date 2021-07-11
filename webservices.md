@@ -7,7 +7,7 @@ title: WebServices
 
 API for software check results for the R package distribution network <https://cran.rstudio.com/web/packages/>
 
-* source: [ropenscilabs/cchecksapi](https://github.com/ropenscilabs/cchecksapi)
+* source: [sckott/cchecksapi](https://github.com/sckott/cchecksapi)
 * base URL <https://cranchecks.info/>
 
 ## Technologies used across projects
