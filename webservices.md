@@ -10,17 +10,9 @@ API for software check results for the R package distribution network <https://c
 * source: [ropenscilabs/cchecksapi](https://github.com/ropenscilabs/cchecksapi)
 * base URL <https://cranchecks.info/>
 
-## Fishbase API
+## Technologies used across projects
 
-API for <https://www.fishbase.de/>
-
-* source: [ropensci/fishbaseapi](https://github.com/ropensci/fishbaseapi)
-* base URL <https://fishbase.ropensci.org>
-* in collaboration w/ [Carl Boettiger][cboettig]
-
-## Technologies used
-
-* All above use the [Ruby Sinatra API framework](http://www.sinatrarb.com)
+* [Ruby Sinatra API framework](http://www.sinatrarb.com)
 * Some use Docker, some do not
 * MySQL or PostgreSQL or SQLite used as the DB
 * Server is always [Caddy](https://caddyserver.com/)
@@ -31,6 +23,14 @@ API for <https://www.fishbase.de/>
 ## No longer maintained
 
 Or **I** am no longer involved in maintaining.
+
+### Fishbase API
+
+API for <https://www.fishbase.de/>
+
+* source: [ropensci/fishbaseapi](https://github.com/ropensci/fishbaseapi)
+* base URL <https://fishbase.ropensci.org>
+* mainted by [Carl Boettiger][cboettig]
 
 ### BIEN API
 
