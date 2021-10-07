@@ -39,6 +39,7 @@ Programming
 
 Publications
 ------------
++ Guzman, L. M., __Chamberlain, S. A.__, & Elle, E. (2021). Network robustness and structure depend on the phenological characteristics of plants and pollinators. Ecology and Evolution. <https://doi.org/10.1002/ece3.8055>
 + Mitchell, N., __Chamberlain, S. A.__, & Whitney, K. D. (2021). Proximity to crop relatives determines some patterns of natural selection in a wild sunflower. Evolutionary Applications. <https://doi.org/10.1111/eva.13201>
 + Guzman, L. M., __Chamberlain, S. A.__, & Elle, E. (2020). Phenology and Robustness in plant-pollinator networks. BioRxiv Preprint. <https://doi.org/10.1101/2020.10.30.362616>
 + Conde, D. A., Staerk, J., Colchero, F., __Chamberlain, S.__, _et al_. 2019. Data gaps and opportunities for comparative and conservation biology. __PNAS__, 116(19), 9658–9664. <https://doi.org/10.1073/pnas.1816367116>
