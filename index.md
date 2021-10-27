@@ -15,7 +15,7 @@ title: Home
 
 ### Blog
 
-I blog about code/software and other things at <https://recology.info>
+I sometimes blog about code/software and other things at <https://recology.info>
 
 ### Other stuff
 
