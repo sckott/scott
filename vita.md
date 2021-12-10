@@ -19,7 +19,8 @@ date: 2021-07-09
 
 Work
 ----
-* 2014-July 2021&nbsp;&nbsp;&nbsp;__rOpenSci__: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets. [Website](https://ropensci.org/); [Code](https://github.com/ropensci).
+* Aug 2021 - present&nbsp;&nbsp;&nbsp;__Our Research__: Principal Software Engineer and Product Owner of [Unsub](https://unsub.org/)
+* 2014-July 2021&nbsp;&nbsp;&nbsp;__rOpenSci__: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets
 * 2016-Jan 2021&nbsp;&nbsp;&nbsp;__Open Knowledge Maps__, Backend Data Sources Consultant/Volunteer
 * 2012-2014&nbsp;&nbsp;&nbsp;__Simon Fraser University__: Postdoctoral Scholar - Plant-pollinator networks
 
@@ -31,11 +32,11 @@ Education
 
 Programming
 ------------
-* R >> I have developed R software for 14 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([https://ropensci.org/](https://ropensci.org/)).
-* Python >> I have programmed in Python for 7 years, and am relatively comfortable throughtout the language, having used it for a variety of simulations, and maintain 3 python libraries on pypi.
-* Ruby >> I have programmed in Ruby for about 6 years. I have deployed [an app to Heroku](http://rodash.herokuapp.com/roapi) to monitor the many web APIs that we at rOpenSci consume, and b) I wrote a tiny gem to get Bibtex style references by inputting a DOI [here](https://github.com/sckott/doiref)), and I write many RESTful APIs in Ruby Sinatra. I have 5 gems on Rubygems.
+* R >> I have developed R software for 15 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([https://ropensci.org/](https://ropensci.org/)).
+* Python >> I have programmed in Python for 8 years, have used it for academic research, python libraries on PyPi, and in my current job I work with the Flask framework.
+* Ruby >> I have programmed in Ruby for about 7 years. I've deployed many REST APIs using the Sinatra framework. I have 5 gems on Rubygems.
 * HTML/CSS >> I use HTML often for my own website and blog, and occasionally customize CSS.
-* Databases >> I am familiar with and use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB). I am also  familiar with Elasticsearch and Solr, and have created R clients for both of them.
+* Databases >> I am familiar with and use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB). I am also familiar with Elasticsearch and Solr, and have created R clients for both.
 
 Publications
 ------------
