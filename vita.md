@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vita
-date: 2021-07-09
+date: 2022-08-23
 ---
 
 <!-- <h2> <a href="{{ url }}/pdfs/cv.pdf">PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/vita_onepage">1 pg vita</a> </h2> -->
@@ -13,9 +13,8 @@ date: 2021-07-09
 - Website: [scottchamberlain.info](https://scottchamberlain.info)
 - Blog: [recology.info](https://recology.info)
 - ORCID: [0000-0003-1444-9135](https://orcid.org/0000-0003-1444-9135)
-- LinkedIn: [linkedin.com/profile/view?id=198453270](https://www.linkedin.com/profile/view?id=198453270)
+- LinkedIn: [sckott](https://www.linkedin.com/in/scott-a-chamberlain/)
 - Twitter: <a href="https://twitter.com/sckottie">@sckottie</a>
-- Email: [myrmecocystus@gmail.com](mailto:myrmecocystus@gmail.com)
 
 Work
 ----
@@ -36,7 +35,7 @@ Programming
 * Python >> I have programmed in Python for 8 years, have used it for academic research, python libraries on PyPi, and in my current job I work with the Flask framework.
 * Ruby >> I have programmed in Ruby for about 7 years. I've deployed many REST APIs using the Sinatra framework. I have 5 gems on Rubygems.
 * HTML/CSS >> I use HTML often for my own website and blog, and occasionally customize CSS.
-* Databases >> I am familiar with and use many databases, including SQL (MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB). I am also familiar with Elasticsearch and Solr, and have created R clients for both.
+* Databases >> I am familiar with and use many databases, including SQL (Redshift, MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB). I am also familiar with Elasticsearch and Solr, and have created R clients for both.
 
 Publications
 ------------
