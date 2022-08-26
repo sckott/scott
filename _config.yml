@@ -4,13 +4,12 @@ highlighter:         rouge
 # Permalinks
 permalink:        pretty
 
-url: http://scottchamberlain.info
+url: https://scottchamberlain.info
 
 # Setup
 title:            Scott Chamberlain
 tagline:          'homo sapien'
-description:      'I write the codes.'
-url:              http://scottchamberlain.info/
+url:              https://scottchamberlain.info/
 
 author:
   name:           'Scott Chamberlain'
