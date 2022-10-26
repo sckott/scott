@@ -3,6 +3,7 @@ layout: page
 title: Publications
 ---
 
++ Chamberlain, S. (2022). Lessons Learned from Reevaluating Big Deals with Unsub. Serials Review. [web][webserials] [pdf][pdf36]
 + Guzman, L. M., Chamberlain, S. A., & Elle, E. (2021). Network robustness and structure depend on the phenological characteristics of plants and pollinators. Ecology and Evolution. [web][guzman2] [pdf][pdf35]
 + Mitchell, N., Chamberlain, S. A., & Whitney, K. D. (2021). Proximity to crop relatives determines some patterns of natural selection in a wild sunflower. Evolutionary Applications. [web][mitchell] [pdf][pdf34]
 + Norman, K. E. A., Chamberlain, S., & Boettiger, C. (2020). taxadb: A high‐performance local taxonomic database interface. Methods in Ecology and Evolution, 11(9), 1153–1159. [web][norma] [pdf][pdf32]
@@ -97,6 +98,7 @@ title: Publications
 [pdf33]: {{ url }}/pdfs/pearse.pdf
 [pdf34]: {{ url }}/pdfs/mitchelletal.pdf
 [pdf35]: {{ url }}/pdfs/guzman2.pdf
+[pdf36]: {{ url }}/pdfs/serials.pdf
 [f1000web]: http://f1000research.com/articles/2-191/v2
 [isqpaper]: https://github.com/sckott/isqaltms
 [isqweb]: https://www.niso.org/niso-io/2013/06/chamberlain
@@ -119,3 +121,4 @@ title: Publications
 [pearse]: https://doi.org/10.21105/joss.00721
 [mitchell]: https://doi.org/10.1111/eva.13201 
 [guzman2]: https://doi.org/10.1002/ece3.8055
+[webserials]: https://doi.org/10.1080/00987913.2022.2132090
