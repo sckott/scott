@@ -14,7 +14,6 @@ date: 2022-08-23
 - Blog: [recology.info](https://recology.info)
 - ORCID: [0000-0003-1444-9135](https://orcid.org/0000-0003-1444-9135)
 - LinkedIn: [sckott](https://www.linkedin.com/in/scott-a-chamberlain/)
-- Twitter: <a href="https://twitter.com/sckottie">@sckottie</a>
 
 Work
 ----

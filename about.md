@@ -14,11 +14,7 @@ title: About
 <hr>
 
 <div>
-<a alt="twitter" href="https://twitter.com/sckottie" target="_blank"><i class="fa fa-twitter fa-4x"  aria-hidden="true"></i></a>
-
 <a alt="github" href="https://github.com/sckott" target="_blank"><i class="fa fa-github-alt fa-4x" aria-hidden="true"></i></a>
 
-<a alt="email" href="mailto:myrmecocystus@gmail.com" target="_blank"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
-
-<a alt="linkedin" href="http://www.linkedin.com/profile/view?id=198453270" target="_blank"><i class="fa fa-linkedin-square fa-4x"  aria-hidden="true"></i></a>
+<a alt="linkedin" href="https://www.linkedin.com/in/scott-a-chamberlain/" target="_blank"><i class="fa fa-linkedin-square fa-4x"  aria-hidden="true"></i></a>
 </div>
