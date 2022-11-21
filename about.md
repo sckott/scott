@@ -3,6 +3,10 @@ layout: page
 title: About
 ---
 
+#### I'm currently a Senior Data Engineer with <a href="https://www.deck.tools/" target="_blank">Deck Tools</a>.
+
+#### After rOpenSci, I worked with  <a href="http://ourresearch.org/" target="_blank">OurResearch</a> as the product owner/developer on <a href="https://unsub.org" target="_blank">Unsub</a>.
+
 #### I was a co-founder of <a href="http://ropensci.org/" target="_blank">rOpenSci</a>, a project to facilitate open science by creating open source tools witin the <a href="http://cran.r-project.org/" target="_blank">R</a> programming environment.
 
 #### From 2012-2014 I was a postdoc in the Biology Department at Simon Fraser University in Vancouver, Canada.
