@@ -6,7 +6,9 @@ date: 2022-08-23
 
 <!-- <h2> <a href="{{ url }}/pdfs/cv.pdf">PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/vita_onepage">1 pg vita</a> </h2> -->
 
-<h2><a href="{{ url }}/pdfs/cv.pdf">PDF</a></h2>
+<h2><a href="{{ url }}/pdfs/cv.pdf">Vita PDF</a></h2>
+
+<h2><a href="{{ url }}/pdfs/resume.pdf">Resume PDF</a></h2>
 
 # **Scott Chamberlain**
 - Code on GitHub: [github.com/sckott](https://github.com/sckott)
