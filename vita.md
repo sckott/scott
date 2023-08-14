@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vita
-date: 2022-08-23
+date: 2023-08-14
 ---
 
 <!-- <h2> <a href="{{ url }}/pdfs/cv.pdf">PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/vita_onepage">1 pg vita</a> </h2> -->
@@ -19,7 +19,8 @@ date: 2022-08-23
 
 Work
 ----
-* Aug 2021 - present&nbsp;&nbsp;&nbsp;__Our Research__: Principal Software Engineer and Product Owner of [Unsub](https://unsub.org/)
+* Nov 2022 - present&nbsp;&nbsp;&nbsp;__Deck__: Senior Data Engineer
+* Aug 2021 - Nov 2022&nbsp;&nbsp;&nbsp;__Our Research__: Principal Software Engineer and Product Owner of [Unsub](https://unsub.org/)
 * 2014-July 2021&nbsp;&nbsp;&nbsp;__rOpenSci__: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets
 * 2016-Jan 2021&nbsp;&nbsp;&nbsp;__Open Knowledge Maps__, Backend Data Sources Consultant/Volunteer
 * 2012-2014&nbsp;&nbsp;&nbsp;__Simon Fraser University__: Postdoctoral Scholar - Plant-pollinator networks
