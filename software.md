@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: single
 title: Software
 ---
+
+<i class="fa fa-github"></i> <a href="https://github.com/sckott/" target="_blank">sckott on Github</a>
 
 Selected software
 

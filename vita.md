@@ -1,39 +1,43 @@
 ---
-layout: page
+layout: single
 title: Vita
 date: 2023-08-14
 ---
 
 <!-- <h2> <a href="{{ url }}/pdfs/cv.pdf">PDF</a> &nbsp;&nbsp;&nbsp; <a href="{{ url }}/vita_onepage">1 pg vita</a> </h2> -->
 
-<h2><a href="{{ url }}/pdfs/cv.pdf">Vita PDF</a></h2>
-
-<h2><a href="{{ url }}/pdfs/resume.pdf">Resume PDF</a></h2>
+<a href="{{ url }}/pdfs/cv.pdf">
+	<i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;CV
+</a>
+<br>
+<a href="{{ url }}/pdfs/resume.pdf">
+	<i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;Resume
+</a>
 
 # **Scott Chamberlain**
-- Code on GitHub: [github.com/sckott](https://github.com/sckott)
+- Code: [<i class="fa fa-github" aria-hidden="true"></i>](https://github.com/sckott)
 - Website: [scottchamberlain.info](https://scottchamberlain.info)
 - Blog: [recology.info](https://recology.info)
 - ORCID: [0000-0003-1444-9135](https://orcid.org/0000-0003-1444-9135)
-- LinkedIn: [sckott](https://www.linkedin.com/in/scott-a-chamberlain/)
+- LinkedIn: [<i class="fa fa-linkedin" aria-hidden="true"></i>](https://www.linkedin.com/in/scott-a-chamberlain/)
 
 Work
 ----
-* Nov 2022 - present&nbsp;&nbsp;&nbsp;__Deck__: Senior Data Engineer
+* Nov 2022 - Aug 2023&nbsp;&nbsp;&nbsp;__Deck__: Senior Data Engineer
 * Aug 2021 - Nov 2022&nbsp;&nbsp;&nbsp;__Our Research__: Principal Software Engineer and Product Owner of [Unsub](https://unsub.org/)
 * 2014-July 2021&nbsp;&nbsp;&nbsp;__rOpenSci__: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets
-* 2016-Jan 2021&nbsp;&nbsp;&nbsp;__Open Knowledge Maps__, Backend Data Sources Consultant/Volunteer
+* 2016-Jan 2021&nbsp;&nbsp;&nbsp;__Open Knowledge Maps__, Software Engineer Volunteer
 * 2012-2014&nbsp;&nbsp;&nbsp;__Simon Fraser University__: Postdoctoral Scholar - Plant-pollinator networks
 
 Education
 ---------
-* 2012 Ph.D Dept. of Ecology & Evolutionary Biology, Rice University
-* 2009 M.A. Dept. of Ecology & Evolutionary Biology, Rice University
-* 2003 B.S. Biological Sciences, California State University
+* 2012 Ph.D - Dept. of Ecology & Evolutionary Biology, Rice University
+* 2009 M.A. - Dept. of Ecology & Evolutionary Biology, Rice University
+* 2003 B.S. - Biological Sciences, California State University
 
 Programming
 ------------
-* R >> I have developed R software for 15 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([https://ropensci.org/](https://ropensci.org/)).
+* R >> I have developed R software for ~17 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([https://ropensci.org/](https://ropensci.org/)).
 * Python >> I have programmed in Python for 8 years, have used it for academic research, python libraries on PyPi, and in my current job I work with the Flask framework.
 * Ruby >> I have programmed in Ruby for about 7 years. I've deployed many REST APIs using the Sinatra framework. I have 5 gems on Rubygems.
 * HTML/CSS >> I use HTML often for my own website and blog, and occasionally customize CSS.
@@ -170,8 +174,10 @@ Larry Liu (Summer 2008), Rameez Anwar (Fall 2008-Spring 2009), Yosuke Akiyama (F
 
 Extramural service and community outreach
 -------
++ 2017-2018	Started and co-organized the first two years of CascadiaRConf, a regional R conference serving the Pacific Northwest
++ 2015-2019	Organized the Portland R User Group in Portland, OR
 + 2010  Organized the Rice University-University of Houston Joint Graduate Student Conference
-+ 2008-2009 Board Member, Rice University Bicycle Safety Committee, Graduate Student Representative to prepare a bicycle safety policy for Rice University
++ 2008-2009	Board Member, Rice University Bicycle Safety Committee, Graduate Student Representative to prepare a bicycle safety policy for Rice University
 + 2007-2010 Treasurer/Secretary, Ecology & Evolutionary Biology Graduate Student Association, Rice University.
 + 2004-2005   Board Member, Friends of Bidwell Park Board of Directors, Chico, California. Advocacy for sound environmental stewardship of parks.
 
@@ -187,7 +193,9 @@ Peer review service
 
 References
 -------
-+ Dr. Elizabeth Elle, Biology Dept., Simon Fraser University, eelle@sfu.ca
-+ Dr. Robert Schlising, Biology Dept., California State University, Chico, rschlising@csuchico.edu
-+ Dr. Jennifer Rudgers, Biology Dept., University of New Mexico, jrudgers@unm.edu
-+ Dr. Ken Whitney, Biology Dept., University of New Mexico, kwhitney@unm.edu
++ Max Wood, Deck, Founder
++ Louis Eisenberg, Deck, Head of Engineering
++ Dr. Carl Boettiger, rOpenSci, University of California, Berkeley
++ Dr. Elizabeth Elle, Biology Dept., Simon Fraser University
++ Dr. Robert Schlising, Biology Dept., California State University, Chico
++ Dr. Jennifer Rudgers, Biology Dept., University of New Mexico

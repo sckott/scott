@@ -1,3 +1,7 @@
+# Theme
+theme: minimal-mistakes-jekyll
+
+
 # Dependencies
 highlighter:         rouge
 
@@ -8,13 +12,10 @@ url: https://scottchamberlain.info
 
 # Setup
 title:            Scott Chamberlain
-tagline:          'homo sapien'
 url:              https://scottchamberlain.info/
 
 author:
   name:           'Scott Chamberlain'
-
-# paginate:         5
 
 # Custom vars
 version:          1.0.0
