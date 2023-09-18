@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: WebServices
 ---
 
@@ -53,7 +53,7 @@ API for <http://plants.usda.gov/java/>
 * source: [sckott/usdaplantsapi](https://github.com/sckott/usdaplantsapi)
 * base URL <https://plantsdb.xyz>
 
-### rOpenSci API - 
+### rOpenSci API -
 
 API for <https://ropensci.org> packages, citations, etc.
 
