@@ -22,7 +22,6 @@ Previously, I received my M.A. & Ph.D. at <a href="https://biosciences.rice.edu/
 [Vita][vita]{: .btn .btn--info}
 [Blog <i class="fa fa-external-link-square" aria-hidden="true"></i>](https://recology.info){: .btn .btn--info}
 [R for cats <i class="fa fa-external-link-square" aria-hidden="true"></i>](https://rforcats.net){: .btn .btn--info}
-<!-- <a href="https://cascadiarconf.org/" target="_blank">CascadiaRConf</a> - I started and co-organized the first two years of the regional R conference  -->
 
 [vita]: /vita
 [talks]: /talks

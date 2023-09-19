@@ -1,5 +1,5 @@
 ---
-layout: otherpage
+layout: single
 title: vita_onepage
 date: 2014-01-07
 ---

@@ -1,7 +1,3 @@
-# Theme
-theme: minimal-mistakes-jekyll
-
-
 # Dependencies
 highlighter:         rouge
 
@@ -25,3 +21,6 @@ github:
   ropensci:     https://github.com/ropensci
 
 reproduce: https://github.com/sckott/scott
+
+plugins:
+  - jekyll-include-cache
