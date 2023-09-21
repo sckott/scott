@@ -3,7 +3,7 @@ layout: home
 title: About me
 author_profile: true
 author:
-  avatar: "/img/me_purple.jpg"
+  avatar: "/img/main-social-headshot.jpeg"
 ---
 
 
