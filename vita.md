@@ -23,6 +23,7 @@ date: 2023-08-14
 
 Work
 ----
+* Oct 2023 - present&nbsp;&nbsp;&nbsp;__Fred Hutch Data Science Lab__: Software Engineer
 * Nov 2022 - Aug 2023&nbsp;&nbsp;&nbsp;__Deck__: Senior Data Engineer
 * Aug 2021 - Nov 2022&nbsp;&nbsp;&nbsp;__Our Research__: Principal Software Engineer and Product Owner of [Unsub](https://unsub.org/)
 * 2014-July 2021&nbsp;&nbsp;&nbsp;__rOpenSci__: co-founded developer collective to make R (#rstats) packages to facilitate use of open source journals and data sets
