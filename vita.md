@@ -192,10 +192,11 @@ Peer review service
 
 * **Grant Proposals**: Chan Zuckerberg Initiative, 2x
 
-* **Peer Review** (55 total): African Journal of Agricultural Research, Agricultural & Forest Entomology (2), The American Naturalist, Annals of Botany (2), Biodiversity Data Journal, Biological Invasions, Ecography (4), Ecological Complexity, Ecological Entomology, Ecological Complexity, Ecology (3), Ecology Letters, Ecology and Evolution, Environmental Management, Evolutionary Ecology, Florida Entomologist (2), Journal of Avian Biology, Journal of Ecology (4), Journal of Tropical Ecology, Methods in Ecology and Evolution (7), New Phytologist, Oecologia, Oikos (3), Plant Ecology, PLOS One (2), Population Ecology (2), Proceedings of the Royal Society B, The R Journal (2), Scientific Data (3), PeerJ, F1000Research
+* **Peer Review** (55 total): African Journal of Agricultural Research, Agricultural & Forest Entomology (2), The American Naturalist, Annals of Botany (2), Biodiversity Data Journal, Biological Invasions, Ecography (4), Ecological Complexity, Ecological Entomology, Ecological Complexity, Ecology (3), Ecology Letters, Ecology and Evolution, Environmental Management, Evolutionary Ecology, Florida Entomologist (2), Journal of Avian Biology, Journal of Ecology (4), Journal of Tropical Ecology, Methods in Ecology and Evolution (7), New Phytologist, Oecologia, Oikos (3), Plant Ecology, PLOS One (2), Population Ecology (2), Proceedings of the Royal Society B, The R Journal (2), Scientific Data (3), PeerJ, F1000Research, rOpenSci (software peer review)
 
 References
 -------
++ Dr. Sean Kross, Fred Hutch Cancer Center, Lead - Human Computer Interaction group
 + Max Wood, Deck, Founder
 + Louis Eisenberg, Deck, Head of Engineering
 + Dr. Carl Boettiger, rOpenSci, University of California, Berkeley
