@@ -1,0 +1,110 @@
+/* Custom layout styles for slide decks */
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides > section {
+  padding: 20px 30px;
+}
+
+/* Center text for title slides */
+.reveal .slides section.center,
+.reveal .slides section#title-slide,
+.reveal .slides section#end {
+  text-align: center;
+}
+
+/* Adjust spacing for bullet points */
+.reveal ul {
+  margin-left: 20px;
+}
+
+.reveal li {
+  margin-bottom: 16px;
+}
+
+/* Make h2 content look better */
+.reveal h2 + ul,
+.reveal h2 + ol,
+.reveal h2 + p {
+  margin-top: 24px;
+}
+
+/* Format code blocks */
+.reveal pre {
+  width: 90%;
+  margin: 20px auto;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Special formatting for emphasis */
+.reveal strong,
+.reveal b {
+  font-weight: 600;
+}
+
+/* Format blockquotes */
+.reveal blockquote {
+  padding: 10px 20px;
+  border-left: 5px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom heading sizes to match the reference */
+.reveal h1 {
+  font-size: 2.2em;
+}
+
+.reveal h2 {
+  font-size: 1.6em;
+}
+
+.reveal h3 {
+  font-size: 1.3em;
+  color: #777;
+}
+
+/* Set margins in lists */
+.reveal ul.b li h2 {
+  margin-bottom: 0;
+}
+
+/* Adjust image display */
+.reveal img {
+  margin: 15px 0;
+  max-height: 500px;
+}
+
+/* Center-aligned blocks */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Zero out padding in tables */
+.reveal table th, 
+.reveal table td {
+  padding: 0px;
+}
+
+/* Custom styles for specific slide types */
+.reveal .slides section.has-dark-background,
+.reveal .slides section.has-dark-background h1,
+.reveal .slides section.has-dark-background h2,
+.reveal .slides section.has-dark-background h3 {
+  color: #fff;
+}
+
+/* Improved spacing for better readability */
+.reveal p {
+  margin-bottom: 16px;
+}
+
+/* Font-awesome icon adjustments */
+.reveal i.fa,
+.reveal i.fab {
+  margin: 0 5px;
+}

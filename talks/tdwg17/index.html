@@ -1,0 +1,598 @@
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>TDWG 17</title>
+
+		<meta name="description" content="TDWG 17">
+		<meta name="author" content="Scott Chamberlain">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../shared/css/reveal.css">
+		<link rel="stylesheet" href="../shared/css/theme/solarized.css" id="theme">
+		<link rel="stylesheet" href="../shared/css/bootstrap/bootstrap.css">
+
+		<!-- use google font -->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+		<!-- Custom styles -->
+        <link rel="stylesheet" href="../shared/css/custom/fonts.css" />
+
+        <!-- favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+		<!-- fontawesome icons -->
+        <link
+            rel="stylesheet"
+            href="../shared/css/fontawesome-free-6.7.2-web/css/fontawesome.min.css"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/brands.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/fontawesome.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/brands.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/solid.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/sharp-thin.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/duotone-thin.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/sharp-duotone-thin.css"
+            rel="stylesheet"
+        />
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../shared/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<style type="text/css">
+			#rotate_text {
+				-webkit-transform: rotate(-90deg);
+				-moz-transform: rotate(-90deg);
+				transform: rotate(-90deg);
+				position: absolute;
+				vertical-align: middle;
+				position: absolute;
+    		top: 500px;
+    		left: -50px;
+				filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+			}
+
+			/* ul.a {list-style-type: circle; margin: 0; padding: 0;}
+			ul.b {list-style-type: square; margin-left: 4; padding-left: 0;} */
+
+            .reveal ul li {
+                line-height: 0.8em; /* Adjust this value to your preference */
+                margin-bottom: 0.1em; /* Adjust this value to your preference */
+            }
+
+			img {border: none;}
+
+			.center-block {
+			  display: block;
+			  margin-left: auto;
+			  margin-right: auto;
+			}
+
+			.box_rotate {
+			     -moz-transform: rotate(-45deg);  /* FF3.5+ */
+			       -o-transform: rotate(-45deg);  /* Opera 10.5 */
+			  -webkit-transform: rotate(-45deg);  /* Saf3.1+, Chrome */
+			             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+			         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+			         float: left;
+			}
+		</style>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+
+		<section id="intro">
+			<h1><font color="#B8172F">The Taxonomic and Biodiversity Software Stack in R</font></h1><br>
+			<p class="grey">Scott Chamberlain (<a href="https://twitter.com/sckottie">@sckottie</a>/<a href="https://twitter.com/ropensci">@ropensci</a>)</p>
+			<p class="grey">UC Berkeley - rOpenSci
+			<br>
+			<span><img src="img/icon_lettering_color.svg" alt="rOpenSci" width="700" /></span>
+		</section>
+
+		<section id="thanks-helmsley" class="center">
+			<span><img src="img/helmsley.png" alt="hemlsley foundation" width="1000" /></span>
+		</section>
+
+		<section id="link" class="center">
+			<i class="fa fa-external-link fa-5x"></i>
+			<br><br>
+			<h2><a href="https://scotttalks.info/tdwg17">scotttalks.info/tdwg17</a> </h2>
+			<br><br><br>
+			<h2>LICENSE: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a></h2>
+		</section>
+
+		<!-- actual stuff -->
+		<!-- r lang -->
+		<section id="r-lang" class="center">
+			<!-- <br><br><br>
+			<h1>the R programming language</h1>
+			<br> -->
+			<img src="img/rlogo.svg" width="700">
+		</section>
+
+		<section id="r-intro-1">
+			<h1>R intro</h1>
+			<br>
+			<ul>
+				<li><h2>growing in popularity</h2></li>
+				<li><h2>very widespread with biologists</h2></li>
+				<li><h2>similar to e.g., Ruby, Python, Julia</h2></li>
+				<li><h2>> 10K packages</h2></li>
+			</ul>
+		</section>
+
+		<section id="r-intro-2">
+			<h1>a pitch for R</h1>
+			<br>
+			<h2>making biodiveristy and taxonomy software in R:</h2>
+			<br>
+			<ul>
+				<li><h3>R has all parts of digital research workflow</h3></li>
+				<li><h3>R software means targeting users</h3></li>
+				<li><h3>meets scientists/etc. where they are, which: </h3></li>
+				<ul>
+					<li><h3>facilitates reproducible science</h3></li>
+					<li><h3>facilitates open science</h3></li>
+				</ul>
+			</ul>
+		</section>
+		<!-- end r lang -->
+
+
+
+
+		<!-- ropensci -->
+		<section id="ropensci" class="center">
+			<img src="img/icon_lettering_color.svg" alt="rOpenSci" width="1000" />
+		</section>
+
+		<section id="ropensci-intro">
+			<h1>rOpenSci?</h1>
+			<br>
+			<ul>
+				<li><h2>non-profit</h2></li>
+				<li><h2>make open-source software for R</h2></li>
+				<li><h2>large community developers/users</h2></li>
+				<li><h2>target science use cases</h2></li>
+				<li><h2>we often play role of communicating btw. scientists/data provders</h2></li>
+			</ul>
+		</section>
+		<!-- end ropensci -->
+
+
+		<!-- biodiv pipeline -->
+		<section id="pipeline" class="center">
+			<img src="img/pipeline1.png" width="1300"></img>
+		</section>
+		<!-- end biodiv pipeline -->
+
+
+		<!-- taxonomy R landscape -->
+		<section id="taxonomy-landscape-1">
+			<img src="img/pipeline_tax.png"></img>
+			<br><br>
+			<h1>the R taxonomy landscape</h1>
+		</section>
+
+		<section id="taxonomy-landscape-2">
+			<h2>R packages</h2>
+			<h4><strong>*</strong> not rOpenSci</h4>
+			<ul>
+				<li><h3><a href="https://github.com/ropensci/ritis">ritis</a> - ITIS API client</h3></li>
+				<li><h3><a href="https://github.com/ropensci/taxa">taxa</a> - taxonomic classes</h3></li>
+				<li><h3><a href="https://github.com/ropensci/taxize">taxize</a> - one stop shop for data</h3></li>
+				<li><h3><a href="https://github.com/ropensci/taxizedb">taxizedb</a> - work w/ database dumps</h3></li>
+				<li><h3><a href="https://github.com/ropensci/wikitaxa">wikitaxa</a> - Wikipedia taxonomy</h3></li>
+				<li><h3><a href="https://github.com/ropensci/worrms">worrms</a> - WoRMS API client</h3></li>
+				<li><h3><a href="https://github.com/ropenscilabs/pegax">pegax</a> - parse taxonomic names</h3></li>
+				<li><h3 style="font-size: 50px"><a href="https://cran.rstudio.com/web/packages/Taxonstand/">Taxonstand</a> - Plant List access (*)</h3></li>
+			</ul>
+			<br>
+			<h3>R taxonomy task view: <a href="https://github.com/ropensci/taxonomy" target="_blank">&nbsp;<i class="fa fa-external-link-square"></i></a></h3>
+		</section>
+		<!-- end taxonomy R landscape -->
+
+
+		<!-- taxonomy: taxize -->
+		<section id="taxize" class="center">
+			<h1 style="font-size: 300px">taxize</h1>
+		</section>
+
+		<section id="taxize-overview">
+			<h1>taxize</h1>
+			<br>
+			<ul>
+				<li><h2>access to more than 20 data sources</h2></li>
+				<li><h2>consistent interfaces for tasks:
+					<ul>
+						<li>search</li>
+						<li>taxonomic ids</li>
+						<li>hierarchy</li>
+						<li>up/down-stream</li>
+						<li>children</li>
+						<li>synonyms</li>
+						<li>name resolution</li>
+					</ul>
+				</h2></li>
+			</ul>
+		</section>
+
+		<section id="taxize-citations">
+			<h1>taxize citations</h1>
+			<br>
+			<h2>with > 50 citations, some e.g.'s</h2>
+			<ul>
+				<li><a href="https://doi.org/10.1016/j.ecoinf.2015.05.004">Retrieving taxa names from large biodiversity data collections using a flexible matching workflow</a></li>
+				<li><a href="https://doi.org/10.1111/mec.13026">Comparative genomics in the Asteraceae reveals little evidence for parallel evolutionary change in invasive taxa</a></li>
+				<li><a href="https://doi.org/10.1002/ece3.1246">Are all species necessary to reveal ecologically important patterns?</a></li>
+				<li><a href="https://doi.org/10.1890/15-1397.1">Long-lasting effects of land use history on soil fungal communities in second-growth tropical rain forests</a></li>
+				<li><a href="https://doi.org/10.1111/nph.14077">Taxonomic similarity, more than contact opportunity, explains novel plant-pathogen associations between native and alien taxa</a></li>
+				<li><a href="http://www.diva-portal.org/smash/get/diva2:951404/FULLTEXT01.pdf">Diversity of ecosystems: Variation in network structure among food webs.</a></li>
+				<li><a href="https://doi.org/10.1111/2041-210x.12600">camtrapR: an R package for efficient camera trap data management</a></li>
+				<li><a href="https://doi.org/10.1101/065425">Genome size variation and species diversity in salamander families</a></li>
+			</ul>
+		</section>
+
+		<section id="taxize-use-case">
+			<h2>representative taxize use case</h2>
+			<center>Leung et al. (2017). A quantitative-PCR based method to estimate ranavirus viral load following normalisation by reference to an ultraconserved vertebrate target. J. Virological Methods.<a href="https://doi.org/10.1016/j.jviromet.2017.08.016" target="_blank">&nbsp;<i class="fa fa-external-link-square"></i></a></center>
+			<br>
+			<blockquote style="font-size: 75px; color: #ADADAD">"retrieve classification hierarchy from the Integrated Taxonomic Information System"</blockquote>
+		</section>
+		<!-- end taxize -->
+
+
+		<!-- taxonomy: taxa -->
+		<section id="taxa" class="center">
+			<h1 style="font-size: 300px">taxa</h1>
+		</section>
+
+		<section id="taxa-1">
+			<h1>taxa</h1>
+			<br>
+			<ul>
+				<li><h2>taxonomic classes for R: taxon IDs, names, ranks, data sources</h2></li>
+				<li><h2>taxonomic classes w/ &amp; w/o data</h2></li>
+				<li><h2>manipulate taxonomic classes: grow, prune, combine, calculate, etc.</h2></li>
+				<li><h2>manipulate taxonomic classes while maintaining link to data</h2></li>
+			</ul>
+		</section>
+
+		<section id="taxa-build-on">
+			<h1>taxa as foundation software</h1>
+			<br>
+			<h2>idea is to integrate taxa in other software, e.g.:</h2>
+			<br>
+			<ul>
+				<li><h2>in development ver. taxize (see <a href="https://github.com/ropensci/taxize/tree/taxa-ids">taxa-ids branch</a>)</h2></li>
+			</ul>
+		</section>
+
+		<section data-markdown id="taxa-eg-1">
+			<script type="text/template">
+				# taxa
+
+				## construct taxon/hierarchy objects
+
+				```r
+				sp <- taxon("Poa annua", rank = "species", id = 93036, authority = "Linnaeus")
+				gen <- taxon("Poa", rank = "genus", id = 4544)
+				fam <- taxon("Poaceae", rank = "family", id = 4479)
+
+				# combine into a hierarchy
+				hier <- hierarchy(x, ...)
+				```
+
+				## manipulate hierarchies
+
+				```r
+				# `pick()` - Pick out specific taxa
+				pick(hier, nms("Poaceae", "Poa"))
+
+				# `pop()` - Drop taxa
+				pop(hier, ids(4479, 4544))
+
+				# `span()` - Select a range of taxa
+				span(hier, nms("Poaceae", "Poa"))
+				```
+			</script>
+		</section>
+
+		<section data-markdown id="taxa-eg-2">
+			<script type="text/template">
+				# taxa
+
+				## construct taxmap (taxonomy + data)
+
+				```r
+				my_taxmap <- taxmap(tiger, cat, mole, human, tomato, potato,
+           data = list(info = info,
+                       phylopic_ids = phylopic_ids,
+                       foods = foods),
+           funcs = list(reaction = reaction))
+				```
+				<br>
+				## subset all taxa w/ name starting with "t"
+
+				```r
+				filter_taxa(my_taxmap, startsWith(taxon_names, "t"))
+				```
+
+				## add new columns
+
+				```r
+				mutate_obs(my_taxmap, "info", new_col = ..., newer_col = ...)
+				```
+			</script>
+		</section>
+
+		<section id="taxa-feedback">
+			<h1>Thoughts on taxa?</h1>
+			<br>
+			<h2>Would love to know what people think?</h2>
+		</section>
+		<!-- end taxa -->
+
+
+		<!-- taxonomy: pegax -->
+		<section id="pegax" class="center">
+			<h1 style="font-size: 300px">pegax</h1>
+		</section>
+
+		<section id="pegax-peg">
+			<h1>PEG - Parsing Expression Grammar</h1>
+			<br>
+			<ul>
+				<li><h2>define rules (e.g., capture any digit)</h2></li>
+				<li><h2>combine rules to form a grammar</h2></li>
+				<li><h2>apply grammar to strings (e.g., taxonomic names)</h2></li>
+			</ul>
+		</section>
+
+		<section id="gnparser">
+			<h1><a href="https://github.com/GlobalNamesArchitecture/gnparser">gnparser</a> exists</h1>
+			<h2><a href="https://doi.org/10.3897/tdwgproceedings.1.20186">tdwg17 talk</a></h2>
+			<br>
+			<h2>thanks dmitry</h2>
+			<br>
+			<img src="img/dmitry.jpeg">
+		</section>
+
+		<section id="gnparser-but">
+			<h1>but ...</h1>
+			<br>
+			<h2>R and Java don't play nice <i class="fa fa-frown-o"></i></h2>
+			<h2>R and C++ do play nice <i class="fa fa-smile-o"></i></h2>
+			<br>
+			<h2>I'm learning from gnparser to implement R/C++ parser</h2>
+		</section>
+
+		<section data-markdown id="pegax-rules">
+			<script type="text/template">
+				# pegax rules
+				## PEG: parsing expression grammar
+				<br>
+
+				```c++
+				// Capture any letter
+				struct name
+				  : plus< alpha >
+				{};
+				```
+
+				```c++
+				// Capture any digit
+				struct numbers
+				  : plus< digit >
+				{};
+				```
+
+				```c++
+				// Construct grammar
+				struct grammar
+				  : must< name, one< ',' >, space, numbers, eof >
+				{};
+				```
+			</script>
+		</section>
+
+		<section id="pegax-not-done">
+			<h1>pegax status</h1>
+			<br>
+			<h2>not done yet, but </h2>
+			<br>
+			<h2>can instead and into the future use <a href="http://resolver.globalnames.org/api">Globalnames Resolver</a> as a web service via <a href="https://github.com/ropensci/taxize">taxize</a></h2>
+			<br>
+			<h2><code>taxize::gnr_resolve</code></h2>
+		</section>
+		<!-- end pegax -->
+
+
+		<!-- biodiversity R landscape -->
+		<section id="biodiversity-landscape">
+			<img src="img/pipeline_occ.png"></img>
+			<br><br>
+			<h1>the R biodiversity landscape</h1>
+		</section>
+
+		<section id="biodiversity-landscape-1">
+			<h2>R packages</h2>
+			<h4><strong>*</strong> not rOpenSci</h4>
+			<ul>
+				<li><h3 style="font-size: 40px"><a href="https://github.com/ropensci/rgbif">rgbif</a> - GBIF</h3></li>
+				<li><h3 style="font-size: 40px"><a href="https://github.com/ropensci/finch">finch</a> - parse GBIF bulk data</h3></li>
+				<ul>
+					<li><h3 style="font-size: 40px"><a href="https://cran.rstudio.com/web/packages/EML">EML</a> - read and create EML</h3></li>
+				</ul>
+				<li><h3 style="font-size: 40px"><a href="https://github.com/ropensci/rbison">rbison</a> - USGS's BISON</h3></li>
+				<li><h3 style="font-size: 40px"><a href="https://github.com/ropensci/rvertnet">rvertnet</a> - VertNet</h3></li>
+				<li><h3 style="font-size: 40px"><a href="https://github.com/ropensci/rebird">rebird</a> - eBird (see also <a href="https://github.com/CornellLabofOrnithology/auk">auk</a>)</h3></li>
+				<li><h3 style="font-size: 40px"><a href="https://github.com/ropensci/rinat">rinat</a> - iNaturalist</h3></li>
+				<!-- <li><h3 style="font-size: 40px"><a href="https://github.com/ropensci/ecoengine">ecoengine</a> - Berkeley Ecoengine</h3></li> -->
+				<li><h3 style="font-size: 40px"><a href="https://github.com/iDigBio/ridigbio">ridigbio</a> - iDigBio (*)</h3></li>
+				<li><h3 style="font-size: 40px"><a href="https://github.com/AtlasOfLivingAustralia/ALA4R">ALA4R</a> - Atlas of Living Australia (*)</h3></li>
+				<li><h3 style="font-size: 40px"><a href="https://github.com/iobis/robis">robis</a> - OBIS (*)</h3></li>
+				<li><h3 style="font-size: 40px"><a href="https://github.com/ropensci/spocc">spocc</a> - one stop shop (of all above)</h3></li>
+			</ul>
+		</section>
+
+		<section id="biodiversity-landscape-2">
+			<h2>R packages</h2>
+			<h4><strong>*</strong> not rOpenSci</h4>
+			<ul>
+				<li><h3><a href="https://github.com/ropensci/scrubr">scrubr</a> - occ. data cleaning</h3></li>
+				<li><h3><a href="https://cran.rstudio.com/web/packages/speciesgeocodeR">speciesgeocodeR</a> - occ. data cleaning</h3></li>
+				<li><h3>...</h3></li>
+				<li><h3><a href="https://cran.rstudio.com/web/packages/dismo">dismo</a> - lots of biodiv. analysis pkgs</h3></li>
+			</ul>
+		</section>
+		<!-- end biodiversity R landscape -->
+
+
+		<!-- gbif: rgbif/pygbif/gbifrb -->
+		<section id="gbif">
+			<h1>GBIF</h1>
+			<br>
+			<h2>pre-print in PeerJ: <a href="https://doi.org/10.7287/peerj.preprints.3304v1">10.7287/peerj.preprints.3304v1</a></h2>
+			<br>
+			<h2>R: <a href="https://github.com/ropensci/rgbif">rgbif</a></h2>
+			<h2>Python: <a href="https://github.com/sckott/pygbif">pygbif</a></h2>
+			<h2>Ruby: <a href="https://github.com/sckott/gbifrb">gbifrb</a></h2>
+			<br>
+			<h3>R/Python more for researchers, <br>Python/Ruby more for web dev</h3>
+		</section>
+
+		<section id="gbif-usage">
+			<h1>rgbif</h1>
+			<br>
+			<h2>> 35 citations, some e.g.'s</h2>
+			<ul>
+				<li><h4><a href="https://doi.org/10.1111/nph.13694">Niche dynamics of alien species do not differ among sexual and apomictic flowering plants</a></h4></li>
+				<li><h4><a href="https://doi.org/10.1111/jvs.12301">Climatological correlates of seed size in Amazonian forest trees</a></h4></li>
+				<li><h4><a href="https://doi.org/10.1073/pnas.1424030112">Evolutionary signals of symbiotic persistence in the legume–rhizobia mutualism</a></h4></li>
+				<li><h4><a href="https://doi.org/10.1126/science.aab1161">Global assessment of arbuscular mycorrhizal fungus diversity reveals very low endemism</a></h4></li>
+				<li><h4><a href="https://www.duo.uio.no/handle/10852/50041">Final Report of the Task Group on GBIF Data Fitness for Use in Agrobiodiversity</a></h4></li>
+				<li><h4><a href="https://doi.org/10.1371/journal.pone.0166407">Plant Distribution Data Show Broader Climatic Limits than Expert-Based Climatic Tolerance Estimates</a></h4></li>
+			</ul>
+		</section>
+
+		<section id="rgbif-use-case">
+			<h2>representative rgbif use case</h2>
+			<center>Ludt et al. (2017). A quantitative and statistical biological comparison of three semi-enclosed seas: the Red Sea, the Persian (Arabian) Gulf, and the Gulf of California. Marine Biodiversity<a href="https://doi.org/10.1007/s12526-017-0740-1" target="_blank">&nbsp;<i class="fa fa-external-link-square"></i></a></center>
+			<br>
+			<blockquote style="font-size: 75px; color: #ADADAD">"... species occurrence data were gathered for major marine phyla ... from geo-referenced specimen data on [GBIF] ... using a polygon search area in ... rgbif"</blockquote>
+		</section>
+		<!-- end gbif -->
+
+		<!-- conclusion	 -->
+		<section id="conclusion" class="center">
+			<img src="img/pipeline1.png" width="1300"></img>
+			<br><br>
+			<h2>let us know:</h2>
+			<h2>what are we missing?</h2>
+			<h2>what problems do you have?</h2>
+		</section>
+		<!-- end conclusion -->
+
+
+
+		<section id="end">
+			<i class="fa fa-external-link fa-5x"></i>
+			<br>
+			<h2><a href="https://scotttalks.info/tdwg17">scotttalks.info/tdwg17</a></h2>
+			<br><br>
+			<h2>Made w/: <a href="https://github.com/hakimel/reveal.js">reveal.js v3.2.0</a></h2>
+			<br>
+			<h2>Styling: <a href="http://getbootstrap.com/">Bootstrap v3.3.5</a></h2>
+			<br>
+			<h2>Icons: <a href="http://fortawesome.github.io/Font-Awesome/">FontAwesome v4.4.0</a></h2>
+		</section>
+
+		<section class="center">
+			<h1 style="font-size: 300px">FIN</h1>
+		</section>
+		<!-- end actual stuff -->
+
+
+			</div>
+
+		</div>
+
+		<script src="../shared/lib/js/head.min.js"></script>
+		<script src="../shared/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: false,
+				slideNumber: true,
+				keyboard: true,
+				touch: true,
+
+				width: 1400,
+				height: 900,
+
+				// transition: 'slide', // none/fade/slide/convex/concave/zoom
+				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../shared/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../shared/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../shared/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../shared/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../shared/plugin/zoom-js/zoom.js', async: true },
+					{ src: '../shared/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

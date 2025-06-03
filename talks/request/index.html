@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>HTTP requests</title>
+
+		<meta name="description" content="HTTP requests">
+		<meta name="author" content="Scott Chamberlain">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../shared/css/reveal.css">
+		<link rel="stylesheet" href="../shared/css/theme/solarized.css" id="theme">
+
+		<!-- use google font -->
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+		<!-- favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+		<!-- icons -->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../shared/lib/css/zenburn.css">
+
+		<!-- Custom styles -->
+		<link rel="stylesheet" href="../shared/css/custom/fonts.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../shared/css/print/pdf.css' : '../shared/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+		<section id="intro" class="center">
+			<h1><font color="#B8172F">request - easier HTTP requests</font></h1>
+			<br><br><br>
+			<h2 class="grey">Scott Chamberlain
+			<br><br>
+			<a href="https://twitter.com/sckottie"><i class="fa fa-twitter" aria-hidden="true"></i> @sckottie</a>
+			<br><br>
+			<a href="https://twitter.com/sckottie"><i class="fa fa-github" aria-hidden="true"></i> @sckott</a>
+		</section>
+
+		<section id="ropensci" class="center">
+			<h1><p class="grey">rOpenSci <a href="https://ropensci.org">ropensci.org</a></h1>
+		</section>
+
+		<section id="link" class="center">
+			<i class="fa fa-external-link fa-5x"></i>
+			<br><br>
+			<h2><a href="http://recology.info/talks/request">recology.info/talks/request</a> </h2>
+		</section>
+
+		<section id="license" class="center">
+			<br>
+			<h1>LICENSE: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a></h1>
+		</section>
+
+		<section data-markdown id="hello-world">
+			<script type="text/template">
+				```r
+				library(request); library(dplyr); library(ggplot2)
+				x <- api('cranlogs.r-pkg.org') %>% api_path(trending)
+				x %>%
+				  mutate(increase = as.numeric(increase)) %>%
+				  arrange(desc(increase)) %>%
+				  top_n(10) %>%
+				  ggplot(aes(reorder(package, increase), increase)) +
+				     geom_bar(stat = "identity")
+				```
+
+				<img src="img/hello-world.png" width="800">
+			</script>
+		</section>
+
+		<section id="api">
+			<h1>APIs</h1>
+			<h3>Programmatic instructions for how to interact with a piece of software</h3>
+			<br><br>
+			<h2>Can be the interface to:</h2>
+			<ul>
+				<li>A software package in R/Python/etc.</li>
+				<li>A public web API</li>
+				<li>A database</li>
+				<li>An operating system</li>
+			</ul>
+		</section>
+
+		<section id="http">
+			<h1>HTTP</h1>
+			<h3>HyperText Transfer Protocol</h3>
+			<br><br>
+			<h3>HTTP spec: <a href="https://tools.ietf.org/html/rfc7235">https://tools.ietf.org/html/rfc7235</a></h3>
+			<br><br>
+			<ul>
+				<li>Verbs for different actions</li>
+				<li>Authentication</li>
+				<li>Status codes</li>
+				<li>Request and response format</li>
+				<li>Most REST APIs use HTTP for data transfer</li>
+			</ul>
+		</section>
+
+		<section id="http-verbs">
+			<h1>HTTP Verbs</h1>
+			<img src="img/http_verbs.png">
+		</section>
+
+		<section data-markdown id="how-it-works-now">
+			<script type="text/template">
+				# Easiest solution now
+
+				```r
+				library("httr")
+				```
+
+				`GET` request
+
+				```r
+				x <- GET("https://api.github.com/repos/hadley/dplyr/issues")
+				```
+
+				Check for bad status code
+
+				```r
+				stop_for_status(x)
+				```
+
+				Extract to text
+
+				```r
+				res <- content(x, as = "text", encoding = "UTF-8")
+				```
+
+				Convert JSON to R object
+
+				```r
+				library("jsonlite")
+				fromJSON(res)
+				```
+			</script>
+		</section>
+
+		<section id="request" class="center">
+			<h1>request</h1>
+			<br>
+			<h2>github -> <a href="https://github.com/sckott/request">sckott/request</a></h2>
+			<br>
+			<h2>cran -> <a href="https://cran.rstudio.com/web/packages/request/">request</a></h2>
+		</section>
+
+		<section id="httpie" class="center">
+			<h1>httpie</h1>
+			<br>
+			<a href="https://github.com/jkbrzt/httpie">httpie - http://httpie.org</a>
+			<br>
+			<img src="img/httpie.png" width="1000">
+		</section>
+
+		<section id="request-philosophy">
+			<h1>philosophy</h1>
+			<br>
+			<h2>nutshell: simplify to common patterns</h2>
+			<br>
+			<h2>
+			<ul>
+				<li>Returned data probably <strong>JSON</strong></li>
+				<li>You likely want to <strong>GET</strong> data</li>
+				<li>Output <strong>data.frame</strong>'s</li>
+				<li><strong>NSE</strong> makes interactive use easier</li>
+			</ul>
+			</h2>
+		</section>
+
+		<section data-markdown id="request-hello-world">
+			<script type="text/template">
+				# Installation
+
+				## CRAN
+
+				```r
+				install.packages("request")
+				library("request")
+				```
+
+				## GitHub
+
+				```r
+				devtools::install_github("sckott/request")
+				```
+
+				## Load
+
+				```r
+				library("request")
+				```
+			</script>
+		</section>
+
+		<section id="live-coding" class="center">
+			<h1>live coding</h1>
+		</section>
+
+		<section data-markdown id="problem-last-pipe">
+			<script type="text/template">
+				# Problem: last pipe
+
+				```r
+				api('https://api.github.com/') %>%
+					api_path(repos, ropensci, rgbif, issues) %>%
+					tbl_df
+				```
+
+				```r
+				#> Error in as.data.frame.default(value, stringsAsFactors = FALSE, ...) :
+				#>	cannot coerce class ""req"" to a data.frame
+				```
+				<br>
+
+				Need to assign first, then pipe onwards...
+
+				```r
+				x <- api('https://api.github.com/') %>%
+					api_path(repos, ropensci, rgbif, issues)
+				x %>% tbl_df
+				```
+
+				```r
+				# A tibble: 12 x 83
+				                                                      url                              repository_url
+				*                                                   <chr>                                       <chr>
+				1  https://api.github.com/repos/ropensci/rgbif/issues/220 https://api.github.com/repos/ropensci/rgbif
+				2  https://api.github.com/repos/ropensci/rgbif/issues/216 https://api.github.com/repos/ropensci/rgbif
+				3  https://api.github.com/repos/ropensci/rgbif/issues/215 https://api.github.com/repos/ropensci/rgbif
+				4  https://api.github.com/repos/ropensci/rgbif/issues/214 https://api.github.com/repos/ropensci/rgbif
+				```
+			</script>
+		</section>
+
+		<section data-markdown id="todo-paging">
+			<script type="text/template">
+				# TODO: paging
+
+				```r
+				api('api.gbif.org/v1') %>%
+				  api_path(occurrence, search) %>%
+				  api_query(scientificName = Accipiter) %>%
+				  api_paging(limit(limit = 4), offset(offset = 2))
+				```
+				<br><br><br><br>
+				## Idea being that a few parameters can account for all paging situations
+			</script>
+		</section>
+
+		<section data-markdown id="todo-rate-limit">
+			<script type="text/template">
+				# TODO: rate limit
+
+				```r
+				qr <- api('https://api.github.com/') %>%
+						api_path(repos, ropensci, rgbif, issues) %>%
+						rate_limit(value = 5, period = "24 hrs")
+				```
+
+				```r
+				qr %>% rate_limit(value = 5, period = "24 hrs")
+				qr %>% rate_limit(value = 5000, period = "24 hrs")
+				qr %>% rate_limit(value = 10, period = "5 min")
+				qr %>% rate_limit(value = 10, period = "5 min", on_limit = with_wait(1))
+				```
+				<br><br><br><br>
+				## Idea being - flexible options for dealing with rate limits
+			</script>
+		</section>
+
+		<section id="end">
+			<br>
+			<i class="fa fa-external-link fa-5x"></i>
+			<br><br>
+			<h3><a href="http://recology.info/talks/request">recology.info/talks/request</a></h3>
+			<br><br><br><br>
+			<h3><a href="https://github.com/sckott/request">sckott/request</a></h3>
+			<br><br>
+			<h3>Made w/: <a href="https://github.com/hakimel/reveal.js">reveal.js v3.2.0</a></h3>
+			<br>
+			<h3>Some Styling: <a href="http://getbootstrap.com/">Bootstrap v3.3.5</a></h3>
+			<br>
+			<h3>Icons by: <a href="http://fortawesome.github.io/Font-Awesome/">FontAwesome v4.4.0</a></h3>
+		</section>
+
+			</div>
+
+		</div>
+
+		<script src="../shared/lib/js/head.min.js"></script>
+		<script src="../shared/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: false,
+				slideNumber: true,
+				keyboard: true,
+				touch: true,
+
+				width: 1400,
+				height: 900,
+				margin: 0.1,
+
+				// transition: 'slide', // none/fade/slide/convex/concave/zoom
+				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+				// Add some custom values to match the linked presentation
+				viewDistance: 3,
+				maxScale: 1.5,
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../shared/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../shared/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../shared/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../shared/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../shared/plugin/zoom-js/zoom.js', async: true },
+					{ src: '../shared/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

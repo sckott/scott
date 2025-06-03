@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phylogeny Based Biodiversity Data Queries</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Scott Chamberlain" />
+    <meta name="date" content="2018-08-23" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: center
+
+# Phylogeny Based Biodiversity Data Queries
+
+.center[
+## Scott Chamberlain
+### UC Berkeley - rOpenSci
+&lt;img src="img/icon_lettering_color.svg" alt="ropensci" width="600" /&gt;
+]
+
+---
+
+class: middle
+
+.center[
+&lt;img src="img/helmsley.png" alt="hemlsley foundation" width="1000" /&gt;
+## [scotttalks.info/tdwg18](https://scotttalks.info/tdwg17)
+&lt;br&gt;
+## LICENSE: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+]
+
+---
+
+# What is rOpenSci?
+
+## * non-profit
+## * make open-source software for R
+## * software review
+## * community developers/users
+## * target science use cases
+## * staff communicating btw. scientists/data provders
+
+---
+
+background-image: url("img/phylogeny.png")
+
+class: bottom
+
+&lt;!-- via [ggtree tutorial](https://www.bioconductor.org/packages/release/bioc/vignettes/ggtree/inst/doc/treeVisualization.html) --&gt;
+&lt;p style="background-color: white; width: 250px; font-size: 30px;"&gt;via &lt;a href="https://www.bioconductor.org/packages/release/bioc/vignettes/ggtree/inst/doc/treeVisualization.html"&gt;ggtree tutorial&lt;/a&gt;&lt;/p&gt;
+
+---
+
+background-image: url("img/biodiv.png")
+
+class: bottom
+
+&lt;p style="background-color: white; width: 250px; font-size: 30px;"&gt;via &lt;a href="http://api.gbif.org/v2/map/debug/"&gt;GBIF map API demos&lt;/a&gt;&lt;/p&gt;
+
+---
+
+background-image: url("img/lit.png")
+
+class: bottom
+
+&lt;p style="background-color: #EB45F2; width: 600px; font-size: 30px;"&gt;lots of papers combining phylogenies and biodiversity&lt;/p&gt;
+
+---
+
+class: center
+
+# How do we quickly link the two?
+
+&lt;br&gt;&lt;br&gt;
+
+## Ideally we want:
+
+&lt;br&gt;&lt;br&gt;
+
+## users to be able to ask A LOT of questions VERY QUICKLY
+
+---
+
+# phylodiv - an R package
+
+## source code: [ropensci/phylodiv](https://github.com/ropensci/phylodiv)
+
+---
+
+# phylodiv - an R package
+
+&lt;br&gt;
+
+## builds on top of ...
+
+## - [taxizedb][] for taxonomy data
+## - [rgbif][] for biodiversity data
+## - [rgbif][]/[raster][]/[ggplot2][]/[ggtree][]/[patchwork][]/etc. for mapping
+
+
+---
+
+# High level workflow
+
+```
+read phylogeny
+  gather higher taxonomy
+    phylogenetic query
+      gather biodiversity data
+        visualization
+... history
+```
+
+---
+
+# High level workflow
+
+```
+read phylogeny -&gt; pd_read()
+  gather higher taxonomy -&gt; pd_taxa()
+    phylogenetic query -&gt; pd_query()
+      gather biodiversity data -&gt; pd_biodiv()
+        visualization -&gt; pd_viz()
+... history -&gt; pd_meta()
+```
+
+---
+
+# High level workflow
+
+```
+read phylogeny -&gt; pd_read()
+  gather higher taxonomy -&gt; pd_taxa()
+    phylogenetic query -&gt; pd_query()
+      gather biodiversity data -&gt; pd_biodiv()
+        visualization -&gt; pd_viz()
+... history -&gt; pd_meta()
+```
+
+&lt;br&gt;
+
+rapid iteration between phylogenetic queries and vizualization
+
+&lt;img src="img/iterate.png" alt="iterate" width="200" /&gt;
+
+---
+
+class: center, middle
+
+&lt;span style="font-size: 100px"&gt;LIVE DEMO&lt;/span&gt;
+
+---
+
+background-image: url("img/sad.png")
+
+class: center, top
+
+# this will be easy, right?
+
+---
+
+# hard parts
+
+&lt;!-- especially when you combine the various ways one can ask questions w/ the various options for data sources and vis tools --&gt;
+
+&lt;br&gt;
+
+## Taxonomic names 
+## Queries on trees
+## Biodiversity data
+## Visualization
+
+&lt;!-- but before we get into that, let's try it --&gt;
+
+---
+
+# Taxonomy
+
+### * web or local data access (local faster, but requires more setup 😬)
+### * can we label nodes programatically?
+
+  * just talked to Emily yesterday 😮 ¿annotate via OpenTree of Life?
+
+&lt;!-- ### * does it even make sense to collect higher taxonomic names for tips and query based on these higher names? --&gt;
+### * higher taxonomic names on taxa w/o names?
+### * leverage [taxa][] internally? (see [ropensci/taxa#184](https://github.com/ropensci/taxa/issues/184) for discussion)
+
+---
+
+# Queries
+
+### * how do we make queries on trees drop dead simple __AND__ flexible
+
+* all tips within node A
+* node A vs. node B
+* node A vs. node B and node C
+* node A of tree 1 vs. node C of tree 2
+* node D of each of 100 trees (bla! how do you viz. that?)
+* _Helianthus annuus_ vs. _Helianthus angustifolius_
+* all names starting with _Helianthus_ 
+* compare sub trees that match shape X
+
+---
+
+# Queries
+
+### formula syntax? 
+
+```r
+A ~ .
+A ~ B
+A ~ B + C
+t1.A ~ t2.C
+D ~ t*
+```
+
+### function calls?
+
+```r
+descendants(A)
+children(A) ~ descendants(Y)
+tip(A) ~ tip(B)
+tips(Helianthus*)
+tip(A, tree = 1) ~ tip(W, tree = 78)
+```
+
+---
+
+# Biodiversity
+
+&lt;!-- ### * multiple use cases, some fast, some slow --&gt;
+&lt;!-- ### * what happens when query contains extinct taxa? --&gt;
+### * many levels of data 
+
+- total counts
+- total counts faceted by variable (e.g., country)
+- complete occurrence data
+- visually summarized data (rasters)
+
+### * strike balance btw bringing as much data to bear on problem as possible &amp; speed
+### * making dealing with web requests easier: rate limits, caching, etc.
+### * consistent queries across data sources: [spocc][] already done hard work - may integrate
+
+---
+
+# Maps
+
+&lt;!-- ### * some options very fast, some very slow --&gt;
+### * how best to do visualizations for single trees vs. many trees
+### * so many customizations possible - can only give a very simplified subset + hopefully allowing customizations on top of (easy-ish with `ggplot2`/`ggtree`)
+
+&lt;img src="img/facet.png" width="250"&gt; 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;img src="img/count.png" width="175"&gt; 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;img src="img/raster.png" width="175"&gt; 
+
+---
+
+# What do you want to see?
+
+### * is &lt;span style="color: blue"&gt;phylodiv&lt;/span&gt; a bad or good idea?
+### * what are your main pain points in linking phylogenies to biodiversity data?
+### * do you really need a GUI interface? or is a programmatic interface okay? is it worth it if you get greater reproducibility
+### * data sources: which ones do you trust? not everyone is likely to trust the same source 😏
+
+---
+
+# Future work
+
+--
+
+&lt;img src="img/fixit.gif" width="1000"&gt;
+
+---
+
+# Future work
+
+## * focus on ease of use first, performance later
+## * make more taxonomic databases work locally
+## * make queries easy
+## * can [phyloreferencing][] help at all here?
+## * maybe break up into a few pkgs
+
+---
+
+class: middle
+
+.center[
+## [scotttalks.info/tdwg18](https://scotttalks.info/tdwg18)
+## Made w/: [xaringan](https://github.com/yihui/xaringan)
+]
+
+[rgbif]: https://github.com/ropensci/rgbif
+[taxizedb]: https://github.com/ropensci/taxizedb
+[taxa]: https://github.com/ropensci/taxa
+[ggplot2]: https://github.com/tidyverse/ggplot2
+[taxizedb]: https://github.com/ropensci/taxizedb
+[patchwork]: https://github.com/thomasp85/patchwork
+[ggtree]: https://www.bioconductor.org/packages/release/bioc/html/ggtree.html
+[raster]: https://cran.r-project.org/package=raster
+[phyloreferencing]: https://www.phyloref.org/
+[spocc]: https://github.com/ropensci/spocc
+    </textarea>
+<script src="libs/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

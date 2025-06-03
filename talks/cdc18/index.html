@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>CDC18</title>
+
+		<meta name="description" content="CDC18">
+		<meta name="author" content="Scott Chamberlain">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../shared/css/reveal.css">
+		<link rel="stylesheet" href="../shared/css/theme/solarized.css" id="theme">
+		<link rel="stylesheet" href="../shared/css/bootstrap/bootstrap.css">
+
+		<!-- use google font -->
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../shared/css/font-awesome/css/font-awesome.css">
+		<!-- <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script> -->
+
+		<!-- favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+		<!-- icons -->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../shared/lib/css/zenburn.css">
+
+		<!-- Custom styles -->
+		<link rel="stylesheet" href="../shared/css/custom/fonts.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../shared/css/print/pdf.css' : '../shared/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+		<style type="text/css">
+			#rotate_text {
+				-webkit-transform: rotate(-90deg);
+				-moz-transform: rotate(-90deg);
+				transform: rotate(-90deg);
+				position: absolute;
+				vertical-align: middle;
+				position: absolute;
+    		top: 500px;
+    		left: -50px;
+				filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+			}
+
+			ul.a {list-style-type: circle; margin: 0; padding: 0;}
+			ul.b {list-style-type: square; margin-left: 4; padding-left: 0;}
+
+			img {border: none;}
+
+			.center-block {
+			  display: block;
+			  margin-left: auto;
+			  margin-right: auto;
+			}
+		</style>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+		<section id="intro">
+			<h1><font color="#B8172F">Open Science / Research w/ R featuring rOpenSci</font></h1><br>
+			<p class="grey">Scott Chamberlain (<a href="https://twitter.com/sckottie">@sckottie</a>/<a href="https://twitter.com/ropensci">@ropensci</a>)
+				<p class="grey">UC Berkeley / rOpenSci
+			<br>
+			<span><img src="img/icon_lettering_color.svg" alt="rOpenSci" width="800" /></span>
+		</section>
+
+		<section id="thanks-helmsley" class="center">
+			<span><img src="img/helmsley.png" alt="hemlsley foundation" width="1000" /></span>
+		</section>
+
+		<section id="link" class="center">
+			<i class="fa fa-external-link fa-5x"></i>
+			<br><br>
+			<h2><a href="https://scotttalks.info/cdc18">scotttalks.info/cdc18</a> </h2>
+			<br><br>
+			<h2><a href="https://scotttalks.info/cdc18/slides_960-720.pdf">pdf slides 960x720</a></h2>
+			<h2><a href="https://scotttalks.info/cdc18/slides_1280-720.pdf">pdf slides 1280x720</a></h2>
+		</section>
+
+		<section id="license" class="center">
+			<br>
+			<h1>LICENSE: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a></h1>
+		</section>
+
+		<section id="keyboard-shortcuts" class="center">
+			<h2>Keyboard shortcuts: press <code>?</code></h2>
+			<br>
+			<img src="img/keyboard-shortcuts.png" width="600">
+		</section>
+
+
+		<!-- actual stuff -->
+
+		<!-- INTRO
+			Emphasize here i'm introducing the inspiration for the work ropensci does, and
+			not necessarily to convince people to do open science (though if you're work gets
+			more open that's great).
+		-->
+		<section id="open-science-research">
+			<br><br><br>
+			<h1>open science/research</h1>
+			<br>
+			<i class="fa fa-unlock fa-5x" style="color:blue"></i> <i class="fa fa-flask fa-5x" style="color:black"></i>
+		</section>
+
+		<section id="open-science-lego-set-1">
+			<h1>Open science as a lego set</h1>
+			<br>
+			<img src="img/legos.jpg" width="500">
+		</section>
+
+		<section id="open-science-lego-set-2">
+			<h1>Open science as a lego set</h1>
+			<br>
+			<h2>open science may be hard to do</h2>
+			<br>
+			<h2>but - you can work on different components</h2>
+			<br>
+			<h2>and - individual components are worth learning</h2>
+		</section>
+
+		<section id="open-data">
+			<h1>Open Data</h1>
+			<br>
+			<h2>(at least within your organization)</h2>
+			<br>
+			<h2>funders/journals often requiring this anyway</h2>
+			<br>
+			<h2>future self will thank you</h2>
+		</section>
+
+		<section id="versioning-xkcd">
+			<h1>Versioning: code/data/text</h1>
+			<br>
+			<a href="https://xkcd.com/1597/">xkcd.com/1597</a><br>
+			<img src="https://imgs.xkcd.com/comics/git.png" width="350">
+		</section>
+
+		<section id="versioning">
+			<h1>Versioning: code/data/text</h1>
+			<br>
+			<h2>failure proofs your work</h2>
+			<br>
+			<h2>experiment freely!</h2>
+			<br>
+			<h2>makes collaboration easier</h2>
+		</section>
+
+		<section id="all-work-programatically-graph">
+			<h2>Do all work programatically</h2>
+			<img src="img/geekvsnongeek.png" width="900">
+			<br><br>
+			<small>from <a href="https://www.geeksaresexy.net/2012/01/05/geeks-vs-non-geeks-picture/" target="_blank">geeksaresexy.net/2012/01/05/geeks-vs-non-geeks-picture</a></small>
+		</section>
+
+		<section id="all-work-programatically-1">
+			<h1>Do all work programatically</h1>
+			<br>
+			<h2>Key to reproduciblity</h2>
+			<br>
+			<h2>Most important person that wants to reproduce your work is you!</h2>
+		</section>
+
+		<section id="all-work-programatically-2">
+			<h1>Do all work programatically</h1>
+			<br><br>
+			<h2>you and yourself</h2>
+			<h3>- one week from now</h3>
+			<h3>- two months from now</h3>
+			<h3>- &amp; so on</h3>
+		</section>
+
+		<section id="an-example">
+			<h1>An example to shoot for</h1>
+			<br>
+			<img src="img/baad.png" width="1200">
+			<center><a href="https://ropensci.org/blog/blog/2015/06/03/baad">BAAD blog post&nbsp;<i class="fa fa-external-link-square"></i></a></center>
+		</section>
+
+
+		<!-- programming languages important in open science -->
+
+		<section id="programming-languages-and-open-science" class="center">
+			<h2>important (higher level) scientific programming languages</h2>
+			<img src="img/python.jpeg" width="400"><br><img src="img/r.png" width="200"><br><img src="img/julia-lang.png" width="200">
+		</section>
+
+		<section id="r-language">
+			<h1>R language</h1>
+			<ul class="b">
+				<li><h2 align="left">used widely in biology, psychology, medicine, etc.</h2></li>
+				<li><h2 align="left">rapidly growing user base, companies surrounding it</h2></li>
+				<li><h2 align="left">includes all tools for open science workflow</h2></li>
+				<li><h2 align="left">though work to be done ...</h2></li>
+			</ul>
+		</section>
+
+
+		<!-- transition to ropensci via how we fit in ecosystem -->
+		<section id="ecosystem">
+			<h2>Open science ecosytsem</h2>
+			<br>
+			<img src="img/openscienceecosystem.svg" width="1300" alt="open-science-ecosystem">
+		</section>
+
+
+
+		<!-- about ropensci -->
+		<section id="ropensci">
+			<br>
+			<span><img src="img/icon_lettering_color.svg" alt="rOpenSci" width="1200" /></span>
+			<br>
+			<center><a href="https://ropensci.org/">ropensci.org &nbsp;<i class="fa fa-external-link-square"></i></a></center>
+		</section>
+
+		<section id="ropensci-does">
+			<h1>rOpenSci Does</h1>
+			<br><br>
+	    <i class="fa fa-users fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;
+	    <i class="fa fa-code fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;
+			<i class="fa fa-book fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;
+			<i class="fa fa-check-square-o fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;
+		</section>
+
+		<section id="ropensci-staff">
+			<h1>rOpenSci Staff</h1>
+			<br>
+			<a href="https://ropensci.org/about/#team">ropensci.org/about/#team</a>
+			<br><br>
+			<ul class="b">
+				<li><h2 align="left">~5 full time</h2></li>
+				<li><h2 align="left">leadership team</h2></li>
+				<li><h2 align="left">advisory board</h2></li>
+			</ul>
+		</section>
+
+
+		<section id="community-size">
+			<h1>Community stats</h1><br><br>
+			<ul class="b">
+				<li><h2 align="left">~ 400 code contributors</h2></li>
+				<li><h2 align="left">~ 490 Github repositories (most are R packages)</h2></li>
+				<li><h2 align="left">~ 45,000  commits</h2></li>
+				<li><h2 align="left">~ 160 published R packages on CRAN (another ~100 not on CRAN)</h2></li>
+			</ul>
+		</section>
+
+		<section id="unconf">
+			<h1>rOpenSci Unconference</h1>
+			<br>
+			<a href="http://unconf18.ropensci.org/">unconf18.ropensci.org</a>
+			<br>
+			<p>Nominations (including self) close Mar. 8th</p>
+			<br>
+			<a href="http://unconf18.ropensci.org/"><img src="img/unconf18.png" width="1000"></img></a>
+		</section>
+
+		<!-- <section id="question-data-in-research">
+			<h1>What data do you use in your research?</h1>
+			<br><br>
+			<i class="fa fa-question-circle fa-5x"></i>
+		</section> -->
+
+
+		<!-- start workflow -->
+		<section id="workflow">
+			<h2><u>the research workflow</u></h2>
+			<br><br>
+			<center>
+				<h2>Data acquisition <i class="fa fa-cloud-download"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> data manipulation/analysis/viz <i class="fa fa-bar-chart"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> writing <i class="fa fa-pencil"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> publish <i class="fa fa-cloud-upload"></i></h2>
+			</center>
+		</section>
+
+		<section id="workflow_acquisition">
+			<h2><u>the research workflow</u></h2>
+			<br><br>
+			<center>
+				<h2><font color="blue"><strong>Data acquisition</strong> <i class="fa fa-cloud-download"></i></font> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> data manipulation/analysis/viz <i class="fa fa-bar-chart"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> writing <i class="fa fa-pencil"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> publish <i class="fa fa-cloud-upload"></i></h2>
+			</center>
+		</section>
+
+		<section id="workflow_manip">
+			<h2><u>the research workflow</u></h2>
+			<br><br>
+			<center>
+				<h2>Data acquisition <i class="fa fa-cloud-download"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> <font color="blue"><strong>data manipulation/analysis/viz</strong> <i class="fa fa-bar-chart"></i></font> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> writing <i class="fa fa-pencil"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> publish <i class="fa fa-cloud-upload"></i></h2>
+			</center>
+		</section>
+
+		<section id="workflow_writing">
+			<h2><u>the research workflow</u></h2>
+			<br><br>
+			<center>
+				<h2>Data acquisition <i class="fa fa-cloud-download"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> data manipulation/analysis/viz <i class="fa fa-bar-chart"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> <font color="blue"><strong>writing</strong> <i class="fa fa-pencil"></i></font> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> publish <i class="fa fa-cloud-upload"></i></h2>
+			</center>
+		</section>
+
+		<section id="workflow_publish">
+			<h2><u>the research workflow</u></h2>
+			<br><br>
+			<center>
+				<h2>Data acquisition <i class="fa fa-cloud-download"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> data manipulation/analysis/viz <i class="fa fa-bar-chart"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> writing <i class="fa fa-pencil"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> <font color="blue"><strong>publish</strong> <i class="fa fa-cloud-upload"></i></font></h2>
+			</center>
+		</section>
+		<!-- end workflow -->
+
+
+		<section id="packages">
+			<h2>rOpenSci Tools</h2>
+			<a href="https://ropensci.org/packages/">ropensci.org/packages</a>
+			<br>
+			<img src="img/packages.png" width="900">
+		</section>
+
+		<section id="reduce-redundant-small-tools">
+			<h2>rOpenSci Software: some of the benefits</h2>
+			<br>
+			<ul class="b">
+				<li><h3 align="left">reduce redundant small software efforts</h3></li>
+				<li><h3 align="left">funnel effort into sustainable, well-maintained software (see lack of support for software MAINTANENCE in academia)</h3></li>
+				<li><h3 align="left">bring maintainers into a community</h3></li>
+				<li><h3 align="left">give otherwise isolated projects a louder voice</h3></li>
+				<li><h3 align="left">hopefully we make each piece of software more sustainable</h3></li>
+			</ul>
+		</section>
+
+		<section id="sustainability">
+			<h2>but, software sustainability is hard</h2>
+			<h3>each panel is a package, each dot a person</h3>
+			<img src="img/gitcommits.png">
+		</section>
+
+		<section id="ropensci-uses-1">
+			<h2>rOpenSci software used in</h2>
+			<br>
+			<h2>research<br>within companies<br>fun side projects<br>journalism<br>and more</h2>
+		</section>
+
+		<section id="ropensci-uses-2" class="center">
+			<h1>here are some of the academic research uses <br><br> ... usually found in methods section of papers</h1>
+		</section>
+
+		<section id="use-case-1">
+			<h2>use case 1</h2>
+			<center><a href="https://doi.org/10.1101/260398">Claypool, K., &amp; Patel, C. J. (2018). A transcript-wide association study in physical activity intervention implicates molecular pathways in chronic disease. BioRxiv&nbsp;<i class="fa fa-external-link-square"></i></a></center>
+			<br>
+			<blockquote style="font-size: 70px">We used the <strong>rentrez</strong> R package to execute the query on GEO [Gene Expression Omnibus] ...</blockquote>
+		</section>
+
+		<section id="use-case-2">
+			<h2>use case 2</h2>
+			<center><a href="https://doi.org/10.1111/ele.12909">Emer, C., et al. (2018). Seed-dispersal interactions in fragmented landscapes - a metanetwork approach. Ecology Letters&nbsp;<i class="fa fa-external-link-square"></i></a></center>
+			<br>
+			<img src="img/emer.png" width="500">
+			<br>
+			<blockquote style="font-size: 60px">We compiled 16 studies of BSD [bird seed dispersal]-interactions in fragments of the SE Brazilian Atlantic Forest ... We updated species names with <strong>taxize</strong> package (Chamberlain &amp; Szocs 2013).</blockquote>
+		</section>
+
+		<section id="use-case-3">
+			<h2>use case 3</h2>
+			<center><a href="https://doi.org/10.1371/journal.pone.0159184">Harsch, M. A., &amp; HilleRisLambers, J. (2016). Climate Warming and Seasonal Precipitation Change Interact to Limit Species Distribution Shifts across Western North America. PLOS ONE.&nbsp;<i class="fa fa-external-link-square"></i></a></center>
+			<img src="img/harsch.png" width="250">
+			<br>
+			<blockquote style="font-size: 50px">To fill in missing elevation records and correct elevation records ... we estimated altitude ... using the GNsrtm3 function within the <strong>geonames</strong> package ... </blockquote>
+		</section>
+
+
+
+
+		<!-- ropensci tools dig in -->
+		<!-- omics tools -->
+		<section id="ropensci-biodiversity" class="center">
+			<h1>rOpenSci *omics Tools</h1>
+		</section>
+
+		<section id="ropensci-omics-tools">
+			<h1>Taxonomy</h1>
+			<ul class="b">
+				<li><h3 align="left"><a href="https://github.com/ropensci/taxa">taxa</a> - Taxonomic classes and taxonomically aware data manipulation</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/taxize">taxize</a> - Taxonomic "toolbelt" - work w/ taxonomy web APIs</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/taxize">taxizedb</a> - taxize, but with local SQL databases</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/rentrez">rentrez</a> - NCBI's Entrez services</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/biomartr">biomartr</a> - Biomart R client</h3></li>
+				<li><h3 align="left"><a href="https://bioconductor.org/packages/release/bioc/html/genbankr.html">genbankr</a> - Parse GenBank files into useful objects</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/rsnps">rsnps</a> - SNPs data retrieval</h3></li>
+			</ul>
+		</section>
+
+		<section id="ropensci-more-omics-tools" class="center">
+			<h3>(although most omics R packages are in <a href="https://www.bioconductor.org/">Bioconductor</a>,<br>rOpenSci is open to submissions!)</h3>
+		</section>
+
+		<section data-markdown id="taxize-example">
+			<script type="text/template">
+				## Taxonomic data from >20 sources - <a href="https://github.com/ropensci/taxize">taxize</a>
+				<br>
+				### Taxonomic hierarchies from NCBI/ITIS/COL/etc
+
+				```r
+				library('taxize')
+				classification("Chironomus riparius", db = "gbif")
+				```
+				<br>
+				```r
+				#> $`Chironomus riparius`
+				#>                  name    rank      id
+				#> 1            Animalia kingdom       1
+				#> 2          Arthropoda  phylum      54
+				#> 3             Insecta   class     216
+				#> 4             Diptera   order     811
+				#> 5        Chironomidae  family    3343
+				#> 6          Chironomus   genus 1448033
+				#> 7 Chironomus riparius species 1448237
+				```
+			</script>
+		</section>
+
+		<section id="taxonomic-ids">
+			<h1>Taxonomic IDs</h1>
+			<br>
+			<h2>always try to move from:</h2>
+			<br>
+			<ul class="b">
+				<li><h3 align="left">taxonomic name -- to</h3></li>
+				<li><h3 align="left">taxonomic ID -- to</h3></li>
+				<li><h3 align="left">whatever other data</h3></li>
+			</ul>
+		</section>
+
+		<section data-markdown id="rentrez-example">
+			<script type="text/template">
+				## ENTREZ in R - <a href="https://github.com/ropensci/rentrez">rentrez</a>
+
+				### Retrieve datasets from a particular organism
+				<br>
+				```r
+				library(rentrez)
+				x <- entrez_search(db = "popset", term = "Latrodectus katipo[Organism]")
+				x_summs <- entrez_summary(db = "popset", id = x$ids)
+				titles <- extract_from_esummary(x_summs, "title")
+				COI_ids <- x$ids[c(2,6)]
+				COI <- entrez_fetch(db = "popset", id = COI_ids, rettype = "fasta")
+				substr(COI, 1, 500)
+				#> [1] ">AY383604.1 Latrodectus katipo isolate 1 tRNA-Leu (trnL) gene,
+				#> partial sequence; and NADH dehydrogenase subunit 1 (ND1) gene,
+				#> partial cds; mitochondrial
+				#> ATTACCTAAATTATATCAATAATTATTAATTCAGTTATCCCTATAATCTCTCTCCTAATCAGAGTCTCGT
+				#> TTTACACTATCTTAGAACGAAAAATTTTAAGTTATATCCAAATTCGTAAAGGGCCTAATAAAGTGGGTTT
+				#> CCTTGGTATTCTCCAACCCTTTAGAGACGCAATTAAACTTTTCAACAAAAATCTTATTAAACCTTTCTCT
+				#> TCTAATTTTTTAATTTTCTACATCTCCCCCGCCTTATCTTTAACTCTTGCTCTCCTTATTTCTTCAATCA
+				#> TTCCTTTCTTTTACTTTTCTCCTTATGATAACAAACATAATATCTTGATATTCTTAATCTTAT"
+				```
+			</script>
+		</section>
+
+		<section id="biomartr">
+			<h2>Genomic Data Retrieval - <a href="https://github.com/ropensci/biomartr">biomartr</a> Interfaces to:</h2>
+			<br>
+			<ul class="b">
+				<li><h3 align="left"><a href="http://www.ncbi.nlm.nih.gov/">NCBI</a></h3></li>
+				<li><h3 align="left"><a href="http://www.ensembl.org/index.html">ENSEMBL</a></h3></li>
+				<li><h3 align="left"><a href="http://ensemblgenomes.org/">ENSEMBLGENOMES</a></h3></li>
+				<li><h3 align="left"><a href="http://ensemblgenomes.org/info/access/biomart">Ensembl Biomart</a></h3></li>
+				<li><h3 align="left"><a href="http://geneontology.org/">Gene Ontology</a></h3></li>
+			</ul>
+		</section>
+
+		<section data-markdown id="genbankr-example">
+			<script type="text/template">
+				## Parsing GenBank files into semantically useful objects - <a href="https://bioconductor.org/packages/release/bioc/html/genbankr.html">genbankr</a>
+
+				```r
+				library(genbankr)
+				x <- system.file("sample.gbk", package="genbankr")
+				gb <- readGenBank(x)
+				#> GenBank Annotations
+				#> Human herpesvirus 5 strain VR1814, complete genome.
+				#> Accession: GU179289
+				#> 1 Sequence(s) with total length length: 235233
+				#> 174 genes
+				#> 170 transcripts
+				#> 191 exons/cds elements
+				#> 61 variations
+				#> 24 other features
+				genes(gb)
+				cds(gb)
+				exons(gb)
+				transcripts(gb)
+				```
+			</script>
+		</section>
+
+
+		<!-- spatial tools -->
+		<section id="tools-spatial" class="center">
+			<h1>Spatial tools</h1>
+		</section>
+
+		<section id="tools-spatial-pkgs">
+			<h2>Spatial</h2>
+			<ul class="b">
+				<li><h3 align="left"><a href="https://github.com/ropensci/geojson">geojson</a> - GeoJSON classes</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/geojsonio">geojsonio</a> - GeoJSON/TopoJSON input/output</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/geojsonlint">geojsonlint</a> - lint GeoJSON</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropenscilabs/geoops">geoops</a> - fast C++ based GeoJSON operations</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/geonames">geonames</a> - <a href="http://www.geonames.org/">Geonames</a> API client</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/lawn">lawn</a> - Turf.js javascript GeoJSON operations</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/wicket">wicket</a> - <a href="https://en.wikipedia.org/wiki/Well-known_text">Well-Known Text</a> tools</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/wellknown">wellknown</a> - WKT <-> R objects</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/rnaturalearth">rnaturalearth</a> - NaturalEarth data</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/osmplotr">osmplotr</a> - Open Street Maps plots</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/osmdata">osmdata</a> - Open Street Maps data</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/opencage">opencage</a> - OpenCage geocoding API</h3></li>
+			</ul>
+		</section>
+
+		<section data-markdown id="geonames">
+			<script type="text/template">
+				## Geospatial: Geonames data  - <font color="red">geonames</font>
+
+				<http://www.geonames.org/>
+
+				```r
+				library(geonames)
+				```
+
+				Find a contry code
+
+				```r
+				GNcountryCode(lat = 47.03, lng = 10.2)
+				```
+
+				Search for nearby streets
+
+				```r
+				GNfindNearbyStreets(lat = 37.45, lng = -122.18)
+				```
+
+				Search by place name
+
+				```r
+				GNsearch(q = "london", maxRows = 10)
+				```
+
+				Postal code search
+
+				```r
+				GNpostalCodeSearch(postalcode = 90210, country = "FI")
+				```
+			</script>
+		</section>
+
+		<section id="geojsonio">
+			<h2>Geospatial: conversion between data/spatial data formats - <font color="red">geojsonio</font></h2>
+			<br>
+			<ul class="b">
+				<li><h3 align="left">geojson_list - convert to GeoJSON as R list</h3></li>
+				<li><h3 align="left">geojson_json - convert to GeoJSON as JSON</h3></li>
+				<li><h3 align="left">geojson_read/geojson_write - read/write GeoJSON</h3></li>
+			</ul>
+			<br><br>
+			<h3>from most R object types + many spatial data formats</h3>
+		</section>
+
+		<section data-markdown id="lawn">
+			<script type="text/template">
+				## Geospatial: Spatial ops. w/ GeoJSON & w/o heavy dependencies - <font color="red">lawn</font>
+
+				```r
+				library(lawn)
+				bbox <- c(-118.521, 33.715, -118.145, 34.179)
+				lawn_hex_grid(bbox, 10, 'miles') %>%
+				  as_feature(hex_grid) %>%
+				  purrr::map(lawn_centroid) %>%
+				  purrr::map(lawn_circle, radius = 5) %>%
+				  view
+				```
+				<img src="img/lawneg.png" width="800">
+			</script>
+		</section>
+
+		<section id="geojson-workflow">
+			<h2>geojson workflow</h2>
+			<br><br>
+			<h3>we're trying for a GeoJSON workflow in R, w/o heavy dependencies like GDAL/GEOS - get in touch if you have any interest</h3>
+		</section>
+
+
+
+		<!-- climate data tools -->
+		<section id="tools-climate" class="center">
+			<h1>Climate data tools</h1>
+		</section>
+
+		<section id="tools-climate-pkgs">
+			<h2>Climate data</h2>
+			<ul class="b">
+				<li><h3 align="left"><a href="https://github.com/ropensci/rnoaa">rnoaa</a> - NOAA climate data</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/isdparser">isdparser</a> - parse NOAA Integrated Surface Data Files</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/FedData">FedData</a> - various US federal datasets (DEM's, hydrography, soil survey, climate, etc.)</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/weathercan">weathercan</a> - <a href="http://climate.weather.gc.ca/historical_data/search_historic_data_e.html">Environment and Climate Canada</a> data</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/getCRUCLdata">getCRUCLdata</a> - CRU CL v. 2.0 Climatology Elements</h3></li>
+				<li><h3 align="left"><a href="https://github.com/ropensci/GSODR">GSODR</a> - Global Summary Daily Weather Data</h3></li>
+			</ul>
+		</section>
+
+		<section id="rnoaa-overview">
+			<h2>NOAA climate data - <a href="https://github.com/ropensci/rnoaa">rnoaa</a></h2>
+			<br>
+			<li><h4 align="left">NCDC API</h4></li>
+            <li><h4 align="left">Severe weather data</h4></li>
+            <li><h4 align="left">Sea ice data</h4></li>
+            <li><h4 align="left">NOAA buoy data</h4></li>
+            <li><h4 align="left">Tornadoes</h4></li>
+            <li><h4 align="left">HOMR - Historical Observing Metadata Repository</h4></li>
+            <li><h4 align="left">Storm data</h4></li>
+            <li><h4 align="left">GHCND FTP data</h4></li>
+            <li><h4 align="left">Global Ensemble Forecast System (GEFS) data</h4></li>
+            <li><h4 align="left">Extended Reconstructed Sea Surface Temperature (ERSST) data</h4></li>
+            <li><h4 align="left">Argo buoys data</h4></li>
+            <li><h4 align="left">NOAA CO-OPS - tides and currents data</h4></li>
+            <li><h4 align="left">NOAA Climate Prediction Center (CPC)</h4></li>
+            <li><h4 align="left">Africa Rainfall Climatology version 2</h4></li>
+		</section>
+
+		<section data-markdown id="rnoaa-examples">
+			<script type="text/template">
+				## <a href="https://github.com/ropensci/rnoaa">rnoaa</a> - example
+
+				NCDC API
+
+				```r
+				library(rnoaa)
+				ncdc(datasetid = 'PRECIP_HLY', locationid = 'ZIP:28801',
+					datatypeid = 'HPCP', limit = 5, token =  "<YOUR_TOKEN>")
+				```
+
+				GHCND FTP data
+
+				```r
+				ids <- c("ASN00003003", "ASM00094299", "ASM00094995", "ASM00094998")
+				meteo_pull_monitors(ids)
+				```
+
+				Tides and Currents data from COOPS
+
+				```r
+				ops_search(station_name = 9063053, begin_date = 20150927, end_date = 20150928,
+					product = "daily_mean", datum = "stnd", time_zone = "lst")
+				```
+
+				Local Climatalogical Data
+
+				```r
+				lcd(station = "01338099999", year = "2017")
+				```
+			</script>
+		</section>
+
+		<section data-markdown id="feddata">
+			<script type="text/template">
+				## various federal datasets - <a href="https://github.com/ropensci/FedData">FedData</a>
+
+				plot the National Hydrography Dataset for a study area
+
+				```r
+				library(FedData)
+				vepPolygon <- polygon_from_extent(
+					raster::extent(672800, 740000, 4102000, 4170000),
+				    	proj4string = "+proj=utm +datum=NAD83 +zone=12")
+				NED <- get_ned(template = vepPolygon, label = "VEPIIN")
+				NHD <- get_nhd(template = vepPolygon, label = "VEPIIN")
+				raster::plot(NED)
+				NHD %>% lapply(sp::plot, col = 'black', add = TRUE)
+				```
+
+				<img src="img/feddata.png" width="700">
+			</script>
+		</section>
+
+
+
+
+		<!-- wrapping web apis -->
+		<section id="wrapping-web-apis">
+			<h1>Wrapping web APIs</h1>
+			<br><br>
+			<i class="fa fa-wrench fa-5x"></i>
+		</section>
+
+		<section id="high-level-concepts">
+			<h2>Wrapping web APIs:<br>High level concepts</h2>
+			<br>
+			<ul>
+				<li><h3 align="left">Each pkg is a snowflake: every web API is different</h3></li>
+				<li><h3 align="left">Try to cater to both beginners and power users</h3></li>
+				<li><h3 align="left">Fail fast and fail well: APIs may not do it for you</h3></li>
+				<li><h3 align="left">Pass on curl options! empower your users to:</h3></li>
+				<ul>
+					<li><h3 align="left">investigate http request problems</h3></li>
+					<li><h3 align="left">set proxy options (IT often blocks certain sites/ports)</h3></li>
+					<li><h3 align="left">and more</h3></li>
+				</ul>
+			</ul>
+		</section>
+
+		<section id="defensive-programming">
+			<h2>Defensive programming</h2>
+			<br>
+			<ul>
+				<li><h3 align="left">Fail fast</h3></li>
+				<li><h3 align="left">Defend against many things</h3></li>
+				<li><h3 align="left">Give users good errors</h3></li>
+			</ul>
+			<br>
+			<p>Check out my <a href="https://romantic-banach-71aac8.netlify.com/defensive-programming.html">defensive programming chapter</a></p>
+		</section>
+
+		<section data-markdown id="basic-structure">
+			<script type="text/template">
+				## Basic structure of functions
+
+				DRY - don't repeat yourself
+
+				```r
+				get_foo <- function(query, ...) {
+				   cli <- crul::HttpClient$new(url = "https://foobar.com", opts = list(...))
+				   res <- cli$get("/hello-world", query = list(query = query))
+				   res$raise_for_status()
+				   if (res$response_headers$`content-type` != "application/json") stop("message")
+				   jsonlite::fromJSON(res$parse("UTF-8"))
+				}
+				```
+
+				```r
+				#' @export
+				#' @param query (character) Query terms
+				#' @param ... curl options, see `curl::curl_options` for help
+				#' @examples
+				#' foo_bar("cellular")
+				foo_bar <- function(query, ...) get_foo(query = query, ...)
+				```
+			</script>
+		</section>
+
+		<section id="web-api-example-pkg">
+			<h2>Example pkg wrapping web API</h2>
+			<br>
+			<h2><a href="https://github.com/ropensci/ritis">ritis</a>: client for ITIS taxonomic data</h2>
+			<br>
+			<a href="https://github.com/ropensci/ritis" target="_blank"><i class="fa fa-external-link fa-5x"></i></a>
+		</section>
+
+		<section id="ritis-structure">
+			<h2>ritis: notes/thoughts</h2>
+			<br><br>
+			<ul class="b">
+				<li><h3 align="left">imports: solrium, crul, jsonlite, data.table, tibble</h3></li>
+				<li><h3 align="left">package API: fxns for REST API and Solr API</h3></li>
+				<li><h3 align="left">a downside of this package possibly: a lot of functions</h3></li>
+				<li><h3 align="left">return tibbles from all functions</h3></li>
+				<li><h3 align="left">but <code>raw</code> JSON/XML output for those that want it</h3></li>
+				<li><h3 align="left">Solr queries handled by <a href="https://github.com/ropensci/solrium">solrium</a> package</h3></li>
+			</ul>
+		</section>
+
+
+
+		<!-- wrapping many sources into one package -->
+		<section id="many-sources-into-one">
+			<h1>Combining many sources into one package</h1>
+			<br><br>
+			<i class="fa fa-wrench fa-5x"></i><i class="fa fa-wrench fa-5x"></i><i class="fa fa-wrench fa-5x"></i>
+		</section>
+
+		<section id="many-into-one-considerations">
+			<h1>Many into one considerations</h1>
+			<br>
+			<ul class="b">
+				<li><h3 align="left">Is it really a good idea?</h3></li>
+				<li><h3 align="left">Inputs:</h3></li>
+				<ul>
+					<li><h3>What parameters can be unified across sources?</h3></li>
+					<li><h3>Allow users to fiddle with sources specific options</h3></li>
+					<li><h3>Fail consistently across sources if possible</h3></li>
+				</ul>
+				<li><h3 align="left">Outputs:</h3></li>
+				<ul>
+					<li><h3>What if any outputs can be combined</h3></li>
+				</ul>
+			</ul>
+		</section>
+
+		<section id="many-into-one-spocc">
+			<h1>Many into one e.g.: spocc</h1>
+			<br>
+			<a href="https://github.com/ropensci/spocc" target="_blank"><i class="fa fa-external-link fa-5x"></i></a>
+		</section>
+
+		<section id="many-into-one-example">
+			<h1>Many into one e.g.: <a href="https://github.com/ropensci/spocc">spocc</a></h1>
+			<br>
+			<ul class="b">
+				<li><h3 align="left">All 10 sources share common input: taxonomic names</h3></li>
+				<li><h3 align="left">Pagination is similar-ish across sources (requires some source specific variable mapping)</h3></li>
+				<li><h3 align="left">Geospatial search: WKT and bounding boxes then map to what source requires</h3></li>
+				<li><h3 align="left">Most can toggle whether to return records that have coordinates or not</h3></li>
+				<li><h3 align="left">Outputs: combine the minimum set of similar fields</h3></li>
+			</ul>
+		</section>
+
+
+
+
+		<!-- software review -->
+		<section id="review">
+			<h1>Software Review</h1>
+			<br><br>
+			<i class="fa fa-check-square-o fa-5x"></i>
+		</section>
+
+		<section id="review-details">
+			<h2>rOpenSci Software Review</h2>
+			<br>
+			<ul class="b">
+				<li><h3 align="left">R package maintainer submits to <a href="https://github.com/ropensci/onboarding">ropensci/onboarding</a></h3></li>
+				<li><h3 align="left">Editors determine fit or not a fit</h3></li>
+				<li><h3 align="left">Editors assign reviewers</h3></li>
+				<li><h3 align="left">Reviewers have ~ 3 weeks</h3></li>
+				<li><h3 align="left">Reviewers and maintainer go back and forth refining pkg</h3></li>
+				<li><h3 align="left">After approval, pkg moved to rOpenSci</h3></li>
+				<li><h3 align="left">A number of e.g.'s of pkgs from government agencies (including Canada)</h3></li>
+			</ul>
+		</section>
+
+		<section id="software-review-bennies">
+			<h2>rOpenSci Software Review</h2>
+			<br>
+			<ul class="b">
+				<li><h2 align="left">Completely open source tools</h2></li>
+				<li><h2 align="left">Free to run</h2></li>
+				<li><h2 align="left">All reviews/conversations in the open</h2></li>
+				<li><h2 align="left">Reviews are/can be linked to code changes</h2></li>
+				<li><h2 align="left">Paired with journal submission: <a href="https://joss.theoj.org/">JOSS</a> and <a href="http://besjournals.onlinelibrary.wiley.com/hub/journal/10.1111/(ISSN)2041-210X/">MEE</a></h2></li>
+			</ul>
+		</section>
+
+		<section id="what-it-looks-like">
+			<h2>rOpenSci Onboarding</h2>
+			<br>
+			<img src="img/onboarding_ro.png" width="1200">
+		</section>
+
+		<section id="policies-guidelines">
+			<img src="img/guide.png" width="1000">
+			<br>
+			<img src="img/policies.png" width="1000">
+		</section>
+
+		<section id="pre-submission-inquiry">
+			<h1>not sure?</h1>
+			<br>
+			<h2>pre-submission inquiry!</h2>
+			<br><br>
+			<h3>checkout prior <a href="https://github.com/ropensci/onboarding/issues?q=label%3A0%2Fpresubmission+is%3Aclosed">presub inquiries</a></h3>
+		</section>
+
+		<section id="bioconductor-review">
+			<h2>Bioconductor Does Open Review too!</h2>
+			<br>
+			<img src="img/onboarding_bioc.png" width="1200">
+		</section>
+
+
+
+		<!-- discussion -->
+		<!-- <section id="discussion">
+			<h1>What's too hard?</h1>
+			<br><br>
+			<i class="fa fa-question-circle fa-5x"></i>
+		</section> -->
+
+
+
+		<!-- talk to us -->
+		<section id="talk-to-us" class="center">
+			<h1>talk to us <i class="fa fa-bullhorn"></i></h1>
+			<br>
+			<h2>what would you like to see?</h2>
+			<h2>what open data is too hard to get?</h2>
+			<h2>discussion forum: <a href="https://discuss.ropensci.org/">discuss.ropensci.org</a></h2>
+			<h2>submit a package/review a package: <a href="https://github.com/ropensci/onboarding">github.com/ropensci/onboarding</a></h2>
+		</section>
+
+		<!-- end -->
+		<section id="end">
+			<i class="fa fa-external-link fa-5x"></i>
+			<br>
+			<h2><a href="https://scotttalks.info/cdc18">scotttalks.info/cdc18</a></h2>
+			<br><br>
+			<h2>Made w/: <a href="https://github.com/hakimel/reveal.js">reveal.js v3.2.0</a></h2>
+			<br>
+			<h2>Some Styling: <a href="http://getbootstrap.com/">Bootstrap v3.3.5</a></h2>
+			<br>
+			<h2>Icons by: <a href="http://fortawesome.github.io/Font-Awesome/">FontAwesome v4.4.0</a></h2>
+		</section>
+
+			</div>
+
+		</div>
+
+		<script src="../shared/lib/js/head.min.js"></script>
+		<script src="../shared/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: false,
+				slideNumber: true,
+				keyboard: true,
+				touch: true,
+
+				width: 1400,
+				height: 900,
+
+				// transition: 'slide', // none/fade/slide/convex/concave/zoom
+				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../shared/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../shared/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../shared/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../shared/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../shared/plugin/zoom-js/zoom.js', async: true },
+					{ src: '../shared/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

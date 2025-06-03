@@ -1,0 +1,673 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+
+        <title>reveal.js</title>
+
+        <link rel="stylesheet" href="../shared/css/reveal.css" />
+        <link rel="stylesheet" href="../shared/css/theme/black.css" />
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="../shared/css/zenburn.css" />
+
+        <!-- google fonts -->
+        <link
+            href="http://fonts.googleapis.com/css?family=Source+Sans+Pro"
+            rel="stylesheet"
+            type="text/css"
+        />
+
+        <!-- fontawesome -->
+        <link
+            rel="stylesheet"
+            href="../shared/css/font-awesome/css/font-awesome.css"
+        />
+        <script
+            defer
+            src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+            integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.type = "text/css";
+            link.href = window.location.search.match(/print-pdf/gi)
+                ? "../shared/css/print/pdf.css"
+                : "../shared/css/print/paper.css";
+            document.getElementsByTagName("head")[0].appendChild(link);
+        </script>
+
+        <style type="text/css">
+            #rotate_text {
+                -webkit-transform: rotate(-90deg);
+                -moz-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+                position: absolute;
+                vertical-align: middle;
+                position: absolute;
+                top: 500px;
+                left: -50px;
+                filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+            }
+
+            .reveal section ul.a {
+                list-style-type: circle;
+                margin: 0;
+                padding: 0;
+            }
+            .reveal section ul.b {
+                list-style-type: square;
+                margin-left: 4;
+                padding-left: 0;
+            }
+
+            /*.reveal section img {border: none;}*/
+
+            .center-block {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .reveal table th,
+            td {
+                padding: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section id="pdxrlang-organizers">
+                    <h1>Meet the new pdxrlang organizers!</h1>
+                    <br />
+                    <ul class="b">
+                        <li><h2 align="left">Sophie Yang</h2></li>
+                        <li><h2 align="left">Marley Buchman</h2></li>
+                        <li><h2 align="left">Ted Laderas</h2></li>
+                        <li><h2 align="left">John Smith</h2></li>
+                    </ul>
+                </section>
+
+                <section id="intro" class="center">
+                    <h1><font color="#B8172F">S3 Objects</font></h1>
+                    <br />
+                    <p class="grey">
+                        Scott Chamberlain (<i class="fab fa-twitter"></i>
+                        <a href="https://twitter.com/sckottie">@sckottie</a>)
+                    </p>
+                    <p class="grey">rOpenSci <br /></p>
+                </section>
+
+                <!-- <section id="s3-overview">
+			<h1>S3 objects - overview</h1>
+			<ul class="b">
+				<li><h2 align="left">what is it?</h2></li>
+                <li><h2 align="left">but when do i use it though?</h2></li>
+                <li><h2 align="left">i want more</h2></li>
+			</ul>
+		</section> -->
+
+                <section id="s3-what">
+                    <h1>S3 objects</h1>
+                    <br />
+                    <h2>
+                        R's <strong>first</strong> and
+                        <strong>simplest</strong> OO (Object Oriented) system
+                    </h2>
+                    <br /><br />
+                    <h2>
+                        In
+                        <a href="http://adv-r.had.co.nz/OO-essentials.html#s3"
+                            >Adv. R book</a
+                        >
+                    </h2>
+                    <blockquote>
+                        S3 is informal and ad hoc, but it has a certain elegance
+                        in its minimalism: you can’t take away any part of it
+                        and still have a useful OO system
+                    </blockquote>
+                </section>
+
+                <section data-markdown id="s3-what-2">
+                    <script>
+                        # S3 - generics and methods
+
+                        In S3, methods belong to functions called generic functions
+
+                        ## generics
+
+                        ```r
+                        t
+                        #> function (x)
+                        #> UseMethod("t")
+                        #> <bytecode: 0x7fc9474588a0>
+                        #> <environment: namespace:base>
+
+                        pryr::ftype(t)
+                        #> [1] "s3"      "generic"
+                        ```
+
+                        ## methods
+
+                        ```r
+                        pryr::ftype(t.data.frame)
+                        #> [1] "s3"      "method"
+                        ```
+                    </script>
+                </section>
+
+                <section data-markdown id="s3-lots-of-methods">
+                    <script>
+                        # S3 - generics and methods
+
+                        ## Some generics have A LOT of methods
+
+
+                        ```r
+                        methods(summary)
+                        ```
+
+                        ```r
+                         [1] summary.aov                    summary.aovlist*               summary.aspell*
+                         [4] summary.check_packages_in_dir* summary.connection             summary.data.frame
+                         [7] summary.Date                   summary.default                summary.ecdf*
+                        [10] summary.factor                 summary.glm                    summary.infl*
+                        [13] summary.lm                     summary.loess*                 summary.manova
+                        [16] summary.matrix                 summary.mlm*                   summary.nls*
+                        [19] summary.packageStatus*         summary.PDF_Dictionary*        summary.PDF_Stream*
+                        [22] summary.POSIXct                summary.POSIXlt                summary.ppr*
+                        [25] summary.prcomp*                summary.princomp*              summary.proc_time
+                        [28] summary.srcfile                summary.srcref                 summary.stepfun
+                        [31] summary.stl*                   summary.table                  summary.tukeysmooth*
+                        [34] summary.warnings
+                        ```
+                    </script>
+                </section>
+
+                <section data-markdown id="s3-detection">
+                    <script>
+                        # Detecting/recognizing S3 objects
+
+                        ## Most objects in R are S3 objects <br> But it's not always straightforward to recognize them
+
+                        ```r
+                        library(pryr)
+
+                        # data.frame
+                        otype(mtcars)
+                        #> [1] "S3"
+
+                        # vector
+                        otype(c("a", "b", "c"))
+                        #> [1] "base"
+
+                        # factor
+                        otype(as.factor(c("a", "b", "c")))
+                        #> [1] "S3"
+
+                        ```
+                    </script>
+                </section>
+
+                <section data-markdown id="s3-inspecting">
+                    <script>
+                        ## S3 - Inspecting them
+
+                        What methods are on the class `foo`
+
+                        ```r
+                        methods(foo) #  or methods("foo")
+                        ```
+
+                        What class is an object
+
+                        ```r
+                        class(5)
+                        class(mtcars)
+                        ```
+
+                        Get method of an S3 class by name
+
+                        ```r
+                        getS3method("foo", "numeric")
+                        getS3method("foo", "character")
+                        getS3method("foo", "default")
+                        ```
+
+                        Does an object have a class?
+
+                        ```r
+                        x <- "hello world"
+                        class(x)
+                        #> "character"
+                        is.object(x)
+                        #> [1] FALSE
+                        class(x) <- "saying"
+                        class(x)
+                        #> [1] "character"
+                        is.object(x)
+                        #> [1] TRUE
+                        ```
+                    </script>
+                </section>
+
+                <section data-markdown id="s3-assigning-classes">
+                    <script type="text/template">
+                        # S3 - assigning classes
+
+                        ## You can assign any S3 class to any object
+
+                        ```r
+                        x <- 5
+                        class(x) <- "my_number"
+                        ```
+
+                        ## You can alternatively use the `structure()` function
+
+                        ```r
+                        structure(5, class = "my_number")
+                        ```
+
+                        ## You can assign multiple classes to the same object
+
+                        ```r
+                        structure(5, class = c("foo", "bar"))
+                        # or
+                        x <- 5
+                        class(x) <- c("foo", "bar"))
+                        ```
+                    </script>
+                </section>
+
+                <section data-markdown id="s3-dropping-classes">
+                    <script type="text/template">
+                        # S3 - dropping classes
+
+                        ## You can also drop an S3 class from an object
+
+                        ```r
+                        x <- structure(5, class = "stuff")
+                        class(x)
+                        #> [1] "suff"
+                        class(x) <- NULL
+                        class(x)
+                        #> [1] "numeric"
+                        ```
+                    </script>
+                </section>
+
+                <section data-markdown id="s3-example">
+                    <script>
+                        # S3 - creating new methods and generics
+                        ```r
+                        foo <- function(x) UseMethod("foo")
+                        foo.character <- function(x) paste("hello ", x)
+                        foo.numeric <- function(x) x^2
+                        foo.default <- function(x) stop("no 'foo' method for ", class(x)[1L])
+                        ```
+
+                        `.default`
+
+                        ```r
+                        foo(data.frame())
+                        #> Error: no 'foo' method for 'data.frame'
+                        ```
+
+                        `.character`
+
+                        ```r
+                        foo('bar')
+                        #> [1] "hello bar"
+                        ```
+
+                        `.numeric`
+
+                        ```r
+                        foo(4)
+                        #> [1] 16
+                        ```
+                    </script>
+                </section>
+
+                <!-- <section id="s3-structure-2">
+			<h1>S3 - more structure</h1>
+			<br>
+			<ul class="b">
+				<li><h3 align="left">do you have to be consistent with parameters? AFAIK you do, but maybe not?</h3></li>
+				<li><h3 align="left"></h3></li>
+				<li><h3 align="left">stuff</h3></li>
+				<li><h3 align="left">stuff</h3></li>
+				<li><h3 align="left">stuff</h3></li>
+			</ul>
+		</section> -->
+
+                <section data-markdown id="s3-structure-3">
+                    <script>
+                        # S3 - Dispatching not on the 1st parameter <i class="fa fa-surprise"></i>
+
+                        On last slidde we chose which method to use based on 1st parameter.
+                        Doesn't have to be the 1st parameter.
+
+                        You may want to do this when the 1st parameter must stay as 1st parameter,
+                        but it's not the one that the method decision depends on.
+
+                        ```r
+                        foo <- function(x, y) UseMethod("foo", y)
+                        foo.numeric <- function(x, y) y - x
+                        ```
+
+                        ```r
+                        foo(5, 10)
+                        #> [1] 5
+                        ```
+
+                        Ideally, the parameter that the method toggle depends on is not optional.
+                    </script>
+                </section>
+
+                <section data-markdown id="s3-documenting">
+                    <script>
+                        # S3 - package documentation
+
+                        Export generic and method, and ...
+
+                        ... just show the generic in `foo` manual file
+
+                        ```r
+                        #' My function description
+                        #' @export
+                        #' @parameter x description of x
+                        #' @examples ...
+                        foo <- function(x) UseMethod("foo")
+
+                        #' @export
+                        foo.character <- function(x) paste("hello ", x)
+                        ```
+
+                        ... show generic and methods in `foo` manual file
+
+                        ```r
+                        #' My function description
+                        #' @export
+                        #' @parameter x description of x
+                        #' @examples ...
+                        foo <- function(x) UseMethod("foo")
+
+                        #' @export
+                        #' @rdname foo
+                        foo.character <- function(x) paste("hello ", x)
+                        ```
+                    </script>
+                </section>
+
+                <section data-markdown id="s3-attributes">
+                    <script>
+                        # S3 - attributes
+
+                        List attributes on any object, including an S3 object
+
+                        ```r
+                        attributes("foo bar")
+                        #> NULL
+                        x <- structure("foo bar", class = "stuff")
+                        attributes(x)
+                        #> $class
+                        #> [1] "stuff"
+                        ```
+
+                        Add arbitrary attributes
+
+                        ```r
+                        attr(x, "fruit") <- "apple"
+                        attributes(x)
+                        #> $class
+                        #> [1] "stuff"
+                        #> $fruit
+                        #> [1] "apple"
+                        ```
+
+                        Access single attributes just as you set them
+
+                        ```r
+                        attr(x, "fruit")
+                        #> [1] "apple"
+                        ```
+                    </script>
+                </section>
+
+                <section data-markdown id="s3-print-methods">
+                    <script>
+                        # S3 - print methods
+
+                        Often useful when returned data is very large/unwieldy
+
+                        <br>
+
+                        Make an S3 object
+
+                        ```r
+                        x <- structure(list(foo = 5, bar = 9), class = "stuff")
+                        ```
+
+                        Add a print methods for S3 objects
+
+                        ```r
+                        print.stuff <- function(x, ...) {
+                        	cat(paste("foo: ", x$foo), sep = "\n")
+                        	cat(paste("bar: ", x$bar), sep = "\n")
+                        }
+                        ```
+
+                        Now any objects with class `stuff` will use the print method
+
+                        ```r
+                        x
+                        #> foo:  5
+                        #> bar:  9
+                        ```
+                    </script>
+                </section>
+
+                <section data-markdown id="s3-building-on-generics">
+                    <script>
+                        # S3 - building on top of generics
+
+                        * many packages build on top of functions in base R, e.g.: `plot`, `summary`, `print`
+                        * to build on these in a package, you have to follow the parameter patterns used by the generic - if you don't, R CMD CHECK bops you on the head <i class="fa fa-dizzy"></i>:
+
+                        <br>
+
+                        ```r
+                        	W  checking S3 generic/method consistency (2s)
+                        	   print:
+                        	     function(x, ...)
+                        	   print.some_class:
+                        	     function(x)
+                        ```
+                    </script>
+                </section>
+
+                <section id="s3-when-to-use">
+                    <h1>S3 - when to use S3 generics/methods</h1>
+                    <br />
+                    <ul class="b">
+                        <li>
+                            <h3 align="left">
+                                inputs can have many different classes
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 align="left">
+                                you want to do different things with different
+                                classes
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 align="left">
+                                you want something that's light weight
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 align="left">
+                                you want to build on top of a base R generic
+                                (e.g, <code>plot</code>)
+                            </h3>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="s3-beware">
+                    <h1>S3 - beware!</h1>
+                    <br />
+                    <ul class="b">
+                        <li>
+                            <h3 align="left">
+                                consider S3 failure behavior - see
+                                <code>.default</code>
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 align="left">
+                                parameters should be consistent across S3
+                                methods
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 align="left">
+                                pay attention to whether methods on generics are
+                                exported in your pkg
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 align="left">
+                                as a user: don't call S3 methods directly, call
+                                the generic
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 align="left">
+                                no validation of checking of contents
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 align="left">
+                                extended generic methods of base functions from
+                                diff. pkgs can conflict!
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 align="left">
+                                S3 classes can be easily dropped/lost (next
+                                slide)
+                            </h3>
+                        </li>
+                    </ul>
+                </section>
+
+                <section data-markdown id="s3-dropped">
+                    <script>
+                        # S3 - classes are easily lost
+
+                        ### Create an object
+
+                        ```r
+                        x <- structure(list("hello", "world"), class = "foobar")
+                        ```
+
+                        ### Apply some function to each element
+
+                        ```r
+                        lapply(x, function(z) z)
+                        #> [[1]]
+                        #> [1] "hello"
+                        #>
+                        #> [[2]]
+                        #> [1] "world"
+                        ```
+                        <br>
+                        ### Oh no <i class="far fa-sad-tear"></i>
+                        <br>
+                        ### Just be aware - whether making or consuming S3 classes
+                    </script>
+                </section>
+
+                <section id="further-reading">
+                    <h1>further reading</h1>
+                    <ul class="b">
+                        <li>
+                            <h3>
+                                <a
+                                    href="https://www.njtierney.com/post/2016/08/26/simple-s3-submission/"
+                                    >nick tierney's paper/blog post</a
+                                >
+                            </h3>
+                        </li>
+                        <li>
+                            <h3>
+                                <a
+                                    href="http://adv-r.had.co.nz/OO-essentials.html#s3"
+                                    >Adv. R chapter on objects</a
+                                >
+                            </h3>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="bib" class="center">
+                    <h2>
+                        slides:
+                        <a href="https://scotttalks.info/rs3"
+                            >scotttalks.info/rs3</a
+                        >
+                    </h2>
+                    <h2>
+                        Made w/:
+                        <a href="https://github.com/hakimel/reveal.js"
+                            >reveal.js v3.7.0</a
+                        >,
+                        <a href="http://fortawesome.github.io/Font-Awesome/"
+                            >FontAwesome v5.7.2</a
+                        >
+                    </h2>
+                </section>
+            </div>
+        </div>
+
+        <script src="../shared/js/head.min.js"></script>
+        <script src="../shared/js/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                history: true,
+                center: false,
+                width: 1400,
+                height: 900,
+                transition: "none",
+                dependencies: [
+                    { src: "../shared/plugin/markdown/marked.js" },
+                    { src: "../shared/plugin/markdown/markdown.js" },
+                    { src: "../shared/plugin/notes/notes.js", async: true },
+                    {
+                        src: "../shared/plugin/highlight/highlight.js",
+                        async: true,
+                        callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        },
+                    },
+                ],
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,1106 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>UOFO17</title>
+
+		<meta name="description" content="UOFO17">
+		<meta name="author" content="Scott Chamberlain">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../shared/css/reveal.css">
+		<link rel="stylesheet" href="../shared/css/theme/solarized.css" id="theme">
+
+		<!-- use google font -->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+		<!-- Custom styles -->
+        <link rel="stylesheet" href="../shared/css/custom/fonts.css" />
+
+		<!-- favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="../shared/img/favicon.ico">
+
+		<!-- fontawesome icons -->
+        <link
+            rel="stylesheet"
+            href="../shared/css/fontawesome-free-6.7.2-web/css/fontawesome.min.css"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/brands.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/fontawesome.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/brands.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/solid.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/sharp-thin.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/duotone-thin.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/sharp-duotone-thin.css"
+            rel="stylesheet"
+        />
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../shared/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../shared/css/print/pdf.css' : '../shared/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<style type="text/css">
+			#rotate_text {
+				-webkit-transform: rotate(-90deg);
+				-moz-transform: rotate(-90deg);
+				transform: rotate(-90deg);
+				position: absolute;
+				vertical-align: middle;
+				position: absolute;
+    		top: 500px;
+    		left: -50px;
+				filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+			}
+
+			ul.a {list-style-type: circle; margin: 0; padding: 0;}
+			ul.b {list-style-type: square; margin-left: 4; padding-left: 0;}
+
+			img {border: none;}
+
+			.center-block {
+			  display: block;
+			  margin-left: auto;
+			  margin-right: auto;
+			}
+
+			.box_rotate {
+			     -moz-transform: rotate(-45deg);  /* FF3.5+ */
+			       -o-transform: rotate(-45deg);  /* Opera 10.5 */
+			  -webkit-transform: rotate(-45deg);  /* Saf3.1+, Chrome */
+			             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+			         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+			         float: left;
+			}
+		</style>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<!-- outline:
+			1st half: open science and R (lecture)
+			2nd half: web scraping (half lecture, half exercises)
+		-->
+
+		<div class="reveal">
+			<div class="slides">
+
+		<section id="intro">
+			<h1><font color="#B8172F">Open and reproducible research with R (and web scraping!)</font></h1><br>
+			<p class="grey">Scott Chamberlain
+				<p class="grey">UC Berkeley / rOpenSci
+			<br>
+			<span><img src="img/icon_lettering_color.svg" alt="rOpenSci" width="720" /></span>
+		</section>
+
+		<section id="thanks-helmsley" class="center">
+			<span><img src="img/helmsley.png" alt="hemlsley foundation" width="1000" /></span>
+		</section>
+
+		<section id="link" class="center">
+			<i class="fa fa-external-link fa-5x"></i>
+			<br><br>
+			<h2><a href="https://scotttalks.info/uofo17">scotttalks.info/uofo17</a> </h2>
+		</section>
+
+		<section id="license" class="center">
+			<br>
+			<h1>LICENSE: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a></h1>
+		</section>
+
+
+		<!-- actual stuff -->
+		<section id="open-science">
+			<br><br><br>
+			<h1>open science/research</h1>
+			<br>
+			<i class="fa fa-unlock fa-5x" style="color:blue"></i> <i class="fa fa-flask fa-5x" style="color:black"></i>
+		</section>
+
+
+		<!-- the need for open science -->
+		<section id="open-research-needed" class="center">
+			<h1>open research is badly needed</h1>
+		</section>
+
+		<section id="open-research-needed-retractions" class="center">
+			<h1>Retractions</h1>
+			<!-- example: paper retracted 1 -->
+			<img src="img/retraction_pottskant.png">
+			<br>
+			<center><a href="http://www.sciencemag.org/news/2016/09/whistleblower-sues-duke-claims-doctored-data-helped-win-200-million-grants"><i class="fa fa-link fa-3x"></i></a></center>
+		</section>
+
+			<!-- because of course you want your work to be reproducible -->
+			<!-- emergent findings come from open science: open data, open access papers for text mining -->
+
+		<section id="open-research-should-be-reproducible" class="center">
+			<h1>research should be reproducible!</h1>
+			<br>
+			<h2 class="fragment">but doing for real is another issue</h2>
+		</section>
+
+		<section id="open-research-collaboration-findings" class="center">
+			<h1>100 psychology studies</h1>
+			<center><a href="https://doi.org/10.1126/science.aac4716">Open Science Collaboration (2015). Estimating the reproducibility of psychological science. Science&nbsp;<i class="fa fa-external-link-square"></i></a></center>
+			<img src="img/osc.png">
+		</section>
+
+		<section id="open-research-emergent-findings">
+			<h1>Emergent findings</h1>
+			<br><br><br>
+			<h2>open data can make a new finding possible</h2>
+			<i class="fa fa-table fa-5x"></i>
+		</section>
+
+
+		<!-- barriers -->
+		<section id="barriers">
+			<h1>Barriers</h1>
+			<br><br>
+			<ul>
+				<h2>Technical</h2>
+				<h2>Cultural</h2>
+			</ul>
+		</section>
+
+		<section id="barriers-bold">
+			<h1>Barriers</h1>
+			<br><br>
+			<ul style="text-align: center;">
+				<h2>Technical</h2>
+				<h2 style="font-size:120px"><strong>Cultural</strong></h2>
+			</ul>
+		</section>
+
+		<section id="cultural_barriers">
+			<h1>Cultural barriers</h1>
+			<br><br>
+			<ul style="text-align: center;">
+				<h2>Lack of incentives (carrots)</h2>
+				<h2>Lack of pressure (sticks)</h2>
+				<h2>Getting scooped (<i class="fa fa-spoon"></i>)</h2>
+				<h2>Takes too much time! (<i class="fa fa-clock"></i>)</h2>
+			</ul>
+		</section>
+
+
+		<!-- components of open science
+			- it's still hard to do
+			- but you can work on different parts of it - and some parts make science easier
+			- e.g., versioning code/text/data
+			- e.g., doing all work programatically
+		-->
+			<!-- open data -->
+			<!-- open access papers -->
+			<!-- versioning -->
+			<!-- open source software -->
+		<section id="open-science-lego-set-1">
+			<h1>Open science as a lego set</h1>
+			<br>
+			<img src="img/legos.jpg" width="500">
+		</section>
+
+		<section id="open-science-lego-set-2">
+			<h1>Open research as a lego set</h1>
+			<br>
+			<h2>open research may be hard to do</h2>
+			<br>
+			<h2>but - you can work on different components</h2>
+			<br>
+			<h2>and - individual components are useful on their own</h2>
+		</section>
+
+		<section id="you-dont-need-to-do-it-all-at-once" class="center">
+			<h1>you don't need to do it all at once</h1>
+		</section>
+
+		<section id="open-research-components" class="center">
+			<h1>Open research components</h1>
+		</section>
+
+		<section id="open-data">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Open Data</h1>
+			<br>
+			<h2>make your data open</h2>
+			<br>
+			<h2>funders/journals often requiring this anyway</h2>
+			<br>
+			<h2>future self will thank you</h2>
+		</section>
+
+		<section id="open-data-venues">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Open Data: Venues</h1>
+			<br>
+			<h2>
+				<ul>
+					<li>Include data with publications</li>
+					<li>Data specific repositories</li>
+					<li>Code sharing sites: e.g., GitHub</li>
+					<li>so-called Institutional Repositories (IRs) (UO's <a href="https://scholarsbank.uoregon.edu/xmlui/">Scholars Bank</a>)</li>
+				</ul>
+			</h2>
+		</section>
+
+		<section id="open-access">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Open Access</h1>
+			<br>
+			<h2>make your papers open</h2>
+			<br>
+			<h2>funders often requiring this anyway</h2>
+			<br>
+			<h2>talk to your librarians!</h2>
+		</section>
+
+		<section id="open-access-preprints">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Open Access: Preprints</h1>
+			<br>
+			<h2>Preprints increasingly allowed by publishers</h2>
+			<br>
+			<h2>++ preprint outlets</h2>
+			<h2><a href="https://osf.io/preprints/socarxiv">SocArXiv</a>, <a href="https://psyarxiv.com/">PsyArXiv</a></h2>
+			<br>
+			<h2>talk to your librarians!</h2>
+		</section>
+
+		<section id="open-access-green">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Open Access: Green OA</h1>
+			<br>
+			<h2>Allowed to put up your "authors copy" on your website/etc.</h2>
+			<br>
+			<h2>the internet will surface it</h2>
+		</section>
+
+		<section id="versioning">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Versioning</h1>
+			<br>
+			<h1><i class="fa fa-question fa-4x"></i></h1>
+		</section>
+
+		<section id="versioning-xkcd">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Versioning</h1>
+			<br>
+			<img src="https://imgs.xkcd.com/comics/git.png" width="400"><br>
+			<small><a href="https://xkcd.com/1597/"><i class="fa fa-external-link-square fa-2x">source</i></a></small>
+		</section>
+
+		<section id="versioning-code-data-text">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Versioning</h1>
+			<br>
+			<h2>Including basically all research components:</h2>
+			<h2>
+				<ul>
+					<li>Code</li>
+					<li>Data</li>
+					<li>Metadata</li>
+					<li>Text: manuscripts</li>
+				</ul>
+			</h2>
+		</section>
+
+		<section id="versioning-intro">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Why use Versioning?</h1>
+			<br>
+			<h2>
+				<ul>
+					<li>failure proofs your work</li>
+					<li>allows you to experiment freely!</li>
+					<li>Metadata</li>
+					<li>Text: manuscripts</li>
+				</ul>
+			</h2>
+			<center><a href="http://happygitwithr.com/">git and R help&nbsp;<i class="fa fa-external-link-square"></i></a></center>
+		</section>
+
+		<section id="versioning-resources">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Versioning: Git <br> Resources</h1>
+			<br>
+			<h2>
+				<ul>
+					<li><a href="http://happygitwithr.com/">Happy Git with R&nbsp;<i class="fa fa-external-link-square"></i></a></li>
+					<li>Take a <a href="https://software-carpentry.org/">Software Carpentry</a> course</li>
+					<li>canonical link <a href="https://git-scm.com/">git</a> source code and manual</li>
+				</ul>
+			</h2>
+		</section>
+
+		<section id="all-work-programatically-graph">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Do all work programatically</h1>
+			<img src="img/geekvsnongeek.png" width="700">
+			<br><br>
+			<small>from <a href="https://www.geeksaresexy.net/2012/01/05/geeks-vs-non-geeks-picture/" target="_blank">geeksaresexy.net/2012/01/05/geeks-vs-non-geeks-picture</a></small>
+		</section>
+
+		<section id="all-work-programatically-1">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Do all work programatically</h1>
+			<br>
+			<h2>Key to reproduciblity:</h2>
+			<br>
+			<h2>Most important person that wants to reproduce your work is you!</h2>
+		</section>
+
+		<section id="all-work-programatically-2">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Do all work programatically</h1>
+			<br><br>
+			<h2>you and yourself</h2>
+			<h3>- one week from now</h3>
+			<h3>- two months from now</h3>
+			<h3>- &amp; so on</h3>
+		</section>
+
+		<section id="all-work-programatically-also">
+			<small class="box_rotate">Open research components</small>
+			<br>
+			<h1>Do all work programatically</h1>
+			<br><br>
+			<h2>allows others to:</h2>
+			<h3>- contribute to your work</h3>
+			<h3>- check your work</h3>
+			<h3>- build on top of your work</h3>
+		</section>
+
+
+
+
+		<!-- programming languages important in open science -->
+		<section id="programming-languages" class="center">
+			<h1>research programming languages</h1>
+		</section>
+
+		<section id="programming-languages-canvas">
+			<h2>research programming languages</h2>
+			<br><br><br><br>
+			<h2>are:<br>the canvas on which to do research</h2>
+		</section>
+
+		<section id="programming-languages-and-open-research">
+			<h2>important research programming languages</h2>
+			<br><br>
+			<img src="img/python.jpeg" width="400"><br><img src="img/r.png" width="200"><br><img src="img/julia-lang.png" width="200">
+		</section>
+
+		<section id="r-language">
+			<h1>R language</h1>
+			<br>
+			<center><a href="https://www.r-project.org/">R homepage &nbsp;<i class="fa fa-external-link-square"></i></a></center>
+			<br>
+			<ul class="b">
+				<li><h2 align="left">used widely in biology, psychology, medicine, etc.</h2></li>
+				<li><h2 align="left">rapidly growing user base, companies surrounding it</h2></li>
+				<li><h2 align="left">includes all tools for open research workflow</h2></li>
+				<li><h2 align="left">salaries for R skills up there (<a href="http://blog.revolutionanalytics.com/2014/02/r-salary-surveys.html">1</a>, <a href="http://www.datasciencecentral.com/forum/topics/what-pays-most-r-python-or-sql">2</a>) </h2></li>
+			</ul>
+		</section>
+
+		<!-- open science with R: more about what r pkgs, tools, workflows are used for os with R. Show some egs maybe. Knitr, rmarkdown, packrat, checkpoint, -->
+		<section id="open-reproducible-research-with-r" class="center">
+			<h1>Open/Rep. Research w/ R</h1>
+		</section>
+
+		<section id="oswr-most-important" class="center">
+			<h1>What's the most important thing about R wrt open/reproducible?</h1>
+			<br>
+			<h2 class="fragment">R itself -> you're programming!</h2>
+		</section>
+
+		<!-- transition to ropensci via how we fit in ecosystem -->
+		<section id="ecosystem">
+			<h2>Open research ecosytsem</h2>
+			<br>
+			<!-- image of diff. players in open science and where we fit in
+				- researcher at center
+				- software like R/Python/etc.
+				- ropensci and similar: making software
+				- infrastructure: crossref, datacite, etc
+				- OA publishers
+				- ??
+			-->
+			<img src="img/openscienceecosystem.svg" width="1300" alt="open-research-ecosystem">
+		</section>
+
+
+
+
+
+		<!-- about ropensci -->
+		<section id="ropensci">
+			<br>
+			<span><img src="img/icon_lettering_color.svg" alt="rOpenSci" width="1200" /></span>
+			<br><br>
+			<center><a href="https://ropensci.org/">ropensci.org &nbsp;<i class="fa fa-external-link-square"></i></a></center>
+		</section>
+
+		<section id="ropensci-does">
+			<h2>rOpenSci does:</h2>
+			<br><br>
+	    <i class="fa fa-users fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;
+	    <i class="fa fa-code fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;
+			<i class="fa fa-book fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;
+			<i class="fa fa-check-square-o fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;
+		</section>
+
+		<!-- start workflow -->
+		<section id="workflow">
+			<h2><u>the research workflow</u></h2>
+			<br><br>
+			<center>
+				<h2>Data acquisition <i class="fa fa-cloud-download"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> data manipulation/analysis/viz <i class="fa fa-bar-chart"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> writing <i class="fa fa-pencil"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> publish <i class="fa fa-cloud-upload"></i></h2>
+			</center>
+		</section>
+
+		<section id="workflow_acquisition">
+			<h2><u>the research workflow</u></h2>
+			<br><br>
+			<center>
+				<h2><font color="blue"><strong>Data acquisition</strong> <i class="fa fa-cloud-download"></i></font> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> data manipulation/analysis/viz <i class="fa fa-bar-chart"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> writing <i class="fa fa-pencil"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> publish <i class="fa fa-cloud-upload"></i></h2>
+			</center>
+		</section>
+
+		<section id="workflow_manip">
+			<h2><u>the research workflow</u></h2>
+			<br><br>
+			<center>
+				<h2>Data acquisition <i class="fa fa-cloud-download"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> <font color="blue"><strong>data manipulation/analysis/viz</strong> <i class="fa fa-bar-chart"></i></font> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> writing <i class="fa fa-pencil"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> publish <i class="fa fa-cloud-upload"></i></h2>
+			</center>
+		</section>
+
+		<section id="workflow_writing">
+			<h2><u>the research workflow</u></h2>
+			<br><br>
+			<center>
+				<h2>Data acquisition <i class="fa fa-cloud-download"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> data manipulation/analysis/viz <i class="fa fa-bar-chart"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> <font color="blue"><strong>writing</strong> <i class="fa fa-pencil"></i></font> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> publish <i class="fa fa-cloud-upload"></i></h2>
+			</center>
+		</section>
+
+		<section id="workflow_publish">
+			<h2><u>the research workflow</u></h2>
+			<br><br>
+			<center>
+				<h2>Data acquisition <i class="fa fa-cloud-download"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> data manipulation/analysis/viz <i class="fa fa-bar-chart"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> writing <i class="fa fa-pencil"></i> &nbsp;&nbsp;&nbsp; <i class="fa fa-plus"></i> <br><br> <font color="blue"><strong>publish</strong> <i class="fa fa-cloud-upload"></i></font></h2>
+			</center>
+		</section>
+		<!-- end workflow -->
+
+		<!-- wrap up -->
+		<section id="wrap-up-1">
+			<h2>Wrap Up</h2>
+			<br>
+			<ul class="b">
+				<li><h2 align="left" class="fragment">Open research is essential</h2></li>
+				<li><h2 align="left" class="fragment">Open research tools are useful on their own</h2></li>
+				<li><h2 align="left" class="fragment">rOpenSci: one of the tool makers</h2></li>
+				<br>
+				<li><h2 align="left" class="fragment">Challenges going forward</h2></li>
+				<ul>
+					<li><h2 align="left" class="fragment">Largely cultural - will slowly change</h2></li>
+				<ul>
+			</ul>
+		</section>
+
+		<section id="wrap-up-2">
+			<h2>Wrap Up</h2>
+			<br>
+			<ul class="b">
+				<li><h2 align="left">rOpenSci is a community project</h2></li>
+				<li><h2 align="left">Let us know what you need</h2></li>
+				<li><h2 align="left">Help us make better tools</h2></li>
+			</ul>
+		</section>
+
+		<section id="questions" class="center">
+			<h1>Questions?</h1>
+		</section>
+
+		<section id="switch-gears" class="center">
+			<h2>let's switch gears ...</h2>
+			<br>
+			<i class="fa fa-cogs fa-5x"></i>
+		</section>
+
+
+
+
+
+		<!-- web scraping intro and exercises -->
+		<!-- notes:
+			- I think probably API’s, because the html parsing would probably be a bit advanced. But like I said, this is not an area I’m well versed in so I’ll leave it up to you. I’d love if you could do something interactive, if you’re up for it.
+			- anything social science related would probably be good. Maybe something like social media data? We have a lot of psych students, some business students, and some college of education students.
+			- link to resources where they can learn more about diff. pkgs, tutorials, etc.
+			- http://rforjournalists.com/2017/10/25/scraping-in-r-access-to-mortgage-petition/
+		-->
+		<section id="data-from-the-web" class="center">
+			<h1>Web Data</h1>
+			<br><br>
+		</section>
+
+		<section id="data-from-the-web-1">
+			<h1>Web Data: Types</h1>
+			<br>
+			<ul>
+				<li><h2 align="left">Scraping html</h2></li>
+				<li><h2 align="left">Download files</h2></li>
+				<ul>
+					<li><h2 align="left">HTTP</h2></li>
+					<li><h2 align="left">FTP</h2></li>
+					<li><h2 align="left">etc.</h2></li>
+				</ul>
+				<li><h2 align="left">APIs</h2></li>
+			</ul>
+			<br>
+			<p>going down: increasing organization and longevity</p>
+			<p>going up: increasing complexity for user (mostly)</p>
+		</section>
+
+		<section id="types-use-cases">
+			<h1>Web Data: Use Cases</h1>
+			<br>
+			<ul>
+				<li><h2 align="left">Scraping: specialized, one time problems</h2></li>
+				<li><h2 align="left">Download: when you want all the data</h2></li>
+				<li><h2 align="left">APIs: stable, medium sized data</h2></li>
+			</ul>
+		</section>
+
+		<section id="approaching-a-site">
+			<h1>Approaching a website wrt data</h1>
+			<ul>
+				<li><h2 align="left">Look at menu, header, footer</h2></li>
+				<li><h2 align="left">Look for key words: "API", "Data", "Developers", etc.</h2></li>
+				<li><h2 align="left">Contact a technical (or anyone) person</h2></li>
+				<li><h2 align="left">Browser developer tools are your friends</h2></li>
+				<li><h2 align="left">Scraping as a last resort</h2></li>
+			</ul>
+		</section>
+
+		<section id="scraping-brief">
+			<h1>Scraping: brief intro</h1>
+			<br>
+			<em><h2>n, def: extract useful bits out of a pile of (typically) html <small>(me, today)</small></h2></em>
+			<br>
+			<h2>see <a href="https://en.wikipedia.org/wiki/Web_scraping">Wikipedia's def.</a></h2>
+		</section>
+
+		<section data-markdown id="scraping-turn-this-that">
+			<script type="text/template">
+				# Turn this
+
+				```html
+				<!DOCTYPE html>
+				<html>
+				<head>
+					<title>Hello!</title>
+				</head>
+				<body>
+					<ul>
+						<li>one</li>
+						<li>two</li>
+						<li>three</li>
+					</ul>
+				</body>
+				</html>
+				```
+
+				# Into this
+
+				```r
+				c(one, two, three)
+				```
+			</script>
+		</section>
+
+		<section data-markdown id="scraping-rvest-simple">
+			<script type="text/template">
+				# One option: `rvest`
+
+				```r
+				install.packages("rvest")
+				library(rvest)
+				library(xml2)
+				```
+
+				## Fetch a web page
+
+				```r
+				page <- read_html("https://someurl.com/foo/bar")
+				```
+
+				## Extract parts using xpath/css
+				### here: xpath
+
+				```r
+				html_nodes
+				html_attrs
+				html_table
+				```
+			</script>
+		</section>
+
+		<section id="exercise-scraping">
+			<h1>Scraping Exercise</h1>
+			<br>
+			<h2>navigate to: <a href="http://www.goducks.com/cumestats.aspx?path=wsoc">http://www.goducks.com/cumestats.aspx?path=wsoc</a></h2>
+			<br>
+			<ol>
+				<h2 align="left"><li>Install and load <code>rvest</code> library</li></h2>
+				<h2 align="left"><li>Fetch the contents of the URL above</li></h2>
+				<h2 align="left"><li>Pull out the results table</li></h2>
+			</ol>
+			<details>
+				<code>
+				url <- "http://www.goducks.com/cumestats.aspx?path=wsoc"<br>
+				x <- xml2::read_html(url)<br>
+				rvest::html_table(x)[[6]]
+				</code>
+			</details>
+		</section>
+
+		<section id="scraping-beware">
+			<h1>Scraping: beware</h1>
+			<ul>
+				<li><h2 align="left">Look on "terms" or related page for any legalese</h2></li>
+				<li><h2 align="left">Probably all good when simply exploring</h2></li>
+				<li><h2 align="left">Take precautions when doing lots of scraping</h2></li>
+				<li><h2 align="left">Look around: StackOverflow, just googling, talk to friends, etc.</h2></li>
+			</ul>
+		</section>
+
+
+		<!-- downloading files -->
+		<section id="downloading-files">
+			<h1>Downloading files: intro</h1>
+			<br>
+			<ul>
+				<li><h2 align="left">(includes web scraping, have to download page to scrape it)</h2></li>
+				<li><h2 align="left">Can be easy - sometimes hard</h2></li>
+				<li><h2 align="left">Protocols: HTTP, FTP, etc. (mostly HTTP)</h2></li>
+				<li><h2 align="left">Authentication sometimes</h2></li>
+				<li><h2 align="left">File sizes can be very large</h2></li>
+				<li><h2 align="left">Does UO have a firewall?</h2></li>
+			</ul>
+		</section>
+
+		<section id="downloading-in-r">
+			<h1>Downloading files in R</h1>
+			<br>
+			<ul>
+				<li><h2 align="left">lots of ways to download files</h2></li>
+				<li><h2 align="left">many pkgs/fxns for certain file types also download the file for you</h2></li>
+				<li><h2 align="left">recommendation: <a href="https://cran.rstudio.com/web/packages/curl/">curl::curl_download</a> - replaces <code>download.file</code> in base R</h2></li>
+				<li><h2 align="left">think about where you're putting files!</h2></li>
+			</ul>
+		</section>
+
+		<section id="exercise-downloading-1">
+			<h1>Downloading Exercise - 1</h1>
+			<br>
+			<h2>the file: <a href="https://raw.githubusercontent.com/sckott/soylocs/gh-pages/data.csv">file</a></h2>
+			<br>
+			<ol>
+				<h2 align="left"><li>Download the file using <code>curl::curl_download</code></li></h2>
+				<h2 align="left"><li>Read the file in however you like</li></h2>
+			</ol>
+			<details>
+				<code>
+				url <- "https://raw.githubusercontent.com/sckott/soylocs/gh-pages/data.csv"<br>
+				x <- curl::curl_download(url, (f <- tempfile(fileext = ".csv")))<br>
+				readr::read_csv(x)
+				</code>
+			</details>
+		</section>
+
+		<section id="downloading-files-misc-topics">
+			<h1>Downloading files: misc. topics</h1>
+			<br>
+			<ul>
+				<li><h2 align="left">Compressed files</h2></li>
+				<li><h2 align="left">Asynchronous downloads can help - check out <a href="https://cran.rstudio.com/web/packages/crul/vignettes/async.html">crul's async vignette</a></h2></li>
+			</ul>
+		</section>
+
+		<section id="exercise-downloading-2">
+			<h1>Downloading Exercise - 2</h1>
+			<br>
+			<h3>Compressed files</h3>
+			<br>
+			<h2>US Dept. Education <a href="https://www2.ed.gov/about/data/list.html?queries%5Bsearch%5D=Academic+Libraries+Survey">Academic Libraries Survey 2012</a></h2>
+			<ol>
+				<h2 align="left"><li>Download the <code>.zip</code> file <a href="https://nces.ed.gov/pubs2006/data/ALS2002_ASCII.zip">Academic Libraries Survey 2002</a></li></h2>
+				<h2 align="left"><li>Uncompress the file</li></h2>
+				<h2 align="left"><li>Read in the <code>.txt</code> file</li></h2>
+			</ol>
+		</section>
+
+		<section id="exercise-downloading-2">
+			<h1>Downloading Exercise - 2</h1>
+			<br>
+			<h3>Compressed files</h3>
+			<br>
+			<h2>Answer</h2>
+			<details>
+				<code>
+				url <- "https://nces.ed.gov/pubs2006/data/ALS2002_ASCII.zip"<br>
+				x <- curl::curl_download(url, (f <- tempfile(fileext = ".zip")))<br>
+				mydir <- file.path(tempdir(), "mydir")<br>
+				unzip(f, exdir = mydir)<br>
+				readr::read_tsv(list.files(mydir, full.names=TRUE))
+				</code>
+			</details>
+		</section>
+
+
+		<!-- APIs -->
+		<section id="apis-intro">
+			<h1>APIs!</h1>
+			<br>
+			<ul>
+				<li><h2 align="left">API = Application Programming Interface</h2></li>
+				<li><h2 align="left">Rules about how machines/software talk to one another</h2></li>
+				<li><h2 align="left">Can be an API for: Android phone, Linux operating system, an R package, a web service</h2></li>
+			</ul>
+		</section>
+
+		<section id="apis-data">
+			<h1>APIs for data on the web</h1>
+			<br>
+			<ul>
+				<li><h2 align="left">Web APIs</h2></li>
+				<ul>
+					<li><h2 align="left">A server in cloud</h2></li>
+					<li><h2 align="left">Database w/ data</h2></li>
+					<li><h2 align="left">Rules about how to talk to that database</h2></li>
+				</ul>
+			</ul>
+		</section>
+
+		<section id="apis-standardized">
+			<h1>Standardized APIs?</h1>
+			<h3>most APIs follow no standard, though loosely follow <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST</a></h3>
+			<br>
+			<h3>but some standardized frameworks</h3>
+			<br>
+			<ul>
+				<li><h2 align="left"><a href="https://en.wikipedia.org/wiki/Protocol_for_Metadata_Harvesting">OAI-PMH</a></h2></li>
+				<li><h2 align="left"><a href="https://en.wikipedia.org/wiki/RSS">RSS</a></h2></li>
+				<li><h2 align="left">databases: <a href="https://lucene.apache.org/solr/">Solr</a> is common</h2></li>
+				<li><h2 align="left"><a href="http://jsonapi.org/">JSON API</a> closest thing<br>to standard for REST</h2></li>
+			</ul>
+		</section>
+
+		<section id="apis-standardized-nope" class="center">
+			<h1>Lack of Standardization in APIs </h1>
+			<br><br>
+			<h1>Makes Consuming them Tough</h1>
+		</section>
+
+		<section data-markdown id="apis-basics">
+			<script type="text/template">
+				# Working with APIs!
+				<br>
+				## Install and load `crul`
+
+				```r
+				install.packages("crul")
+				library(crul)
+				```
+
+				## Make connection object
+
+				```r
+				x <- HttpClient$new(url = "https://api.ed.gov")
+				```
+
+				## Make a request for data!
+
+				```r
+				res <- x$get("data/crdc_enrollment_2013-14", query = list(api_key = "DEMO_KEY1"))
+				```
+
+				## Get data
+
+				```r
+				jsonlite::fromJSON(res$parse("UTF-8"))
+				```
+			</script>
+		</section>
+
+		<section id="exercise-apis-1">
+			<h1>APIs Exercise - 1</h1>
+			<br>
+			<p>Data source: <a href="https://usedgov.github.io/api/crdc.html">https://usedgov.github.io/api/crdc.html</a></p>
+			<br><br>
+			<h2>Make a request for data - any request</h2>
+			<br>
+			<h3>goal: make sure everything's working as expected</h3>
+		</section>
+
+		<section data-markdown id="apis-parsing">
+			<script type="text/template">
+				# Parsing data
+				<br>
+				```r
+				library(crul)
+				x <- HttpClient$new(url = "https://api.ed.gov")
+				res <- x$get("data/crdc_enrollment_2013-14", query = list(api_key = "DEMO_KEY1"))
+				```
+
+				## Raw content (sometimes you need it)
+
+				```r
+				res$content
+				```
+
+				## Parse raw data to text
+
+				```r
+				res$parse(encoding = "UTF-8")
+				```
+
+				## Parse plain text
+
+				```r
+				## JSON
+				jsonlite:fromJSON()
+				## HTML/XML
+				xml2:read_html() / xml2:read_xml()
+				```
+			</script>
+		</section>
+
+		<section id="exercise-apis-2">
+			<h1>APIs Exercise - 2</h1>
+			<br>
+			<p>Data source: <a href="https://usedgov.github.io/api/crdc.html">https://usedgov.github.io/api/crdc.html</a></p>
+			<ol>
+				<h3><li>Make a request for data</li></h3>
+				<h3><li>Parse data to a list with <code>resources</code> as a <code>data.frame</code></li></h3>
+				<h3><li>Pull out all the data for the <code>TOT_ENR_F</code> and <code>TOT_ENR_M</code> fields</h3>
+			</ol>
+		</section>
+
+		<section data-markdown id="apis-advanced-topics-headers">
+			<script type="text/template">
+				# Headers
+				## "Passing" headers
+
+				```r
+				library(crul)
+				x <- HttpClient$new(url = "https://api.ed.gov", headers = list(hello = "world"))
+				res <- x$get("data/crdc_enrollment_2013-14", query = list(api_key = "DEMO_KEY1"))
+				```
+
+				## Get Request headers
+
+				```r
+				res$request_headers
+				```
+
+				## Get Response headers
+
+				```r
+				res$response_headers
+				```
+			</script>
+		</section>
+
+		<section id="exercise-apis-3">
+			<h1>APIs Exercise - 3</h1>
+			<br>
+			<p>Data source: <a href="https://usedgov.github.io/api/crdc.html">https://usedgov.github.io/api/crdc.html</a></p>
+			<ol>
+				<h3><li>Make a request for data w/ headers</li></h3>
+				<h3><li>Get the request headers</li></h3>
+				<h3><li>Get the response headers</li></h3>
+				<h3><li>Pick a response header and google it/wikipedia it, find out what it is</li></h3>
+			</ol>
+		</section>
+
+		<section data-markdown id="apis-advanced-topics-curl-options">
+			<script type="text/template">
+				# Curl options
+				## "Passing" curl options
+
+				```r
+				library(crul)
+				x <- HttpClient$new(url = "https://httpbin.org", opts = list(verbose = TRUE))
+				res <- x$get("get")
+				```
+
+				```sh
+				* Connection 2 seems to be dead!
+				* Closing connection 2
+				*   Trying 23.23.209.130...
+				* TCP_NODELAY set
+				* Connected to httpbin.org (23.23.209.130) port 443 (#3)
+				* TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+				* Server certificate: httpbin.org
+				* Server certificate: Let's Encrypt Authority X3
+				* Server certificate: DST Root CA X3
+				> GET /get HTTP/1.1
+				Host: httpbin.org
+				User-Agent: libcurl/7.54.0 r-curl/3.0 crul/0.4.0
+				Accept-Encoding: gzip, deflate
+				Accept: application/json, text/xml, application/xml, */*
+
+				< HTTP/1.1 200 OK
+				< Connection: keep-alive
+				< Server: meinheld/0.6.1
+				< Date: Thu, 26 Oct 2017 18:54:13 GMT
+				< Content-Type: application/json
+				< Access-Control-Allow-Origin: *
+				< Access-Control-Allow-Credentials: true
+				< X-Powered-By: Flask
+				< X-Processed-Time: 0.000729084014893
+				< Content-Length: 326
+				< Via: 1.1 vegur
+				<
+				* Connection #3 to host httpbin.org left intact
+				```
+			</script>
+		</section>
+
+		<section id="exercise-apis-4">
+			<h1>APIs Exercise - 4</h1>
+			<br>
+			<p>Data source: <a href="https://httpbin.org/">https://httpbin.org/</a></p>
+			<ol>
+				<h3><li>Look up curl options (see <code>curl::curl_options()</code>), check a few out to see what they do</li></h3>
+				<h3><li>Make a few requests for data w/ a different curl option specified for each</li></h3>
+			</ol>
+		</section>
+
+
+		<!-- look for wrappers -->
+		<section id="look-for-api-wrappers">
+			<h1>Look <i class="fa fa-binoculars"></i> for API Wrappers</h1>
+			<br><br>
+			<h2>Don't reinvent the wheel</h2>
+			<br><br>
+			<h2>Check <a href="https://cran.rstudio.com/web/packages/">CRAN</a>, <a href="https://github.com/search?q=language%3AR&ref=opensearch">GitHub</a>, etc.</h2>
+		</section>
+
+
+		<!-- resources -->
+		<section id="resources">
+			<h1>Resources: software</h1>
+			<ul>
+				<li><h2 align="left">HTTP R pkgs: <a href="https://cran.rstudio.com/web/packages/curl">curl</a>, <a href="https://cran.rstudio.com/web/packages/crul">crul</a>, <a href="https://cran.rstudio.com/web/packages/httr">httr</a></h2></li>
+				<li><h2 align="left">Scraping pkgs: <a href="https://cran.rstudio.com/web/packages/xml2">xml2</a>, <a href="https://cran.rstudio.com/web/packages/rvest">rvest</a>, <a href="https://cran.rstudio.com/web/packages/RSelenium">RSelenium</a></h2></li>
+				<li><h2 align="left">Curated software discussion: <a href="https://cran.rstudio.com/web/views/WebTechnologies.html">Web Technologies TaskView</a>, <a href="https://github.com/ropensci/opendata">Open Data TaskView</a></h2></li>
+				<li><h2 align="left">useR 2016 Workshop: <a href="https://github.com/ropensci/user2016-tutorial">Extracting Data from the Web</a></h2></li>
+			</ul>
+		</section>
+		<!-- end data from the web -->
+
+		<section id="end">
+			<i class="fa fa-external-link fa-5x"></i>
+			<br>
+			<h2><a href="https://scotttalks.info/uofo17">scotttalks.info/uofo17</a></h2>
+			<br><br>
+			<h2>Made w/: <a href="https://github.com/hakimel/reveal.js">reveal.js v3.2.0</a></h2>
+			<br>
+			<h2>Some Styling: <a href="http://getbootstrap.com/">Bootstrap v3.3.5</a></h2>
+			<br>
+			<h2>Icons by: <a href="http://fortawesome.github.io/Font-Awesome/">FontAwesome v6.7.2</a></h2>
+		</section>
+
+			</div>
+
+		</div>
+
+		<script src="../shared/js/head.min.js"></script>
+		<script src="../shared/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: false,
+				slideNumber: true,
+				keyboard: true,
+				touch: true,
+
+				width: 1400,
+				height: 900,
+
+				// transition: 'slide', // none/fade/slide/convex/concave/zoom
+				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../shared/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../shared/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../shared/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../shared/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

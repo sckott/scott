@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <title>scholtext</title>
+
+        <meta name="description" content="scholtext" />
+        <meta name="author" content="Scott Chamberlain" />
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+        />
+
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"
+        />
+
+        <link rel="stylesheet" href="../shared/css/reveal.css" />
+        <link
+            rel="stylesheet"
+            href="../shared/css/theme/solarized.css"
+            id="theme"
+        />
+        <link rel="stylesheet" href="../shared/css/bootstrap/bootstrap.css" />
+
+        <!-- use google font -->
+        <link
+            href="http://fonts.googleapis.com/css?family=Source+Sans+Pro"
+            rel="stylesheet"
+            type="text/css"
+        />
+
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="../shared/css/custom/fonts.css" />
+
+        <!-- fontawesome icons -->
+        <link
+            rel="stylesheet"
+            href="../shared/css/fontawesome-free-6.7.2-web/css/fontawesome.min.css"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/brands.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/fontawesome.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/brands.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/solid.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/sharp-thin.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/duotone-thin.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../shared/css/fontawesome-free-6.7.2-web/css/sharp-duotone-thin.css"
+            rel="stylesheet"
+        />
+
+        <!-- favicon -->
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="../shared/img/favicon.ico"
+        />
+
+        <!-- Code syntax highlighting -->
+        <link rel="stylesheet" href="../shared/css/zenburn.css" />
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.type = "text/css";
+            link.href = window.location.search.match(/print-pdf/gi)
+                ? "../shared/css/print/pdf.css"
+                : "../shared/css/print/paper.css";
+            document.getElementsByTagName("head")[0].appendChild(link);
+        </script>
+
+        <style type="text/css">
+            #rotate_text {
+                -webkit-transform: rotate(-90deg);
+                -moz-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+                position: absolute;
+                vertical-align: middle;
+                position: absolute;
+                top: 500px;
+                left: -50px;
+                filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+            }
+
+            ul.a {
+                list-style-type: circle;
+                margin: 0;
+                padding: 0;
+            }
+            ul.b {
+                list-style-type: square;
+                margin-left: 4;
+                padding-left: 0;
+            }
+
+            img {
+                border: none;
+            }
+
+            .center-block {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+
+        <!--[if lt IE 9]>
+            <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section id="intro">
+                    <h1>
+                        <font color="#B8172F"
+                            >Working with Scholarly Text w/ rOpenSci Tools</font
+                        >
+                    </h1>
+                    <br />
+                    <p class="grey">
+                        Scott Chamberlain (<a
+                            href="https://twitter.com/sckottie"
+                            >@sckottie</a
+                        >)
+                    </p>
+                    <p class="grey">
+                        UC Berkeley / rOpenSci
+                        <br />
+                        <span
+                            ><img
+                                src="img/icon_lettering_color.svg"
+                                alt="rOpenSci"
+                                width="800"
+                        /></span>
+                    </p>
+                </section>
+
+                <section id="link" class="center">
+                    <br />
+                    <h1>
+                        <a href="https://scotttalks.info/scholtext"
+                            >scotttalks.info/scholtext</a
+                        >
+                    </h1>
+                    <br /><br />
+                    <h2>
+                        LICENSE:
+                        <a href="https://creativecommons.org/licenses/by/4.0/"
+                            >CC-BY 4.0</a
+                        >
+                    </h2>
+                </section>
+
+                <!-- actual stuff -->
+                <section id="scholarly-text" class="center">
+                    <h1>
+                        scholarly <br />
+                        text/metadata
+                    </h1>
+                </section>
+
+                <section id="questions">
+                    <h2>What kinds of questions can we ask?</h2>
+                    <br />
+                    <ul>
+                        <li>
+                            <h3 align="left">
+                                Does number of authors per article increase
+                                through time?
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 align="left">
+                                Do p-values on average differ by impact factor?
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 align="left">
+                                How do length of methods sections change through
+                                time?
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 align="left">
+                                How does the use of the word ___ vary through
+                                time?
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 align="left">
+                                How does code sharing vary by
+                                journal/discipline/etc.?
+                            </h3>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="scholtext-flow">
+                    <h1>scholarly text data flow</h1>
+                    <br />
+                    <img src="img/scholtextflow.png" width="700" />
+                </section>
+
+                <section id="tools">
+                    <h1>rOpenSci Tools</h1>
+                    <br />
+                    <h3>
+                        data source specific:
+                        <a href="https://github.com/ropensci/rcrossref"
+                            >rcrossref</a
+                        >,
+                        <a href="https://github.com/ropensci/rdatacite"
+                            >rdatacite</a
+                        >,
+                        <a href="https://github.com/ropensci/rorcid">rorcid</a>,
+                        <a href="https://github.com/ropensci/microdemic"
+                            >microdemic</a
+                        >,
+                        <a href="https://github.com/ropensci/rplos">rplos</a>,
+                        <a href="https://github.com/ropensci/europepmc"
+                            >europepmc</a
+                        >,
+                        <a href="https://github.com/ropensci/entrez">entrez</a>,
+                        <a href="https://github.com/ropensci/aRxiv">aRxiv</a>
+                    </h3>
+                    <br />
+                    <h3>
+                        umbrella tools:
+                        <a href="https://github.com/ropensci/fulltext"
+                            >fulltext</a
+                        >,
+                        <a href="https://github.com/ropensci/crminer"
+                            >crminer</a
+                        >
+                    </h3>
+                    <br />
+                    <h3>
+                        extraction tools:
+                        <a href="https://github.com/ropensci/pdftools"
+                            >pdftools</a
+                        >,
+                        <a href="https://github.com/ropensci/unrtf">unrtf</a>,
+                        <a href="https://github.com/ropensci/tabulizer"
+                            >tabulizer</a
+                        >,
+                        <a href="https://github.com/ropensci/pubchunks"
+                            >pubchunks</a
+                        >,
+                        <a href="https://github.com/ropensci/antiword"
+                            >antiword</a
+                        >, <a href="https://github.com/ropensci/rtika">rtika</a>
+                    </h3>
+                    <br /><br />
+                    <a href="https://ropensci.org/packages/"
+                        ><i class="fa fa-external-link-square-alt"></i
+                        >&nbsp;&nbsp;ropensci.org/packages</a
+                    >
+                </section>
+
+                <section data-markdown id="fulltext-eg">
+                    <script type="text/template">
+                        ## fulltext example
+
+                        ```r
+                        library(fulltext)
+                        x <- ft_search("cellular", from = 'plos', limit = 300)
+                        y <- ft_get(x)
+                        z <- ft_collect(y)
+                        chunks <- ft_chunks(z, "authors")
+                        freqs <- vapply(chunks$plos, function(z) length(z$authors), 1)
+                        hist(freqs)
+                        ```
+
+                        ![image](img/fulltext.png)
+                    </script>
+                </section>
+
+                <section data-markdown id="rcrossref-eg">
+                    <script type="text/template">
+                        ## rcrossref example
+
+                        get citations in lots of different styles
+
+                        ```r
+                        library(rcrossref)
+                        doi <- cr_r(1)
+                        cr_cn(doi, style = "oikos")
+                        ```
+
+                        ```r
+                        @article{Kruman_1984,
+                        	doi = {10.2307/1899861},
+                        	url = {https://doi.org/10.2307%2F1899861},
+                        	year = 1984,
+                        	month = {jun},
+                        	publisher = {Oxford University Press ({OUP})},
+                        	volume = {71},
+                        	number = {1},
+                        	pages = {123},
+                        	author = {Marc W. Kruman and William J. Cooper},
+                        	title = {Liberty and Slavery: Southern Politics to 1860},
+                        	journal = {The Journal of American History}
+                        ```
+
+                        <br>
+
+                        ```r
+                        cr_cn(doi, style = "apa")
+                        cr_cn(doi, style = "heredity")
+                        ```
+                    </script>
+                </section>
+
+                <section id="tabulizer-eg">
+                    <h1>tabulizer example</h1>
+                    <img src="http://i.imgur.com/USTyQl7.gif" />
+                </section>
+
+                <section id="future" class="center">
+                    <h1>What's in the pipeline?</h1>
+                </section>
+
+                <section id="tools-better" class="center">
+                    <h1>making tools better</h1>
+                    <br />
+                    <h1>BUT ...</h1>
+                </section>
+
+                <section id="publishers-opening-up" class="center">
+                    <h1>how open will publishers be moving forward?</h1>
+                    <br />
+                    <ul>
+                        <li><h3>full text</h3></li>
+                        <li><h3>metadata, including references</h3></li>
+                    </ul>
+                </section>
+
+                <section id="open-citations">
+                    <h1>Open Citations!</h1>
+                    <h3>
+                        <a href="http://opencitations.net/"
+                            >opencitations.net</a
+                        >
+                        &amp; <a href="https://i4oc.org/">I4OC</a>
+                    </h3>
+                    <br />
+                    <h3>OCC: Open Citations Corpus</h3>
+                    <br />
+                    <blockquote style="font-size: 60px">
+                        As of March 12, 2018, the OCC has ingested the
+                        references from 302,758 citing bibliographic resources
+                        and contains information about 12.8 million citation
+                        links to 6.5 million cited resources.
+                    </blockquote>
+                </section>
+
+                <!-- end of real stuff -->
+                <section id="get-in-touch" class="center">
+                    <h1>Get in touch!</h1>
+                    <br /><br />
+                    <i class="fa fa-keyboard fa-5x"></i>
+                    <br /><br /><br />
+                    <h2>
+                        <a href="https://discuss.ropensci.org"
+                            >discuss.ropensci.org</a
+                        >
+                    </h2>
+                </section>
+
+                <!-- end -->
+                <section id="end">
+                    <br />
+                    <h2>
+                        <i class="fa fa-external-link-square-alt"></i>&nbsp;<a
+                            href="https://scotttalks.info/scholtext"
+                            >scotttalks.info/scholtext</a
+                        >
+                    </h2>
+                    <br /><br />
+                    <h2>
+                        Made w/:
+                        <a href="https://github.com/hakimel/reveal.js"
+                            >reveal.js v3.2.0</a
+                        >
+                    </h2>
+                    <br />
+                    <h2>
+                        Styling:
+                        <a href="http://getbootstrap.com/">Bootstrap v3.3.5</a>
+                    </h2>
+                    <br />
+                    <h2>
+                        Icons:
+                        <a href="http://fortawesome.github.io/Font-Awesome/"
+                            >FontAwesome v5.0.8</a
+                        >
+                    </h2>
+                </section>
+            </div>
+        </div>
+
+        <script src="../shared/lib/js/head.min.js"></script>
+        <script src="../shared/js/reveal.js"></script>
+
+        <script>
+            // Full list of configuration options available at:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: false,
+                slideNumber: true,
+                keyboard: true,
+                touch: true,
+
+                width: 1400,
+                height: 900,
+
+                // transition: 'slide', // none/fade/slide/convex/concave/zoom
+                transition: Reveal.getQueryHash().transition || "none", // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional reveal.js plugins
+                dependencies: [
+                    {
+                        src: "../shared/lib/js/classList.js",
+                        condition: function () {
+                            return !document.body.classList;
+                        },
+                    },
+                    {
+                        src: "../shared/plugin/markdown/marked.js",
+                        condition: function () {
+                            return !!document.querySelector("[data-markdown]");
+                        },
+                    },
+                    {
+                        src: "../shared/plugin/markdown/markdown.js",
+                        condition: function () {
+                            return !!document.querySelector("[data-markdown]");
+                        },
+                    },
+                    {
+                        src: "../shared/plugin/highlight/highlight.js",
+                        async: true,
+                        callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        },
+                    },
+                    { src: "../shared/plugin/zoom-js/zoom.js", async: true },
+                    { src: "../shared/plugin/notes/notes.js", async: true },
+                ],
+            });
+        </script>
+    </body>
+</html>
