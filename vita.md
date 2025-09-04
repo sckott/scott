@@ -38,11 +38,11 @@ Education
 
 Programming
 ------------
-* R >> I have developed R software for ~17 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([https://ropensci.org/](https://ropensci.org/)).
-* Python >> I have programmed in Python for 8 years, have used it for academic research, python libraries on PyPi, and in my current job I work with the Flask framework.
-* Ruby >> I have programmed in Ruby for about 7 years. I've deployed many REST APIs using the Sinatra framework. I have 5 gems on Rubygems.
+* R >> I have developed R software for ~20 years, for research projects, and as packages (see them [on GitHub](https://github.com/sckott)). I co-founded a developer collective to make R software tools for scientists called rOpenSci ([https://ropensci.org/](https://ropensci.org/)).
+* Python >> I have programmed in Python for 10 years, have used it for academic research, python libraries on PyPi, and in my current job I work with the Flask framework.
+* Ruby >> I have programmed in Ruby for 10 years. I've deployed many REST APIs using the Sinatra framework. I have 5 gems on Rubygems.
 * HTML/CSS >> I use HTML often for my own website and blog, and occasionally customize CSS.
-* Databases >> I am familiar with and use many databases, including SQL (Redshift, MySQL, SQLite, PostgreSQL) and NoSQL (CouchDB). I am also familiar with Elasticsearch and Solr, and have created R clients for both.
+* Databases >> I am familiar with and use many databases, including SQL (Redshift, MySQL, SQLite, PostgreSQL), NoSQL (CouchDB), and key-value stores (Redis, ValKey). I am also familiar with Elasticsearch and Solr, and have created R clients for both.
 
 Publications
 ------------

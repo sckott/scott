@@ -1,24 +1,23 @@
 # Dependencies
-highlighter:         rouge
+highlighter: rouge
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 url: https://scottchamberlain.info
 
 # Setup
-title:            Scott Chamberlain
-url:              https://scottchamberlain.info/
+title: Scott Chamberlain
 
 author:
-  name:           'Scott Chamberlain'
+  name: "Scott Chamberlain"
 
 # Custom vars
-version:          1.0.0
+version: 1.0.0
 
 github:
-  me:           https://github.com/sckott
-  ropensci:     https://github.com/ropensci
+  me: https://github.com/sckott
+  ropensci: https://github.com/ropensci
 
 reproduce: https://github.com/sckott/scott
 
