@@ -19,7 +19,7 @@ Previously, I received my M.A. & Ph.D. at <a href="https://biosciences.rice.edu/
 [Web Services](/webservices){: .btn .btn--info}
 [Publications][pubs]{: .btn .btn--info}
 [Talks][talks]{: .btn .btn--info}
-[Vita][vita]{: .btn .btn--info}
+[Resume][vita]{: .btn .btn--info}
 [Books][books]{: .btn .btn--info}
 [Blog <i class="fa fa-external-link-square" aria-hidden="true"></i>](https://recology.info){: .btn .btn--info}
 [R for cats <i class="fa fa-external-link-square" aria-hidden="true"></i>](https://rforcats.net){: .btn .btn--info}
